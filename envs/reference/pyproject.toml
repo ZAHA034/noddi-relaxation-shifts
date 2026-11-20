@@ -1,0 +1,18 @@
+[project]
+name = "dmri-cov-reference"
+version = "0.1.0"
+description = "Isolated reference tools for cross-checks only (dMRI_PLAN.md §3.4). Never imported by main code."
+requires-python = "==3.12.*"
+dependencies = [
+  "dmri-amico==2.1.1",   # non-commercial research license
+  "neurocombat==0.2.12",
+]
+
+[dependency-groups]
+ext = ["dmipy-fit==2.3.0"]  # AGPL-3.0; ext only (pulls dmipy-sim + jax)
+
+[tool.uv]
+package = false
+required-version = ">=0.11.19,<0.12"
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+default-groups = []

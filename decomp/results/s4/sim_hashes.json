@@ -1,0 +1,199 @@
+{
+ "what": "S4 3 단계 — 시뮬레이션 자료 sha256 동결(SPEC_S4 §5 · §10 순서 3). 한 번 만들고 다시 만들지 않는다. 자료는 저장소 밖 작업 폴더(dmri_work/decomp_stage1/s4) — 저장소에는 해시만.",
+ "code_commit": "665ebff",
+ "compute": {
+  "device": "CPU(CUDA_VISIBLE_DEVICES 비움)",
+  "threads_per_process": 16,
+  "processes": 2,
+  "start_UTC": "2026-10-24T19:14:55Z",
+  "end_UTC": "2026-10-24T20:08:49Z",
+  "wall_hours": 0.9,
+  "estimate_hours": 1.43,
+  "load1_min": 3.47,
+  "load1_max": 36.53,
+  "load1_samples": 108,
+  "note": "R26: load1 은 64 코어 서버 전체(다른 사용자 포함) · 30 초 간격"
+ },
+ "run_log": [
+  {
+   "UTC": "2026-10-24T19:14:55Z",
+   "event": "시작 · HEAD 665ebff"
+  },
+  {
+   "UTC": "2026-10-24T19:15:14Z",
+   "event": "표 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:15:19Z",
+   "event": "경우 목록 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:15:59Z",
+   "event": "커널 준비 — 프로세스 2 시작"
+  },
+  {
+   "UTC": "2026-10-24T19:26:58Z",
+   "event": "test 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:38:48Z",
+   "event": "cards 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:49:14Z",
+   "event": "maps 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:51:20Z",
+   "event": "inject 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:51:20Z",
+   "event": "oracle_train 끝"
+  },
+  {
+   "UTC": "2026-10-24T19:51:21Z",
+   "event": "oracle_ref 끝"
+  },
+  {
+   "UTC": "2026-10-24T20:08:49Z",
+   "event": "학습 자료 끝"
+  },
+  {
+   "UTC": "2026-10-24T20:08:49Z",
+   "event": "sha256 씀 · 끝"
+  }
+ ],
+ "files": {
+  "tables_S_b0.95.npz": {
+   "sha256": "d74360552ec255eb2fa0396f247c36ca34a030a60110ea71ef8a55d3b8130983",
+   "bytes": 39802308
+  },
+  "tables_S_b1.05.npz": {
+   "sha256": "5980056a3e13393e9651edc50e9c006a1bc8ff67f4b60a75920157c9a5d6cfd4",
+   "bytes": 39802308
+  },
+  "tables_S.npz": {
+   "sha256": "b76749950e0e4d872940a0a2ca521817a34ab60856a690f0f63a3aa18432ca0a",
+   "bytes": 39802308
+  },
+  "tables_V_b0.95.npz": {
+   "sha256": "198d4ac6eeebbd993e8cda34b593f0a59f6b7e4cf96dc770464bda815aa33c8e",
+   "bytes": 40560396
+  },
+  "tables_V_b1.05.npz": {
+   "sha256": "6888d2aa3a9a535adb735f5059583241df37e3e74fb73a1fb805cc8f6879477b",
+   "bytes": 40560396
+  },
+  "tables_V.npz": {
+   "sha256": "be0fab45f022da120483dd17a729d39835319dd132df6411ba383c62b5ee6d85",
+   "bytes": 40560396
+  },
+  "plan_cards.npz": {
+   "sha256": "8d058a3bcd8a29c1bb5da6f20c5566f9aab3c4e5ca7be20e8bf9b6efcd8982de",
+   "bytes": 13446392
+  },
+  "plan_inject.npz": {
+   "sha256": "44088b37de2e94f80b8e1fa2cd076aa884e14419f6253ebcfeed28fe25b57420",
+   "bytes": 1942392
+  },
+  "plan_maps.npz": {
+   "sha256": "e8e7cd1e02a1718ad9762cca7f348cdf17acdd4cfd734961a34fea3f96558961",
+   "bytes": 10198392
+  },
+  "plan_oracle_ref.npz": {
+   "sha256": "d1e94eb04c0290b50028786771be03b13a2111e3d85697377dd254d385dd02e4",
+   "bytes": 246152
+  },
+  "plan_oracle_train.npz": {
+   "sha256": "90253d2af0937d41eb1b88a67ef8ec4ab2557ca41c8132084e39a25834704b99",
+   "bytes": 45606152
+  },
+  "plan_test.npz": {
+   "sha256": "f6e014478f532536229b0d77052c05f110895ce7ce90bcfb115a0a208666fd02",
+   "bytes": 10726394
+  },
+  "plan_train.npz": {
+   "sha256": "409feb6114d92d2c839c2a7ad26f6366ffa156bce61fe483c4addea8a3c7440b",
+   "bytes": 45606152
+  },
+  "sim_cards.npz": {
+   "sha256": "25eb2960f26c8793e1ac380580dee8a0c38d16fa3fa0c74c631e68a1d3ba0853",
+   "bytes": 11696470
+  },
+  "sim_inject.npz": {
+   "sha256": "34d50dd7d2785f85f9bf71b46243bbbce404e3deb509d7d965ebc9913d6123ae",
+   "bytes": 1627670
+  },
+  "sim_maps.npz": {
+   "sha256": "ecd41ddd922ef16e443bd464635ae70a071a433efb9d9895114d3a4d50102211",
+   "bytes": 8666870
+  },
+  "sim_oracle_ref.npz": {
+   "sha256": "32908ecf928479729e60714d6c3b8e23333a46031e182ade21f2f5ffcf6ff66d",
+   "bytes": 153954
+  },
+  "sim_oracle_train.npz": {
+   "sha256": "875433092f46755201e43deea0a3cc3e388a63da50aa74d8fe54b0240fa71da2",
+   "bytes": 28001954
+  },
+  "sim_test.npz": {
+   "sha256": "c4ce012aa8066597e206faf124bc1fec146237687e57170d1a3488d24c899625",
+   "bytes": 9163672
+  },
+  "sim_train.npz": {
+   "sha256": "2b4ec74dbdbdf11b1b65d2c4ae38d542c9684625917eecb136fdaad60091415b",
+   "bytes": 37803430
+  }
+ },
+ "integrity": {
+  "note": "자료 무결성만(판정량 아님 · 사후 분포 · 손실 미열람). c7_coord_clipped_cases = C7 좌표 변환에서 경계에 걸린 경우 수(simulate.py quality).",
+  "per_dataset": {
+   "train": {
+    "cases": 100000,
+    "idx_in_order": true,
+    "nonfinite_rows": 0,
+    "finite_pixels_min": 256,
+    "c7_coord_clipped_cases": 9
+   },
+   "test": {
+    "cases": 20000,
+    "idx_in_order": true,
+    "nonfinite_rows": 0,
+    "finite_pixels_min": 256,
+    "c7_coord_clipped_cases": 1
+   },
+   "cards": {
+    "cases": 22400,
+    "idx_in_order": true,
+    "nonfinite_rows": 0,
+    "finite_pixels_min": 256,
+    "c7_coord_clipped_cases": 0
+   },
+   "maps": {
+    "cases": 19600,
+    "idx_in_order": true,
+    "nonfinite_rows": 0,
+    "finite_pixels_min": 256,
+    "c7_coord_clipped_cases": 0
+   },
+   "inject": {
+    "cases": 4000,
+    "idx_in_order": true,
+    "nonfinite_rows": 0,
+    "finite_pixels_min": 256,
+    "c7_coord_clipped_cases": 2
+   },
+   "oracle_train": {
+    "cases": 100000,
+    "idx_in_order": true,
+    "nonfinite_rows": 0
+   },
+   "oracle_ref": {
+    "cases": 500,
+    "idx_in_order": true,
+    "nonfinite_rows": 0
+   }
+  }
+ }
+}

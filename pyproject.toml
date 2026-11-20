@@ -1,0 +1,52 @@
+[project]
+name = "dmri-cov"
+version = "0.1.0"
+description = "Coverage benchmark for dMRI microstructure uncertainty under scanner shift (see dMRI_PLAN.md)"
+requires-python = "==3.12.*"
+dependencies = [
+  "torch==2.14.*",
+  "sbi==0.27.*",
+  "zuko",
+  "numpy==2.5.*",
+  "scipy==1.18.*",
+  "dipy==1.12.*",
+  "nibabel==5.4.*",
+  "hydra-core==1.3.7",
+  "wandb==0.30.*",
+  "scikit-learn",
+  "zarr",
+  "pandas",
+  "pyarrow",
+  "openneuro-py",
+  "neurocombat==0.2.12",
+]
+
+[dependency-groups]
+dev = ["pytest", "hypothesis"]
+
+[build-system]
+requires = ["uv_build>=0.11.19,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.uv]
+required-version = ">=0.11.19,<0.12"
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "r2: R2 conformal 정합성 게이트 테스트 (dMRI_PLAN.md R2; 무거움)",
+  "slow: 수십 초 이상 걸리는 테스트",
+  "ext: 저장소 밖 외부 자료(DMRI_EXT_ROOT·DMRI_REF_ENV)가 필요한 시험 — 목록·수는 prereg/ext_tests.json",
+]

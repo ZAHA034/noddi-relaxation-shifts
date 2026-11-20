@@ -1,0 +1,88 @@
+{
+ "score": "−log[(1/9) Σ_k q(x | a, k)]",
+ "layers": {
+  "match|L0": {
+   "threshold": 4.365062915703801,
+   "false_alarm": 0.02
+  },
+  "match|L1": {
+   "threshold": 5.310557730041622,
+   "false_alarm": 0.006
+  },
+  "match|L2": {
+   "threshold": 5.66767471524982,
+   "false_alarm": 0.008
+  },
+  "match|L3": {
+   "threshold": 4.659571578323904,
+   "false_alarm": 0.02
+  },
+  "tetr_design|L0": {
+   "threshold": 4.342602455325382,
+   "false_alarm": 0.024
+  },
+  "tetr_design|L1": {
+   "threshold": 4.703433043224315,
+   "false_alarm": 0.006
+  },
+  "tetr_design|L2": {
+   "threshold": 4.587186524809292,
+   "false_alarm": 0.014
+  },
+  "tetr_design|L3": {
+   "threshold": 5.811038299179401,
+   "false_alarm": 0.024
+  },
+  "tetr|L0": {
+   "threshold": 5.152100415194285,
+   "false_alarm": 0.016
+  },
+  "tetr|L1": {
+   "threshold": 4.9893163201406185,
+   "false_alarm": 0.014
+  },
+  "tetr|L2": {
+   "threshold": 5.206278378548704,
+   "false_alarm": 0.014
+  },
+  "tetr|L3": {
+   "threshold": 5.731828260852096,
+   "false_alarm": 0.014
+  },
+  "te|L0": {
+   "threshold": 5.741726827068506,
+   "false_alarm": 0.006
+  },
+  "te|L1": {
+   "threshold": 4.296477715750498,
+   "false_alarm": 0.016
+  },
+  "te|L2": {
+   "threshold": 5.078251276894427,
+   "false_alarm": 0.01
+  },
+  "te|L3": {
+   "threshold": 5.12483037412772,
+   "false_alarm": 0.02
+  },
+  "tr|L0": {
+   "threshold": 5.5749185758788995,
+   "false_alarm": 0.008
+  },
+  "tr|L1": {
+   "threshold": 5.131787684637033,
+   "false_alarm": 0.016
+  },
+  "tr|L2": {
+   "threshold": 5.743301635954616,
+   "false_alarm": 0.012
+  },
+  "tr|L3": {
+   "threshold": 4.95209341373793,
+   "false_alarm": 0.006
+  }
+ },
+ "global_threshold": 5.378358406837285,
+ "false_alarm_max": 0.024,
+ "false_alarm_ok": false
+}
