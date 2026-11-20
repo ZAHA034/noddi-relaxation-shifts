@@ -1,0 +1,688 @@
+{
+ "made": "2026-11-02T10:02:11+09:00",
+ "script_sha256": "d3c15e5d12818d35caeeef17d33aa399946ea75dc3d6c75a87071e11b9c7efa3",
+ "rule": "LOSO · 표준화 → 수축 LDA · 균형 정확도 · 우연 기준 = 피험자 안 라벨 섞기 1,000 번의 95 백분위(계획서 §17 ①)",
+ "variants": {
+  "main": {
+   "E": {
+    "n_sessions": 108,
+    "n_features": 6,
+    "balanced_accuracy": 0.584920634920635,
+    "chance_95": 0.20714285714285713,
+    "null_median": 0.14285714285714285,
+    "above_chance": true,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      10,
+      1,
+      3,
+      0,
+      0,
+      1,
+      5
+     ],
+     [
+      1,
+      7,
+      1,
+      3,
+      4,
+      2,
+      2
+     ],
+     [
+      0,
+      1,
+      7,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      13,
+      5,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      0,
+      9,
+      7,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      8,
+      0
+     ],
+     [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ]
+   },
+   "T": {
+    "n_sessions": 108,
+    "n_features": 81,
+    "balanced_accuracy": 0.8412698412698413,
+    "chance_95": 0.22936507936507936,
+    "null_median": 0.15873015873015875,
+    "above_chance": true,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      19,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      16,
+      4,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      7,
+      13,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2,
+      2,
+      6,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8
+     ]
+    ]
+   },
+   "E+T": {
+    "n_sessions": 108,
+    "n_features": 87,
+    "balanced_accuracy": 0.8984126984126986,
+    "chance_95": 0.23174603174603176,
+    "null_median": 0.15555555555555556,
+    "above_chance": true,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      19,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      15,
+      5,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      14,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8
+     ]
+    ]
+   },
+   "P̄+G": {
+    "n_sessions": 108,
+    "n_features": 6,
+    "balanced_accuracy": 0.4984126984126984,
+    "chance_95": 0.21904761904761902,
+    "null_median": 0.15,
+    "above_chance": true,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      11,
+      0,
+      0,
+      3,
+      4,
+      2,
+      0
+     ],
+     [
+      1,
+      16,
+      0,
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      10,
+      10,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      8,
+      11,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      4,
+      0,
+      1,
+      0,
+      4
+     ]
+    ]
+   },
+   "T_c": {
+    "n_sessions": 108,
+    "n_features": 81,
+    "balanced_accuracy": 0.9126984126984128,
+    "chance_95": 0.21912698412698403,
+    "above_chance": true
+   }
+  },
+  "with_main_excluded": {
+   "E": {
+    "n_sessions": 109,
+    "n_features": 6,
+    "balanced_accuracy": 0.5880952380952381,
+    "chance_95": null,
+    "null_median": null,
+    "above_chance": null,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      10,
+      1,
+      3,
+      0,
+      0,
+      1,
+      5
+     ],
+     [
+      1,
+      7,
+      1,
+      3,
+      4,
+      2,
+      2
+     ],
+     [
+      0,
+      1,
+      8,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      13,
+      5,
+      0,
+      0
+     ],
+     [
+      0,
+      4,
+      0,
+      9,
+      7,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0,
+      0,
+      0,
+      8,
+      0
+     ],
+     [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      6
+     ]
+    ]
+   },
+   "T": {
+    "n_sessions": 109,
+    "n_features": 81,
+    "balanced_accuracy": 0.8484126984126983,
+    "chance_95": null,
+    "null_median": null,
+    "above_chance": null,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      19,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      16,
+      4,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      6,
+      14,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      2,
+      2,
+      6,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8
+     ]
+    ]
+   },
+   "E+T": {
+    "n_sessions": 109,
+    "n_features": 87,
+    "balanced_accuracy": 0.9055555555555556,
+    "chance_95": null,
+    "null_median": null,
+    "above_chance": null,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      19,
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      15,
+      5,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      5,
+      15,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8
+     ]
+    ]
+   },
+   "P̄+G": {
+    "n_sessions": 109,
+    "n_features": 6,
+    "balanced_accuracy": 0.5079365079365079,
+    "chance_95": null,
+    "null_median": null,
+    "above_chance": null,
+    "labels": [
+     "NOT1ACH",
+     "NOT2ING",
+     "NOT4GEP",
+     "OXF1PRI",
+     "OXF2PRI",
+     "OXF3TRI",
+     "OXF4GEP"
+    ],
+    "confusion": [
+     [
+      11,
+      0,
+      0,
+      3,
+      4,
+      2,
+      0
+     ],
+     [
+      1,
+      16,
+      0,
+      0,
+      0,
+      3,
+      0
+     ],
+     [
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      5
+     ],
+     [
+      0,
+      0,
+      0,
+      10,
+      10,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      0,
+      8,
+      11,
+      0,
+      0
+     ],
+     [
+      6,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      3,
+      0,
+      1,
+      0,
+      5
+     ]
+    ]
+   },
+   "T_c": {
+    "n_sessions": 109,
+    "n_features": 81,
+    "balanced_accuracy": 0.9126984126984128,
+    "chance_95": null,
+    "above_chance": null
+   }
+  }
+ },
+ "not2ing_89_vs_98_T": {
+  "n": 20,
+  "n_89": 4,
+  "balanced_accuracy": 0.84375,
+  "chance_95": 0.6875,
+  "above_chance": true
+ }
+}

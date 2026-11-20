@@ -1,0 +1,1700 @@
+{
+ "rule": "decomp/F1_RULE.md — 두 판을 나란히 · 고르지 않는다 · 같은 판정인 곳만 «적합기 수준에서»",
+ "gpu": {
+  "GPU1_chunks": 48,
+  "GPU0_chunks": 110,
+  "note": "덩어리별 GPU(장부 data/f1/ledger.jsonl) — 차이를 해석하지 않는다(중계 ZZZa-2)"
+ },
+ "verdicts": {
+  "1|T-in|C3|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C3|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C3|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-in|C3|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C3|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C3|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C5|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C5|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C5|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-in|C5|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C5|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C5|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C7|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C7|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C7|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-in|C7|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C7|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-in|C7|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C3|SG1": {
+   "F2": false,
+   "F1": true,
+   "same": false
+  },
+  "1|T-app|C3|SG2": {
+   "F2": false,
+   "F1": true,
+   "same": false
+  },
+  "1|T-app|C3|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-app|C3|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C3|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C3|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C5|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C5|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C5|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-app|C5|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C5|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C5|SG7": {
+   "F2": false,
+   "F1": true,
+   "same": false
+  },
+  "1|T-app|C7|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C7|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C7|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-app|C7|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C7|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-app|C7|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C3|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C3|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C3|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-none|C3|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C3|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C3|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C5|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C5|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C5|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-none|C5|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C5|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C5|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C7|SG1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C7|SG2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C7|SG3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "1|T-none|C7|SG4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C7|SG6": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "1|T-none|C7|SG7": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "2|H1": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "2|H2": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "2|H3": {
+   "F2": true,
+   "F1": true,
+   "same": true
+  },
+  "2|H4": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "2|H_psi": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "2|X6|OXF1PRI~OXF2PRI": {
+   "F2": [
+    "이완 일치",
+    "이완 일치"
+   ],
+   "F1": [
+    "이완 일치",
+    "이완 일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF1PRI~OXF3TRI": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF1PRI~NOT2ING-89": {
+   "F2": [
+    "이완 일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": false
+  },
+  "2|X6|OXF1PRI~NOT2ING-98": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF1PRI~NOT4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF1PRI~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF1PRI~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF2PRI~OXF3TRI": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF2PRI~NOT2ING-89": {
+   "F2": [
+    "이완 일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": false
+  },
+  "2|X6|OXF2PRI~NOT2ING-98": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF2PRI~NOT4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF2PRI~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF2PRI~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF3TRI~NOT2ING-89": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF3TRI~NOT2ING-98": {
+   "F2": [
+    "이완 일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": false
+  },
+  "2|X6|OXF3TRI~NOT4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF3TRI~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF3TRI~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-89~NOT2ING-98": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-89~NOT4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-89~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-89~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-98~NOT4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-98~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT2ING-98~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT4GEP~OXF4GEP": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|NOT4GEP~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "2|X6|OXF4GEP~NOT1ACH": {
+   "F2": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "F1": [
+    "이완 불일치",
+    "이완 불일치"
+   ],
+   "same": true
+  },
+  "3|HPI": {
+   "F2": false,
+   "F1": false,
+   "same": true
+  },
+  "3|X10|확정|all_cells_match": {
+   "F2": [
+    "OXF1PRI~OXF2PRI"
+   ],
+   "F1": [
+    "OXF1PRI~OXF2PRI"
+   ],
+   "same": true
+  },
+  "3|X10|v2_범위|all_cells_match": {
+   "F2": [
+    "OXF1PRI~OXF2PRI"
+   ],
+   "F1": [
+    "OXF1PRI~OXF2PRI"
+   ],
+   "same": true
+  }
+ },
+ "n_items": 90,
+ "n_same": 84,
+ "detail": {
+  "F2": {
+   "stage1": {
+    "T-in|C3": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-in|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-in|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-app|C3": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-app|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-app|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C3": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    }
+   },
+   "stage2": {
+    "H1": false,
+    "H1_cells": {
+     "T-in|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-in|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-in|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": "따로(예외 — 수치만)",
+      "Q4_FISO": false
+     },
+     "T-app|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-app|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-app|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     }
+    },
+    "H2": false,
+    "H2_cells": {
+     "T-in|frac": false,
+     "T-in|C3": false,
+     "T-in|C7": false,
+     "T-app|frac": false,
+     "T-app|C3": false,
+     "T-app|C7": false,
+     "T-none|frac": false,
+     "T-none|C3": false,
+     "T-none|C7": false
+    },
+    "H3": true,
+    "H4": false,
+    "H_psi": false,
+    "H_psi_frac_ok": 0.034722222222222224,
+    "X6": {
+     "OXF1PRI~OXF2PRI": [
+      "이완 일치",
+      "이완 일치"
+     ],
+     "OXF1PRI~OXF3TRI": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT2ING-89": [
+      "이완 일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~OXF3TRI": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT2ING-89": [
+      "이완 일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT2ING-89": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT2ING-98": [
+      "이완 일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT4GEP~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT4GEP~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF4GEP~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ]
+    }
+   },
+   "stage3": {
+    "HPI": false,
+    "HPI_frac_cells_ok": 0.5,
+    "X8": {
+     "frac": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.9974796747967479,
+       0.999430894308943
+      ],
+      "cov_FISO": [
+       0.9965853658536585,
+       0.9986178861788618
+      ],
+      "width_NDI_median": [
+       0.58,
+       0.6599999999999999
+      ],
+      "width_FISO_median": [
+       0.29,
+       0.44079999999999997
+      ],
+      "empty_frac": [
+       0.0004878048780487805,
+       0.0022764227642276423
+      ]
+     },
+     "C3": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.9484552845528456,
+       0.9697560975609756
+      ],
+      "cov_FISO": [
+       0.9410569105691057,
+       0.9545528455284553
+      ],
+      "width_NDI_median": [
+       0.56,
+       0.7
+      ],
+      "width_FISO_median": [
+       0.29,
+       0.3712
+      ],
+      "empty_frac": [
+       0.02886178861788618,
+       0.04845528455284553
+      ]
+     },
+     "C7": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.3583739837398374,
+       0.43105691056910567
+      ],
+      "cov_FISO": [
+       0.2894308943089431,
+       0.3747154471544715
+      ],
+      "width_NDI_median": [
+       0.30000000000000004,
+       0.3800000000000001
+      ],
+      "width_FISO_median": [
+       0.06960000000000002,
+       0.11599999999999999
+      ],
+      "empty_frac": [
+       0.5453658536585366,
+       0.6308130081300813
+      ]
+     }
+    },
+    "X9": {
+     "Q1": [
+      0.6047619047619047,
+      0.780952380952381
+     ],
+     "Q2": [
+      0.09047619047619047,
+      0.1380952380952381
+     ],
+     "Q3": [
+      0.0,
+      0.0
+     ],
+     "Q4": [
+      0.9238095238095239,
+      0.9904761904761905
+     ]
+    },
+    "X9_ODI": {
+     "Q1": [
+      1.0,
+      1.0
+     ],
+     "Q2": [
+      1.0,
+      1.0
+     ],
+     "Q3": [
+      1.0,
+      1.0
+     ],
+     "Q4": [
+      1.0,
+      1.0
+     ]
+    },
+    "X7_L0": {
+     "frac": [
+      45,
+      45,
+      45
+     ],
+     "S": [
+      45,
+      45,
+      45
+     ],
+     "C3": [
+      45,
+      45,
+      45
+     ],
+     "C7": [
+      0,
+      45,
+      45
+     ]
+    },
+    "X7_L0_C7_NDI_unident": {
+     "Q0": [
+      0.0,
+      0.0
+     ],
+     "Q1": [
+      0.23333333333333334,
+      0.35714285714285715
+     ],
+     "Q2": [
+      0.0,
+      0.0
+     ],
+     "Q3": [
+      0.0,
+      0.0
+     ],
+     "Q4": [
+      0.0,
+      0.0
+     ]
+    },
+    "X10": {
+     "v2_범위": {
+      "n_pairs": 28,
+      "n_cells": 24,
+      "all_cells_match": [
+       "OXF1PRI~OXF2PRI"
+      ],
+      "others_match_cells_range": [
+       0,
+       19
+      ]
+     },
+     "확정": {
+      "n_pairs": 28,
+      "n_cells": 24,
+      "all_cells_match": [
+       "OXF1PRI~OXF2PRI"
+      ],
+      "others_match_cells_range": [
+       0,
+       20
+      ]
+     }
+    },
+    "X12": {
+     "F|balanced": [
+      {
+       "보존": 18
+      },
+      [
+       0.9085329366780012,
+       1.0518431479506591
+      ]
+     ],
+     "N|balanced": [
+      {
+       "보존": 18
+      },
+      [
+       0.9583740797151119,
+       1.0556830003881355
+      ]
+     ],
+     "F|confounded": [
+      {
+       "부분": 9
+      },
+      [
+       0.20399589838366383,
+       0.4401317955742292
+      ]
+     ],
+     "N|confounded": [
+      {
+       "부분": 9
+      },
+      [
+       0.34661532868792155,
+       0.7659151026586533
+      ]
+     ]
+    },
+    "cards": {
+     "n_cards": 111,
+     "by_set": {
+      "ON-Harmony": 28,
+      "Tong2020": 45,
+      "MUSHAC": 10,
+      "Wongkornchaovalit2025": 28
+     },
+     "onharmony_match_cells": [
+      [
+       0,
+       6
+      ],
+      [
+       1,
+       8
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       5,
+       1
+      ],
+      [
+       7,
+       2
+      ],
+      [
+       11,
+       1
+      ],
+      [
+       13,
+       2
+      ],
+      [
+       16,
+       2
+      ],
+      [
+       19,
+       1
+      ],
+      [
+       20,
+       2
+      ],
+      [
+       24,
+       1
+      ]
+     ]
+    }
+   }
+  },
+  "F1": {
+   "stage1": {
+    "T-in|C3": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-in|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-in|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-app|C3": {
+     "SG1": true,
+     "SG2": true,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-app|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": true
+    },
+    "T-app|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C3": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C5": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    },
+    "T-none|C7": {
+     "SG1": false,
+     "SG2": false,
+     "SG3": true,
+     "SG4": false,
+     "SG6": false,
+     "SG7": false
+    }
+   },
+   "stage2": {
+    "H1": false,
+    "H1_cells": {
+     "T-in|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-in|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-in|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": "따로(예외 — 수치만)",
+      "Q4_FISO": false
+     },
+     "T-app|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-app|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-app|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|frac": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|C3": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     },
+     "T-none|C7": {
+      "Q2_FISO": false,
+      "Q2_NDI": false,
+      "Q4_FISO": false
+     }
+    },
+    "H2": false,
+    "H2_cells": {
+     "T-in|frac": false,
+     "T-in|C3": false,
+     "T-in|C7": false,
+     "T-app|frac": false,
+     "T-app|C3": false,
+     "T-app|C7": false,
+     "T-none|frac": false,
+     "T-none|C3": false,
+     "T-none|C7": false
+    },
+    "H3": true,
+    "H4": false,
+    "H_psi": false,
+    "H_psi_frac_ok": 0.06944444444444445,
+    "X6": {
+     "OXF1PRI~OXF2PRI": [
+      "이완 일치",
+      "이완 일치"
+     ],
+     "OXF1PRI~OXF3TRI": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT2ING-89": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF1PRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~OXF3TRI": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT2ING-89": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF2PRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT2ING-89": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF3TRI~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT2ING-98": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-89~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~NOT4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT2ING-98~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT4GEP~OXF4GEP": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "NOT4GEP~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ],
+     "OXF4GEP~NOT1ACH": [
+      "이완 불일치",
+      "이완 불일치"
+     ]
+    }
+   },
+   "stage3": {
+    "HPI": false,
+    "HPI_frac_cells_ok": 0.5,
+    "X8": {
+     "frac": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.9976422764227643,
+       0.9991869918699187
+      ],
+      "cov_FISO": [
+       0.9968292682926829,
+       0.9986991869918699
+      ],
+      "width_NDI_median": [
+       0.56,
+       0.64
+      ],
+      "width_FISO_median": [
+       0.174,
+       0.3596
+      ],
+      "empty_frac": [
+       0.0004878048780487805,
+       0.001951219512195122
+      ]
+     },
+     "C3": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.9310569105691057,
+       0.9714634146341463
+      ],
+      "cov_FISO": [
+       0.9226016260162602,
+       0.9708130081300813
+      ],
+      "width_NDI_median": [
+       0.58,
+       0.72
+      ],
+      "width_FISO_median": [
+       0.1972,
+       0.3828
+      ],
+      "empty_frac": [
+       0.024878048780487806,
+       0.06869918699186991
+      ]
+     },
+     "C7": {
+      "n_cells": 15,
+      "cov_NDI": [
+       0.37447154471544714,
+       0.46203252032520326
+      ],
+      "cov_FISO": [
+       0.28284552845528455,
+       0.37203252032520323
+      ],
+      "width_NDI_median": [
+       0.30000000000000004,
+       0.3799999999999999
+      ],
+      "width_FISO_median": [
+       0.057999999999999996,
+       0.10439999999999998
+      ],
+      "empty_frac": [
+       0.5203252032520326,
+       0.6140650406504065
+      ]
+     }
+    },
+    "X9": {
+     "Q1": [
+      0.7095238095238096,
+      1.0
+     ],
+     "Q2": [
+      0.0,
+      0.5619047619047619
+     ],
+     "Q3": [
+      0.0,
+      0.0
+     ],
+     "Q4": [
+      1.0,
+      1.0
+     ]
+    },
+    "X9_ODI": {
+     "Q1": [
+      1.0,
+      1.0
+     ],
+     "Q2": [
+      1.0,
+      1.0
+     ],
+     "Q3": [
+      1.0,
+      1.0
+     ],
+     "Q4": [
+      1.0,
+      1.0
+     ]
+    },
+    "X7_L0": {
+     "frac": [
+      39,
+      45,
+      45
+     ],
+     "S": [
+      45,
+      45,
+      45
+     ],
+     "C3": [
+      45,
+      45,
+      45
+     ],
+     "C7": [
+      5,
+      45,
+      45
+     ]
+    },
+    "X7_L0_C7_NDI_unident": {
+     "Q0": [
+      0.0,
+      0.0
+     ],
+     "Q1": [
+      0.23333333333333334,
+      0.38571428571428573
+     ],
+     "Q2": [
+      0.0,
+      0.0
+     ],
+     "Q3": [
+      0.0,
+      0.0
+     ],
+     "Q4": [
+      0.0,
+      0.0
+     ]
+    },
+    "X10": {
+     "v2_범위": {
+      "n_pairs": 28,
+      "n_cells": 24,
+      "all_cells_match": [
+       "OXF1PRI~OXF2PRI"
+      ],
+      "others_match_cells_range": [
+       0,
+       18
+      ]
+     },
+     "확정": {
+      "n_pairs": 28,
+      "n_cells": 24,
+      "all_cells_match": [
+       "OXF1PRI~OXF2PRI"
+      ],
+      "others_match_cells_range": [
+       0,
+       20
+      ]
+     }
+    },
+    "X12": {
+     "F|balanced": [
+      {
+       "보존": 18
+      },
+      [
+       0.9094114220602578,
+       1.0530722924977876
+      ]
+     ],
+     "N|balanced": [
+      {
+       "보존": 18
+      },
+      [
+       0.939957085328204,
+       1.0470561515686252
+      ]
+     ],
+     "F|confounded": [
+      {
+       "부분": 9
+      },
+      [
+       0.222444165107635,
+       0.4401601513335627
+      ]
+     ],
+     "N|confounded": [
+      {
+       "부분": 9
+      },
+      [
+       0.2877142858489393,
+       0.6870011020817375
+      ]
+     ]
+    },
+    "cards": {
+     "n_cards": 111,
+     "by_set": {
+      "ON-Harmony": 28,
+      "Tong2020": 45,
+      "MUSHAC": 10,
+      "Wongkornchaovalit2025": 28
+     },
+     "onharmony_match_cells": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       10
+      ],
+      [
+       2,
+       2
+      ],
+      [
+       5,
+       1
+      ],
+      [
+       6,
+       1
+      ],
+      [
+       8,
+       1
+      ],
+      [
+       10,
+       1
+      ],
+      [
+       13,
+       2
+      ],
+      [
+       15,
+       2
+      ],
+      [
+       18,
+       1
+      ],
+      [
+       20,
+       2
+      ],
+      [
+       24,
+       1
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

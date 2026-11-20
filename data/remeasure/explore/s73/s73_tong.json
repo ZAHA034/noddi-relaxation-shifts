@@ -1,0 +1,520 @@
+{
+ "definition": "decomp/plans/S73_POST_HOC_PLAN_2026-11-16.md §4",
+ "c": 2.4469118511449786,
+ "df": 6,
+ "controls": {
+  "simulation": {
+   "delta_0": {
+    "delta": 0.0,
+    "mean": 0.9495695473251029,
+    "sd": 0.01476853526669262,
+    "analytic": 0.9500000000000006
+   },
+   "delta_1.086": {
+    "delta": 1.086,
+    "mean": 0.8994126200274349,
+    "sd": 0.021803392992628567,
+    "analytic": 0.9000035799225446
+   },
+   "delta_2": {
+    "delta": 2.0,
+    "mean": 0.776518792866941,
+    "sd": 0.03432357363338408,
+    "analytic": 0.7768119693024582
+   }
+  },
+  "ok": true
+ },
+ "fixed_tb_reproduced": true,
+ "by_participant": {
+  "x": {
+   "sub-1": {
+    "n": 1215,
+    "share": 0.9069958847736626
+   },
+   "sub-2": {
+    "n": 1215,
+    "share": 0.9251028806584363
+   },
+   "sub-3": {
+    "n": 1215,
+    "share": 0.9613168724279836
+   }
+  },
+  "y": {
+   "sub-1": {
+    "n": 1215,
+    "share": 0.8716049382716049
+   },
+   "sub-2": {
+    "n": 1215,
+    "share": 0.8288065843621399
+   },
+   "sub-3": {
+    "n": 1215,
+    "share": 0.8304526748971194
+   }
+  },
+  "odi": {
+   "sub-1": {
+    "n": 1215,
+    "share": 0.934156378600823
+   },
+   "sub-2": {
+    "n": 1215,
+    "share": 0.9102880658436214
+   },
+   "sub-3": {
+    "n": 1215,
+    "share": 0.9572016460905349
+   }
+  },
+  "raw_ndi": {
+   "sub-1": {
+    "n": 1215,
+    "share": 0.9069958847736626
+   },
+   "sub-2": {
+    "n": 1215,
+    "share": 0.9061728395061729
+   },
+   "sub-3": {
+    "n": 1215,
+    "share": 0.9407407407407408
+   }
+  },
+  "logit_fiso": {
+   "sub-1": {
+    "n": 1215,
+    "share": 0.8798353909465021
+   },
+   "sub-2": {
+    "n": 1215,
+    "share": 0.8559670781893004
+   },
+   "sub-3": {
+    "n": 1215,
+    "share": 0.8584362139917695
+   }
+  }
+ },
+ "by_center": {
+  "x": {
+   "c01": {
+    "n": 729,
+    "share": 0.906721536351166
+   },
+   "c02": {
+    "n": 729,
+    "share": 0.9163237311385459
+   },
+   "c03": {
+    "n": 729,
+    "share": 0.9259259259259259
+   },
+   "c04": {
+    "n": 729,
+    "share": 0.9574759945130316
+   },
+   "c05": {
+    "n": 729,
+    "share": 0.9451303155006858
+   },
+   "c06": {
+    "n": 729,
+    "share": 0.9108367626886146
+   },
+   "c07": {
+    "n": 729,
+    "share": 0.9506172839506173
+   },
+   "c08": {
+    "n": 729,
+    "share": 0.9602194787379973
+   },
+   "c09": {
+    "n": 729,
+    "share": 0.9272976680384087
+   },
+   "c10": {
+    "n": 729,
+    "share": 0.9108367626886146
+   }
+  },
+  "y": {
+   "c01": {
+    "n": 729,
+    "share": 0.8724279835390947
+   },
+   "c02": {
+    "n": 729,
+    "share": 0.840877914951989
+   },
+   "c03": {
+    "n": 729,
+    "share": 0.8491083676268861
+   },
+   "c04": {
+    "n": 729,
+    "share": 0.8353909465020576
+   },
+   "c05": {
+    "n": 729,
+    "share": 0.879286694101509
+   },
+   "c06": {
+    "n": 729,
+    "share": 0.8353909465020576
+   },
+   "c07": {
+    "n": 729,
+    "share": 0.8765432098765432
+   },
+   "c08": {
+    "n": 729,
+    "share": 0.8353909465020576
+   },
+   "c09": {
+    "n": 729,
+    "share": 0.8244170096021948
+   },
+   "c10": {
+    "n": 729,
+    "share": 0.7873799725651578
+   }
+  },
+  "odi": {
+   "c01": {
+    "n": 729,
+    "share": 0.9245541838134431
+   },
+   "c02": {
+    "n": 729,
+    "share": 0.9272976680384087
+   },
+   "c03": {
+    "n": 729,
+    "share": 0.9204389574759945
+   },
+   "c04": {
+    "n": 729,
+    "share": 0.9643347050754458
+   },
+   "c05": {
+    "n": 729,
+    "share": 0.9602194787379973
+   },
+   "c06": {
+    "n": 729,
+    "share": 0.9259259259259259
+   },
+   "c07": {
+    "n": 729,
+    "share": 0.9588477366255144
+   },
+   "c08": {
+    "n": 729,
+    "share": 0.9300411522633745
+   },
+   "c09": {
+    "n": 729,
+    "share": 0.9286694101508917
+   },
+   "c10": {
+    "n": 729,
+    "share": 0.8984910836762688
+   }
+  },
+  "raw_ndi": {
+   "c01": {
+    "n": 729,
+    "share": 0.9012345679012346
+   },
+   "c02": {
+    "n": 729,
+    "share": 0.9094650205761317
+   },
+   "c03": {
+    "n": 729,
+    "share": 0.906721536351166
+   },
+   "c04": {
+    "n": 729,
+    "share": 0.9519890260631001
+   },
+   "c05": {
+    "n": 729,
+    "share": 0.9382716049382716
+   },
+   "c06": {
+    "n": 729,
+    "share": 0.887517146776406
+   },
+   "c07": {
+    "n": 729,
+    "share": 0.9355281207133059
+   },
+   "c08": {
+    "n": 729,
+    "share": 0.9451303155006858
+   },
+   "c09": {
+    "n": 729,
+    "share": 0.9053497942386831
+   },
+   "c10": {
+    "n": 729,
+    "share": 0.8984910836762688
+   }
+  },
+  "logit_fiso": {
+   "c01": {
+    "n": 729,
+    "share": 0.8861454046639232
+   },
+   "c02": {
+    "n": 729,
+    "share": 0.8641975308641975
+   },
+   "c03": {
+    "n": 729,
+    "share": 0.8587105624142661
+   },
+   "c04": {
+    "n": 729,
+    "share": 0.8600823045267489
+   },
+   "c05": {
+    "n": 729,
+    "share": 0.8930041152263375
+   },
+   "c06": {
+    "n": 729,
+    "share": 0.8751714677640604
+   },
+   "c07": {
+    "n": 729,
+    "share": 0.8834019204389575
+   },
+   "c08": {
+    "n": 729,
+    "share": 0.869684499314129
+   },
+   "c09": {
+    "n": 729,
+    "share": 0.8573388203017832
+   },
+   "c10": {
+    "n": 729,
+    "share": 0.7997256515775034
+   }
+  }
+ },
+ "overall": {
+  "x": {
+   "n": 3645,
+   "share": 0.9311385459533608
+  },
+  "y": {
+   "n": 3645,
+   "share": 0.8436213991769548
+  },
+  "odi": {
+   "n": 3645,
+   "share": 0.9338820301783265
+  },
+  "raw_ndi": {
+   "n": 3645,
+   "share": 0.9179698216735254
+  },
+  "logit_fiso": {
+   "n": 3645,
+   "share": 0.8647462277091906
+  }
+ },
+ "equivalence": {
+  "no_effect_share": 0.9500000000000006,
+  "retest_sd_median": {
+   "x": 0.11058455355988728,
+   "y": 0.06392477115602441,
+   "odi": 0.006571899465436299,
+   "raw_ndi": 0.015900908197432877,
+   "logit_fiso": 0.07941716321375747
+  },
+  "roi_median_ndi": 0.7011509864937374,
+  "rows": {
+   "0.90 (threshold)": {
+    "share": 0.9,
+    "lam": 0.7679450132411373,
+    "delta_over_s": 1.0860382528824024,
+    "delta_logit_or_odi": 0.12009905534396044,
+    "delta_ndi_at_0.5": 0.03002476383599011,
+    "delta_ndi_at_roi_median": 0.025165349562372492
+   },
+   "x": {
+    "share": 0.9311385459533608,
+    "lam": 0.474403258450913,
+    "delta_over_s": 0.6709075221352698,
+    "delta_logit_or_odi": 0.074192008815299,
+    "delta_ndi_at_0.5": 0.01854800220382475,
+    "delta_ndi_at_roi_median": 0.015546065963836179
+   },
+   "odi": {
+    "share": 0.9338820301783265,
+    "lam": 0.4388046256355645,
+    "delta_over_s": 0.620563452805864,
+    "delta_logit_or_odi": 0.004078280623764161
+   },
+   "y": {
+    "share": 0.8436213991769548,
+    "lam": 1.1123782015040542,
+    "delta_over_s": 1.5731403390552252,
+    "delta_logit_or_odi": 0.10056263617041591
+   }
+  }
+ },
+ "y_diagnosis": {
+  "fiso_median": 0.1381391715206032,
+  "units_below": [
+   "Body of corpus callosum",
+   "Cingulum (cingulate gyrus)",
+   "Cingulum (hippocampus)",
+   "External capsule",
+   "Genu of corpus callosum",
+   "Medial lemniscus",
+   "Posterior corona radiata",
+   "Posterior thalamic radiation (include optic radiation)",
+   "Splenium of corpus callosum",
+   "Superior corona radiata",
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+   "Superior longitudinal fasciculus",
+   "Uncinate fasciculus"
+  ],
+  "by_scale": {
+   "y": {
+    "kendall_tau_b": 0.14921474325977332,
+    "p": 0.2778246565952278,
+    "below": {
+     "n": 1755,
+     "share": 0.8045584045584045
+    },
+    "above": {
+     "n": 1890,
+     "share": 0.8798941798941798
+    },
+    "unit_share": {
+     "Anterior corona radiata": 0.5111111111111111,
+     "Anterior limb of internal capsule": 0.8888888888888888,
+     "Body of corpus callosum": 0.7777777777777778,
+     "Cerebral peduncle": 0.9851851851851852,
+     "Cingulum (cingulate gyrus)": 0.6148148148148148,
+     "Cingulum (hippocampus)": 0.9925925925925926,
+     "Corticospinal tract": 0.9925925925925926,
+     "External capsule": 0.8518518518518519,
+     "Fornix (column and body of fornix)": 0.8814814814814815,
+     "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.6296296296296297,
+     "Genu of corpus callosum": 0.725925925925926,
+     "Inferior cerebellar peduncle": 0.9777777777777777,
+     "Medial lemniscus": 1.0,
+     "Middle cerebellar peduncle": 0.9555555555555556,
+     "Pontine crossing tract (a part of MCP)": 0.9407407407407408,
+     "Posterior corona radiata": 0.8444444444444444,
+     "Posterior limb of internal capsule": 0.9703703703703703,
+     "Posterior thalamic radiation (include optic radiation)": 0.725925925925926,
+     "Retrolenticular part of internal capsule": 0.7037037037037037,
+     "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.9777777777777777,
+     "Splenium of corpus callosum": 0.7703703703703704,
+     "Superior cerebellar peduncle": 0.9407407407407408,
+     "Superior corona radiata": 0.8518518518518519,
+     "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.6666666666666666,
+     "Superior longitudinal fasciculus": 0.8,
+     "Tapetum": 0.9629629629629629,
+     "Uncinate fasciculus": 0.837037037037037
+    }
+   },
+   "x": {
+    "kendall_tau_b": 0.17629529511598171,
+    "p": 0.20791244678778142,
+    "below": {
+     "n": 1755,
+     "share": 0.9128205128205128
+    },
+    "above": {
+     "n": 1890,
+     "share": 0.9481481481481482
+    },
+    "unit_share": {
+     "Anterior corona radiata": 0.8222222222222222,
+     "Anterior limb of internal capsule": 1.0,
+     "Body of corpus callosum": 0.9629629629629629,
+     "Cerebral peduncle": 0.9629629629629629,
+     "Cingulum (cingulate gyrus)": 0.9925925925925926,
+     "Cingulum (hippocampus)": 1.0,
+     "Corticospinal tract": 1.0,
+     "External capsule": 0.6592592592592592,
+     "Fornix (column and body of fornix)": 0.9777777777777777,
+     "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.8666666666666667,
+     "Genu of corpus callosum": 0.9555555555555556,
+     "Inferior cerebellar peduncle": 0.9703703703703703,
+     "Medial lemniscus": 0.9629629629629629,
+     "Middle cerebellar peduncle": 0.9259259259259259,
+     "Pontine crossing tract (a part of MCP)": 1.0,
+     "Posterior corona radiata": 0.9555555555555556,
+     "Posterior limb of internal capsule": 1.0,
+     "Posterior thalamic radiation (include optic radiation)": 0.8814814814814815,
+     "Retrolenticular part of internal capsule": 0.9111111111111111,
+     "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.9407407407407408,
+     "Splenium of corpus callosum": 0.9629629629629629,
+     "Superior cerebellar peduncle": 0.9111111111111111,
+     "Superior corona radiata": 0.9851851851851852,
+     "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.8518518518518519,
+     "Superior longitudinal fasciculus": 0.9851851851851852,
+     "Tapetum": 0.9851851851851852,
+     "Uncinate fasciculus": 0.7111111111111111
+    }
+   },
+   "logit_fiso": {
+    "kendall_tau_b": 0.12122234447543062,
+    "p": 0.38026115992790066,
+    "below": {
+     "n": 1755,
+     "share": 0.8478632478632478
+    },
+    "above": {
+     "n": 1890,
+     "share": 0.8804232804232804
+    },
+    "unit_share": {
+     "Anterior corona radiata": 0.6444444444444445,
+     "Anterior limb of internal capsule": 0.9407407407407408,
+     "Body of corpus callosum": 0.8962962962962963,
+     "Cerebral peduncle": 0.9777777777777777,
+     "Cingulum (cingulate gyrus)": 0.7037037037037037,
+     "Cingulum (hippocampus)": 1.0,
+     "Corticospinal tract": 0.9925925925925926,
+     "External capsule": 0.8592592592592593,
+     "Fornix (column and body of fornix)": 0.762962962962963,
+     "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.5185185185185185,
+     "Genu of corpus callosum": 0.8666666666666667,
+     "Inferior cerebellar peduncle": 0.9925925925925926,
+     "Medial lemniscus": 1.0,
+     "Middle cerebellar peduncle": 0.9851851851851852,
+     "Pontine crossing tract (a part of MCP)": 0.9629629629629629,
+     "Posterior corona radiata": 0.8666666666666667,
+     "Posterior limb of internal capsule": 0.9851851851851852,
+     "Posterior thalamic radiation (include optic radiation)": 0.7407407407407407,
+     "Retrolenticular part of internal capsule": 0.725925925925926,
+     "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.9777777777777777,
+     "Splenium of corpus callosum": 0.8296296296296296,
+     "Superior cerebellar peduncle": 0.8740740740740741,
+     "Superior corona radiata": 0.8962962962962963,
+     "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.6814814814814815,
+     "Superior longitudinal fasciculus": 0.8592592592592593,
+     "Tapetum": 0.9851851851851852,
+     "Uncinate fasciculus": 0.8222222222222222
+    }
+   }
+  },
+  "sentence_in_main_text": true
+ }
+}

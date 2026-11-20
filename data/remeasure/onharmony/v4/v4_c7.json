@@ -1,0 +1,4643 @@
+{
+ "arm": "c7",
+ "seeds_torch": {
+  "SNR30|Neff50|OXF1PRI~OXF2PRI": 7000,
+  "SNR30|Neff50|OXF1PRI~OXF3TRI": 7001,
+  "SNR30|Neff50|OXF1PRI~NOT2ING-89": 7002,
+  "SNR30|Neff50|OXF1PRI~NOT2ING-98": 7003,
+  "SNR30|Neff50|OXF1PRI~NOT4GEP": 7004,
+  "SNR30|Neff50|OXF1PRI~OXF4GEP": 7005,
+  "SNR30|Neff50|OXF1PRI~NOT1ACH": 7006,
+  "SNR30|Neff50|OXF2PRI~OXF3TRI": 7007,
+  "SNR30|Neff50|OXF2PRI~NOT2ING-89": 7008,
+  "SNR30|Neff50|OXF2PRI~NOT2ING-98": 7009,
+  "SNR30|Neff50|OXF2PRI~NOT4GEP": 7010,
+  "SNR30|Neff50|OXF2PRI~OXF4GEP": 7011,
+  "SNR30|Neff50|OXF2PRI~NOT1ACH": 7012,
+  "SNR30|Neff50|OXF3TRI~NOT2ING-89": 7013,
+  "SNR30|Neff50|OXF3TRI~NOT2ING-98": 7014,
+  "SNR30|Neff50|OXF3TRI~NOT4GEP": 7015,
+  "SNR30|Neff50|OXF3TRI~OXF4GEP": 7016,
+  "SNR30|Neff50|OXF3TRI~NOT1ACH": 7017,
+  "SNR30|Neff50|NOT2ING-89~NOT2ING-98": 7018,
+  "SNR30|Neff50|NOT2ING-89~NOT4GEP": 7019,
+  "SNR30|Neff50|NOT2ING-89~OXF4GEP": 7020,
+  "SNR30|Neff50|NOT2ING-89~NOT1ACH": 7021,
+  "SNR30|Neff50|NOT2ING-98~NOT4GEP": 7022,
+  "SNR30|Neff50|NOT2ING-98~OXF4GEP": 7023,
+  "SNR30|Neff50|NOT2ING-98~NOT1ACH": 7024,
+  "SNR30|Neff50|NOT4GEP~OXF4GEP": 7025,
+  "SNR30|Neff50|NOT4GEP~NOT1ACH": 7026,
+  "SNR30|Neff50|OXF4GEP~NOT1ACH": 7027,
+  "SNR20|Neff25|OXF1PRI~OXF2PRI": 7100,
+  "SNR20|Neff25|OXF1PRI~OXF3TRI": 7101,
+  "SNR20|Neff25|OXF1PRI~NOT2ING-89": 7102,
+  "SNR20|Neff25|OXF1PRI~NOT2ING-98": 7103,
+  "SNR20|Neff25|OXF1PRI~NOT4GEP": 7104,
+  "SNR20|Neff25|OXF1PRI~OXF4GEP": 7105,
+  "SNR20|Neff25|OXF1PRI~NOT1ACH": 7106,
+  "SNR20|Neff25|OXF2PRI~OXF3TRI": 7107,
+  "SNR20|Neff25|OXF2PRI~NOT2ING-89": 7108,
+  "SNR20|Neff25|OXF2PRI~NOT2ING-98": 7109,
+  "SNR20|Neff25|OXF2PRI~NOT4GEP": 7110,
+  "SNR20|Neff25|OXF2PRI~OXF4GEP": 7111,
+  "SNR20|Neff25|OXF2PRI~NOT1ACH": 7112,
+  "SNR20|Neff25|OXF3TRI~NOT2ING-89": 7113,
+  "SNR20|Neff25|OXF3TRI~NOT2ING-98": 7114,
+  "SNR20|Neff25|OXF3TRI~NOT4GEP": 7115,
+  "SNR20|Neff25|OXF3TRI~OXF4GEP": 7116,
+  "SNR20|Neff25|OXF3TRI~NOT1ACH": 7117,
+  "SNR20|Neff25|NOT2ING-89~NOT2ING-98": 7118,
+  "SNR20|Neff25|NOT2ING-89~NOT4GEP": 7119,
+  "SNR20|Neff25|NOT2ING-89~OXF4GEP": 7120,
+  "SNR20|Neff25|NOT2ING-89~NOT1ACH": 7121,
+  "SNR20|Neff25|NOT2ING-98~NOT4GEP": 7122,
+  "SNR20|Neff25|NOT2ING-98~OXF4GEP": 7123,
+  "SNR20|Neff25|NOT2ING-98~NOT1ACH": 7124,
+  "SNR20|Neff25|NOT4GEP~OXF4GEP": 7125,
+  "SNR20|Neff25|NOT4GEP~NOT1ACH": 7126,
+  "SNR20|Neff25|OXF4GEP~NOT1ACH": 7127,
+  "SNR20|Neff100|OXF1PRI~OXF2PRI": 7200,
+  "SNR20|Neff100|OXF1PRI~OXF3TRI": 7201,
+  "SNR20|Neff100|OXF1PRI~NOT2ING-89": 7202,
+  "SNR20|Neff100|OXF1PRI~NOT2ING-98": 7203,
+  "SNR20|Neff100|OXF1PRI~NOT4GEP": 7204,
+  "SNR20|Neff100|OXF1PRI~OXF4GEP": 7205,
+  "SNR20|Neff100|OXF1PRI~NOT1ACH": 7206,
+  "SNR20|Neff100|OXF2PRI~OXF3TRI": 7207,
+  "SNR20|Neff100|OXF2PRI~NOT2ING-89": 7208,
+  "SNR20|Neff100|OXF2PRI~NOT2ING-98": 7209,
+  "SNR20|Neff100|OXF2PRI~NOT4GEP": 7210,
+  "SNR20|Neff100|OXF2PRI~OXF4GEP": 7211,
+  "SNR20|Neff100|OXF2PRI~NOT1ACH": 7212,
+  "SNR20|Neff100|OXF3TRI~NOT2ING-89": 7213,
+  "SNR20|Neff100|OXF3TRI~NOT2ING-98": 7214,
+  "SNR20|Neff100|OXF3TRI~NOT4GEP": 7215,
+  "SNR20|Neff100|OXF3TRI~OXF4GEP": 7216,
+  "SNR20|Neff100|OXF3TRI~NOT1ACH": 7217,
+  "SNR20|Neff100|NOT2ING-89~NOT2ING-98": 7218,
+  "SNR20|Neff100|NOT2ING-89~NOT4GEP": 7219,
+  "SNR20|Neff100|NOT2ING-89~OXF4GEP": 7220,
+  "SNR20|Neff100|NOT2ING-89~NOT1ACH": 7221,
+  "SNR20|Neff100|NOT2ING-98~NOT4GEP": 7222,
+  "SNR20|Neff100|NOT2ING-98~OXF4GEP": 7223,
+  "SNR20|Neff100|NOT2ING-98~NOT1ACH": 7224,
+  "SNR20|Neff100|NOT4GEP~OXF4GEP": 7225,
+  "SNR20|Neff100|NOT4GEP~NOT1ACH": 7226,
+  "SNR20|Neff100|OXF4GEP~NOT1ACH": 7227,
+  "SNR50|Neff25|OXF1PRI~OXF2PRI": 7300,
+  "SNR50|Neff25|OXF1PRI~OXF3TRI": 7301,
+  "SNR50|Neff25|OXF1PRI~NOT2ING-89": 7302,
+  "SNR50|Neff25|OXF1PRI~NOT2ING-98": 7303,
+  "SNR50|Neff25|OXF1PRI~NOT4GEP": 7304,
+  "SNR50|Neff25|OXF1PRI~OXF4GEP": 7305,
+  "SNR50|Neff25|OXF1PRI~NOT1ACH": 7306,
+  "SNR50|Neff25|OXF2PRI~OXF3TRI": 7307,
+  "SNR50|Neff25|OXF2PRI~NOT2ING-89": 7308,
+  "SNR50|Neff25|OXF2PRI~NOT2ING-98": 7309,
+  "SNR50|Neff25|OXF2PRI~NOT4GEP": 7310,
+  "SNR50|Neff25|OXF2PRI~OXF4GEP": 7311,
+  "SNR50|Neff25|OXF2PRI~NOT1ACH": 7312,
+  "SNR50|Neff25|OXF3TRI~NOT2ING-89": 7313,
+  "SNR50|Neff25|OXF3TRI~NOT2ING-98": 7314,
+  "SNR50|Neff25|OXF3TRI~NOT4GEP": 7315,
+  "SNR50|Neff25|OXF3TRI~OXF4GEP": 7316,
+  "SNR50|Neff25|OXF3TRI~NOT1ACH": 7317,
+  "SNR50|Neff25|NOT2ING-89~NOT2ING-98": 7318,
+  "SNR50|Neff25|NOT2ING-89~NOT4GEP": 7319,
+  "SNR50|Neff25|NOT2ING-89~OXF4GEP": 7320,
+  "SNR50|Neff25|NOT2ING-89~NOT1ACH": 7321,
+  "SNR50|Neff25|NOT2ING-98~NOT4GEP": 7322,
+  "SNR50|Neff25|NOT2ING-98~OXF4GEP": 7323,
+  "SNR50|Neff25|NOT2ING-98~NOT1ACH": 7324,
+  "SNR50|Neff25|NOT4GEP~OXF4GEP": 7325,
+  "SNR50|Neff25|NOT4GEP~NOT1ACH": 7326,
+  "SNR50|Neff25|OXF4GEP~NOT1ACH": 7327,
+  "SNR50|Neff100|OXF1PRI~OXF2PRI": 7400,
+  "SNR50|Neff100|OXF1PRI~OXF3TRI": 7401,
+  "SNR50|Neff100|OXF1PRI~NOT2ING-89": 7402,
+  "SNR50|Neff100|OXF1PRI~NOT2ING-98": 7403,
+  "SNR50|Neff100|OXF1PRI~NOT4GEP": 7404,
+  "SNR50|Neff100|OXF1PRI~OXF4GEP": 7405,
+  "SNR50|Neff100|OXF1PRI~NOT1ACH": 7406,
+  "SNR50|Neff100|OXF2PRI~OXF3TRI": 7407,
+  "SNR50|Neff100|OXF2PRI~NOT2ING-89": 7408,
+  "SNR50|Neff100|OXF2PRI~NOT2ING-98": 7409,
+  "SNR50|Neff100|OXF2PRI~NOT4GEP": 7410,
+  "SNR50|Neff100|OXF2PRI~OXF4GEP": 7411,
+  "SNR50|Neff100|OXF2PRI~NOT1ACH": 7412,
+  "SNR50|Neff100|OXF3TRI~NOT2ING-89": 7413,
+  "SNR50|Neff100|OXF3TRI~NOT2ING-98": 7414,
+  "SNR50|Neff100|OXF3TRI~NOT4GEP": 7415,
+  "SNR50|Neff100|OXF3TRI~OXF4GEP": 7416,
+  "SNR50|Neff100|OXF3TRI~NOT1ACH": 7417,
+  "SNR50|Neff100|NOT2ING-89~NOT2ING-98": 7418,
+  "SNR50|Neff100|NOT2ING-89~NOT4GEP": 7419,
+  "SNR50|Neff100|NOT2ING-89~OXF4GEP": 7420,
+  "SNR50|Neff100|NOT2ING-89~NOT1ACH": 7421,
+  "SNR50|Neff100|NOT2ING-98~NOT4GEP": 7422,
+  "SNR50|Neff100|NOT2ING-98~OXF4GEP": 7423,
+  "SNR50|Neff100|NOT2ING-98~NOT1ACH": 7424,
+  "SNR50|Neff100|NOT4GEP~OXF4GEP": 7425,
+  "SNR50|Neff100|NOT4GEP~NOT1ACH": 7426,
+  "SNR50|Neff100|OXF4GEP~NOT1ACH": 7427
+ },
+ "seed_numpy": 20261027,
+ "inputs": {
+  "attr_table_sha256": "5184137854abc69710904889503eaf8dbb111ca9736e46af13b49067ea65b90d",
+  "test_cover_sha256": "15b4059e5b3115349c10b3736cf38e181c12790802baafe28a579d1de278c4b4",
+  "design_files_sha256": {
+   "P2a_bval": "41a0d0b100b26c9ed12cb5286b0114fb905992206086089116e7e2a6d9ab6d55",
+   "P2a_bvec": "f6d7e27e9da8dc7993dc62d6a658ac4d36cdc42060a6d9d015835094d7ac23ef",
+   "P2b_bval": "daa7bd2c874c85ca8ac76dadaade0c634555a28e47eabb3df5d7a1fa1d3db06e",
+   "P2b_bvec": "cd0988a66b7e3bf4e2bfeaaf0462483210f3e006eae60f725d74125972a09809"
+  },
+  "frozen": {
+   "models/c3_0.obj.pt": "afbdf0f2337760e04604cf1e527a5f71dc3a0e25553481e0aec225e84844ce47",
+   "models/c3_1.obj.pt": "17cc88959f1663a3f81949b1040713d4b3831a1a235e2923cf2d0a2cf9fa7340",
+   "models/c3_2.obj.pt": "e85d74ee0903ac0fbd548bfa56a655630a1f436dea067be97fe8cc357c38adcd",
+   "models/c3_3.obj.pt": "db16b1158f87e78dafedc087dd6b9f9191152c3f4c55c46d14f59f7e409c79a0",
+   "models/c3_4.obj.pt": "f18824037397e2b4cadc2081ec17014097759ff24ca4d262a3dbbb975d273956",
+   "models/c7_0.obj.pt": "76c2715e8097c7aaad76c3838719e2a2503bb5b21c396a4d62d2182a4c0612b7",
+   "models/c7_1.obj.pt": "d45971c99f055ac890dc723c892cd472f4c5428a24e628cf572f05110b5dfa4a",
+   "models/c7_2.obj.pt": "9d19218bac2df0d2d758b267fd10791727f6f9895580a98f3ef132845b19ddc2",
+   "models/c7_3.obj.pt": "a6846ad049a88706d08208a55ebaedc6b6946533945ac89882b98ac2eb767058",
+   "models/c7_4.obj.pt": "f41550389c5727d46f48a735906b089b33cad74119f7e56247677928348cd029",
+   "models/q_0.obj.pt": "7d589063699feac046c79e40aac88998f9358aff27918f3dbb13c8f9cbf9b775",
+   "sim_test.npz": "c4ce012aa8066597e206faf124bc1fec146237687e57170d1a3488d24c899625",
+   "plan_test.npz": "f6e014478f532536229b0d77052c05f110895ce7ce90bcfb115a0a208666fd02"
+  }
+ },
+ "main": {
+  "cells": {
+   "OXF1PRI~OXF2PRI|NDI": {
+    "acq_type": "match",
+    "blind": "비맹검 점검",
+    "n_units": 540,
+    "n_units_used": 124,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 317,
+    "exceed_rate": 0.587037037037037,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.016129032258064516,
+     0.024193548387096774,
+     0.016129032258064516
+    ],
+    "coverage": 0.024193548387096774,
+    "coverage_min": 0.016129032258064516,
+    "coverage_max": 0.024193548387096774,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.016260162601626018,
+    "coverage_uniform_mixture_reference": 0.024193548387096774,
+    "boot95": [
+     0.0,
+     0.050427779807575165
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 317,
+      "n_k_unfilled": 294
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 7,
+      "n_units": 45,
+      "n_covered": 2.0,
+      "ratio": 0.044444444444444446
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 20,
+      "n_units": 124,
+      "n_covered": 3.0,
+      "ratio": 0.024193548387096774
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 13,
+      "n_units": 79,
+      "n_covered": 1.0,
+      "ratio": 0.012658227848101266
+     }
+    }
+   },
+   "NOT2ING-89~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 2,
+    "n_units_dropped_k": 57,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 49,
+    "exceed_rate": 0.4537037037037037,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.5,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 49,
+      "n_k_unfilled": 83
+     },
+     "32|64": {
+      "n_misspec": 71,
+      "n_k_unfilled": 102
+     },
+     "64|32": {
+      "n_misspec": 55,
+      "n_k_unfilled": 83
+     },
+     "64|64": {
+      "n_misspec": 62,
+      "n_k_unfilled": 94
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 4,
+      "n_units": 2,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 4,
+      "n_units": 2,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "NOT2ING-89~NOT2ING-98|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-98~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 93,
+    "n_units_dropped_k": 189,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 150,
+    "exceed_rate": 0.3472222222222222,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.021505376344086023,
+     0.021505376344086023,
+     0.021505376344086023,
+     0.021505376344086023,
+     0.03225806451612903,
+     0.021505376344086023,
+     0.06451612903225806,
+     0.06451612903225806,
+     0.07526881720430108
+    ],
+    "coverage": 0.021505376344086023,
+    "coverage_min": 0.021505376344086023,
+    "coverage_max": 0.07526881720430108,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.875,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.015384615384615385,
+    "coverage_uniform_mixture_reference": 0.021505376344086023,
+    "boot95": [
+     0.0,
+     0.05747126436781609
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 151,
+      "n_k_unfilled": 117
+     },
+     "32|64": {
+      "n_misspec": 225,
+      "n_k_unfilled": 288
+     },
+     "64|32": {
+      "n_misspec": 207,
+      "n_k_unfilled": 180
+     },
+     "64|64": {
+      "n_misspec": 237,
+      "n_k_unfilled": 249
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 16,
+      "n_units": 93,
+      "n_covered": 2.0,
+      "ratio": 0.021505376344086023
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 16,
+      "n_units": 93,
+      "n_covered": 2.0,
+      "ratio": 0.021505376344086023
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "NOT2ING-98~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 63,
+    "n_units_dropped_k": 123,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 57,
+    "exceed_rate": 0.2345679012345679,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.015873015873015872,
+     0.015873015873015872,
+     0.0,
+     0.015873015873015872,
+     0.0,
+     0.015873015873015872,
+     0.015873015873015872,
+     0.015873015873015872,
+     0.015873015873015872
+    ],
+    "coverage": 0.015873015873015872,
+    "coverage_min": 0.0,
+    "coverage_max": 0.015873015873015872,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0136986301369863,
+    "coverage_uniform_mixture_reference": 0.015873015873015872,
+    "boot95": [
+     0.0,
+     0.045454545454545456
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 58,
+      "n_k_unfilled": 52
+     },
+     "32|64": {
+      "n_misspec": 96,
+      "n_k_unfilled": 150
+     },
+     "64|32": {
+      "n_misspec": 89,
+      "n_k_unfilled": 102
+     },
+     "64|64": {
+      "n_misspec": 125,
+      "n_k_unfilled": 139
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 9,
+      "n_units": 63,
+      "n_covered": 1.0,
+      "ratio": 0.015873015873015872
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 63,
+      "n_covered": 1.0,
+      "ratio": 0.015873015873015872
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "NOT2ING-98~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 56,
+    "n_units_dropped_k": 115,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 72,
+    "exceed_rate": 0.2962962962962963,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.05357142857142857,
+     0.05357142857142857,
+     0.05357142857142857,
+     0.05357142857142857,
+     0.07142857142857142,
+     0.05357142857142857,
+     0.07142857142857142,
+     0.07142857142857142,
+     0.05357142857142857
+    ],
+    "coverage": 0.05357142857142857,
+    "coverage_min": 0.05357142857142857,
+    "coverage_max": 0.07142857142857142,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.04054054054054054,
+    "coverage_uniform_mixture_reference": 0.07142857142857142,
+    "boot95": [
+     0.0,
+     0.10344827586206896
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 72,
+      "n_k_unfilled": 60
+     },
+     "32|64": {
+      "n_misspec": 132,
+      "n_k_unfilled": 161
+     },
+     "64|32": {
+      "n_misspec": 114,
+      "n_k_unfilled": 100
+     },
+     "64|64": {
+      "n_misspec": 143,
+      "n_k_unfilled": 142
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 9,
+      "n_units": 56,
+      "n_covered": 3.0,
+      "ratio": 0.05357142857142857
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 56,
+      "n_covered": 3.0,
+      "ratio": 0.05357142857142857
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "NOT4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 55,
+    "n_units_dropped_k": 110,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 78,
+    "exceed_rate": 0.32098765432098764,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.03636363636363636,
+     0.03636363636363636,
+     0.03636363636363636,
+     0.03636363636363636,
+     0.05454545454545454,
+     0.07272727272727272,
+     0.12727272727272726,
+     0.10909090909090909,
+     0.12727272727272726
+    ],
+    "coverage": 0.05454545454545454,
+    "coverage_min": 0.03636363636363636,
+    "coverage_max": 0.12727272727272726,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.046153846153846156,
+    "coverage_uniform_mixture_reference": 0.07272727272727272,
+    "boot95": [
+     0.016129032258064516,
+     0.09259259259259259
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 78,
+      "n_k_unfilled": 56
+     },
+     "32|64": {
+      "n_misspec": 125,
+      "n_k_unfilled": 146
+     },
+     "64|32": {
+      "n_misspec": 140,
+      "n_k_unfilled": 127
+     },
+     "64|64": {
+      "n_misspec": 154,
+      "n_k_unfilled": 135
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 54,
+      "n_covered": 3.0,
+      "ratio": 0.05555555555555555
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 55,
+      "n_covered": 3.0,
+      "ratio": 0.05454545454545454
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "NOT4GEP~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 216,
+    "n_units_used": 78,
+    "n_units_dropped_k": 84,
+    "n_subjects": 8,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 54,
+    "exceed_rate": 0.25,
+    "exceed_p95": 0.125,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.02564102564102564,
+     0.02564102564102564,
+     0.02564102564102564,
+     0.038461538461538464,
+     0.02564102564102564,
+     0.02564102564102564,
+     0.08974358974358974,
+     0.08974358974358974,
+     0.11538461538461539
+    ],
+    "coverage": 0.02564102564102564,
+    "coverage_min": 0.02564102564102564,
+    "coverage_max": 0.11538461538461539,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8657407407407407,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.023809523809523808,
+    "coverage_uniform_mixture_reference": 0.05128205128205128,
+    "boot95": [
+     0.0,
+     0.059541738382099724
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 54,
+      "n_k_unfilled": 31
+     },
+     "32|64": {
+      "n_misspec": 90,
+      "n_k_unfilled": 127
+     },
+     "64|32": {
+      "n_misspec": 76,
+      "n_k_unfilled": 84
+     },
+     "64|64": {
+      "n_misspec": 116,
+      "n_k_unfilled": 106
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 7,
+      "n_units": 68,
+      "n_covered": 1.0,
+      "ratio": 0.014705882352941176
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 8,
+      "n_units": 78,
+      "n_covered": 2.0,
+      "ratio": 0.02564102564102564
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 1,
+      "n_units": 10,
+      "n_covered": 1.0,
+      "ratio": 0.1
+     }
+    }
+   },
+   "OXF1PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 108,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 333,
+    "exceed_rate": 0.6166666666666667,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.5648148148148148,
+     0.5833333333333334,
+     0.5555555555555556,
+     0.5833333333333334,
+     0.6388888888888888,
+     0.6018518518518519,
+     0.6574074074074074,
+     0.6666666666666666,
+     0.6759259259259259
+    ],
+    "coverage": 0.6018518518518519,
+    "coverage_min": 0.5555555555555556,
+    "coverage_max": 0.6759259259259259,
+    "threshold": 0.85,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9037037037037037,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.5920398009950248,
+    "coverage_uniform_mixture_reference": 0.6296296296296297,
+    "boot95": [
+     0.525402889691581,
+     0.6923076923076923
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 333,
+      "n_k_unfilled": 157
+     },
+     "32|64": {
+      "n_misspec": 390,
+      "n_k_unfilled": 337
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": false,
+     "SNR20|Neff100": false,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 19,
+      "n_units": 101,
+      "n_covered": 63.0,
+      "ratio": 0.6237623762376238
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 20,
+      "n_units": 108,
+      "n_covered": 65.0,
+      "ratio": 0.6018518518518519
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF1PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 34,
+    "n_units_dropped_k": 49,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 25,
+    "exceed_rate": 0.23148148148148148,
+    "exceed_p95": 0.25,
+    "gap_detected": false,
+    "coverage_by_k": [
+     0.08823529411764706,
+     0.08823529411764706,
+     0.08823529411764706,
+     0.14705882352941177,
+     0.14705882352941177,
+     0.14705882352941177,
+     0.17647058823529413,
+     0.17647058823529413,
+     0.17647058823529413
+    ],
+    "coverage": 0.14705882352941177,
+    "coverage_min": 0.08823529411764706,
+    "coverage_max": 0.17647058823529413,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.10869565217391304,
+    "coverage_uniform_mixture_reference": 0.14705882352941177,
+    "boot95": [
+     0.029411764705882353,
+     0.25
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 28,
+      "n_k_unfilled": 53
+     },
+     "32|64": {
+      "n_misspec": 39,
+      "n_k_unfilled": 50
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": false,
+     "SNR20|Neff100": false,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 4,
+      "n_units": 34,
+      "n_covered": 5.0,
+      "ratio": 0.14705882352941177
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 4,
+      "n_units": 34,
+      "n_covered": 5.0,
+      "ratio": 0.14705882352941177
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF1PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 159,
+    "n_units_dropped_k": 87,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 186,
+    "exceed_rate": 0.4305555555555556,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.33962264150943394,
+     0.31446540880503143,
+     0.3522012578616352,
+     0.3522012578616352,
+     0.34591194968553457,
+     0.34591194968553457,
+     0.4591194968553459,
+     0.4276729559748428,
+     0.44025157232704404
+    ],
+    "coverage": 0.3522012578616352,
+    "coverage_min": 0.31446540880503143,
+    "coverage_max": 0.4591194968553459,
+    "threshold": 0.8125,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9027777777777778,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.2979591836734694,
+    "coverage_uniform_mixture_reference": 0.4025157232704403,
+    "boot95": [
+     0.27142477203647414,
+     0.4569734632963342
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 186,
+      "n_k_unfilled": 112
+     },
+     "32|64": {
+      "n_misspec": 248,
+      "n_k_unfilled": 174
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": false,
+     "SNR20|Neff100": false,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 16,
+      "n_units": 159,
+      "n_covered": 56.0,
+      "ratio": 0.3522012578616352
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 16,
+      "n_units": 159,
+      "n_covered": 56.0,
+      "ratio": 0.3522012578616352
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF1PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 75,
+    "n_units_dropped_k": 58,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 110,
+    "exceed_rate": 0.45267489711934156,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.24,
+     0.26666666666666666,
+     0.26666666666666666,
+     0.30666666666666664,
+     0.28,
+     0.29333333333333333,
+     0.3466666666666667,
+     0.38666666666666666,
+     0.36
+    ],
+    "coverage": 0.29333333333333333,
+    "coverage_min": 0.24,
+    "coverage_max": 0.38666666666666666,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.3474576271186441,
+    "coverage_uniform_mixture_reference": 0.32,
+    "boot95": [
+     0.21212121212121213,
+     0.375
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 110,
+      "n_k_unfilled": 51
+     },
+     "32|64": {
+      "n_misspec": 162,
+      "n_k_unfilled": 125
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 64,
+      "n_covered": 18.0,
+      "ratio": 0.28125
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 75,
+      "n_covered": 22.0,
+      "ratio": 0.29333333333333333
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF1PRI~OXF2PRI|ODI": {
+    "acq_type": "match",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 124,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 317,
+    "exceed_rate": 0.587037037037037,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.6774193548387096,
+     0.6774193548387096,
+     0.6370967741935484,
+     0.5806451612903226,
+     0.6129032258064516,
+     0.5887096774193549,
+     0.6451612903225806,
+     0.7016129032258065,
+     0.6370967741935484
+    ],
+    "coverage": 0.6370967741935484,
+    "coverage_min": 0.5806451612903226,
+    "coverage_max": 0.7016129032258065,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8981481481481481,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.5365853658536586,
+    "coverage_uniform_mixture_reference": 0.6532258064516129,
+    "boot95": [
+     0.5615384615384615,
+     0.717741935483871
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 317,
+      "n_k_unfilled": 294
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": true
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 7,
+      "n_units": 45,
+      "n_covered": 29.0,
+      "ratio": 0.6444444444444445
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 20,
+      "n_units": 124,
+      "n_covered": 79.0,
+      "ratio": 0.6370967741935484
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 13,
+      "n_units": 79,
+      "n_covered": 50.0,
+      "ratio": 0.6329113924050633
+     }
+    }
+   },
+   "OXF1PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 108,
+    "n_units_dropped_k": 118,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 44,
+    "exceed_rate": 0.16296296296296298,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.4722222222222222,
+     0.49074074074074076,
+     0.5092592592592593,
+     0.4074074074074074,
+     0.4537037037037037,
+     0.42592592592592593,
+     0.49074074074074076,
+     0.5185185185185185,
+     0.49074074074074076
+    ],
+    "coverage": 0.49074074074074076,
+    "coverage_min": 0.4074074074074074,
+    "coverage_max": 0.5185185185185185,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8925925925925926,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.48623853211009177,
+    "coverage_uniform_mixture_reference": 0.5,
+    "boot95": [
+     0.42574257425742573,
+     0.5339805825242718
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 44,
+      "n_k_unfilled": 53
+     },
+     "32|64": {
+      "n_misspec": 68,
+      "n_k_unfilled": 160
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": false,
+     "SNR20|Neff100": false,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": true
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 10,
+      "n_units": 108,
+      "n_covered": 53.0,
+      "ratio": 0.49074074074074076
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 10,
+      "n_units": 108,
+      "n_covered": 53.0,
+      "ratio": 0.49074074074074076
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF1PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 51,
+    "n_units_dropped_k": 60,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 132,
+    "exceed_rate": 0.5432098765432098,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.35294117647058826,
+     0.43137254901960786,
+     0.39215686274509803,
+     0.4117647058823529,
+     0.49019607843137253,
+     0.47058823529411764,
+     0.49019607843137253,
+     0.5490196078431373,
+     0.47058823529411764
+    ],
+    "coverage": 0.47058823529411764,
+    "coverage_min": 0.35294117647058826,
+    "coverage_max": 0.5490196078431373,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.46601941747572817,
+    "coverage_uniform_mixture_reference": 0.47058823529411764,
+    "boot95": [
+     0.32558139534883723,
+     0.5957549099836333
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 132,
+      "n_k_unfilled": 50
+     },
+     "32|64": {
+      "n_misspec": 177,
+      "n_k_unfilled": 139
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 46,
+      "n_covered": 23.0,
+      "ratio": 0.5
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 51,
+      "n_covered": 24.0,
+      "ratio": 0.47058823529411764
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 25,
+    "n_units_dropped_k": 97,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 418,
+    "exceed_rate": 0.774074074074074,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.16,
+     0.16,
+     0.12,
+     0.4,
+     0.36,
+     0.32,
+     0.72,
+     0.68,
+     0.64
+    ],
+    "coverage": 0.36,
+    "coverage_min": 0.12,
+    "coverage_max": 0.72,
+    "threshold": 0.85,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9037037037037037,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.20481927710843373,
+    "coverage_uniform_mixture_reference": 0.4,
+    "boot95": [
+     0.18181818181818182,
+     0.5
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 428,
+      "n_k_unfilled": 317
+     },
+     "64|64": {
+      "n_misspec": 422,
+      "n_k_unfilled": 332
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 19,
+      "n_units": 25,
+      "n_covered": 9.0,
+      "ratio": 0.36
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 20,
+      "n_units": 25,
+      "n_covered": 9.0,
+      "ratio": 0.36
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 3,
+    "n_units_dropped_k": 41,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 64,
+    "exceed_rate": 0.5925925925925926,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 69,
+      "n_k_unfilled": 80
+     },
+     "64|64": {
+      "n_misspec": 69,
+      "n_k_unfilled": 67
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 4,
+      "n_units": 3,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 4,
+      "n_units": 3,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 19,
+    "n_units_dropped_k": 101,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 312,
+    "exceed_rate": 0.7222222222222222,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.10526315789473684,
+     0.2631578947368421,
+     0.2631578947368421,
+     0.2631578947368421
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.2631578947368421,
+    "threshold": 0.8125,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9027777777777778,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.03870967741935484,
+    "coverage_uniform_mixture_reference": 0.05263157894736842,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 339,
+      "n_k_unfilled": 265
+     },
+     "64|64": {
+      "n_misspec": 319,
+      "n_k_unfilled": 218
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 16,
+      "n_units": 19,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 16,
+      "n_units": 19,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 28,
+    "n_units_dropped_k": 39,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 176,
+    "exceed_rate": 0.7242798353909465,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.2857142857142857,
+     0.2857142857142857,
+     0.2857142857142857,
+     0.32142857142857145,
+     0.32142857142857145,
+     0.32142857142857145,
+     0.4642857142857143,
+     0.4642857142857143,
+     0.4642857142857143
+    ],
+    "coverage": 0.32142857142857145,
+    "coverage_min": 0.2857142857142857,
+    "coverage_max": 0.4642857142857143,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.22641509433962265,
+    "coverage_uniform_mixture_reference": 0.35714285714285715,
+    "boot95": [
+     0.17851890756302521,
+     0.4348104793756966
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 180,
+      "n_k_unfilled": 118
+     },
+     "64|64": {
+      "n_misspec": 182,
+      "n_k_unfilled": 123
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 23,
+      "n_covered": 7.0,
+      "ratio": 0.30434782608695654
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 28,
+      "n_covered": 9.0,
+      "ratio": 0.32142857142857145
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 98,
+    "n_units_dropped_k": 93,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 79,
+    "exceed_rate": 0.29259259259259257,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.29591836734693877,
+     0.2857142857142857,
+     0.2755102040816326,
+     0.46938775510204084,
+     0.4489795918367347,
+     0.47959183673469385,
+     0.6938775510204082,
+     0.6836734693877551,
+     0.6632653061224489
+    ],
+    "coverage": 0.46938775510204084,
+    "coverage_min": 0.2755102040816326,
+    "coverage_max": 0.6938775510204082,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8925925925925926,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.44954128440366975,
+    "coverage_uniform_mixture_reference": 0.5510204081632653,
+    "boot95": [
+     0.33720603605957666,
+     0.5760869565217391
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 79,
+      "n_k_unfilled": 127
+     },
+     "64|64": {
+      "n_misspec": 125,
+      "n_k_unfilled": 142
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": true
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 10,
+      "n_units": 98,
+      "n_covered": 46.0,
+      "ratio": 0.46938775510204084
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 10,
+      "n_units": 98,
+      "n_covered": 46.0,
+      "ratio": 0.46938775510204084
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF2PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 18,
+    "n_units_dropped_k": 40,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 185,
+    "exceed_rate": 0.7613168724279835,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3333333333333333,
+     0.3333333333333333,
+     0.6111111111111112,
+     0.6111111111111112,
+     0.6111111111111112
+    ],
+    "coverage": 0.3888888888888889,
+    "coverage_min": 0.3333333333333333,
+    "coverage_max": 0.6111111111111112,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.14583333333333334,
+    "coverage_uniform_mixture_reference": 0.4444444444444444,
+    "boot95": [
+     0.25,
+     0.5555555555555556
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 188,
+      "n_k_unfilled": 124
+     },
+     "64|64": {
+      "n_misspec": 190,
+      "n_k_unfilled": 135
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": true,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": true,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 16,
+      "n_covered": 6.0,
+      "ratio": 0.375
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 18,
+      "n_covered": 7.0,
+      "ratio": 0.3888888888888889
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF3TRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 37,
+    "n_units_dropped_k": 66,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 167,
+    "exceed_rate": 0.6185185185185185,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.16216216216216217,
+     0.16216216216216217,
+     0.16216216216216217,
+     0.2702702702702703,
+     0.2702702702702703,
+     0.2702702702702703,
+     0.3783783783783784,
+     0.35135135135135137,
+     0.32432432432432434
+    ],
+    "coverage": 0.2702702702702703,
+    "coverage_min": 0.16216216216216217,
+    "coverage_max": 0.3783783783783784,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8962962962962963,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.1375,
+    "coverage_uniform_mixture_reference": 0.3783783783783784,
+    "boot95": [
+     0.14285714285714285,
+     0.3939393939393939
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 167,
+      "n_k_unfilled": 85
+     },
+     "32|64": {
+      "n_misspec": 192,
+      "n_k_unfilled": 175
+     },
+     "64|32": {
+      "n_misspec": 207,
+      "n_k_unfilled": 155
+     },
+     "64|64": {
+      "n_misspec": 208,
+      "n_k_unfilled": 167
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 10,
+      "n_units": 37,
+      "n_covered": 10.0,
+      "ratio": 0.2702702702702703
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 10,
+      "n_units": 37,
+      "n_covered": 10.0,
+      "ratio": 0.2702702702702703
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF3TRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 9,
+    "n_units_dropped_k": 67,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 32,
+    "exceed_rate": 0.2962962962962963,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 38,
+      "n_k_unfilled": 56
+     },
+     "32|64": {
+      "n_misspec": 47,
+      "n_k_unfilled": 60
+     },
+     "64|32": {
+      "n_misspec": 76,
+      "n_k_unfilled": 90
+     },
+     "64|64": {
+      "n_misspec": 76,
+      "n_k_unfilled": 72
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 4,
+      "n_units": 9,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 4,
+      "n_units": 9,
+      "n_covered": 0.0,
+      "ratio": 0.0
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF3TRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 162,
+    "n_units_used": 37,
+    "n_units_dropped_k": 62,
+    "n_subjects": 6,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 63,
+    "exceed_rate": 0.3888888888888889,
+    "exceed_p95": 0.16666666666666666,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.05405405405405406,
+     0.05405405405405406
+    ],
+    "coverage": 0.02702702702702703,
+    "coverage_min": 0.0,
+    "coverage_max": 0.05405405405405406,
+    "threshold": 0.6666666666666666,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8888888888888888,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.017857142857142856,
+    "coverage_uniform_mixture_reference": 0.02702702702702703,
+    "boot95": [
+     0.0,
+     0.06521739130434782
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 65,
+      "n_k_unfilled": 49
+     },
+     "32|64": {
+      "n_misspec": 94,
+      "n_k_unfilled": 67
+     },
+     "64|32": {
+      "n_misspec": 122,
+      "n_k_unfilled": 101
+     },
+     "64|64": {
+      "n_misspec": 117,
+      "n_k_unfilled": 85
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 6,
+      "n_units": 37,
+      "n_covered": 1.0,
+      "ratio": 0.02702702702702703
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 6,
+      "n_units": 37,
+      "n_covered": 1.0,
+      "ratio": 0.02702702702702703
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   },
+   "OXF3TRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 50,
+    "n_units_dropped_k": 96,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 97,
+    "exceed_rate": 0.3991769547325103,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.06,
+     0.08,
+     0.04,
+     0.06,
+     0.06,
+     0.04,
+     0.14,
+     0.12,
+     0.14
+    ],
+    "coverage": 0.06,
+    "coverage_min": 0.04,
+    "coverage_max": 0.14,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.058823529411764705,
+    "coverage_uniform_mixture_reference": 0.06,
+    "boot95": [
+     0.0,
+     0.1250440140845068
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 98,
+      "n_k_unfilled": 52
+     },
+     "32|64": {
+      "n_misspec": 136,
+      "n_k_unfilled": 145
+     },
+     "64|32": {
+      "n_misspec": 145,
+      "n_k_unfilled": 139
+     },
+     "64|64": {
+      "n_misspec": 152,
+      "n_k_unfilled": 144
+     }
+    },
+    "sensitivity_passed": {
+     "SNR20|Neff25": null,
+     "SNR20|Neff100": null,
+     "SNR50|Neff25": false,
+     "SNR50|Neff100": false
+    },
+    "snr_neff_dependent": false,
+    "decomposition": {
+     "① 잡음": {
+      "n_session_pairs": 8,
+      "n_units": 46,
+      "n_covered": 3.0,
+      "ratio": 0.06521739130434782
+     },
+     "② 획득 범위": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 같음": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     },
+     "③ 장비 다름": {
+      "n_session_pairs": 9,
+      "n_units": 50,
+      "n_covered": 3.0,
+      "ratio": 0.06
+     },
+     "④ 설명 안 됨": {
+      "n_session_pairs": 0,
+      "verdict": "해당 없음"
+     }
+    }
+   }
+  },
+  "summary": {
+   "NDI": {
+    "tested": 1,
+    "no_data": 0,
+    "with_data": 1,
+    "passed": 0,
+    "failed": 1,
+    "not_judgeable": 0,
+    "info_none": 27,
+    "blind": "비맹검 점검"
+   },
+   "FISO": {
+    "tested": 0,
+    "no_data": 0,
+    "with_data": 0,
+    "passed": 0,
+    "failed": 0,
+    "not_judgeable": 0,
+    "info_none": 28,
+    "blind": "비맹검 점검"
+   },
+   "ODI": {
+    "tested": 28,
+    "no_data": 5,
+    "with_data": 23,
+    "passed": 0,
+    "failed": 23,
+    "not_judgeable": 0,
+    "info_none": 0,
+    "blind": "맹검 확인"
+   }
+  },
+  "info_none": {
+   "NDI": [
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "FISO": [
+    "OXF1PRI~OXF2PRI",
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "ODI": []
+  },
+  "device_concentration_descriptive": {
+   "NDI": {
+    "stat": 1,
+    "p": 0.047619047619047616,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT2ING": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT4GEP": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF1PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF2PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF3TRI": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF4GEP": {
+      "failed": 0,
+      "tested": 0
+     }
+    }
+   },
+   "ODI": {
+    "stat": 6,
+    "p": 1.0,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 6,
+      "tested": 6
+     },
+     "NOT2ING": {
+      "failed": 6,
+      "tested": 6
+     },
+     "NOT4GEP": {
+      "failed": 5,
+      "tested": 5
+     },
+     "OXF1PRI": {
+      "failed": 6,
+      "tested": 6
+     },
+     "OXF2PRI": {
+      "failed": 6,
+      "tested": 6
+     },
+     "OXF3TRI": {
+      "failed": 4,
+      "tested": 4
+     },
+     "OXF4GEP": {
+      "failed": 5,
+      "tested": 5
+     }
+    }
+   }
+  }
+ },
+ "with_16794_NOT4GEP001": {
+  "cells": {
+   "OXF1PRI~OXF2PRI|NDI": {
+    "acq_type": "match",
+    "blind": "비맹검 점검",
+    "n_units": 540,
+    "n_units_used": 124,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 317,
+    "exceed_rate": 0.587037037037037,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.024193548387096774,
+     0.016129032258064516,
+     0.024193548387096774,
+     0.016129032258064516
+    ],
+    "coverage": 0.024193548387096774,
+    "coverage_min": 0.016129032258064516,
+    "coverage_max": 0.024193548387096774,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.016260162601626018,
+    "coverage_uniform_mixture_reference": 0.024193548387096774,
+    "boot95": [
+     0.0,
+     0.050427779807575165
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 317,
+      "n_k_unfilled": 294
+     }
+    }
+   },
+   "NOT2ING-89~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 2,
+    "n_units_dropped_k": 57,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 49,
+    "exceed_rate": 0.4537037037037037,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.5,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 49,
+      "n_k_unfilled": 83
+     },
+     "32|64": {
+      "n_misspec": 71,
+      "n_k_unfilled": 102
+     },
+     "64|32": {
+      "n_misspec": 55,
+      "n_k_unfilled": 83
+     },
+     "64|64": {
+      "n_misspec": 62,
+      "n_k_unfilled": 94
+     }
+    }
+   },
+   "NOT2ING-89~NOT2ING-98|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-98~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 93,
+    "n_units_dropped_k": 189,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 150,
+    "exceed_rate": 0.3472222222222222,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.021505376344086023,
+     0.021505376344086023,
+     0.021505376344086023,
+     0.021505376344086023,
+     0.03225806451612903,
+     0.021505376344086023,
+     0.06451612903225806,
+     0.06451612903225806,
+     0.07526881720430108
+    ],
+    "coverage": 0.021505376344086023,
+    "coverage_min": 0.021505376344086023,
+    "coverage_max": 0.07526881720430108,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.875,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.015384615384615385,
+    "coverage_uniform_mixture_reference": 0.021505376344086023,
+    "boot95": [
+     0.0,
+     0.05747126436781609
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 151,
+      "n_k_unfilled": 117
+     },
+     "32|64": {
+      "n_misspec": 225,
+      "n_k_unfilled": 288
+     },
+     "64|32": {
+      "n_misspec": 207,
+      "n_k_unfilled": 180
+     },
+     "64|64": {
+      "n_misspec": 237,
+      "n_k_unfilled": 249
+     }
+    }
+   },
+   "NOT2ING-98~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 70,
+    "n_units_dropped_k": 135,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 65,
+    "exceed_rate": 0.24074074074074073,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.014285714285714285,
+     0.014285714285714285,
+     0.0,
+     0.014285714285714285,
+     0.0,
+     0.014285714285714285,
+     0.014285714285714285,
+     0.014285714285714285,
+     0.014285714285714285
+    ],
+    "coverage": 0.014285714285714285,
+    "coverage_min": 0.0,
+    "coverage_max": 0.014285714285714285,
+    "threshold": 0.7,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8701851851851852,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.011904761904761904,
+    "coverage_uniform_mixture_reference": 0.014285714285714285,
+    "boot95": [
+     0.0,
+     0.0410958904109589
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 67,
+      "n_k_unfilled": 57
+     },
+     "32|64": {
+      "n_misspec": 111,
+      "n_k_unfilled": 165
+     },
+     "64|32": {
+      "n_misspec": 103,
+      "n_k_unfilled": 111
+     },
+     "64|64": {
+      "n_misspec": 143,
+      "n_k_unfilled": 152
+     }
+    }
+   },
+   "NOT2ING-98~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 56,
+    "n_units_dropped_k": 115,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 72,
+    "exceed_rate": 0.2962962962962963,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.05357142857142857,
+     0.05357142857142857,
+     0.05357142857142857,
+     0.05357142857142857,
+     0.07142857142857142,
+     0.05357142857142857,
+     0.07142857142857142,
+     0.07142857142857142,
+     0.05357142857142857
+    ],
+    "coverage": 0.05357142857142857,
+    "coverage_min": 0.05357142857142857,
+    "coverage_max": 0.07142857142857142,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.04054054054054054,
+    "coverage_uniform_mixture_reference": 0.07142857142857142,
+    "boot95": [
+     0.0,
+     0.10204081632653061
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 72,
+      "n_k_unfilled": 60
+     },
+     "32|64": {
+      "n_misspec": 132,
+      "n_k_unfilled": 161
+     },
+     "64|32": {
+      "n_misspec": 114,
+      "n_k_unfilled": 100
+     },
+     "64|64": {
+      "n_misspec": 143,
+      "n_k_unfilled": 142
+     }
+    }
+   },
+   "NOT4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 57,
+    "n_units_dropped_k": 116,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 97,
+    "exceed_rate": 0.3592592592592593,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.03508771929824561,
+     0.03508771929824561,
+     0.03508771929824561,
+     0.03508771929824561,
+     0.05263157894736842,
+     0.07017543859649122,
+     0.12280701754385964,
+     0.10526315789473684,
+     0.12280701754385964
+    ],
+    "coverage": 0.05263157894736842,
+    "coverage_min": 0.03508771929824561,
+    "coverage_max": 0.12280701754385964,
+    "threshold": 0.7,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8701851851851852,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.04285714285714286,
+    "coverage_uniform_mixture_reference": 0.07017543859649122,
+    "boot95": [
+     0.0,
+     0.09230769230769231
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 97,
+      "n_k_unfilled": 65
+     },
+     "32|64": {
+      "n_misspec": 145,
+      "n_k_unfilled": 165
+     },
+     "64|32": {
+      "n_misspec": 161,
+      "n_k_unfilled": 141
+     },
+     "64|64": {
+      "n_misspec": 176,
+      "n_k_unfilled": 153
+     }
+    }
+   },
+   "NOT4GEP~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 86,
+    "n_units_dropped_k": 94,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 63,
+    "exceed_rate": 0.25925925925925924,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.03488372093023256,
+     0.03488372093023256,
+     0.03488372093023256,
+     0.046511627906976744,
+     0.046511627906976744,
+     0.046511627906976744,
+     0.10465116279069768,
+     0.10465116279069768,
+     0.12790697674418605
+    ],
+    "coverage": 0.046511627906976744,
+    "coverage_min": 0.03488372093023256,
+    "coverage_max": 0.12790697674418605,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.042105263157894736,
+    "coverage_uniform_mixture_reference": 0.06976744186046512,
+    "boot95": [
+     0.010201504844361987,
+     0.1
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 63,
+      "n_k_unfilled": 34
+     },
+     "32|64": {
+      "n_misspec": 102,
+      "n_k_unfilled": 143
+     },
+     "64|32": {
+      "n_misspec": 88,
+      "n_k_unfilled": 93
+     },
+     "64|64": {
+      "n_misspec": 133,
+      "n_k_unfilled": 115
+     }
+    }
+   },
+   "OXF1PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 108,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 333,
+    "exceed_rate": 0.6166666666666667,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.5648148148148148,
+     0.5833333333333334,
+     0.5555555555555556,
+     0.5833333333333334,
+     0.6388888888888888,
+     0.6018518518518519,
+     0.6574074074074074,
+     0.6666666666666666,
+     0.6759259259259259
+    ],
+    "coverage": 0.6018518518518519,
+    "coverage_min": 0.5555555555555556,
+    "coverage_max": 0.6759259259259259,
+    "threshold": 0.85,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9037037037037037,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.5920398009950248,
+    "coverage_uniform_mixture_reference": 0.6296296296296297,
+    "boot95": [
+     0.5238095238095238,
+     0.6952484472049688
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 333,
+      "n_k_unfilled": 157
+     },
+     "32|64": {
+      "n_misspec": 390,
+      "n_k_unfilled": 337
+     }
+    }
+   },
+   "OXF1PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 34,
+    "n_units_dropped_k": 49,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 25,
+    "exceed_rate": 0.23148148148148148,
+    "exceed_p95": 0.25,
+    "gap_detected": false,
+    "coverage_by_k": [
+     0.08823529411764706,
+     0.08823529411764706,
+     0.08823529411764706,
+     0.14705882352941177,
+     0.14705882352941177,
+     0.14705882352941177,
+     0.17647058823529413,
+     0.17647058823529413,
+     0.17647058823529413
+    ],
+    "coverage": 0.14705882352941177,
+    "coverage_min": 0.08823529411764706,
+    "coverage_max": 0.17647058823529413,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.10869565217391304,
+    "coverage_uniform_mixture_reference": 0.14705882352941177,
+    "boot95": [
+     0.05263157894736842,
+     0.25
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 28,
+      "n_k_unfilled": 53
+     },
+     "32|64": {
+      "n_misspec": 39,
+      "n_k_unfilled": 50
+     }
+    }
+   },
+   "OXF1PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 159,
+    "n_units_dropped_k": 87,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 186,
+    "exceed_rate": 0.4305555555555556,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.33962264150943394,
+     0.31446540880503143,
+     0.3522012578616352,
+     0.3522012578616352,
+     0.34591194968553457,
+     0.34591194968553457,
+     0.4591194968553459,
+     0.4276729559748428,
+     0.44025157232704404
+    ],
+    "coverage": 0.3522012578616352,
+    "coverage_min": 0.31446540880503143,
+    "coverage_max": 0.4591194968553459,
+    "threshold": 0.8125,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9027777777777778,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.2979591836734694,
+    "coverage_uniform_mixture_reference": 0.4025157232704403,
+    "boot95": [
+     0.2748505880084827,
+     0.45776115023474173
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 186,
+      "n_k_unfilled": 112
+     },
+     "32|64": {
+      "n_misspec": 248,
+      "n_k_unfilled": 174
+     }
+    }
+   },
+   "OXF1PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 78,
+    "n_units_dropped_k": 64,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 128,
+    "exceed_rate": 0.4740740740740741,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.23076923076923078,
+     0.2564102564102564,
+     0.2564102564102564,
+     0.2948717948717949,
+     0.2692307692307692,
+     0.28205128205128205,
+     0.3333333333333333,
+     0.3717948717948718,
+     0.34615384615384615
+    ],
+    "coverage": 0.28205128205128205,
+    "coverage_min": 0.23076923076923078,
+    "coverage_max": 0.3717948717948718,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8962962962962963,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.34108527131782945,
+    "coverage_uniform_mixture_reference": 0.3076923076923077,
+    "boot95": [
+     0.1935342388228636,
+     0.357159239842726
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 128,
+      "n_k_unfilled": 58
+     },
+     "32|64": {
+      "n_misspec": 181,
+      "n_k_unfilled": 141
+     }
+    }
+   },
+   "OXF1PRI~OXF2PRI|ODI": {
+    "acq_type": "match",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 124,
+    "n_units_dropped_k": 99,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 317,
+    "exceed_rate": 0.587037037037037,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.6774193548387096,
+     0.6774193548387096,
+     0.6370967741935484,
+     0.5806451612903226,
+     0.6129032258064516,
+     0.5887096774193549,
+     0.6451612903225806,
+     0.7016129032258065,
+     0.6370967741935484
+    ],
+    "coverage": 0.6370967741935484,
+    "coverage_min": 0.5806451612903226,
+    "coverage_max": 0.7016129032258065,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8981481481481481,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.5365853658536586,
+    "coverage_uniform_mixture_reference": 0.6532258064516129,
+    "boot95": [
+     0.562488594890511,
+     0.7187637061403508
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 317,
+      "n_k_unfilled": 294
+     }
+    }
+   },
+   "OXF1PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 108,
+    "n_units_dropped_k": 118,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 44,
+    "exceed_rate": 0.16296296296296298,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.4722222222222222,
+     0.49074074074074076,
+     0.5092592592592593,
+     0.4074074074074074,
+     0.4537037037037037,
+     0.42592592592592593,
+     0.49074074074074076,
+     0.5185185185185185,
+     0.49074074074074076
+    ],
+    "coverage": 0.49074074074074076,
+    "coverage_min": 0.4074074074074074,
+    "coverage_max": 0.5185185185185185,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8925925925925926,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.48623853211009177,
+    "coverage_uniform_mixture_reference": 0.5,
+    "boot95": [
+     0.4257184789275388,
+     0.5333333333333333
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 44,
+      "n_k_unfilled": 53
+     },
+     "32|64": {
+      "n_misspec": 68,
+      "n_k_unfilled": 160
+     }
+    }
+   },
+   "OXF1PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 51,
+    "n_units_dropped_k": 60,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 132,
+    "exceed_rate": 0.5432098765432098,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.35294117647058826,
+     0.43137254901960786,
+     0.39215686274509803,
+     0.4117647058823529,
+     0.49019607843137253,
+     0.47058823529411764,
+     0.49019607843137253,
+     0.5490196078431373,
+     0.47058823529411764
+    ],
+    "coverage": 0.47058823529411764,
+    "coverage_min": 0.35294117647058826,
+    "coverage_max": 0.5490196078431373,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.46601941747572817,
+    "coverage_uniform_mixture_reference": 0.47058823529411764,
+    "boot95": [
+     0.32426706367384334,
+     0.5909090909090909
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 132,
+      "n_k_unfilled": 50
+     },
+     "32|64": {
+      "n_misspec": 177,
+      "n_k_unfilled": 139
+     }
+    }
+   },
+   "OXF2PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 540,
+    "n_units_used": 25,
+    "n_units_dropped_k": 97,
+    "n_subjects": 20,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 418,
+    "exceed_rate": 0.774074074074074,
+    "exceed_p95": 0.05,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.16,
+     0.16,
+     0.12,
+     0.4,
+     0.36,
+     0.32,
+     0.72,
+     0.68,
+     0.64
+    ],
+    "coverage": 0.36,
+    "coverage_min": 0.12,
+    "coverage_max": 0.72,
+    "threshold": 0.85,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9037037037037037,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.20481927710843373,
+    "coverage_uniform_mixture_reference": 0.4,
+    "boot95": [
+     0.18181818181818182,
+     0.5
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 428,
+      "n_k_unfilled": 317
+     },
+     "64|64": {
+      "n_misspec": 422,
+      "n_k_unfilled": 332
+     }
+    }
+   },
+   "OXF2PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 3,
+    "n_units_dropped_k": 41,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 64,
+    "exceed_rate": 0.5925925925925926,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 69,
+      "n_k_unfilled": 80
+     },
+     "64|64": {
+      "n_misspec": 69,
+      "n_k_unfilled": 67
+     }
+    }
+   },
+   "OXF2PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 432,
+    "n_units_used": 19,
+    "n_units_dropped_k": 101,
+    "n_subjects": 16,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 312,
+    "exceed_rate": 0.7222222222222222,
+    "exceed_p95": 0.0625,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.10526315789473684,
+     0.2631578947368421,
+     0.2631578947368421,
+     0.2631578947368421
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.2631578947368421,
+    "threshold": 0.8125,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.9027777777777778,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.03870967741935484,
+    "coverage_uniform_mixture_reference": 0.05263157894736842,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 339,
+      "n_k_unfilled": 265
+     },
+     "64|64": {
+      "n_misspec": 319,
+      "n_k_unfilled": 218
+     }
+    }
+   },
+   "OXF2PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 30,
+    "n_units_dropped_k": 44,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 196,
+    "exceed_rate": 0.725925925925926,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.3,
+     0.26666666666666666,
+     0.3,
+     0.3333333333333333,
+     0.3333333333333333,
+     0.3333333333333333,
+     0.4666666666666667,
+     0.4666666666666667,
+     0.4666666666666667
+    ],
+    "coverage": 0.3333333333333333,
+    "coverage_min": 0.26666666666666666,
+    "coverage_max": 0.4666666666666667,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8962962962962963,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.21551724137931033,
+    "coverage_uniform_mixture_reference": 0.36666666666666664,
+    "boot95": [
+     0.20683777429467085,
+     0.44192506459948283
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 200,
+      "n_k_unfilled": 130
+     },
+     "64|64": {
+      "n_misspec": 204,
+      "n_k_unfilled": 139
+     }
+    }
+   },
+   "OXF2PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 98,
+    "n_units_dropped_k": 93,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 79,
+    "exceed_rate": 0.29259259259259257,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.29591836734693877,
+     0.2857142857142857,
+     0.2755102040816326,
+     0.46938775510204084,
+     0.4489795918367347,
+     0.47959183673469385,
+     0.6938775510204082,
+     0.6836734693877551,
+     0.6632653061224489
+    ],
+    "coverage": 0.46938775510204084,
+    "coverage_min": 0.2755102040816326,
+    "coverage_max": 0.6938775510204082,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8925925925925926,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.44954128440366975,
+    "coverage_uniform_mixture_reference": 0.5510204081632653,
+    "boot95": [
+     0.3406480117820324,
+     0.5816522762951333
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 79,
+      "n_k_unfilled": 127
+     },
+     "64|64": {
+      "n_misspec": 125,
+      "n_k_unfilled": 142
+     }
+    }
+   },
+   "OXF2PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 18,
+    "n_units_dropped_k": 40,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 185,
+    "exceed_rate": 0.7613168724279835,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3888888888888889,
+     0.3333333333333333,
+     0.3333333333333333,
+     0.6111111111111112,
+     0.6111111111111112,
+     0.6111111111111112
+    ],
+    "coverage": 0.3888888888888889,
+    "coverage_min": 0.3333333333333333,
+    "coverage_max": 0.6111111111111112,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.897119341563786,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.14583333333333334,
+    "coverage_uniform_mixture_reference": 0.4444444444444444,
+    "boot95": [
+     0.23529411764705882,
+     0.5555555555555556
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 188,
+      "n_k_unfilled": 124
+     },
+     "64|64": {
+      "n_misspec": 190,
+      "n_k_unfilled": 135
+     }
+    }
+   },
+   "OXF3TRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 270,
+    "n_units_used": 37,
+    "n_units_dropped_k": 66,
+    "n_subjects": 10,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 167,
+    "exceed_rate": 0.6185185185185185,
+    "exceed_p95": 0.1,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.16216216216216217,
+     0.16216216216216217,
+     0.16216216216216217,
+     0.2702702702702703,
+     0.2702702702702703,
+     0.2702702702702703,
+     0.3783783783783784,
+     0.35135135135135137,
+     0.32432432432432434
+    ],
+    "coverage": 0.2702702702702703,
+    "coverage_min": 0.16216216216216217,
+    "coverage_max": 0.3783783783783784,
+    "threshold": 0.8,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8962962962962963,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.1375,
+    "coverage_uniform_mixture_reference": 0.3783783783783784,
+    "boot95": [
+     0.1388888888888889,
+     0.3846774193548384
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 167,
+      "n_k_unfilled": 85
+     },
+     "32|64": {
+      "n_misspec": 192,
+      "n_k_unfilled": 175
+     },
+     "64|32": {
+      "n_misspec": 207,
+      "n_k_unfilled": 155
+     },
+     "64|64": {
+      "n_misspec": 208,
+      "n_k_unfilled": 167
+     }
+    }
+   },
+   "OXF3TRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 108,
+    "n_units_used": 9,
+    "n_units_dropped_k": 67,
+    "n_subjects": 4,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 32,
+    "exceed_rate": 0.2962962962962963,
+    "exceed_p95": 0.25,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.75,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8796296296296297,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": [
+     0.0,
+     0.0
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 38,
+      "n_k_unfilled": 56
+     },
+     "32|64": {
+      "n_misspec": 47,
+      "n_k_unfilled": 60
+     },
+     "64|32": {
+      "n_misspec": 76,
+      "n_k_unfilled": 90
+     },
+     "64|64": {
+      "n_misspec": 76,
+      "n_k_unfilled": 72
+     }
+    }
+   },
+   "OXF3TRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 162,
+    "n_units_used": 37,
+    "n_units_dropped_k": 62,
+    "n_subjects": 6,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 63,
+    "exceed_rate": 0.3888888888888889,
+    "exceed_p95": 0.16666666666666666,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.02702702702702703,
+     0.05405405405405406,
+     0.05405405405405406
+    ],
+    "coverage": 0.02702702702702703,
+    "coverage_min": 0.0,
+    "coverage_max": 0.05405405405405406,
+    "threshold": 0.6666666666666666,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8888888888888888,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.017857142857142856,
+    "coverage_uniform_mixture_reference": 0.02702702702702703,
+    "boot95": [
+     0.0,
+     0.06666666666666667
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 65,
+      "n_k_unfilled": 49
+     },
+     "32|64": {
+      "n_misspec": 94,
+      "n_k_unfilled": 67
+     },
+     "64|32": {
+      "n_misspec": 122,
+      "n_k_unfilled": 101
+     },
+     "64|64": {
+      "n_misspec": 117,
+      "n_k_unfilled": 85
+     }
+    }
+   },
+   "OXF3TRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 243,
+    "n_units_used": 50,
+    "n_units_dropped_k": 96,
+    "n_subjects": 9,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 97,
+    "exceed_rate": 0.3991769547325103,
+    "exceed_p95": 0.1111111111111111,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.06,
+     0.08,
+     0.04,
+     0.06,
+     0.06,
+     0.04,
+     0.14,
+     0.12,
+     0.14
+    ],
+    "coverage": 0.06,
+    "coverage_min": 0.04,
+    "coverage_max": 0.14,
+    "threshold": 0.7777777777777778,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8683127572016461,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.058823529411764705,
+    "coverage_uniform_mixture_reference": 0.06,
+    "boot95": [
+     0.0,
+     0.12727272727272726
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 98,
+      "n_k_unfilled": 52
+     },
+     "32|64": {
+      "n_misspec": 136,
+      "n_k_unfilled": 145
+     },
+     "64|32": {
+      "n_misspec": 145,
+      "n_k_unfilled": 139
+     },
+     "64|64": {
+      "n_misspec": 152,
+      "n_k_unfilled": 144
+     }
+    }
+   }
+  },
+  "summary": {
+   "NDI": {
+    "tested": 1,
+    "no_data": 0,
+    "with_data": 1,
+    "passed": 0,
+    "failed": 1,
+    "not_judgeable": 0,
+    "info_none": 27,
+    "blind": "비맹검 점검"
+   },
+   "FISO": {
+    "tested": 0,
+    "no_data": 0,
+    "with_data": 0,
+    "passed": 0,
+    "failed": 0,
+    "not_judgeable": 0,
+    "info_none": 28,
+    "blind": "비맹검 점검"
+   },
+   "ODI": {
+    "tested": 28,
+    "no_data": 5,
+    "with_data": 23,
+    "passed": 0,
+    "failed": 23,
+    "not_judgeable": 0,
+    "info_none": 0,
+    "blind": "맹검 확인"
+   }
+  },
+  "info_none": {
+   "NDI": [
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "FISO": [
+    "OXF1PRI~OXF2PRI",
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "ODI": []
+  },
+  "device_concentration_descriptive": {
+   "NDI": {
+    "stat": 1,
+    "p": 0.047619047619047616,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT2ING": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT4GEP": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF1PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF2PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF3TRI": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF4GEP": {
+      "failed": 0,
+      "tested": 0
+     }
+    }
+   },
+   "ODI": {
+    "stat": 6,
+    "p": 1.0,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 6,
+      "tested": 6
+     },
+     "NOT2ING": {
+      "failed": 6,
+      "tested": 6
+     },
+     "NOT4GEP": {
+      "failed": 5,
+      "tested": 5
+     },
+     "OXF1PRI": {
+      "failed": 6,
+      "tested": 6
+     },
+     "OXF2PRI": {
+      "failed": 6,
+      "tested": 6
+     },
+     "OXF3TRI": {
+      "failed": 4,
+      "tested": 4
+     },
+     "OXF4GEP": {
+      "failed": 5,
+      "tested": 5
+     }
+    }
+   }
+  }
+ },
+ "without_snr_out_of_train": {
+  "cells": {
+   "OXF1PRI~OXF2PRI|NDI": {
+    "acq_type": "match",
+    "blind": "비맹검 점검",
+    "n_units": 351,
+    "n_units_used": 79,
+    "n_units_dropped_k": 69,
+    "n_subjects": 13,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 203,
+    "exceed_rate": 0.5783475783475783,
+    "exceed_p95": 0.07692307692307693,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266,
+     0.012658227848101266
+    ],
+    "coverage": 0.012658227848101266,
+    "coverage_min": 0.012658227848101266,
+    "coverage_max": 0.012658227848101266,
+    "threshold": 0.7692307692307693,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8945868945868946,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.006578947368421052,
+    "coverage_uniform_mixture_reference": 0.012658227848101266,
+    "boot95": [
+     0.0,
+     0.03896103896103896
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 203,
+      "n_k_unfilled": 199
+     }
+    }
+   },
+   "NOT2ING-89~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~NOT2ING-98|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-89~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-98~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-98~NOT4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT2ING-98~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "NOT4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 1,
+    "n_units_dropped_k": 11,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 15,
+    "exceed_rate": 0.5555555555555556,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8148148148148148,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 15,
+      "n_k_unfilled": 9
+     },
+     "32|64": {
+      "n_misspec": 17,
+      "n_k_unfilled": 18
+     },
+     "64|32": {
+      "n_misspec": 18,
+      "n_k_unfilled": 22
+     },
+     "64|64": {
+      "n_misspec": 20,
+      "n_k_unfilled": 20
+     }
+    }
+   },
+   "NOT4GEP~OXF4GEP|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 10,
+    "n_units_dropped_k": 9,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 8,
+    "exceed_rate": 0.2962962962962963,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.1,
+     0.2
+    ],
+    "coverage": 0.1,
+    "coverage_min": 0.1,
+    "coverage_max": 0.2,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8148148148148148,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.09090909090909091,
+    "coverage_uniform_mixture_reference": 0.1,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 8,
+      "n_k_unfilled": 6
+     },
+     "32|64": {
+      "n_misspec": 11,
+      "n_k_unfilled": 16
+     },
+     "64|32": {
+      "n_misspec": 10,
+      "n_k_unfilled": 14
+     },
+     "64|64": {
+      "n_misspec": 13,
+      "n_k_unfilled": 14
+     }
+    }
+   },
+   "OXF1PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 7,
+    "n_units_dropped_k": 3,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 17,
+    "exceed_rate": 0.6296296296296297,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.2857142857142857,
+     0.2857142857142857,
+     0.14285714285714285,
+     0.2857142857142857,
+     0.2857142857142857,
+     0.2857142857142857,
+     0.42857142857142855,
+     0.42857142857142855,
+     0.42857142857142855
+    ],
+    "coverage": 0.2857142857142857,
+    "coverage_min": 0.14285714285714285,
+    "coverage_max": 0.42857142857142855,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.4,
+    "coverage_uniform_mixture_reference": 0.2857142857142857,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 17,
+      "n_k_unfilled": 11
+     },
+     "32|64": {
+      "n_misspec": 20,
+      "n_k_unfilled": 17
+     }
+    }
+   },
+   "OXF1PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF1PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF1PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 11,
+    "n_units_dropped_k": 7,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 9,
+    "exceed_rate": 0.3333333333333333,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.18181818181818182,
+     0.2727272727272727,
+     0.2727272727272727,
+     0.36363636363636365,
+     0.2727272727272727,
+     0.36363636363636365,
+     0.36363636363636365,
+     0.36363636363636365,
+     0.36363636363636365
+    ],
+    "coverage": 0.36363636363636365,
+    "coverage_min": 0.18181818181818182,
+    "coverage_max": 0.36363636363636365,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.2857142857142857,
+    "coverage_uniform_mixture_reference": 0.36363636363636365,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 9,
+      "n_k_unfilled": 5
+     },
+     "32|64": {
+      "n_misspec": 17,
+      "n_k_unfilled": 13
+     }
+    }
+   },
+   "OXF1PRI~OXF2PRI|ODI": {
+    "acq_type": "match",
+    "blind": "맹검 확인",
+    "n_units": 351,
+    "n_units_used": 79,
+    "n_units_dropped_k": 69,
+    "n_subjects": 13,
+    "too_few_subjects": false,
+    "n_excluded_misspec": 203,
+    "exceed_rate": 0.5783475783475783,
+    "exceed_p95": 0.07692307692307693,
+    "gap_detected": true,
+    "coverage_by_k": [
+     0.6835443037974683,
+     0.6835443037974683,
+     0.6455696202531646,
+     0.5949367088607594,
+     0.620253164556962,
+     0.620253164556962,
+     0.620253164556962,
+     0.6835443037974683,
+     0.6329113924050633
+    ],
+    "coverage": 0.6329113924050633,
+    "coverage_min": 0.5949367088607594,
+    "coverage_max": 0.6835443037974683,
+    "threshold": 0.7692307692307693,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8917378917378918,
+    "passed": false,
+    "assumption_dependent": false,
+    "coverage_incl_excluded": 0.5460526315789473,
+    "coverage_uniform_mixture_reference": 0.6582278481012658,
+    "boot95": [
+     0.527023394362104,
+     0.7534296208060354
+    ],
+    "verdict": "실패",
+    "by_coil_combo": {
+     "32|64": {
+      "n_misspec": 203,
+      "n_k_unfilled": 199
+     }
+    }
+   },
+   "OXF1PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF1PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 5,
+    "n_units_dropped_k": 6,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 16,
+    "exceed_rate": 0.5925925925925926,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.4,
+     0.4,
+     0.2
+    ],
+    "coverage": 0.2,
+    "coverage_min": 0.2,
+    "coverage_max": 0.4,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.25,
+    "coverage_uniform_mixture_reference": 0.2,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 16,
+      "n_k_unfilled": 5
+     },
+     "32|64": {
+      "n_misspec": 20,
+      "n_k_unfilled": 15
+     }
+    }
+   },
+   "OXF2PRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 0,
+    "n_units_dropped_k": 6,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 21,
+    "exceed_rate": 0.7777777777777778,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "coverage": null,
+    "coverage_min": null,
+    "coverage_max": null,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.3333333333333333,
+    "coverage_uniform_mixture_reference": null,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 23,
+      "n_k_unfilled": 20
+     },
+     "64|64": {
+      "n_misspec": 21,
+      "n_k_unfilled": 20
+     }
+    }
+   },
+   "OXF2PRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF2PRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF2PRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 5,
+    "n_units_dropped_k": 3,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 19,
+    "exceed_rate": 0.7037037037037037,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.6,
+     0.6,
+     0.6
+    ],
+    "coverage": 0.4,
+    "coverage_min": 0.4,
+    "coverage_max": 0.6,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.25,
+    "coverage_uniform_mixture_reference": 0.4,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 19,
+      "n_k_unfilled": 11
+     },
+     "64|64": {
+      "n_misspec": 19,
+      "n_k_unfilled": 11
+     }
+    }
+   },
+   "OXF2PRI~OXF3TRI|ODI": {
+    "acq_type": "te",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF2PRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 2,
+    "n_units_dropped_k": 4,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 21,
+    "exceed_rate": 0.7777777777777778,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "coverage": 0.5,
+    "coverage_min": 0.5,
+    "coverage_max": 1.0,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8518518518518519,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.08333333333333333,
+    "coverage_uniform_mixture_reference": 0.5,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "64|32": {
+      "n_misspec": 22,
+      "n_k_unfilled": 13
+     },
+     "64|64": {
+      "n_misspec": 22,
+      "n_k_unfilled": 14
+     }
+    }
+   },
+   "OXF3TRI~NOT1ACH|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~NOT2ING-89|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~NOT2ING-98|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~NOT4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF3TRI~OXF4GEP|ODI": {
+    "acq_type": "tetr_design",
+    "blind": "맹검 확인",
+    "verdict": "자료 없음"
+   },
+   "OXF4GEP~NOT1ACH|ODI": {
+    "acq_type": "tetr",
+    "blind": "맹검 확인",
+    "n_units": 27,
+    "n_units_used": 4,
+    "n_units_dropped_k": 8,
+    "n_subjects": 1,
+    "too_few_subjects": true,
+    "n_excluded_misspec": 15,
+    "exceed_rate": 0.5555555555555556,
+    "exceed_p95": 0.0,
+    "gap_detected": null,
+    "coverage_by_k": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "coverage": 0.0,
+    "coverage_min": 0.0,
+    "coverage_max": 0.0,
+    "threshold": 0.0,
+    "threshold_fallback": false,
+    "threshold_units_reference": 0.8148148148148148,
+    "passed": null,
+    "assumption_dependent": null,
+    "coverage_incl_excluded": 0.0,
+    "coverage_uniform_mixture_reference": 0.0,
+    "boot95": null,
+    "verdict": "판정 불가",
+    "by_coil_combo": {
+     "32|32": {
+      "n_misspec": 15,
+      "n_k_unfilled": 7
+     },
+     "32|64": {
+      "n_misspec": 18,
+      "n_k_unfilled": 19
+     },
+     "64|32": {
+      "n_misspec": 19,
+      "n_k_unfilled": 17
+     },
+     "64|64": {
+      "n_misspec": 19,
+      "n_k_unfilled": 18
+     }
+    }
+   }
+  },
+  "summary": {
+   "NDI": {
+    "tested": 1,
+    "no_data": 0,
+    "with_data": 1,
+    "passed": 0,
+    "failed": 1,
+    "not_judgeable": 0,
+    "info_none": 27,
+    "blind": "비맹검 점검"
+   },
+   "FISO": {
+    "tested": 0,
+    "no_data": 0,
+    "with_data": 0,
+    "passed": 0,
+    "failed": 0,
+    "not_judgeable": 0,
+    "info_none": 28,
+    "blind": "비맹검 점검"
+   },
+   "ODI": {
+    "tested": 28,
+    "no_data": 18,
+    "with_data": 10,
+    "passed": 0,
+    "failed": 1,
+    "not_judgeable": 9,
+    "info_none": 0,
+    "blind": "맹검 확인"
+   }
+  },
+  "info_none": {
+   "NDI": [
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "FISO": [
+    "OXF1PRI~OXF2PRI",
+    "OXF1PRI~OXF3TRI",
+    "OXF1PRI~NOT2ING-89",
+    "OXF1PRI~NOT2ING-98",
+    "OXF1PRI~NOT4GEP",
+    "OXF1PRI~OXF4GEP",
+    "OXF1PRI~NOT1ACH",
+    "OXF2PRI~OXF3TRI",
+    "OXF2PRI~NOT2ING-89",
+    "OXF2PRI~NOT2ING-98",
+    "OXF2PRI~NOT4GEP",
+    "OXF2PRI~OXF4GEP",
+    "OXF2PRI~NOT1ACH",
+    "OXF3TRI~NOT2ING-89",
+    "OXF3TRI~NOT2ING-98",
+    "OXF3TRI~NOT4GEP",
+    "OXF3TRI~OXF4GEP",
+    "OXF3TRI~NOT1ACH",
+    "NOT2ING-89~NOT2ING-98",
+    "NOT2ING-89~NOT4GEP",
+    "NOT2ING-89~OXF4GEP",
+    "NOT2ING-89~NOT1ACH",
+    "NOT2ING-98~NOT4GEP",
+    "NOT2ING-98~OXF4GEP",
+    "NOT2ING-98~NOT1ACH",
+    "NOT4GEP~OXF4GEP",
+    "NOT4GEP~NOT1ACH",
+    "OXF4GEP~NOT1ACH"
+   ],
+   "ODI": []
+  },
+  "device_concentration_descriptive": {
+   "NDI": {
+    "stat": 1,
+    "p": 0.047619047619047616,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT2ING": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT4GEP": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF1PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF2PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF3TRI": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF4GEP": {
+      "failed": 0,
+      "tested": 0
+     }
+    }
+   },
+   "ODI": {
+    "stat": 1,
+    "p": 0.047619047619047616,
+    "n_perm": 5040,
+    "per_device": {
+     "NOT1ACH": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT2ING": {
+      "failed": 0,
+      "tested": 0
+     },
+     "NOT4GEP": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF1PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF2PRI": {
+      "failed": 1,
+      "tested": 1
+     },
+     "OXF3TRI": {
+      "failed": 0,
+      "tested": 0
+     },
+     "OXF4GEP": {
+      "failed": 0,
+      "tested": 0
+     }
+    }
+   }
+  }
+ }
+}

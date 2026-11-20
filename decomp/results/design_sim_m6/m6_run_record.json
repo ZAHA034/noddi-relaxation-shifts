@@ -1,0 +1,35 @@
+{
+ "cells": [
+  96,
+  102,
+  108,
+  114,
+  120,
+  126,
+  132,
+  138,
+  144,
+  150,
+  156,
+  162,
+  168,
+  174,
+  180,
+  186
+ ],
+ "wall_seconds": 3.8,
+ "procs": 8,
+ "reps": 1000,
+ "code_sha256": {
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "analyses.py": "f528c626d0c74e5201f6c32fb6f7aad392643568c6a5c332634409eed64ed55b",
+  "checks.py": "5e64fb2361ca3354700d49665204d521b965534673beb35ec1b2e151dc133fe2",
+  "m6.py": "6fb54ea1be7f1c9e29b769e503894731ae7a5dcbf91d475ad957f6618e28df4a",
+  "model.py": "1569f57e59339c42e9feae33cc054c70f0ceb173ba82ca3b29bf8d5e0ad8e6aa",
+  "run.py": "77117fa92bd21acbc9610b3409f4b2d7030e65bc188a740edee61e24cf6eaa62",
+  "run_m6.py": "9a5357e5c11b0f060fdfe30d0c89156abf7a499c8011722145f0d807fbdf8bdb",
+  "summarize.py": "07ed673dcbbe2e41b04c8cfae5acff7ee38da52bd22ca60c63fc064d93f20676"
+ },
+ "plan_sha256": "2ed0593c332bd1b258563f677c29cc4791287fca52021dbefd563926ea996897",
+ "numpy": "2.5.3"
+}

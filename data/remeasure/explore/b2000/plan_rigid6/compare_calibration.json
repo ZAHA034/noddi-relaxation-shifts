@@ -1,0 +1,20 @@
+{
+ "OXF1PRI|없음": {
+  "max_rel_diff_pct": 0.015751708126466493,
+  "at_L": "2.0",
+  "n_fail_orig": 45,
+  "n_fail_plan": 45
+ },
+ "OXF2PRI|없음": {
+  "max_rel_diff_pct": 0.08948591151067367,
+  "at_L": "1.0",
+  "n_fail_orig": 56,
+  "n_fail_plan": 56
+ },
+ "OXF3TRI|없음": {
+  "max_rel_diff_pct": 0.22950681213903182,
+  "at_L": "0.5",
+  "n_fail_orig": 90,
+  "n_fail_plan": 90
+ }
+}

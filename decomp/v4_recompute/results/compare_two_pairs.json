@@ -1,0 +1,101 @@
+{
+ "mode": "pairs",
+ "inputs_equal": true,
+ "cells": [
+  {
+   "variant": "main",
+   "cell": "OXF1PRI~NOT2ING-89|ODI",
+   "level": "A",
+   "differing_fields": [],
+   "verdict": [
+    "실패",
+    "실패"
+   ],
+   "coverage": [
+    0.0851063829787234,
+    0.0851063829787234
+   ],
+   "threshold": [
+    0.75,
+    0.75
+   ],
+   "n_units_used": [
+    47,
+    47
+   ]
+  },
+  {
+   "variant": "main",
+   "cell": "OXF1PRI~OXF2PRI|NDI",
+   "level": "A",
+   "differing_fields": [],
+   "verdict": [
+    "실패",
+    "실패"
+   ],
+   "coverage": [
+    0.010471204188481676,
+    0.010471204188481676
+   ],
+   "threshold": [
+    0.8,
+    0.8
+   ],
+   "n_units_used": [
+    191,
+    191
+   ]
+  },
+  {
+   "variant": "main",
+   "cell": "OXF1PRI~OXF2PRI|ODI",
+   "level": "A",
+   "differing_fields": [],
+   "verdict": [
+    "실패",
+    "실패"
+   ],
+   "coverage": [
+    0.6492146596858639,
+    0.6492146596858639
+   ],
+   "threshold": [
+    0.8,
+    0.8
+   ],
+   "n_units_used": [
+    191,
+    191
+   ]
+  }
+ ],
+ "blocks": {},
+ "level": "A",
+ "n_cells": 3,
+ "n_cells_level_a": 3,
+ "target": {
+  "target_sha256": "f6003589c01ad0bd693a6c809cb78ec6e69c70907be55703e22774d47f240a2a",
+  "in_manifest": true,
+  "in_verdict_record": true
+ },
+ "recompute": {
+  "mode": "pairs",
+  "pairs": [
+   "OXF1PRI~OXF2PRI",
+   "OXF1PRI~NOT2ING-89"
+  ],
+  "seconds_by_pair": {
+   "OXF1PRI~OXF2PRI": 540.1,
+   "OXF1PRI~NOT2ING-89": 210.8
+  },
+  "total_seconds": 750.9,
+  "threads": "16",
+  "seed_offset": 0,
+  "shift_roi": 0.0,
+  "guard": {
+   "head": "5ece4360dcd46c7cc8ae7881dc1666e6e83f0628",
+   "fixed_commit": "be59d71503f3e0f62e39064154e19706afc842ab",
+   "pipeline_commit": "41fe3a502e2410e195f3ba6132f08db984cc0881"
+  }
+ }
+}

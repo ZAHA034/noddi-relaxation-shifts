@@ -1,0 +1,26 @@
+{
+ "source": "out",
+ "raw": {
+  "corollary_max_abs_error": 1.27675647831893e-15,
+  "corollary_tes": [
+   92.0,
+   92.0,
+   96.4,
+   89.0,
+   98.0,
+   68.0,
+   69.65,
+   70.6
+  ],
+  "corollary_inputs": {
+   "beta": 0.3,
+   "c": 0.012,
+   "b": 0.0004,
+   "z_points": 41
+  },
+  "m1_cov_rel_unseen_noH2_max": 0.06655555555555555,
+  "m1_cov_rel_H2_max": 0.13118518518518515,
+  "m1_cov_rel_shown_max": 0.00025925925925925926
+ },
+ "fails": []
+}

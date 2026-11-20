@@ -1,0 +1,69 @@
+{
+ "what": "장부 도출 값(derive.py)",
+ "inputs_sha256": {
+  "prereg/en/LOCK_B_inputs_EN.md@HEAD": "f4de5a463ac0cc0f6e10c7df83e64ba13f9339754fa028a0949c0ee49f36b8c4",
+  "drafts/RECEIPT_2026-11-01b.md@HEAD": "46b1679a3a1603a02475ead19d3c4a058eb519620ebf0771e2d4f248fb6846dd",
+  "data/remeasure/explore/cause/cause1b_allunits.json": "6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67",
+  "data/remeasure/explore/d5/d5_2_transfer.json": "4375d393a348e03ba3db88628e5229b2d40e5fca00d864a26bf2cd36fa4b6b99",
+  "data/remeasure/explore/rv/rv_b_family.json": "747df945ec537abd99b69300435a87b85a56a439646c23e8b92f46ea2bf46216"
+ },
+ "gong": {
+  "inputs_ms": {
+   "T2_in": [
+    82.0,
+    83.0
+   ],
+   "T2_en": [
+    51.0,
+    53.0
+   ],
+   "T2_iso_assumed": 1000.0
+  },
+  "p1_in_mean_en": {
+   "T2_in": 82.0,
+   "T2_en": 52.0,
+   "T2_iso": 1000.0,
+   "dir_deg": 57.85242468814739,
+   "slope_ratio_x": 1.1283965333333332,
+   "slope_ratio_y": 0.3058474945533769,
+   "family_T2_en": 49.66692873038005,
+   "family_T2_iso": 114.0105000889838
+  },
+  "mean_both": {
+   "T2_in": 82.5,
+   "T2_en": 52.0,
+   "T2_iso": 1000.0,
+   "dir_deg": 57.41007382071915,
+   "slope_ratio_x": 1.116665901639344,
+   "slope_ratio_y": 0.30788010899182555,
+   "family_T2_en": 49.84992152413869,
+   "family_T2_iso": 114.97937339725722
+  },
+  "p1_T2iso2000": {
+   "T2_in": 82.0,
+   "T2_en": 52.0,
+   "T2_iso": 2000.0,
+   "dir_deg": 58.96938097488801
+  },
+  "index_shift": {
+   "NDI": [
+    0.6,
+    0.71
+   ],
+   "FISO": [
+    0.07,
+    0.13
+   ],
+   "dx": 0.4899189389466771,
+   "dy": 0.517395268085681,
+   "dir_deg": 46.562459285721204
+  }
+ },
+ "retest": {
+  "x_mean": 0.012867488545178909,
+  "x_sd": 0.06072761503858001,
+  "sigma_d_x": 0.04328456197777027,
+  "mean_over_sigma_d": 0.29727662605866934,
+  "sd_over_sigma_d": 1.4029855510555473
+ }
+}

@@ -1,0 +1,20 @@
+.venv*/
+envs/*/.venv/
+/runs/
+/outputs/
+/wandb/
+*.zarr
+__pycache__/
+.pytest_cache/
+/sbi-logs/
+
+# test status file
+/prereg/artifacts/test_status.json
+
+# weights, test data and stored simulation fits come from the Zenodo deposit
+data/s4/
+data/rules_env_work/
+data/stage3_fits/
+# the atlas is fetched by reproduce/get_atlas.py and is not redistributed
+prereg/artifacts/atlas/*.nii.gz
+prereg/artifacts/atlas/JHU-labels.xml

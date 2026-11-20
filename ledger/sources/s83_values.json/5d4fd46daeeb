@@ -1,0 +1,14 @@
+{
+ "source": "out",
+ "raw": {
+  "m3_cov_b": 0.9477777777777778,
+  "m1_covered_e": 0.0,
+  "m1_covered_b": 3.0,
+  "m1_intervals_total": 54000,
+  "d2_h2_s0_slope_reject": 0.04940740740740741,
+  "m1_reject_relax_min": 0.9998888888888889,
+  "m5b_pow_b": 0.6116296296296295,
+  "m1_covered_total": 3.0
+ },
+ "cells_sha256": "f998b3dc1835dd6075583403d1821cf4c1bd649d3a0a491548d411af25fd0426"
+}

@@ -1,0 +1,1035 @@
+id,source_file,source_sha256,source_field,raw_value
+N-001,,,none:computed,80
+N-002,,,none:computed,79
+N-003,,,none:computed,69
+N-004,,,none:computed,73
+N-005,,,none:computed,81
+N-006,ledger/sources/TRANSFER_MAP_2026-11-02.md/9e6457cf37fc,,md:64:Highlights 3 – 5 개 · 각 85 자 이하,85
+N-007,ledger/sources/TRANSFER_MAP_2026-11-02.md/9e6457cf37fc,,md:63:초록 250 단어 이하,250
+N-008,,,none:computed,6
+N-009,ledger/sources/TRANSFER_MAP_2026-11-02.md/9e6457cf37fc,,md:65:키워드 6 개 이하,6
+N-010,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:328:TE 8 개에 일차 회귀한다,8
+N-011,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.overall.x.n,81
+N-012,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:Wongkornchaovalit.overall.x.linear_ratio}*{json:Wongkornchaovalit.overall.x.n},66.0
+N-013,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:Wongkornchaovalit.overall.y.linear_ratio}*{json:Wongkornchaovalit.overall.y.n},73.0
+N-014,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:259:10 센터 · 36 세션 모두,10
+N-015,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:259:10 센터 · 36 세션 모두 **Siemens Prisma 3 T · HeadNeck_64 · TE 71 ms · TR 5.4 s,1
+N-016,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_sign.agree,2
+N-017,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_sign.n_pairs,8
+N-018,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_b.n_retest_level,2
+N-019,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_b.n_pairs,19
+N-020,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.summary.NDI.failed}+{json:V4.summary.FISO.failed}+{json:V4.summary.ODI.failed},24
+N-021,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.summary.NDI.with_data}+{json:V4.summary.FISO.with_data}+{json:V4.summary.ODI.with_data},24
+N-022,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,expr:({json:cells.OXF1PRI~OXF2PRI|NDI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~OXF2PRI|NDI.threshold_stored})+({json:cells.NOT2ING-89~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.NOT2ING-89~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT2ING-98~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.NOT2ING-98~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT2ING-98~NOT4GEP|ODI.test_coverage_rule_kmed}<{json:cells.NOT2ING-98~NOT4GEP|ODI.threshold_stored})+({json:cells.NOT2ING-98~OXF4GEP|ODI.test_coverage_rule_kmed}<{json:cells.NOT2ING-98~OXF4GEP|ODI.threshold_stored})+({json:cells.NOT4GEP~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.NOT4GEP~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT4GEP~OXF4GEP|ODI.test_coverage_rule_kmed}<{json:cells.NOT4GEP~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT2ING-89|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT2ING-98|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT4GEP|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~NOT4GEP|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF2PRI|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~OXF2PRI|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF3TRI|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~OXF3TRI|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF4GEP|ODI.test_coverage_rule_kmed}<{json:cells.OXF1PRI~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT2ING-89|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT2ING-98|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT4GEP|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~NOT4GEP|ODI.threshold_stored})+({json:cells.OXF2PRI~OXF3TRI|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~OXF3TRI|ODI.threshold_stored})+({json:cells.OXF2PRI~OXF4GEP|ODI.test_coverage_rule_kmed}<{json:cells.OXF2PRI~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.OXF3TRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT2ING-89|ODI.test_coverage_rule_kmed}<{json:cells.OXF3TRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT2ING-98|ODI.test_coverage_rule_kmed}<{json:cells.OXF3TRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF4GEP~NOT1ACH|ODI.test_coverage_rule_kmed}<{json:cells.OXF4GEP~NOT1ACH|ODI.threshold_stored}),22
+N-023,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,expr:(({json:cells.OXF1PRI~OXF2PRI|NDI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF2PRI|NDI.threshold_stored})+({json:cells.NOT2ING-89~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.NOT2ING-89~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT2ING-98~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.NOT2ING-98~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT2ING-98~NOT4GEP|ODI.test_coverage_rule_kmed}>={json:cells.NOT2ING-98~NOT4GEP|ODI.threshold_stored})+({json:cells.NOT2ING-98~OXF4GEP|ODI.test_coverage_rule_kmed}>={json:cells.NOT2ING-98~OXF4GEP|ODI.threshold_stored})+({json:cells.NOT4GEP~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.NOT4GEP~NOT1ACH|ODI.threshold_stored})+({json:cells.NOT4GEP~OXF4GEP|ODI.test_coverage_rule_kmed}>={json:cells.NOT4GEP~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT2ING-89|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT2ING-98|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF1PRI~NOT4GEP|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~NOT4GEP|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF2PRI|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF2PRI|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF3TRI|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF3TRI|ODI.threshold_stored})+({json:cells.OXF1PRI~OXF4GEP|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT2ING-89|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT2ING-98|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF2PRI~NOT4GEP|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~NOT4GEP|ODI.threshold_stored})+({json:cells.OXF2PRI~OXF3TRI|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~OXF3TRI|ODI.threshold_stored})+({json:cells.OXF2PRI~OXF4GEP|ODI.test_coverage_rule_kmed}>={json:cells.OXF2PRI~OXF4GEP|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.OXF3TRI~NOT1ACH|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT2ING-89|ODI.test_coverage_rule_kmed}>={json:cells.OXF3TRI~NOT2ING-89|ODI.threshold_stored})+({json:cells.OXF3TRI~NOT2ING-98|ODI.test_coverage_rule_kmed}>={json:cells.OXF3TRI~NOT2ING-98|ODI.threshold_stored})+({json:cells.OXF4GEP~NOT1ACH|ODI.test_coverage_rule_kmed}>={json:cells.OXF4GEP~NOT1ACH|ODI.threshold_stored}))/(({json:cells.OXF1PRI~OXF2PRI|NDI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF2PRI|NDI.threshold_stored})+({json:cells.OXF1PRI~OXF2PRI|ODI.test_coverage_rule_kmed}>={json:cells.OXF1PRI~OXF2PRI|ODI.threshold_stored})),1.0
+N-024,,,lit:warrington2025|ON-Harmony 장비 구성(쪽 · 표 번호는 기록에 없음)|전문,2
+N-025,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,json:sessions.sub-03286_ses-OXF1PRI001.channels,32
+N-026,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,json:sessions.sub-03286_ses-OXF2PRI001.channels,64
+N-027,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,expr:('64' in {json:by_device.NOT1ACH.channels})+('64' in {json:by_device.NOT2ING.channels})+('64' in {json:by_device.NOT4GEP.channels})+('64' in {json:by_device.OXF1PRI.channels})+('64' in {json:by_device.OXF2PRI.channels})+('64' in {json:by_device.OXF3TRI.channels})+('64' in {json:by_device.OXF4GEP.channels}),1
+N-028,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.mean,0.012867488545178909
+N-029,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:expected.32|64.x.s2_window_intercept,1.3586165441908808
+N-030,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:expected.32|64.x.primary,2.6206861030757005
+N-031,,,lit:gong2020mte|§4.3|전문,68
+N-032,,,lit:gong2020mte|§4.3|전문,132
+N-033,,,lit:gong2020mte|§4.3|전문,0.60
+N-034,,,lit:gong2020mte|§4.3|전문,0.71
+N-035,,,lit:gong2020mte|§4.3|전문,0.07
+N-036,,,lit:gong2020mte|§4.3|전문,0.13
+N-037,,,lit:gong2020mte|§4.3|전문,2
+N-038,,,lit:gong2020mte|§4.3|전문,0.46
+N-039,,,lit:gong2020mte|§4.3|전문,0.04
+N-040,,,none:경로식으로 셀 필드 없음 — 입력 키 넷(v4_c3 · onh_pairs = ON-Harmony · tong_judge · wong_judge)이 쓰는 자료가 셋,3
+N-041,,,lit:gong2020mte|§4.3 · Fig. 4 (백질 복셀 평균 ± SD · 참여자 1: T2_in 82 ± 18 ms)|전문,82
+N-042,,,lit:gong2020mte|§4.3 · Fig. 4 (참여자 2: T2_in 83 ± 17 ms)|전문,83
+N-043,,,lit:gong2020mte|§4.3 · Fig. 4 (T2_en 51 ± 17 · 53 ± 17 ms 의 평균)|전문,52
+N-044,,,lit:gong2020mte|§4.3 · Fig. 4 (참여자 1: T2_en 51 ± 17 ms)|전문,51
+N-045,,,lit:gong2020mte|§4.3 · Fig. 4 (참여자 2: T2_en 53 ± 17 ms)|전문,53
+N-046,,,lit:gong2020mte|p.3 시뮬레이션 «T2iso = 1000 ms» · p.4 적합 설정 «T2iso = 1000 ms»|전문,1000
+N-047,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,json:X13.ㄷ_병변.건강.r,1.5769230769230769
+N-048,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:dir_deg,57.852424688147465
+N-049,decomp/results/stage2/x1.json,d5a81ebb3c06541680845e1f8315c4127b6362af7748f54aaabcb5ad6471915b,expr:{json:X1.angle_deg_Q1[0]}+180,48.52402858387413
+N-050,decomp/results/stage2/x1.json,d5a81ebb3c06541680845e1f8315c4127b6362af7748f54aaabcb5ad6471915b,expr:{json:X1.angle_deg_Q1[1]}+180,72.12130340415867
+N-051,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:249:for r in (1.3, 1.6, 1.8)",1.3
+N-052,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:249:for r in (1.3, 1.6, 1.8)",1.6
+N-053,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:249:for r in (1.3, 1.6, 1.8)",1.8
+N-054,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:29:(1.0, 1.8)",1.0
+N-055,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:29:(1.0, 1.8)",1.8
+N-056,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:49:R_GRID = (1.0, 1.15, 1.3, 1.45, 1.6, 1.8)",1.0
+N-057,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:49:R_GRID = (1.0, 1.15, 1.3, 1.45, 1.6, 1.8)",1.8
+N-058,ledger/sources/SPEC_v2.md/693ca5f82bae,,md:23:r = 1.0 이면 90°,90
+N-059,decomp/results/stage2/x1.json,d5a81ebb3c06541680845e1f8315c4127b6362af7748f54aaabcb5ad6471915b,json:X1.angle_deg_Q4[0],85.30113021242245
+N-060,decomp/results/stage2/x1.json,d5a81ebb3c06541680845e1f8315c4127b6362af7748f54aaabcb5ad6471915b,json:X1.angle_deg_Q4[1],94.34340172195854
+N-061,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:Tong.main.T_A.p_random}*100,18.111111111111107
+N-062,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:Tong.main.T_A.p_random}*180,32.599999999999994
+N-063,ledger/sources/fig_theory_v3.py/762bc991cf25,,md:78:te_ms = 30.0,30.0
+N-064,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,json:shift_30ms_mean[0],0.21328671328671367
+N-065,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,json:shift_30ms_mean[1],0.33363636363636373
+N-066,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:neurite_loss_deg,158.19856581218227
+N-067,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:35:C.frac_coords(0.6 - e, 0.05)",0.6
+N-068,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:107:(0, ""R2 extra ↑""",0
+N-069,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:108:(135, ""R2 intra ↑""",135
+N-070,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:109:(270, ""R2 free ↑""",270
+N-071,ledger/sources/fig_theory_v3.py/762bc991cf25,,md:117:unit(180),180
+N-072,ledger/sources/fig_theory_v3.py/762bc991cf25,,md:119:unit(90),90
+N-073,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.45
+N-074,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.60
+N-075,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.75
+N-076,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.02
+N-077,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.05
+N-078,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:77:nus, fis = (0.45, 0.60, 0.75), (0.02, 0.05, 0.12)",0.12
+N-079,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,expr:{json:TR[0]}/1000,3.6
+N-080,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,expr:{json:TR[1]}/1000,9.8
+N-081,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:all.dlogit[0],0.40357462523583837
+N-082,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:all.dlogit[1],0.4501232011577434
+N-083,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:by_scenario.iii.dlogit_min,0.4207370231479754
+N-084,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:by_scenario.iii.dlogit_max,0.44467026368977103
+N-085,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:f_true,0.1
+N-086,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:all.draw[0],0.02850959021535493
+N-087,decomp/manuscript/recompute/tr_fiso.json,0dbd39f75d0649d0fc7285272dad6f9dc61e81e95c94a9966c741fb42a5eb3fa,json:all.draw[1],0.030781860863944653
+N-088,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:44:nu_app(0.6, 68.0, 82.0, 82.0 / r)",68.0
+N-089,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:44:nu_app(0.6, 92.0, 82.0, 82.0 / r)",92.0
+N-090,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:44:nu_app(0.6, 92.0, 82.0, 82.0 / r)",0.6
+N-091,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:ndi_shift_te68_92[0],0.0
+N-092,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:ndi_shift_te68_92[1],0.04196001204722277
+N-093,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:50:nu_app(0.46, te, 82.0, 52.0)",0.46
+N-094,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:47:np.linspace(2, 3, 21)",2|3
+N-095,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,expr:-1*{json:ndi_drop_en_x2_3[1]},0.1899569300079751
+N-096,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,expr:-1*{json:ndi_drop_en_x2_3[0]},0.3380200800088702
+N-097,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:47:np.linspace(80, 110, 31)",80
+N-098,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:47:np.linspace(80, 110, 31)",110
+N-099,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:50:nu_app(0.46, te, 82.0, 70.0)",70.0
+N-100,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:50:for te in (70.0, 100.0)",70.0
+N-101,ledger/sources/a_values.py/0a1b5d9e0d82,,"md:50:for te in (70.0, 100.0)",100.0
+N-102,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,expr:-1*{json:patientA_diff_te70_te100[0]},0.08578329917135963
+N-103,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,expr:-1*{json:patientA_diff_te70_te100[1]},0.12038489864285307
+N-104,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:patientA_diff_te70_te100[0],-0.08578329917135963
+N-105,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:patientA_diff_te70_te100[1],-0.12038489864285307
+N-106,ledger/sources/a_values.json/44d53cd5410f,44d53cd5410f50b9e75133ef880575a4ecdafd4182c08bd4dc80ffab34c8b487,json:patientA_logit_change_100_vs_70,-0.14835164835164855
+N-107,ledger/sources/fig_theory_v3.py/762bc991cf25,,"md:142:(""Patient B"", 0.40, 82.0, 52.0",0.40
+N-108,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,json:X13.가_NDI_SD[0].ndi_app_sd,0.005933065909267223
+N-109,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,json:X13.가_NDI_SD[2].ndi_app_sd,0.011895326014622279
+N-110,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,json:X13.가_NDI_SD[4].ndi_app_sd,0.015900419631440236
+N-111,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,expr:{json:X13.가_NDI_SD[0].cv}*100,1.5
+N-112,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,expr:{json:X13.가_NDI_SD[2].cv}*100,3.0
+N-113,decomp/results/stage3/x13.json,614703e9fbd875dfe427f5ecf0c71092bcc49a6f5c7301da6e2ad8ef337b03f0,expr:{json:X13.가_NDI_SD[4].cv}*100,4.0
+N-114,decomp/stage1/analyze3.py,c34649196960583087896def6595c42639c4c45e982f1b61c1ec023af7e635f5,"md:107:TE, nu = 90.0, 0.6",90.0
+N-115,decomp/stage1/analyze3.py,c34649196960583087896def6595c42639c4c45e982f1b61c1ec023af7e635f5,"md:107:TE, nu = 90.0, 0.6",0.6
+N-116,decomp/results/stage3/cards/cards.json,594c492b9b03c07494913d4148dd7c1ccb1cb49721d6e6c153588ef06771652e,expr:{json:[0].design_differs}+{json:[1].design_differs}+{json:[2].design_differs}+{json:[3].design_differs}+{json:[4].design_differs}+{json:[5].design_differs}+{json:[6].design_differs}+{json:[7].design_differs}+{json:[8].design_differs}+{json:[9].design_differs}+{json:[10].design_differs}+{json:[11].design_differs}+{json:[12].design_differs}+{json:[13].design_differs}+{json:[14].design_differs}+{json:[15].design_differs}+{json:[16].design_differs}+{json:[17].design_differs}+{json:[18].design_differs}+{json:[19].design_differs}+{json:[20].design_differs}+{json:[21].design_differs}+{json:[22].design_differs}+{json:[23].design_differs}+{json:[24].design_differs}+{json:[25].design_differs}+{json:[26].design_differs}+{json:[27].design_differs},15
+N-117,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:563:카드 28 장,28
+N-118,ledger/sources/lockd_meta_audit.json/01fad2ed6501,,json:n_subjects,20
+N-119,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:3552:스캐너 8기종 확정,8
+N-120,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:9131:전원이 정확히 6대,6
+N-121,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:570:장비 7 · 쌍 21,7
+N-122,decomp/results/stage3/summary.json,44a09c6823df87bc7aef57738f2993d4e265c765a7c0f5a9527cb56c5979f963,expr:(1+(1+8*{json:X10.확정.n_pairs})**0.5)/2,8
+N-123,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:138:NOT2ING 의 두 프로토콜,2
+N-124,ledger/sources/onharmony_access_log.json/f8c9fe9c81ec,,md:3405:TE 0.089075 s(가속 2),0.089075
+N-125,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:138:**4 명**(sub-13192 · 13305 · 14229 · 14230),4
+N-126,ledger/sources/onharmony_access_log.json/f8c9fe9c81ec,,md:3405:0.097967 s(16793 은 0.098356 · 가속 1.5),0.097967
+N-127,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:138:**16 명**,16
+N-128,ledger/sources/onharmony_access_log.json/f8c9fe9c81ec,,md:3405:0.089075 s(가속 2),2
+N-129,ledger/sources/onharmony_access_log.json/f8c9fe9c81ec,,md:3405:가속 1.5,1.5
+N-130,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:410:→ 110 세션,110
+N-131,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,json:n_files,109
+N-132,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:410:OXF1PRI 반복 10 세션,10
+N-133,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:75:OXF1PRI 반복 2 명 × 6 세션,2
+N-134,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,"md:59:""Head_32"": 20",32
+N-135,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,"md:74:""HeadNeck_64"": 20",64
+N-136,,,lit:warrington2025|전문(쪽 · 절 기록 없음 · 검토자 덧붙임 0 — 계획서 §24-5 줄 1281)|전문,2
+N-137,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:4483:330개 전부에 `LargeDelta`/`SmallDelta` 가 없다,330
+N-138,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:547:데이터셋 문서 넷,4
+N-139,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:400:b0 5 + **1000×60 단일셸**,1000
+N-140,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,"md:7935:60 방향, 65 볼륨",60
+N-141,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:3559:| NOT3GEM | 10 |,10
+N-142,ledger/sources/LOCK_B_inputs.md/db5f38fe90f2,,md:207:NODDI 가능 스캐너만 보면 **68.0–98.4 ms**,68.0|98.4
+N-143,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:570:쌍 21,21
+N-144,decomp/results/stage3/summary.json,44a09c6823df87bc7aef57738f2993d4e265c765a7c0f5a9527cb56c5979f963,json:X10.확정.n_pairs,28
+N-145,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:73:PAIR_MIN_SUBJECTS = 3,3
+N-146,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.n_pairs,19
+N-147,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:ON-Harmony 쌍 검정.pairs[13].n_subjects_fiso}+{json:ON-Harmony 쌍 검정.pairs[20].n_subjects_fiso},0
+N-148,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.pairs[14].n_subjects_fiso,8
+N-149,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.summary.NDI.with_data}+{json:V4.summary.ODI.with_data},24
+N-150,ledger/sources/external_data_access_log.json/52c2148e5267,,md:90:3 명 × 12 세션,3
+N-151,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:252:10 센터 모두 TE/TR 71 ms / 5.4 s 로 같다,10
+N-152,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:EchoTime 0.071 s,0.071
+N-153,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:RepetitionTime 5.4 s,5.4
+N-154,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:517:Tong 36(3 명 × 12,36
+N-155,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:HeadNeck_64,64
+N-156,ledger/sources/external_data_access_log.json/52c2148e5267,,md:92:센터 c10 반복 3 회,3
+N-157,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.df_by_coord.x[0],6
+N-158,ledger/sources/external_data_access_log.json/52c2148e5267,,md:92:c09 SoftwareVersions syngo_MR_E11(다른 센터 syngo_MR_D13D),c09
+N-159,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:b 0 × 6,6
+N-160,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:1000 × 30 · 2000 × 30 · 3000 × 30,1000|2000|3000
+N-161,ledger/sources/external_data_access_log.json/52c2148e5267,,md:91:3000 × 30,30
+N-162,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:253:셸 = **b 1000 · 2000 이 주**,1000|2000
+N-163,,,lit:tong2020|Methods · Data Records(PMC7253426)|전문,5.0.11
+N-164,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:327:피험자 3,3
+N-165,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,md:4:TE 8 개(62 – 132),8
+N-166,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,md:4:TE 8 개(62 – 132),62|132
+N-167,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,"md:28:TES = (62, 72, 82, 92, 102, 112, 122, 132)",10
+N-168,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,"md:32:REPEATS = {""TE62R2"": ""TE62"", ""TE132R2"": ""TE132""}",62|132
+N-169,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,"md:58:WONG_REF = ""TE62""",62
+N-170,,,lit:wongkornchaovalit2025|Methods(PMC12246157 · 쪽 기록 없음)|전문(기록만),15.2|25.2
+N-171,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:59:WONG_ALIGN_R_MIN = 0.90,0.90
+N-172,ledger/sources/JUDGEMENTS.md/79bc12e2ea3f,,md:157:따로 정합한 계열: sub-01 9 · sub-02 9 · sub-03 9,9
+N-173,ledger/sources/external_data_access_log.json/52c2148e5267,,md:1988:dwi 10 계열,10
+N-174,ledger/sources/onharmony_image_access_log.json/d6d24ff550d2,,md:43:FSL 판(fslversion) 6.0.7.23,6.0.7.23
+N-175,envs/reference/uv.lock,bb0739127d6ba65878b7788cb7519d0a83bdb9a08645fbda6b19c51b4f8ad1a5,"md:143:version = ""2.1.1""",2.1.1
+N-176,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:46:DPAR = 1.7e-3,1.7e-3
+N-177,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:47:DISO = 3.0e-3,3.0e-3
+N-178,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:48:AMICO_B0_THR = 10,10
+N-179,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:409:구 등록의 27 단위(48 라벨 → 좌우 단순 평균,27
+N-180,decomp/remeasure/roi.py,7f47cafd8bc574273646cb604861fb71e6c48056d40c201e55c7cd101530e72c,md:22:N_LABELS = 48,48
+N-181,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:34:SKELETON_THR = 2000,2000
+N-182,decomp/remeasure/roi.py,7f47cafd8bc574273646cb604861fb71e6c48056d40c201e55c7cd101530e72c,md:50:VALID_MIN = 0.99,0.99
+N-183,decomp/stage1/lib.py,6c72ad9ce5a2bb2dca5ff23625cf27a42b3b89493cc46fc592f1facd8d8d00c1,md:9:CLIP = 1e-4,1e-4
+N-184,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:29:BET_F = 0.25,0.25
+N-185,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:513:기본값 · 반복 5,5
+N-186,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:32:FLIRT_DOF = 12,12
+N-187,ledger/sources/onharmony_image_access_log.json/d6d24ff550d2,,md:43:실행 파일 12,12
+N-188,ledger/sources/onharmony_image_access_log.json/d6d24ff550d2,,"md:41:""utc"": ""2026-10-27T17:35:55+00:00""",2026-10-27T17:35:55+00:00
+N-189,ledger/sources/handoff_a.json/26b08b882809,,md:793:끝 119 / 120,119
+N-190,ledger/sources/handoff_a.json/26b08b882809,,md:793:끝 119 / 120,120
+N-191,ledger/sources/handoff_a.json/26b08b882809,,md:795:15:21 에 끝남(돌던 세 세션은 세지 않고 처음부터 다시) · 바깥 루프가 16:41 까지,15:21|16:41
+N-192,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,md:82:SNR_FA_MIN = 0.3,0.3
+N-193,ledger/sources/handoff_a.json/26b08b882809,,md:795:2026-10-28 공유 디스크가 다른 계정 몫으로 참,2026-10-28
+N-194,decomp/remeasure/rconfig.py,d35b0a650d1d7a18dc5079e4a1c1442b26309633302482dab06c134756845cfb,"md:81:SNR_TRAIN = (15.0, 60.0)",15.0|60.0
+N-195,ledger/sources/onharmony_image_access_log.json/d6d24ff550d2,,md:36:밋 5f95b18f2d6ee5c8f0ad849f6b9177c7681239df,5f95b18f2d6ee5c8f0ad849f6b9177c7681239df
+N-196,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1548:8 2026-10-28 01:56:00 고,2026-10-28 01:56:00
+N-197,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:430:밋 08a189c65b4bc96fd2a65e4c4e7f0a7a7655595b(2026-10-28 00:00:25 K,08a189c65b4bc96fd2a65e4c4e7f0a7a7655595b|2026-10-28 00:00:25
+N-198,ledger/sources/RECEIPT_2026-11-01e.md/d16d1597e265,,md:22:**5632626dc0aa0d72e8e2ce1060ff025607258cb3**,5632626dc0aa0d72e8e2ce1060ff025607258cb3
+N-199,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1548:6 2026-11-01 15:20:30 판,2026-11-01 15:20:30
+N-200,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:110:록 32 파,32
+N-201,,,none:수 3 은 고정 문서 §3 역할 표(386–390 행: 확인용(맹검) · 비맹검 점검 · 기술)의 행 수 — 숫자로 적힌 필드 없음 · A 가 표를 읽음,3
+N-202,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:392:A 하나뿐이,하나
+N-203,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:117:| R26 |,R26
+N-204,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.n_pairs,45
+N-205,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:267:가 1.96 · √2 · s 보,1.96 · √2 · s
+N-206,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:278:기 48.5 – 72.1°,48.5|72.1
+N-207,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:278:꼴 85.3 – 94.3°(,85.3|94.3
+N-208,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.p_random,0.18111111111111108
+N-209,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,"md:270:[0°, 180°) 의 0.05° 간격 **3,600 개","3,600|0.05°|0°|180°"
+N-210,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:270:< 0.05 면,0.05
+N-211,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:269:= 23 쌍,23
+N-212,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:265:= t₀.₉₇₅(ν)** — 새 측정 하나에 대한 95 % 예측 구간 · ν = 그 좌표 · ROI 단위의 실제 자유도(6 이면 2.4469 ·,t₀.₉₇₅(ν)|2.4469
+N-213,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:265:턱 0.90. ,0.90
+N-214,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.x.n_total,3645
+N-215,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,"md:266:의 절반 미만이거나, s(B-iii)가 정의되지 않는 ROI 단위가 27 중 절반(13.5)을",절반 미만|13.5
+N-216,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:280:은 네 칸,네 칸
+N-217,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:553:자 3 명,3
+N-218,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:252:10 센터 모두 TE/TR 71 ms / 5.4 s,10|71|5.4
+N-219,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:92:쌍(+ 5 · − 3),+ 5|− 3
+N-220,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_sign.n_perm,5040
+N-221,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:570:장비 7 ·,장비 7
+N-222,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,"md:343:) 여덟 — 그중 셋은 «장비 하나만 튐»(무작위 장비 하나의 u = 1 · 3 · 10 · 나머지 0). 한쪽 0.05 기각률(모의 4,000 · 시드 20261026): **FISO 부호 S 0.026 – 0.043 · FISO τ 0.044 – 0.053.** 큰 모의(`--fiso-size 4000 50` = 200,000 · 시드 20261026 – 20261075 · SE 0.0005): **S 0.026 – 0.042 ·","0.026|0.042|200,000|여덟"
+N-223,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:343:τ 0.046 – 0.052**,0.046|0.052
+N-224,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_sign.S,-4.0
+N-225,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_sign.p,0.8571428571428571
+N-226,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_tau_L1.tau,0.22237479499833035
+N-227,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_tau_L1.p,0.2523809523809524
+N-228,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.fiso_tau_L4.tau,0.22237479499833035
+N-229,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:380:= 0.57(1,0.57
+N-230,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:373:가 0.5 를,0.5
+N-231,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:376:력 0.80 인 가장 작은 δ(0.01 격자 · 모의 1000 · 시드 20261026),0.80|1000|20261026
+N-232,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:96:· 90 % 구,90 %
+N-233,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.tau,0.17806114244894067
+N-234,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.ci90[0],-0.13557028799203258
+N-235,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.ci90[1],0.5223126845168926
+N-236,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:216:≤ 1.96 × √2 × s(ROI) 이,1.96|√2
+N-237,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:97:중 0.90 이상이면 «재검사 수준»(27 단위가 모두 있으면 25 단위 이상) · 뜻 = 쌍의 계통 차(피험자 중앙값)가 단일 재검사의 95 % 폭,0.90|25|95 %
+N-238,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:215:복 2 명(sub-13192 · sub-16974) × 6 세션 ·,2 명|6 세션
+N-239,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.s_ref_F2.df,10
+N-240,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.s_ref_F2.multipliers[1],1.7549335474133558
+N-241,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:327:· 피험자 3 · TE 62 · 72 · 82 · 92 · 102 · 112 · 122 · 132 m,피험자 3|62|132
+N-242,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:328:E 8 개,8
+N-243,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:329:TE62R2 · TE132R2,62|132
+N-244,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:328:데 97 m,97
+N-245,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,"md:329:· 35² ≤ 2 · √2 · s_rt** 이면 «직선». **반복 촬영(TE62R2 · TE132R2)은 회귀에서 빼고 재검사에만 쓴다.** 보고: 좌표별 «직선» 단위의 비율(피험자마다 · 전체) — 0.8 이상이면 «명제와 맞음», 아니면 «맞지 않음»(기술 · 피험자 3). s_rt = √(Σ d² / (2 · 차의 수))(d",35²|2 · √2 · s_rt|√(Σ d² / (2 · 차의 수))
+N-246,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:329:0.8 이,0.8
+N-247,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.overall.x.linear_ratio,0.8148148148148148
+N-248,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.overall.y.linear_ratio,0.9012345679012346
+N-249,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:153:y 8 단위 ·,8 단위
+N-250,decomp/s4/plan.py,4a8c6ec590cd1dbf28e5d5ea0ba4b2dc4377f99682dc09c81cd1bdcb5259c314,"md:20: (98.0, 98.0), (4.00, 4.38), None), ""NOT4GEP"": (""V"", (68.0, ",68.0|98.0
+N-251,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:108:션 110,110
+N-252,ledger/sources/snr_range_counts.json/12363349dd92,12363349dd929b6d4e94e42511354341171986ce329cf20762d9366384d61b17,json:n_first,109
+N-253,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:102:» 29(C3 · NDI 1 · FISO 0 · ODI 28),29|NDI 1|FISO 0|ODI 28
+N-254,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:102:칸 24 = NDI 1 · ODI 23,24|ODI 23
+N-255,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.ODI.no_data,5
+N-256,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:216:목 90 % 중,90 %
+N-257,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:47:= 아홉),아홉
+N-258,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:R 30 · N_eff 50**,30|50
+N-259,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:는 32 · 64 로,32|64
+N-260,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:229:**5 백분위**,5 백분위
+N-261,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:216:턱 0.80(설,0.80
+N-262,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:226:**95 백분위**,95 백분위
+N-263,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:297:음 3 명 미,3 명
+N-264,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:R 20 · 50 과 N_eff 25 · 100 은,20|50|25|100
+N-265,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:111:성 넷(잡,넷
+N-266,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.ODI.passed,0
+N-267,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.ODI.failed,23
+N-268,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.NDI.failed,1
+N-269,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.cells.OXF1PRI~OXF2PRI|NDI.snr_neff_dependent}+{json:V4.cells.NOT2ING-89~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.NOT2ING-98~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.NOT2ING-98~NOT4GEP|ODI.snr_neff_dependent}+{json:V4.cells.NOT2ING-98~OXF4GEP|ODI.snr_neff_dependent}+{json:V4.cells.NOT4GEP~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.NOT4GEP~OXF4GEP|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~NOT2ING-89|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~NOT2ING-98|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~NOT4GEP|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~OXF2PRI|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~OXF3TRI|ODI.snr_neff_dependent}+{json:V4.cells.OXF1PRI~OXF4GEP|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~NOT2ING-89|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~NOT2ING-98|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~NOT4GEP|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~OXF3TRI|ODI.snr_neff_dependent}+{json:V4.cells.OXF2PRI~OXF4GEP|ODI.snr_neff_dependent}+{json:V4.cells.OXF3TRI~NOT1ACH|ODI.snr_neff_dependent}+{json:V4.cells.OXF3TRI~NOT2ING-89|ODI.snr_neff_dependent}+{json:V4.cells.OXF3TRI~NOT2ING-98|ODI.snr_neff_dependent}+{json:V4.cells.OXF4GEP~NOT1ACH|ODI.snr_neff_dependent},4
+N-270,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|NDI.sensitivity_passed.SNR20|Neff100,None
+N-271,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.device_concentration_descriptive.NDI.p,0.047619047619047616
+N-272,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.device_concentration_descriptive.ODI.p,1.0
+N-273,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,"md:58:U[70, 95]",70|95
+N-274,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,"md:58:U[1.0, 1.8]",1.0|1.8
+N-275,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:58:o 1000(고,1000
+N-276,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:77:일 32 → 비중심 카이 L = 4 · 64 → L = 8,32|4|64|8
+N-277,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:76:에 σ = 1/SNR,σ = 1/SNR
+N-278,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,"md:76:g[15, 60]",15|60
+N-279,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,"md:85:g[16, 200]",16|200
+N-280,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:49:E 60 – 110 ms · TR 3.0 – 11.0 s,60|110|3.0|11.0
+N-281,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:105:= 1 − Var_post(u,1 − Var_post
+N-282,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:109:≥ 0.75(사후 SD ≤ 사전 SD 의 1/2),0.75|1/2
+N-283,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:212:치 85eb8b0)를,85eb8b0
+N-284,ledger/sources/RECEIPT_2026-10-26.md/bd856bf3b42f,,md:38:| 10-25 19:13:31 |,10-25 19:13:31
+N-285,ledger/sources/REPORT.md/f0225adcaa5f,,md:138:o b625516 00:17:46,b625516|00:17:46
+N-286,ledger/sources/REPORT.md/f0225adcaa5f,,md:138:p b886d76 01:00:53 K,b886d76|01:00:53
+N-287,ledger/sources/REPORT.md/f0225adcaa5f,,md:138:Z(09:04:55 K,09:04:55
+N-288,ledger/sources/RECEIPT_2026-10-27d.md/87d32a6c94e0,,md:55: `c8825e21169820c6a6f9d3c633d9672912bdedb0`**(2026-10-27 19:11:18 K,c8825e21169820c6a6f9d3c633d9672912bdedb0|2026-10-27 19:11:18
+N-289,data/remeasure/onharmony/v4/snr_table.json,1714e6df9e2221df4abc59d58dc40f85c81d5e10c4406a4bcb2e36caddbd8cec,json:sessions.sub-14221_ses-OXF1PRI001.snr,20.311530070005606
+N-290,ledger/sources/snr_range_counts.json/12363349dd92,12363349dd929b6d4e94e42511354341171986ce329cf20762d9366384d61b17,json:n_below_15,73
+N-291,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:8:계 2026-11-01 22:33:57 K,2026-11-01 22:33:57
+N-292,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:594:임 2026-11-02 04:39 K,2026-11-02 04:39
+N-293,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1135:임 2026-11-03 01:00:56 K,2026-11-03 01:00:56
+N-294,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1211:임 2026-11-03 02:19:46 K,2026-11-03 02:19:46
+N-295,,,none:모형 수 3 은 계획서 §24-2 의 정의(주 회귀 + 민감도 s1 · s2 · s3 — s3 은 평가점 변형)와 영수증 RECEIPT_2026-11-03b 60–62 행(s3 = 1 차와 같음)에서 셈 — 숫자로 적힌 필드 없음,3
+N-296,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1374:임 2026-11-03 17:26:59 K,2026-11-03 17:26:59
+N-297,ledger/sources/DEFINITIONS_FIXED_AT.txt/65c5c99e3e52,,md:1:2026-10-31 23:30:15 K,2026-10-31 23:30:15
+N-298,ledger/sources/RESULTS.md/90d3a447ee96,,md:10:| 2026-10-31T23:33:10+0900 ·,2026-10-31T23:33:10+0900
+N-299,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:915:임 2026-11-02 11:39:21 K,2026-11-02 11:39:21
+N-300,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1566:임 2026-11-03 21:23:18 K,2026-11-03 21:23:18
+N-301,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1645:임 2026-11-03 21:40:16 K,2026-11-03 21:40:16
+N-302,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1686:임 2026-11-03 23:49:22 K,2026-11-03 23:49:22
+N-303,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1794:정 2026-11-03 23:59:08 K,2026-11-03 23:59:08
+N-304,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1802:4 00:01:33 – 00:01:50 K,00:01:33|00:01:50
+N-305,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1841:임 2026-11-04 00:21:41 K,2026-11-04 00:21:41
+N-306,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1865:4 00:21:48 – 00:22:03 K,00:21:48|00:22:03
+N-307,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1885:임 2026-11-04 00:40:16 K,2026-11-04 00:40:16
+N-308,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1916:임 2026-11-04 00:45:19 K,2026-11-04 00:45:19
+N-309,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1735:½ = log2 √2 · ⅓ 은 비 약 1.26 배,½|⅓|1.26
+N-310,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1754:의 1.07 % 다. 장비 수준 R 치우침 τ 가 0.5 % 만 있어도 같은 L 에서 P((가)) 0.20 · P(시뮬레이터 쪽) 0.13 이다. 실측 흩어짐이 모의의 2 배면 P((가) | 같은 L) 0.67 이,1.07 %|0.5 %|0.20|0.13|0.67|2 배
+N-311,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:124:출 둘»,둘
+N-312,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:541:— 2026-10-25T11:20:21Z,2026-10-25T11:20:21Z
+N-313,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1551:람 2026-11-03 21:00:41 K,2026-11-03 21:00:41
+N-317,ledger/sources/onharmony_image_access_log.json/d6d24ff550d2,,md:43: «0d8ce02a…3,0d8ce02a
+N-318,ledger/sources/judge.log/84d51b1bf115,,md:12:= 2026-10-30 18:09:36 j,2026-10-30 18:09:36
+N-319,ledger/sources/working_note_2026-10-31.md/f4b5c9f488d8,,md:84:| 929c03d10668d6e0 |,929c03d10668d6e0
+N-320,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:입력.tong_judge.utc,2026-10-31T03:56:44+00:00
+N-321,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:입력.tong_judge.sha256,c0e473996ddc5a53c4d4aece6f240c779289172a89df1528534fdb1108fcd1e8
+N-322,ledger/sources/judge.log/84d51b1bf115,,md:36:= 2026-11-01 08:22:55 v4_run_c7 끝 · 종료 1 · 46485 초,46485|2026-11-01 08:22:55|종료 1
+N-323,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.n_undetermined,45
+N-324,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.x.ratio,0.9311385459533608
+N-325,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.ODI.ratio,0.9338820301783265
+N-326,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.y.ratio,0.8436213991769548
+N-327,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:104:= 27 단,27
+N-328,ledger/sources/WORKLOG.md/6ac8a1f406b0,,"md:141:«vs, rps = load(work, fname=""roi_allshell.json"")» — load 는 08a189c 부터 (values, rep, missing) 셋을 ","vs, rps|셋"
+N-329,ledger/sources/WORKLOG.md/6ac8a1f406b0,,md:168:- 2026-11-01 00:13:35 K,2026-11-01 00:13:35
+N-330,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:279:문턱 0.90,0.90
+N-331,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.n_undetermined,45
+N-332,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.undetermined_limit,23
+N-333,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_A.margin,0.3065247438493984
+N-334,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.x.n_retest,3394
+N-335,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.y.n_retest,3075
+N-336,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.T_B.ODI.n_retest,3404
+N-337,,,lit:tong2020|원문 위치(절 · 쪽) 미기록 — Technical Validation 열람(PMC7253426 · 2026-11-03 21:00:41 KST · x14/EXTERNAL_READ_LOG.jsonl 26 번째 줄)의 A 기록|전문,64
+N-338,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.n_units,540
+N-339,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.n_subjects,20
+N-340,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.mean,0.012867488545178909
+N-341,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.boot95[0],0.005478371301730647
+N-342,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.boot95[1],0.020583813273762935
+N-343,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.y.mean,0.005783024766325394
+N-344,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.y.boot95[0],-0.033792981295723085
+N-345,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.y.boot95[1],0.04296639392847214
+N-346,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.ODI.mean,0.0018957506593596017
+N-347,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.ODI.boot95[0],0.001048704279938485
+N-348,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.ODI.boot95[1],0.0027194986360850075
+N-349,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.sd,0.06072761503858001
+N-350,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.y.sd,0.2188893670365795
+N-351,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.ODI.sd,0.008595366373381203
+N-352,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.r,-0.3657977457185865
+N-353,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.y.r,-0.21284943208440088
+N-354,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.ODI.r,-0.3065642869584536
+N-355,data/remeasure/explore/d5/d5_2_transfer.json,4375d393a348e03ba3db88628e5229b2d40e5fca00d864a26bf2cd36fa4b6b99,json:sigma_d_median.x,0.04328456197777027
+N-356,data/remeasure/explore/d5/d5_2_transfer.json,4375d393a348e03ba3db88628e5229b2d40e5fca00d864a26bf2cd36fa4b6b99,json:sigma_d_median.y,0.11906465179877371
+N-357,data/remeasure/explore/d5/d5_2_transfer.json,4375d393a348e03ba3db88628e5229b2d40e5fca00d864a26bf2cd36fa4b6b99,json:sigma_d_median.ODI,0.003356976174940729
+N-358,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.delta_tau,0.57
+N-359,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:210:> 0.5(,0.5
+N-360,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:ON-Harmony 쌍 검정.odi_b.n_pairs}-{json:ON-Harmony 쌍 검정.odi_b.n_retest_level},17.0
+N-361,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:570:장비 7,7
+N-362,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.overall.y.n,81
+N-363,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:329:0.8 이상이면 «명제와 맞음»,0.8
+N-364,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-03.x.linear_ratio,0.7777777777777778
+N-365,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-01.x.linear_ratio,0.8148148148148148
+N-366,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-02.x.linear_ratio,0.8518518518518519
+N-367,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-01.y.linear_ratio,0.9629629629629629
+N-368,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-02.y.linear_ratio,0.8888888888888888
+N-369,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-03.y.linear_ratio,0.8518518518518519
+N-370,data/remeasure/explore/rv/rv_b_family.json,747df945ec537abd99b69300435a87b85a56a439646c23e8b92f46ea2bf46216,expr:{json:obs.bx}/((1/52-1/82)*1000),1.1283965333333332
+N-371,data/remeasure/explore/rv/rv_b_family.json,747df945ec537abd99b69300435a87b85a56a439646c23e8b92f46ea2bf46216,expr:{json:obs.by}/((1/82-1/1000)*1000),0.3058474945533769
+N-372,data/remeasure/explore/b1/b1_wong_direction.json,236ec690bdf026936d01eb1f1b8b6dac67c392a214947d27d442720ee4e32fce,json:overall.theta_median,25.42864926128064
+N-373,ledger/sources/d4_2_forward.md/6093cfc9f745,,md:28:+0.0704 | 57.9,57.9
+N-374,decomp/results/stage2/x1.json,d5a81ebb3c06541680845e1f8315c4127b6362af7748f54aaabcb5ad6471915b,expr:{json:X1.angle_deg_Q1[1]}+180,72.12130340415867
+N-375,data/remeasure/explore/rv/rv_b_family.json,747df945ec537abd99b69300435a87b85a56a439646c23e8b92f46ea2bf46216,expr:1/(1/82-{json:obs.by}/1000),114.0105000889838
+N-376,data/remeasure/explore/rv/rv_b_family.json,747df945ec537abd99b69300435a87b85a56a439646c23e8b92f46ea2bf46216,expr:1/({json:obs.bx}/1000+1/82),49.66692873038005
+N-377,,,lit:gong2020mte|§4.3 · Fig. 4(T2_in 82±18 / 83±17 ms · T2_en 51±17 / 53±17 ms · 2 명)|전문,82
+N-378,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.summary.NDI.failed}+{json:V4.summary.ODI.failed},24
+N-379,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.ODI.passed,0
+N-380,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.ODI.with_data,23
+N-381,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.NDI.with_data,1
+N-382,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.OXF2PRI~NOT1ACH|ODI.test_coverage_rule_kmed,0.27564102564102566
+N-383,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.OXF2PRI~OXF3TRI|ODI.test_coverage_rule_kmed,0.3723404255319149
+N-384,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.OXF3TRI~NOT1ACH|ODI.test_coverage_rule_kmed,0.07462686567164178
+N-385,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.NOT2ING-89~NOT1ACH|ODI.test_coverage_rule_kmed,0.12195121951219512
+N-386,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.NOT2ING-89~NOT1ACH|ODI.threshold,0.5
+N-387,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~NOT1ACH|ODI.threshold,0.85
+N-388,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.OXF1PRI~NOT2ING-89|ODI.threshold_rule_ours,0.0
+N-389,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,json:cells.OXF1PRI~NOT1ACH|ODI.threshold_rule_ours,0.2
+N-390,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,expr:{json:cells.NOT2ING-89~NOT1ACH|ODI.threshold_rule_ours}+{json:cells.NOT2ING-98~NOT1ACH|ODI.threshold_rule_ours}+{json:cells.NOT2ING-98~NOT4GEP|ODI.threshold_rule_ours}+{json:cells.NOT2ING-98~OXF4GEP|ODI.threshold_rule_ours}+{json:cells.NOT4GEP~NOT1ACH|ODI.threshold_rule_ours}+{json:cells.NOT4GEP~OXF4GEP|ODI.threshold_rule_ours}+{json:cells.OXF3TRI~NOT1ACH|ODI.threshold_rule_ours}+{json:cells.OXF3TRI~NOT2ING-89|ODI.threshold_rule_ours}+{json:cells.OXF3TRI~NOT2ING-98|ODI.threshold_rule_ours}+{json:cells.OXF4GEP~NOT1ACH|ODI.threshold_rule_ours},0.0
+N-391,data/remeasure/explore/d1/d1_rulethr.json,252de104c0e14224d5147bc28498a81e4c8c3b3f9aa3a8031dfc5201dd5b3540,expr:({json:cells.OXF1PRI~OXF2PRI|NDI.exceed_rate_real}>{json:cells.OXF1PRI~OXF2PRI|NDI.p95_rule_ours})+({json:cells.NOT2ING-89~NOT1ACH|ODI.exceed_rate_real}>{json:cells.NOT2ING-89~NOT1ACH|ODI.p95_rule_ours})+({json:cells.NOT2ING-98~NOT1ACH|ODI.exceed_rate_real}>{json:cells.NOT2ING-98~NOT1ACH|ODI.p95_rule_ours})+({json:cells.NOT2ING-98~NOT4GEP|ODI.exceed_rate_real}>{json:cells.NOT2ING-98~NOT4GEP|ODI.p95_rule_ours})+({json:cells.NOT2ING-98~OXF4GEP|ODI.exceed_rate_real}>{json:cells.NOT2ING-98~OXF4GEP|ODI.p95_rule_ours})+({json:cells.NOT4GEP~NOT1ACH|ODI.exceed_rate_real}>{json:cells.NOT4GEP~NOT1ACH|ODI.p95_rule_ours})+({json:cells.NOT4GEP~OXF4GEP|ODI.exceed_rate_real}>{json:cells.NOT4GEP~OXF4GEP|ODI.p95_rule_ours})+({json:cells.OXF1PRI~NOT1ACH|ODI.exceed_rate_real}>{json:cells.OXF1PRI~NOT1ACH|ODI.p95_rule_ours})+({json:cells.OXF1PRI~NOT2ING-89|ODI.exceed_rate_real}>{json:cells.OXF1PRI~NOT2ING-89|ODI.p95_rule_ours})+({json:cells.OXF1PRI~NOT2ING-98|ODI.exceed_rate_real}>{json:cells.OXF1PRI~NOT2ING-98|ODI.p95_rule_ours})+({json:cells.OXF1PRI~NOT4GEP|ODI.exceed_rate_real}>{json:cells.OXF1PRI~NOT4GEP|ODI.p95_rule_ours})+({json:cells.OXF1PRI~OXF2PRI|ODI.exceed_rate_real}>{json:cells.OXF1PRI~OXF2PRI|ODI.p95_rule_ours})+({json:cells.OXF1PRI~OXF3TRI|ODI.exceed_rate_real}>{json:cells.OXF1PRI~OXF3TRI|ODI.p95_rule_ours})+({json:cells.OXF1PRI~OXF4GEP|ODI.exceed_rate_real}>{json:cells.OXF1PRI~OXF4GEP|ODI.p95_rule_ours})+({json:cells.OXF2PRI~NOT1ACH|ODI.exceed_rate_real}>{json:cells.OXF2PRI~NOT1ACH|ODI.p95_rule_ours})+({json:cells.OXF2PRI~NOT2ING-89|ODI.exceed_rate_real}>{json:cells.OXF2PRI~NOT2ING-89|ODI.p95_rule_ours})+({json:cells.OXF2PRI~NOT2ING-98|ODI.exceed_rate_real}>{json:cells.OXF2PRI~NOT2ING-98|ODI.p95_rule_ours})+({json:cells.OXF2PRI~NOT4GEP|ODI.exceed_rate_real}>{json:cells.OXF2PRI~NOT4GEP|ODI.p95_rule_ours})+({json:cells.OXF2PRI~OXF3TRI|ODI.exceed_rate_real}>{json:cells.OXF2PRI~OXF3TRI|ODI.p95_rule_ours})+({json:cells.OXF2PRI~OXF4GEP|ODI.exceed_rate_real}>{json:cells.OXF2PRI~OXF4GEP|ODI.p95_rule_ours})+({json:cells.OXF3TRI~NOT1ACH|ODI.exceed_rate_real}>{json:cells.OXF3TRI~NOT1ACH|ODI.p95_rule_ours})+({json:cells.OXF3TRI~NOT2ING-89|ODI.exceed_rate_real}>{json:cells.OXF3TRI~NOT2ING-89|ODI.p95_rule_ours})+({json:cells.OXF3TRI~NOT2ING-98|ODI.exceed_rate_real}>{json:cells.OXF3TRI~NOT2ING-98|ODI.p95_rule_ours})+({json:cells.OXF4GEP~NOT1ACH|ODI.exceed_rate_real}>{json:cells.OXF4GEP~NOT1ACH|ODI.p95_rule_ours}),23
+N-392,data/remeasure/explore/rv/rv_e2.json,79e2183b39a27eb72db3f4b8ddea5c1da9f4544af4410b7491a88c2e17b7c8a0,expr:({json:table_1b.OXF1PRI~OXF2PRI|NDI.candidates}>1)+({json:table_1b.NOT2ING-89~NOT1ACH|ODI.candidates}>1)+({json:table_1b.NOT2ING-98~NOT1ACH|ODI.candidates}>1)+({json:table_1b.NOT2ING-98~NOT4GEP|ODI.candidates}>1)+({json:table_1b.NOT2ING-98~OXF4GEP|ODI.candidates}>1)+({json:table_1b.NOT4GEP~NOT1ACH|ODI.candidates}>1)+({json:table_1b.NOT4GEP~OXF4GEP|ODI.candidates}>1)+({json:table_1b.OXF1PRI~NOT1ACH|ODI.candidates}>1)+({json:table_1b.OXF1PRI~NOT2ING-89|ODI.candidates}>1)+({json:table_1b.OXF1PRI~NOT2ING-98|ODI.candidates}>1)+({json:table_1b.OXF1PRI~NOT4GEP|ODI.candidates}>1)+({json:table_1b.OXF1PRI~OXF2PRI|ODI.candidates}>1)+({json:table_1b.OXF1PRI~OXF3TRI|ODI.candidates}>1)+({json:table_1b.OXF1PRI~OXF4GEP|ODI.candidates}>1)+({json:table_1b.OXF2PRI~NOT1ACH|ODI.candidates}>1)+({json:table_1b.OXF2PRI~NOT2ING-89|ODI.candidates}>1)+({json:table_1b.OXF2PRI~NOT2ING-98|ODI.candidates}>1)+({json:table_1b.OXF2PRI~NOT4GEP|ODI.candidates}>1)+({json:table_1b.OXF2PRI~OXF3TRI|ODI.candidates}>1)+({json:table_1b.OXF2PRI~OXF4GEP|ODI.candidates}>1)+({json:table_1b.OXF3TRI~NOT1ACH|ODI.candidates}>1)+({json:table_1b.OXF3TRI~NOT2ING-89|ODI.candidates}>1)+({json:table_1b.OXF3TRI~NOT2ING-98|ODI.candidates}>1)+({json:table_1b.OXF4GEP~NOT1ACH|ODI.candidates}>1),22
+N-393,decomp/results/s4/cards_c3.json,f9059614ffa8aec87e8eb41938e0b4df739ad94b538793a24f5eb30d1a9aaea5,json:cells.OXF1PRI~OXF2PRI|L0|SNR30|Neff50.NDI.C_half_by_k[6],0.753113770206988
+N-394,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:109:식별 C ≥ 0.75,0.75
+N-395,decomp/results/s4/cards_c3.json,f9059614ffa8aec87e8eb41938e0b4df739ad94b538793a24f5eb30d1a9aaea5,expr:{json:cells.OXF1PRI~OXF2PRI|L0|SNR30|Neff50.NDI.C_half_by_k[6]}-0.75,0.003113770206987998
+N-396,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:SNR 20 · 50 과 N_eff 25 · 100 은 민감도로 함께 보고한다,20
+N-397,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:SNR 20 · 50 과 N_eff 25 · 100 은 민감도로 함께 보고한다,50
+N-398,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:SNR 20 · 50 과 N_eff 25 · 100 은 민감도로 함께 보고한다,25
+N-399,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:SNR 20 · 50 과 N_eff 25 · 100 은 민감도로 함께 보고한다,100
+N-400,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:판정은 **주 칸 SNR 30 · N_eff 50** 으로 한다,30
+N-401,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:224:판정은 **주 칸 SNR 30 · N_eff 50** 으로 한다,50
+N-402,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|ODI.sensitivity_passed,"{""SNR20|Neff25"": false, ""SNR20|Neff100"": null, ""SNR50|Neff25"": true, ""SNR50|Neff100"": true}"
+N-403,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:{json:V4.cells.OXF1PRI~OXF3TRI|ODI.sensitivity_passed.SNR50|Neff25}+{json:V4.cells.OXF2PRI~OXF3TRI|ODI.sensitivity_passed.SNR50|Neff25}+{json:V4.cells.OXF4GEP~NOT1ACH|ODI.sensitivity_passed.SNR50|Neff25},3
+N-404,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|NDI.sensitivity_passed,"{""SNR20|Neff25"": false, ""SNR20|Neff100"": null, ""SNR50|Neff25"": false, ""SNR50|Neff100"": false}"
+N-405,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:sym.OXF1PRI~OXF2PRI|NDI.real.z_mean,-4.430328458679957
+N-406,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:norm.OXF1PRI~OXF2PRI|NDI.bias_only,0.0015457111337309204
+N-407,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:norm.OXF1PRI~OXF2PRI|NDI.spread_only,0.7292724843657163
+N-408,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:norm.OXF1PRI~OXF2PRI|ODI.bias_only,0.6732658283476368
+N-409,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:norm.OXF1PRI~OXF2PRI|ODI.spread_only,0.7477649199811869
+N-410,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:sym.OXF1PRI~OXF2PRI|NDI.real.z_sd,1.4934360660496824
+N-411,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:sym.OXF1PRI~OXF2PRI|NDI.ref.z_sd,0.9415165473470575
+N-412,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:sym.OXF1PRI~OXF2PRI|ODI.ref.z_sd,1.0202818487164245
+N-413,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|NDI.coverage,0.010471204188481676
+N-414,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|ODI.coverage,0.6492146596858639
+N-415,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.cells.OXF1PRI~OXF2PRI|ODI.threshold,0.8
+N-416,data/remeasure/explore/d1/d1_post_sym.json,22a46d78bf065677cf7bf4b22e592dc9a963d9d7b7e9880db2a723f8ba1b1bd3,json:sym.OXF1PRI~OXF2PRI|ODI.threshold_true_combo_ours,0.75
+N-417,data/remeasure/explore/cause/cause1b_allunits.json,6f69f3710e885367e6541da63fe62b8e392c6e5b0e2e61d6429409f6869a5c67,json:sets.all.x.boot95,0.005478371301730647|0.020583813273762935
+N-418,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:expected.32|32.x.primary,0.711312169266437
+N-419,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:expected.32|32.x.s1_inv_snr,0.4513958160363261
+N-420,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:expected.32|32.x.s2_window_intercept,-0.12226730634620889
+N-421,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:eval_point.snrA_equiv,18.559025196478892
+N-422,data/remeasure/explore/cause/cause1_raw.json,86b0b8d5a783abec5587b937f6beffa9fc98e331ac5366e9d6af1743cf05bb8b,json:eval_point.snrB_equiv,15.578632619592577
+N-423,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.32|32|ODI.coverage,0.900523560209424
+N-424,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.64|64|NDI.coverage,0.9312169312169312
+N-425,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.32|32|ODI.z_mean,0.6018484510032407
+N-426,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.64|64|ODI.z_sd,0.8430997870968983
+N-427,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.32|32|ODI.z_sd,0.9753411374422779
+N-428,data/remeasure/explore/rv/rv_4a_coil.json,b3500b9cc815efb5424484662938cc063e356b4bf73509a4281df537dd24dc97,json:sessions.sub-03286_ses-OXF3TRI001.channels,32
+N-429,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:51:COIL_L = {32: 4, 64: 8}",4
+N-430,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:51:COIL_L = {32: 4, 64: 8}",8
+N-431,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c1.c},1.0269481818038422
+N-432,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c1.ci[0]},0.9987973264641116
+N-433,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c1.ci[1]},1.05412184052718
+N-434,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c3.c},1.1185065141012478
+N-435,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c3.ci[0]},1.088133647436596
+N-436,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c3.ci[1]},1.1749285812278525
+N-437,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c2.c},1.1554982309619244
+N-438,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c2.ci[0]},1.1132558684252103
+N-439,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,expr:2**{json:M_prime.contrasts.c2.ci[1]},1.212564586587908
+N-440,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:M_prime.contrasts.c1.c,0.03836338736139046
+N-441,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:M_prime.contrasts.c1.ci,-0.0017361353574508118|0.07604163031978657
+N-442,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:M_prime.contrasts.c1.n_common,20
+N-443,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.L_eff.없음.device[0],1.0325306317080925
+N-444,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.L_eff.없음.ci[0][0],1.0218761240457157
+N-445,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.L_eff.없음.ci[1][0],1.0510641996822536
+N-446,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.L_eff.없음.device[0],1.0603554548893983
+N-447,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.L_eff.없음.ci[0][0],1.0320204538002806
+N-448,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.L_eff.없음.ci[1][0],1.0884083789682524
+N-449,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF3TRI.L_eff.없음.device[0],0.930863853982428
+N-450,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF3TRI.L_eff.없음.ci[0][0],0.8949783210212996
+N-451,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF3TRI.L_eff.없음.ci[1][0],0.9575444974926584
+N-452,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.R_med,1.9597498558657283
+N-453,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.R_ci,1.9493244508299683|1.9788501709549218
+N-454,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.R_med,1.9857486500220616
+N-455,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.R_ci,1.9566987842031935|2.0137544630232345
+N-456,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF3TRI.R_med,1.851735011701593
+N-457,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF3TRI.R_ci,1.8136953793280541|1.879587404514567
+N-458,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1643:이론 1.324 · 1.913 · 2.755 · 3.943 · 5.615,1.913
+N-459,data/remeasure/explore/b2000/kat_summary_siemens.json,bacdb8e59945c539a36b011cfa658c82d8caaa01e45126a643c1f93d99d3a7c7,"json:calibration.OXF1PRI.없음[""1.0""].med",1.9272212210934692
+N-460,data/remeasure/explore/b2000/kat_summary_siemens.json,bacdb8e59945c539a36b011cfa658c82d8caaa01e45126a643c1f93d99d3a7c7,"json:calibration.OXF2PRI.없음[""1.0""].med",1.9247340099571977
+N-461,data/remeasure/explore/b2000/kat_summary_siemens.json,bacdb8e59945c539a36b011cfa658c82d8caaa01e45126a643c1f93d99d3a7c7,"json:calibration.OXF3TRI.없음[""1.0""].med",1.9216036607394138
+N-462,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1643:이론 1.324 · 1.913 · 2.755 · 3.943 · 5.615,1.913
+N-463,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1643:이론 1.324 · 1.913 · 2.755 · 3.943 · 5.615,3.943
+N-464,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1643:이론 1.324 · 1.913 · 2.755 · 3.943 · 5.615,5.615
+N-465,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.d.OXF2PRI-OXF1PRI,0.025998794156333327
+N-466,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.d.OXF2PRI-OXF3TRI,0.13401363832046864
+N-467,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.d.OXF1PRI-OXF3TRI,0.10801484416413532
+N-468,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.delta_min.OXF2PRI-OXF1PRI.delta_min,0.0179532727033848
+N-469,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.delta_min.OXF2PRI-OXF3TRI.delta_min,0.016721974729845906
+N-470,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.delta_min.OXF1PRI-OXF3TRI.delta_min,0.020838024733883954
+N-471,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:literal_27.delta_min.OXF2PRI-OXF1PRI.alt_median,1.6779941717535758
+N-472,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF1PRI.zero_frac_obs[0],0.106
+N-473,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF2PRI.zero_frac_obs[0],0.062
+N-474,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF3TRI.zero_frac_obs[0],0.274
+N-475,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF1PRI.zero_frac_rounding_expected[0],0.0
+N-476,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF2PRI.zero_frac_rounding_expected[0],0.0
+N-477,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF3TRI.zero_frac_rounding_expected[0],0.033
+N-478,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1829:0 포함 R 은 1.945 · 1.966 · 1.822 이다,1.945
+N-479,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1829:0 포함 R 은 1.945 · 1.966 · 1.822 이다,1.966
+N-480,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1829:0 포함 R 은 1.945 · 1.966 · 1.822 이다,1.822
+N-481,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,"md:1830:c₁ +0.033 [−0.003, +0.076]",0.033|-0.003|0.076
+N-482,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:devices.OXF1PRI.median.L_ratio_incl0,1.01735649473444
+N-483,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:devices.OXF2PRI.median.L_ratio_incl0,1.0412110402789896
+N-484,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:devices.OXF3TRI.median.L_ratio_incl0,0.9031550193760495
+N-485,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF1PRI.sigma_DN[0],136.235
+N-486,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF2PRI.sigma_DN[0],414.626
+N-487,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF3TRI.sigma_DN[0],13.772
+N-488,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF1PRI.S2_ratio[0],1.193
+N-489,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF2PRI.S2_ratio[0],1.747
+N-490,data/remeasure/explore/b2000/zero_check.json,2e3e9d153cd35a5c0b81c5e79a994373d886900b363e241d975063b410478936,json:OXF3TRI.S2_ratio[0],0.78
+N-491,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF1PRI.spread.ratio,3.517813304598138
+N-492,data/remeasure/explore/b2000/b2k_result_siemens.json,86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1,json:devices.OXF2PRI.spread.ratio,6.628673340970956
+N-493,data/remeasure/explore/b2000/b2k_result_all.json,a2dbfe7c8d3265f005e4af2a3c5f8e829a58dedb9bf70cd8f372c7ffad2e3aa5,json:devices.NOT1ACH.R_med,1.904842253657868
+N-494,data/remeasure/explore/b2000/b2k_result_all.json,a2dbfe7c8d3265f005e4af2a3c5f8e829a58dedb9bf70cd8f372c7ffad2e3aa5,json:devices.NOT2ING-89.R_med,2.0661698567496263
+N-495,data/remeasure/explore/b2000/b2k_result_all.json,a2dbfe7c8d3265f005e4af2a3c5f8e829a58dedb9bf70cd8f372c7ffad2e3aa5,json:devices.NOT2ING-98.R_med,2.1413223396727403
+N-496,data/remeasure/explore/b2000/b2k_result_all.json,a2dbfe7c8d3265f005e4af2a3c5f8e829a58dedb9bf70cd8f372c7ffad2e3aa5,json:devices.NOT4GEP.R_med,1.6183337610768955
+N-497,data/remeasure/explore/b2000/b2k_result_all.json,a2dbfe7c8d3265f005e4af2a3c5f8e829a58dedb9bf70cd8f372c7ffad2e3aa5,json:devices.OXF4GEP.R_med,1.5865704059211276
+N-498,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:c1.ML.c,0.040413033984521333
+N-499,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:c1.ML.ci,-0.009610924194350015|0.13380194310448307
+N-500,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:c1.skew.c,0.058418795270888
+N-501,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:c1.skew.ci,-0.25643524949029345|0.2394643494787464
+N-502,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:c1.same.c,0.03399589220645166
+N-503,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:D.D_skew.ci,-0.26757540359542126|0.1917517741758752
+N-504,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:2013:L_ratio 가 −7 % 쯤 움직이는 오염도 «일치» 로 둘 수 있어서다,7
+N-505,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:devices.OXF3TRI.median.L_ML_trunc,0.8807124382635407
+N-506,data/remeasure/explore/b2000/shape_summary.json,3f704ec03193a25a37b43799cebaf2dbb5a711cf15e2a3bb00b1875ad4f52c52,json:devices.OXF3TRI.median.L_skew,0.8098583513787234
+N-507,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1570:|b − 2000| ≤ 100(b2000),2000
+N-508,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1647:109 세션 모두 b2000 부피 50 이다,50
+N-509,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:983:| 전체 | 109 | 0.080 | 0.67 |,0.080
+N-510,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:983:| 전체 | 109 | 0.080 | 0.67 |,0.67
+N-511,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:985:시뮬레이터 시험 자료 L0 은 중앙 0.419 · ≤ 0.10 은 0.020 이다,0.419
+N-512,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:985:시뮬레이터 시험 자료 L0 은 중앙 0.419 · ≤ 0.10 은 0.020 이다,0.020
+N-513,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:985:≤ 0.10 은 0.020 이다,0.10
+N-514,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:976:| NOT1ACH | 20 | 0.074 | 0.72 |,0.074
+N-515,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:977:| NOT2ING | 20 | 0.106 | 0.47 |,0.106
+N-516,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:918:그것을 맞추는 참 f_iso 중앙 0.034,0.034
+N-517,data/remeasure/explore/rv/rv_c_level.json,6d8a2f3da74ef6817461ce370c24d2ab6e8727a205e88cb0234214a304533ef4,json:by_scen.snr30.level_check.sim_apparent_fwf_median,0.22986948117613792
+N-518,data/remeasure/explore/rv/rv_c_level.json,6d8a2f3da74ef6817461ce370c24d2ab6e8727a205e88cb0234214a304533ef4,json:by_scen.measured.level_check.sim_apparent_fwf_median,0.25666364282369614
+N-601,data/remeasure/explore/suff/suff_c3.json,2006101930e0966bd942bbece160956e59ad4ecb00a0741d02c96c4f8605daf6,json:cells.64|64|NDI.z_mean,0.12552974178630716
+N-602,ledger/sources/derived.json/b3594f86457c,,json:gong.mean_both.dir_deg,57.41007382071915
+N-603,ledger/sources/derived.json/b3594f86457c,,json:gong.index_shift.dir_deg,46.562459285721204
+N-604,ledger/sources/derived.json/b3594f86457c,,json:gong.p1_T2iso2000.dir_deg,58.96938097488801
+N-605,ledger/sources/derived.json/b3594f86457c,,json:retest.mean_over_sigma_d,0.29727662605866934
+N-606,ledger/sources/derived.json/b3594f86457c,,json:retest.sd_over_sigma_d,1.4029855510555473
+N-607,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:2089:OXF1PRI ×1.23(97.5 % 위 11/20) · OXF2PRI ×1.62,1.23|1.62
+N-608,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,"md:270:의 0.05° 간격 **3,600 개**","3,600"
+N-609,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:343:**S 0.026 – 0.042 · τ 0.046 – 0.052**,0.026|0.042
+N-610,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:97:중 0.90 이상이면 «재검사 수준»,0.90
+N-611,decomp/SPEC_S4.md,2df865d2eb7a4b25b85ba2bd4f162d1349e89c641db55892238f619c11724cc6,md:106:관측 M = 100 개,100
+N-612,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1754:의 1.07 % 다,1.07 %
+N-613,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1754:장비 수준 R 치우침 τ 가 0.5 % 만 있어도,0.5 %
+N-614,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1754:P((가)) 0.20,0.20
+N-615,ledger/sources/derived.json/48f3a6da28a3,,json:gong.mean_both.slope_ratio_x,1.116665901639344
+N-616,ledger/sources/derived.json/48f3a6da28a3,,json:gong.mean_both.slope_ratio_y,0.30788010899182555
+N-617,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1735:½ = log2 √2,½
+N-618,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1735:⅓ 은 비 약 1.26 배,⅓
+N-619,ledger/sources/REPORT.md/cd324beeb1e1,,md:55:| TR 만(Q4) | **0.92 – 0.99** |,0.92|0.99
+N-620,ledger/sources/REPORT.md/cd324beeb1e1,,md:56:| TE 만(Q1) | **0.60 – 0.78** |,0.60|0.78
+N-621,ledger/sources/REPORT.md/cd324beeb1e1,,md:57:| TE + TR + 설계(Q2) | **0.09 – 0.14** |,0.09|0.14
+N-622,ledger/sources/REPORT.md/cd324beeb1e1,,md:55:| TR 만(Q4) | **0.92 – 0.99** | 1.00 |,1.00
+N-623,,,"lit:auerbach2017|Release 016a, printed p. 14 (PDF p. 15), Sequence/Special Card|전문(PDF 31 쪽 · downloads.cmrr.umn.edu/software/file2/4508 · 2026-11-04 열람)",14
+N-624,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:1994:덧붙임 2026-11-04 01:36:42 KST,2026-11-04 01:36:42
+N-625,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:871:정의 2026-11-02 10:55:57 KST,2026-11-02 10:55:57
+N-626,decomp/plans/EXPLORATORY_PLAN_2026-11-01_redacted.md,,md:788:덧붙임 2026-11-02 10:49:42 KST,2026-11-02 10:49:42
+N-627,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:sum(1 for c in {json:V4.cells}.values() if c.get('gap_detected')),23
+N-628,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:48:T2IN_GRID = (70.0, 82.0, 95.0)",70|82|95
+N-629,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,"md:249:ETA_T2 = [(t, r, 1000.0)",1000
+N-630,ledger/sources/SPEC_v2.md/693ca5f82bae,,"md:118:A = (P2a, TE 92, TR 3,600)","3,600"
+N-631,ledger/sources/SPEC_v2.md/693ca5f82bae,,"md:118:Q4 B = (P2a, 92, 10,215) TR 만","10,215"
+N-632,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:30:T1C_RANGE, T1ISO = (850.0, 1100.0)",850|1100
+N-633,decomp/s4/s4cfg.py,c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d,"md:31:SCEN = {""i"": 1.3, ""ii"": 1 / 1.3, ""iii"": 1.0}",1/1.3|1|1.3
+N-634,decomp/stage1/config.py,acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7,md:56:T1_ISO = 4300.0,4300
+N-635,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,"expr:[f(v['ODI']['te_range_median']/v['ODI']['repeat_abs_diff_median'] for v in {json:Wongkornchaovalit.by_subject}.values()) for f in (min, max)]",6.097354892501951|8.89241374920446
+N-636,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-02.ODI.te_range_median,0.017623231729762767
+N-637,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-03.ODI.te_range_median,0.02853644718967807
+N-638,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-01.ODI.repeat_abs_diff_median,0.002444275317241465
+N-639,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Wongkornchaovalit.by_subject.sub-03.ODI.repeat_abs_diff_median,0.0033305261537703024
+N-640,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:256:Tong c10 반복(피험자 3 × 3 회),3
+N-641,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:V4.summary.NDI.tested,1
+N-642,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,expr:sum(1 for p in {json:ON-Harmony 쌍 검정.pairs} if p['n_subjects_fiso'] == 0 and p['n_subjects_odi'] == 0),2
+N-643,,,lit:lampinen2019|§3.1 «five subjects with lesions» · §4.2 · 표 4|전문(PMC6503974),5
+N-644,ledger/sources/derived.json/c251ad45edfb,,json:gong.mean_both.T2_in,82.5
+N-645,ledger/sources/derived.json/c251ad45edfb,,json:gong.mean_both.family_T2_en,49.84992152413869
+N-646,ledger/sources/derived.json/c251ad45edfb,,json:gong.mean_both.family_T2_iso,114.97937339725722
+N-647,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,expr:-1*{json:ndi_drop_en_x2_3_mean[1]},0.18994564411411335
+N-648,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,expr:-1*{json:ndi_drop_en_x2_3_mean[0]},0.33812647582527044
+N-649,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,expr:-1*{json:patientA_diff_te70_te100_mean[0]},0.0857477752721304
+N-650,ledger/sources/a_values.json/c0921d4e615c,c0921d4e615c0006d7f8eab10ff53100e83a0007e48550a2a2fc9d81601dd32b,expr:-1*{json:patientA_diff_te70_te100_mean[1]},0.12025460115930686
+N-651,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:ON-Harmony 쌍 검정.odi_a.p_tau0_two_sided,0.4111111111111111
+N-652,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:372:유의수준 0.05,0.05
+N-653,,,lit:wongkornchaovalit2025|Code availability · Methods Image preprocessing(PMC12246157)|전문,3.0.4
+N-654,,,lit:wongkornchaovalit2025|Code availability(PMC12246157)|전문,6.0.5.1
+N-655,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.MCP.x.share,0.9259259259259259
+N-656,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.MCP.y.share,0.9555555555555556
+N-657,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.MCP.ODI.share,0.9851851851851852
+N-658,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCT.x.share,1.0
+N-659,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCT.y.share,0.9407407407407408
+N-660,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCT.ODI.share,1.0
+N-661,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.GCC.x.share,0.9555555555555556
+N-662,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.GCC.y.share,0.725925925925926
+N-663,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.GCC.ODI.share,1.0
+N-664,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.BCC.x.share,0.9629629629629629
+N-665,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.BCC.y.share,0.7777777777777778
+N-666,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.BCC.ODI.share,0.9777777777777777
+N-667,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCC.x.share,0.9629629629629629
+N-668,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCC.y.share,0.7703703703703704
+N-669,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCC.ODI.share,0.9629629629629629
+N-670,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX.x.share,0.9777777777777777
+N-671,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX.y.share,0.8814814814814815
+N-672,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX.ODI.share,0.8296296296296296
+N-673,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CST.x.share,1.0
+N-674,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CST.y.share,0.9925925925925926
+N-675,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CST.ODI.share,0.9851851851851852
+N-676,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ML.x.share,0.9629629629629629
+N-677,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ML.y.share,1.0
+N-678,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ML.ODI.share,0.9555555555555556
+N-679,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ICP.x.share,0.9703703703703703
+N-680,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ICP.y.share,0.9777777777777777
+N-681,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ICP.ODI.share,0.9925925925925926
+N-682,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCP.x.share,0.9111111111111111
+N-683,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCP.y.share,0.9407407407407408
+N-684,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCP.ODI.share,0.8962962962962963
+N-685,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CP.x.share,0.9629629629629629
+N-686,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CP.y.share,0.9851851851851852
+N-687,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CP.ODI.share,0.9481481481481482
+N-688,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ALIC.x.share,1.0
+N-689,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ALIC.y.share,0.8888888888888888
+N-690,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ALIC.ODI.share,0.8444444444444444
+N-691,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PLIC.x.share,1.0
+N-692,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PLIC.y.share,0.9703703703703703
+N-693,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PLIC.ODI.share,0.9407407407407408
+N-694,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.RLIC.x.share,0.9111111111111111
+N-695,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.RLIC.y.share,0.7037037037037037
+N-696,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.RLIC.ODI.share,0.9555555555555556
+N-697,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ACR.x.share,0.8222222222222222
+N-698,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ACR.y.share,0.5111111111111111
+N-699,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.ACR.ODI.share,0.8962962962962963
+N-700,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCR.x.share,0.9851851851851852
+N-701,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCR.y.share,0.8518518518518519
+N-702,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SCR.ODI.share,0.9851851851851852
+N-703,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCR.x.share,0.9555555555555556
+N-704,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCR.y.share,0.8444444444444444
+N-705,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PCR.ODI.share,0.9629629629629629
+N-706,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PTR.x.share,0.8814814814814815
+N-707,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PTR.y.share,0.725925925925926
+N-708,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.PTR.ODI.share,0.7481481481481481
+N-709,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SS.x.share,0.9407407407407408
+N-710,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SS.y.share,0.9777777777777777
+N-711,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SS.ODI.share,0.8222222222222222
+N-712,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.EC.x.share,0.6592592592592592
+N-713,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.EC.y.share,0.8518518518518519
+N-714,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.EC.ODI.share,0.8962962962962963
+N-715,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGC.x.share,0.9925925925925926
+N-716,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGC.y.share,0.6148148148148148
+N-717,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGC.ODI.share,1.0
+N-718,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGH.x.share,1.0
+N-719,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGH.y.share,0.9925925925925926
+N-720,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.CGH.ODI.share,0.9851851851851852
+N-721,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX/ST.x.share,0.8666666666666667
+N-722,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX/ST.y.share,0.6296296296296297
+N-723,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.FX/ST.ODI.share,0.9037037037037037
+N-724,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SLF.x.share,0.9851851851851852
+N-725,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SLF.y.share,0.8
+N-726,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SLF.ODI.share,1.0
+N-727,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SFO.x.share,0.8518518518518519
+N-728,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SFO.y.share,0.6666666666666666
+N-729,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.SFO.ODI.share,0.9925925925925926
+N-730,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.UNC.x.share,0.7111111111111111
+N-731,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.UNC.y.share,0.837037037037037
+N-732,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.UNC.ODI.share,0.8740740740740741
+N-733,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.TAP.x.share,0.9851851851851852
+N-734,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.TAP.y.share,0.9629629629629629
+N-735,ledger/sources/F4_S18.json/7ef119063c1b,,json:units.TAP.ODI.share,0.8740740740740741
+N-736,ledger/sources/F4_S18.json/7ef119063c1b,,json:denominator.value,135
+N-737,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat1.n,20
+N-738,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat1.median,0.7504692704128768
+N-739,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat1.min,0.0
+N-740,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat1.max,0.888760585065435
+N-741,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat2.median,0.07241604961044208
+N-742,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat2.min,0.0
+N-743,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat2.max,0.23531544597534446
+N-744,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat3.median,0.062356337598298464
+N-745,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat3.min,0.03425266903914591
+N-746,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat3.max,0.20874751491053678
+N-747,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat4.median,0.07133182495485164
+N-748,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat4.min,0.009715025906735751
+N-749,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.cat4.max,0.8961038961038961
+N-750,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.S.median,0.15775422842405123
+N-751,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.S.min,0.03425266903914591
+N-752,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF1PRI.S.max,0.4024655547498187
+N-753,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat1.n,20
+N-754,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat1.median,0.6138453620682722
+N-755,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat1.min,0.011701170117011701
+N-756,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat1.max,0.8907591892820337
+N-757,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat2.median,0.060466638978346365
+N-758,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat2.min,0.0
+N-759,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat2.max,0.3219753086419753
+N-760,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat3.median,0.05681788495976322
+N-761,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat3.min,0.008289374529012811
+N-762,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat3.max,0.19290657439446368
+N-763,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat4.median,0.1590378410975426
+N-764,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat4.min,0.02306805074971165
+N-765,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.cat4.max,0.9333933393339334
+N-766,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.S.median,0.14980405559352927
+N-767,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.S.min,0.024868123587038434
+N-768,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF2PRI.S.max,0.49975308641975313
+N-769,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat1.n,10
+N-770,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat1.median,0.7713904548944155
+N-771,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat1.min,0.013024602026049204
+N-772,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat1.max,0.8865571776155717
+N-773,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat2.median,0.04894987673949877
+N-774,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat2.min,0.0
+N-775,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat2.max,0.18169398907103826
+N-776,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat3.median,0.10176957277437845
+N-777,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat3.min,0.06113138686131387
+N-778,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat3.max,0.7018813314037626
+N-779,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat4.median,0.045244230425421104
+N-780,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat4.min,0.0021289537712895377
+N-781,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.cat4.max,0.28509406657018815
+N-782,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.S.median,0.19544438623234495
+N-783,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.S.min,0.07212713936430318
+N-784,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:per_scanner.OXF3TRI.S.max,0.7018813314037626
+N-785,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat1.n,50
+N-786,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat1.median,0.7151225867422708
+N-787,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat1.min,0.0
+N-788,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat1.max,0.8907591892820337
+N-789,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat2.median,0.06056182700161489
+N-790,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat2.min,0.0
+N-791,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat2.max,0.3219753086419753
+N-792,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat3.median,0.07043417206201918
+N-793,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat3.min,0.008289374529012811
+N-794,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat3.max,0.7018813314037626
+N-795,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat4.median,0.07894192559369523
+N-796,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat4.min,0.0021289537712895377
+N-797,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.cat4.max,0.9333933393339334
+N-798,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.S.median,0.16264473937295632
+N-799,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.S.min,0.024868123587038434
+N-800,ledger/sources/c1_mask_location.json/14aa4e0f2d0a,,json:pooled.S.max,0.7018813314037626
+N-801,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_out.median,0.016180820848478723
+N-802,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_out.min,0.0
+N-803,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_out.max,0.2147117296222664
+N-804,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_gap.median,0.13622869829075124
+N-805,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_gap.min,0.0
+N-806,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF1PRI.S_gap.max,0.3397389412617839
+N-807,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_out.median,0.030883839865743112
+N-808,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_out.min,0.0
+N-809,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_out.max,0.1945679012345679
+N-810,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_gap.median,0.1158248222584777
+N-811,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_gap.min,0.0
+N-812,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF2PRI.S_gap.max,0.3307984790874525
+N-813,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_out.median,0.004936250114017856
+N-814,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_out.min,0.0
+N-815,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_out.max,0.7018813314037626
+N-816,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_gap.median,0.1504506310340187
+N-817,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_gap.min,0.0
+N-818,ledger/sources/c1_split.json/50475c44ede0,,json:per_scanner.OXF3TRI.S_gap.max,0.30620608899297425
+N-819,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_out.median,0.020428674300048168
+N-820,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_out.min,0.0
+N-821,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_out.max,0.7018813314037626
+N-822,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_gap.median,0.12927532146918463
+N-823,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_gap.min,0.0
+N-824,ledger/sources/c1_split.json/50475c44ede0,,json:pooled.S_gap.max,0.3397389412617839
+N-825,ledger/sources/c1_split.json/50475c44ede0,,json:totals.gap_side_share.cat2,0.9353108236036605
+N-826,ledger/sources/c1_split.json/50475c44ede0,,json:totals.gap_side_share.cat3,0.736644591611479
+N-827,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,"md:28:TES = (62, 72, 82, 92, 102, 112, 122, 132)",62|92|132
+N-828,decomp/remeasure/judge_wong.py,b3e43d17449ea77221117e956f5fc812d2d1b62edb17bb1f4e71dba2b5e45cf6,md:4:TE 8 개(62 – 132),62|132
+N-829,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:124:출 둘»,둘
+N-830,,,none:그림 1 은 세 TE 열(N-827 · make_F1.py NAMES),3
+N-831,decomp/results/s4/test_c3.json,3c2041d0120ba47f315619980c3dea8fe2f8497f5b033e474e7332dec3b1cb38,expr:len({json:layers}),20
+N-832,decomp/results/s4/miss.json,f87cf7f4d4b71598fe31220f7819f1e038f7638974508603cba3e421dcfd5bff,json:false_alarm_max,0.024
+N-833,decomp/s4/validate.py,808096649695172ffc53e5f94fa736ad8c252b1542931e616cd1baef2b89739d,md:699:<= 0.02,0.02
+N-834,decomp/results/s4/test_c3.json,3c2041d0120ba47f315619980c3dea8fe2f8497f5b033e474e7332dec3b1cb38,"expr:sum(1 for k in ('P1','P2','P3','P4','P5','P6') if {json:P}[k]['holds'])",5
+N-835,decomp/results/s4/test_c3.json,3c2041d0120ba47f315619980c3dea8fe2f8497f5b033e474e7332dec3b1cb38,expr:len({json:P}),6
+N-836,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte10.logit,-0.017227855902291478
+N-837,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte10.raw,-0.0039002778143835126
+N-838,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte20.logit,-0.034455711804582956
+N-839,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte20.raw,-0.007652299412942876
+N-840,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte30.logit,-0.051683567706874434
+N-841,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_en.dte30.raw,-0.011237295585576512
+N-842,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte10.logit,-0.0063690861214532254
+N-843,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte10.raw,-0.0014083103806710184
+N-844,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte20.logit,-0.012738172242906451
+N-845,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte20.raw,-0.00275193930531481
+N-846,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte30.logit,-0.019107258364359676
+N-847,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.diffuse_both.dte30.raw,-0.004023254739869531
+N-848,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte10.logit,-0.04945054945054947
+N-849,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte10.raw,-0.011757312085569072
+N-850,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte20.logit,-0.09890109890109894
+N-851,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte20.raw,-0.02327137168980231
+N-852,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte30.logit,-0.1483516483516484
+N-853,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.fig3.dte30.raw,-0.03450682588717646
+N-854,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte10.logit,-0.09835589247353954
+N-855,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte10.raw,-0.023761703097059717
+N-856,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte20.logit,-0.19671178494707908
+N-857,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte20.raw,-0.04724588312298106
+N-858,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte30.logit,-0.2950676774206186
+N-859,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_small.dte30.raw,-0.07041375730708549
+N-860,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte10.logit,-0.1719528243592415
+N-861,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte10.raw,-0.03774541983505114
+N-862,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte20.logit,-0.343905648718483
+N-863,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte20.raw,-0.07433615671605376
+N-864,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte30.logit,-0.5158584730777245
+N-865,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:rows.focal_large.dte30.raw,-0.1097015019284654
+N-866,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:sentence_5_2.dTE_ms,30.0
+N-867,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:sentence_5_2.diffuse_min,0.004023254739869531
+N-868,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:sentence_5_2.diffuse_max,0.011237295585576512
+N-869,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:sentence_5_2.focal_min,0.07041375730708549
+N-870,ledger/sources/residual_s15.json/f5faed372661,f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f,json:sentence_5_2.focal_max,0.1097015019284654
+N-871,,,"lit:collorone2020|1650 쪽 결과(B = −0.021, 95% CI −0.041 to −0.002, p = 0.032) · 대조 1653 쪽 표 4 뇌 «NDI WM» 0.57 ± 0.03(N 24) 대 0.60 ± 0.03(N 16) · β −0.35 · p 0.032 · 주석 a «adjusting for age, sex and specific tissue volumes (brain)»|전문(read-directly)",0.021
+N-872,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:단일 재검사의 95 % 폭,95
+N-873,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:σ 의 1.5 배면 통과 확률,1.5
+N-874,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:통과 확률 0.75 – 0.89,0.75|0.89
+N-875,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:2 배면 0.09 – 0.15,2
+N-876,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:0.09 – 0.15,0.09|0.15
+N-877,decomp/remeasure/MEASUREMENT_FIXED.md,a8a1453a0c1bfc4ce3bc5a18846da124a09d3c49d76b8481240f288c415ec0c2,md:217:2.5 배면 0,2.5
+N-878,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s1a.min_ors,1.0
+N-879,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s1a.n_generators,3
+N-880,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s1a.min_spearman,0.9968929644419905
+N-881,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.two_site_dTE,30.0
+N-882,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.ratio_range,1.0024675821467923|1.2963444489978213
+N-883,ledger/sources/ANALYSIS_PLAN.md/ff94d2ca5c64,,md:15:0.80–1.25,0.80|1.25
+N-884,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.n_outside,3
+N-885,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.n_cells,36
+N-886,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.l2both_eq7,-0.019664967225054508
+N-887,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s2.outside_fitted_range,-0.025492571101923503|-0.02462846895084068
+N-888,ledger/sources/e3.json/bd349f0ba023,bd349f0ba023814ddc69001b39a98415668c0eba34e35651909a001150a22b1d,json:by.y.ors,0.8872427983539095
+N-889,ledger/sources/e1.json/9547b10ebd9c,9547b10ebd9c24f58f7d5b77599f9d94e39c18f548c99954c22700b420a89bea,json:pooled.x.dte_star,17.971238372243892
+N-890,ledger/sources/e1.json/9547b10ebd9c,9547b10ebd9c24f58f7d5b77599f9d94e39c18f548c99954c22700b420a89bea,json:pooled.x.dte_ci90,15.592361940261734|21.37916229725956
+N-891,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:e1.dte_star_onh,9.301330299447589
+N-892,ledger/sources/e4.json/fda936e2c6ff,fda936e2c6ff45a87e1999e0b930f78629ad9d3d9a7249ad880f88ee7c3698d6,json:primary.wong_62_132_x_minus_raw.diff,-0.08641975308641975
+N-893,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:e4.wong_62_132_x_minus_raw_ci,-0.14814814814814814|-0.037037037037037035
+N-894,ledger/sources/rules_env_derived.json/26577922f309,26577922f309a1df74b964b2275d8fae26645d219403a01814bd75788c316cae,json:s1a.max_rank_flip,0.0
+N-895,ledger/sources/e5.json/d26ada2f1cf3,d26ada2f1cf3c7156399fd3e0132b5844fdb389a95886f536798415a7b4e9c50,json:predicted.diff,-0.08000617283950617
+N-896,ledger/sources/e5.json/d26ada2f1cf3,d26ada2f1cf3c7156399fd3e0132b5844fdb389a95886f536798415a7b4e9c50,json:predicted_beta0.diff,0.05442592592592594
+N-897,ledger/sources/e6.json/85bef1fc81c9,85bef1fc81c90e57d338f5eb244c75910b272ef2adf73de0202b298909ccb865,json:primary.ors_x,0.9292962962962963
+N-898,ledger/sources/e6.json/85bef1fc81c9,85bef1fc81c90e57d338f5eb244c75910b272ef2adf73de0202b298909ccb865,json:primary.ors_raw,0.8742592592592594
+N-899,ledger/sources/rules_env_r2_derived.json/d0f3dcbd0db3,d0f3dcbd0db3f98d79a8c3047f437fa520736e153c6fac7480f4fe941fb084d6,json:s3.max_raw_dte30,0.011018457561802864
+N-900,ledger/sources/ANALYSIS_PLAN.md/ec63ba8bc29e,,md:85:−0.20,0.20
+N-901,ledger/sources/rules_env_r2_derived.json/beea82ef12e9,beea82ef12e9e3da510314222f2343913ad4adb1d2134d33db1357b09e098238,json:e6.diff_interval,-0.012345679012345623|0.12345679012345678
+N-904,,,lit:hogestol2025|4 쪽 표 1 «N - HC» IDIBAPS 0 · London 0(N - MS 38 · 12)|전문(저자 첨부 PDF · read-directly),2
+N-905,,,lit:hogestol2025|2 쪽 초록 «at six MAGNIMS centres» · 2.1 절 기관 여섯 · 표 1 열 여섯|전문(저자 첨부 PDF · read-directly),6
+N-902,ledger/sources/e1_fix.json/b44a9580dc10,b44a9580dc1071cda9e9b7e3cba8db99dac7778bf891c850c284005cd0e9c627,json:pooled.x.primary.dte_star,17.389009257215704
+N-903,ledger/sources/e1_fix.json/b44a9580dc10,b44a9580dc1071cda9e9b7e3cba8db99dac7778bf891c850c284005cd0e9c627,json:pooled.x.primary.dte_ci90,15.087203652543185|20.686523906215818
+N-906,decomp/stage1/analyze3.py,c34649196960583087896def6595c42639c4c45e982f1b61c1ec023af7e635f5,md:326:lo_a - 1 <= a <= hi_a + 1,1
+N-907,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:s1a.prop_bias_min,-0.023248906071063533
+N-908,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:s1a.prop_bias_max,0.0354287540551806
+N-909,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:fitter.R_x_max,0.634389028348432
+N-910,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:fitter.R_raw_max,1.6146665111240743
+N-911,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.x_min,0.9069958847736626
+N-912,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.x_max,0.9613168724279836
+N-913,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.odi_min,0.9102880658436214
+N-914,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.odi_max,0.9572016460905349
+N-915,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.y_min,0.8288065843621399
+N-916,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.y_max,0.8716049382716049
+N-917,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.delta_over_s_threshold,1.0860382528824024
+N-918,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.delta_over_s_x,0.6709075221352698
+N-919,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.delta_over_s_odi,0.620563452805864
+N-920,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.delta_ndi_x_at_half,0.01854800220382475
+N-921,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.both.abs_min,0.010873445694532302
+N-922,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.both.abs_max,0.014896700434401833
+N-923,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.extra_only.abs_min,0.02956917622217936
+N-924,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.extra_only.abs_max,0.04080647180775587
+N-925,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,"json:fitter.y_max[""Q1 (TE only)""]",5.174271011925771
+N-926,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.both.abs_min,0.010873445694532302
+N-927,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:sentence_2_4.extra_only.abs_max,0.04080647180775587
+N-928,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:inputs.brandhofe_pct,9.84450923226432
+N-929,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_en.within.te70.raw,-0.02956917622217936
+N-930,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_en.within.te80.raw,-0.03346945403656287
+N-931,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_en.within.te90.raw,-0.037221475635122236
+N-932,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_en.within.te100.raw,-0.04080647180775587
+N-933,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_both.within.te70.raw,-0.010873445694532302
+N-934,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_both.within.te80.raw,-0.01228175607520332
+N-935,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_both.within.te90.raw,-0.013625384999847112
+N-936,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.diffuse_both.within.te100.raw,-0.014896700434401833
+N-937,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.fig3.within.te70.raw,-0.0857477752721304
+N-938,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.fig3.within.te80.raw,-0.09750508735769947
+N-939,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.fig3.within.te90.raw,-0.10901914696193271
+N-940,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.fig3.within.te100.raw,-0.12025460115930686
+N-941,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_small.within.te70.raw,-0.17044095049594177
+N-942,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_small.within.te80.raw,-0.19420265359300148
+N-943,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_small.within.te90.raw,-0.21768683361892283
+N-944,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_small.within.te100.raw,-0.24085470780302726
+N-945,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_large.within.te70.raw,-0.28752518612284444
+N-946,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_large.within.te80.raw,-0.3252706059578956
+N-947,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_large.within.te90.raw,-0.3618613428388982
+N-948,ledger/sources/s15_within_site.json/d8b4caaab0b3,d8b4caaab0b3c08ac78bab4fb7524c9acd62ed753aa38697ca418344f65cb23b,json:rows.focal_large.within.te100.raw,-0.39722668805130984
+N-949,ledger/sources/s2_combat_ls.json/fbcd51e8bccf,fbcd51e8bccf3ff83136e3f2ba0e188003816ef2357d56e3e41fedc331969b92,json:combat_ls.ratio_min,0.9933366896236279
+N-950,ledger/sources/s2_combat_ls.json/fbcd51e8bccf,fbcd51e8bccf3ff83136e3f2ba0e188003816ef2357d56e3e41fedc331969b92,json:combat_ls.ratio_max,1.2571503665795793
+N-951,ledger/sources/s2_combat_ls.json/fbcd51e8bccf,fbcd51e8bccf3ff83136e3f2ba0e188003816ef2357d56e3e41fedc331969b92,json:combat_ls.n_outside_band,1
+N-952,ledger/sources/s2_combat_ls.json/fbcd51e8bccf,fbcd51e8bccf3ff83136e3f2ba0e188003816ef2357d56e3e41fedc331969b92,json:combat_ls.n,9
+N-953,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_L2_T1_pct,4.41
+N-954,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_L3_T1_min,1.17
+N-955,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_L3_T1_max,1.56
+N-956,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_TR_s,3.6
+N-957,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_diffuse_min,0.08021232473210911
+N-958,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_diffuse_max,0.08043215525840455
+N-959,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_lesion_min,0.08092997646184028
+N-960,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.p2_lesion_max,0.08706059199089528
+N-961,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.tol_ndi_at_roi_median,0.025165349562372492
+N-962,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.roi_median_ndi,0.7011509864937374
+N-963,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e3_raw_fiso_raw,0.8823045267489712
+N-964,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e3_raw_fiso_ors,0.9130315500685872
+N-965,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e3_logit_fiso_raw,0.8647462277091906
+N-966,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e3_logit_fiso_ors,0.8968449931412894
+N-967,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_y_below,0.8045584045584045
+N-968,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_y_above,0.8798941798941798
+N-969,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_x_below,0.9128205128205128
+N-970,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_x_above,0.9481481481481482
+N-971,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_y_tau,0.14921474325977332
+N-972,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.s14c_y_p,0.2778246565952278
+N-973,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_x,0.7407407407407407
+N-974,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_raw_ndi,0.7037037037037037
+N-975,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_odi,0.6666666666666666
+N-976,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_y,0.6296296296296297
+N-977,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_raw_fiso,0.5555555555555556
+N-978,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_tau,-0.10942704180416374
+N-979,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.e2_p,0.5254401774728676
+N-980,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.lin_expected,0.9965895061728395
+N-981,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.odi_noise_ratio,2.9129389533430974
+N-982,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.pow_both_sd08,0.13619266744099404
+N-983,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.pow_en_sd08,0.633805758090803
+N-984,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.pow_sd,0.08
+N-985,ledger/sources/s75_values.json/b40a7eebe3f0,b40a7eebe3f004f94a7aa00b3a10619a2a8c3635dd555793839d76bab2d6e24d,json:printed.pow_n,20
+N-986,ledger/sources/s76_values.json/7928340b0da8,7928340b0da8b99df2a12d6065d9a8bc14f7191b31be67993e06e3d2262eeae8,json:printed.both_te70_drop,0.006706690397444842
+N-987,ledger/sources/s76_values.json/7928340b0da8,7928340b0da8b99df2a12d6065d9a8bc14f7191b31be67993e06e3d2262eeae8,json:printed.both_te100_drop,0.009215524789622856
+N-988,ledger/sources/s76_values.json/7928340b0da8,7928340b0da8b99df2a12d6065d9a8bc14f7191b31be67993e06e3d2262eeae8,json:printed.en_te70_drop,0.0037446379210230585
+N-989,ledger/sources/s76_values.json/7928340b0da8,7928340b0da8b99df2a12d6065d9a8bc14f7191b31be67993e06e3d2262eeae8,json:printed.en_te100_drop,0.0047595769253962195
+N-990,ledger/sources/s73_derived.json/acc154e4b3bb,acc154e4b3bb78673fa1721846ab4243fbae5ac40bf73465cc41927de5cf3ef3,json:tong.delta_ndi_x_at_roi_median,0.015546065963836179
+N-991,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.s_xy_unit_median[0],0.11058455355988728
+N-992,decomp/results/remeasure/judgements.json,c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8,json:Tong.main.s_xy_unit_median[1],0.06392477115602441
+N-993,data/remeasure/explore/s73/s73_fitter.json,efda3b4b2553482170f0e505e302d5bffc897c07a785d4dbf22d11cb448a9b95,json:retest_sd.x,0.030606807295170752
+N-994,data/remeasure/explore/s73/s73_fitter.json,efda3b4b2553482170f0e505e302d5bffc897c07a785d4dbf22d11cb448a9b95,json:retest_sd.y,0.08419142268652795
+N-995,ledger/sources/r27_values.json/e018cd3b0d00,,json:ratio_x,3.613070533408288
+N-996,ledger/sources/r27_values.json/e018cd3b0d00,,json:ratio_y,0.7592789041472446
+N-997,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m1_cov_e,0.0
+N-998,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m1_cov_b,0.0001111111111111111
+N-999,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m3_cov_e,0.9563333333333335
+N-1000,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m3_pow_e,0.5854444444444443
+N-1001,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m3_pow_b,0.12374074074074073
+N-1002,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.rd_slope_reject,0.08614814814814815
+N-1003,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m5b_cov_e,0.9546666666666668
+N-1004,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m3_se_d1,0.06843089059569242
+N-1005,ledger/sources/s82_values.json/ed270628c07f,ed270628c07f4f39607dd886255673fa962736b3a7259992da96bdc2d0291eb6,json:raw.m3_se_d2,0.0684972215906545
+N-1006,,,none:계획 3 절 H2(가정),0.02
+N-1007,,,none:계획 4 절 M5b(가정),10
+N-1008,,,none:계획 6 절 R-b(정의),0
+N-1009,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.m3_cov_b,0.9477777777777778
+N-1010,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.m1_covered_total,3.0
+N-1011,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.m1_intervals_total,54000
+N-1012,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.d2_h2_s0_slope_reject,0.04940740740740741
+N-1013,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.m1_reject_relax_min,0.9998888888888889
+N-1014,ledger/sources/s83_values.json/5d4fd46daeeb,5d4fd46daeeb54c53474b58319418dde75620ac71f546440a04152e427ae2757,json:raw.m5b_pow_b,0.6116296296296295
+N-1015,ledger/sources/s84_values.json/f212d9e9c8b9,f212d9e9c8b9cdab248a5936d382edb679109a9583ad9bd5f973e8e285c0f5d6,json:raw.m1_cov_s2_max,0.0001111111111111111
+N-1016,ledger/sources/s84_values.json/f212d9e9c8b9,f212d9e9c8b9cdab248a5936d382edb679109a9583ad9bd5f973e8e285c0f5d6,json:raw.odi_pairs_beyond,17
+N-1017,ledger/sources/s84_values.json/f212d9e9c8b9,f212d9e9c8b9cdab248a5936d382edb679109a9583ad9bd5f973e8e285c0f5d6,json:raw.te_c_ms,84.45625
+N-1018,ledger/sources/s84_values.json/f212d9e9c8b9,f212d9e9c8b9cdab248a5936d382edb679109a9583ad9bd5f973e8e285c0f5d6,json:raw.bias_over_change30,2.815208333333333
+N-1019,ledger/sources/s84_values.json/f212d9e9c8b9,f212d9e9c8b9cdab248a5936d382edb679109a9583ad9bd5f973e8e285c0f5d6,json:raw.d1_h2_s0_m3_bias,-0.031378654454884705
+N-1020,,,lit:wongkornchaovalit2025|Abstract(PMID 40640197 · PubMed 2026-11-18 · 초록만 읽음),700|2000
+N-1021,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.bias_over_se_b,5.589427626968643
+N-1022,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.bias_over_se_e,15.022949713599349
+N-1023,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m2_se_b,0.00961131824080091
+N-1024,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m1_bias_e,-0.145469201434927
+N-1025,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m1_bias_b,-0.05371064234368
+N-1026,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m3_se_b,0.06845686821576852
+N-1027,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m3_over_pooled,7.1225264319272
+N-1028,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m3_ci_ndi,0.03332857225541207
+N-1029,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m1_cov_unseen_max_noH2,0.06655555555555555
+N-1030,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m1_cov_unseen_max_H2,0.13118518518518515
+N-1031,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m3_pow_V01_S1e,0.2471851851851852
+N-1032,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.m3_pow_V01_S1b,0.06355555555555556
+N-1033,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.bulk_match_drop_70,0.060052713874013786
+N-1034,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.bulk_match_drop_100,0.08369261137757267
+N-1035,,,none:정의 — s86_values.py 의 tes = 10…100,10|100
+N-1036,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.intra_raise_70,0.018347019693895406
+N-1037,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.intra_raise_100,0.024803013010122
+N-1038,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.inv_deficit,0.02
+N-1039,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.inv_te,90.0
+N-1040,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.inv_pct,5.094602706400009
+N-1041,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.strict_ratio,2.0769896193771626
+N-1042,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.te_c_ms,84.45625
+N-1043,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.e_example,0.5
+N-1044,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.te_e_logit,0.042228125
+N-1045,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.fiso_lesion_min,0.08092997646184028
+N-1046,ledger/sources/s86_values.json/52e1ca80a592,52e1ca80a59213260017737cd700b1587aadad02b4215b368ba8a257f5576064,json:raw.fiso_lesion_max,0.08706059199089528
+N-1047,ledger/sources/s87_values.json/df41b480dc85,df41b480dc853bcd9b843f469cdf29ed551853c6d5296aa00660bbb630d82863,json:raw.m1_cov_rel_unseen_noH2_max,0.06655555555555555
+N-1048,ledger/sources/s87_values.json/df41b480dc85,df41b480dc853bcd9b843f469cdf29ed551853c6d5296aa00660bbb630d82863,json:raw.m1_cov_rel_H2_max,0.13118518518518515
+N-1049,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.power,0.8
+N-1050,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.t2en_mag_min,1.7455285871139452
+N-1051,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.t2en_mag_max,3.747736529444907
+N-1052,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.go_threshold_ms_per_decade,0.6394858420289485
+N-1053,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_het_x_p,0.39511379553027914
+N-1054,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_p_bound,0.001
+N-1055,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_tau_shift_30_retest,0.018703637095173052
+N-1056,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_assumed_shift_30,0.03641404911343724
+N-1057,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_bound_indep_30,0.06898750466585159
+N-1058,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_bound_common_30,0.02155028644470872
+N-1059,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_ratio_tau_assumed_retest,0.513637937843918
+N-1060,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_1_slope_x,0.009060177679755707
+N-1061,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_1_se_x,0.0006675660845115315
+N-1062,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_1_se_retest_x,0.0001683149781645768
+N-1063,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_2_slope_x,0.008200010379183845
+N-1064,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_2_se_x,0.0006317580970591186
+N-1065,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_2_se_retest_x,6.557166071180444e-05
+N-1066,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_3_slope_x,0.007799918047725118
+N-1067,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_3_se_x,0.0006725040828391415
+N-1068,ledger/sources/s89_values.json/e93982c0e634,e93982c0e6342164a5779b2a2fb83833c406e82a7016cff0ffd3ed1543b314bc,json:raw.e3_participant_3_se_retest_x,0.00021305309871648458
+N-1069,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.m1_bias_ndi_abs_D1_S2b,0.012869638976898967
+N-1070,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.m1_bias_ndi_abs_D1_S2e,0.035153384507348284
+N-1071,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.tol_one_se_per_s,0.11380233245971624
+N-1072,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.lin_margin_x,1
+N-1073,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.grid_iso_t2_low_ratio,100.0
+N-1074,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.family_t2iso,114.97937339725722
+N-1075,ledger/sources/s90_values.json/275d36bb657d,275d36bb657d52250ea96a4ebcdd7265875dc0b2d08f09f4fb8545f097d78bc4,json:raw.grid_min_ratio_other,2.0
+N-1076,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.dte,30.0
+N-1077,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.noise2,1.5350630092552098
+N-1078,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6a_cov_min,0.9487037037037038
+N-1079,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6a_cov_max,0.9517037037037037
+N-1080,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6a_se_ratio_V0,2.313657110658692
+N-1081,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6a_power_S1b_V0,0.6738518518518518
+N-1082,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6b_cov_min,0.9232592592592592
+N-1083,ledger/sources/s91_values.json/b98bb5851821,b98bb5851821140e7686c57a703e275135586ff91aca8b895094c03c7bf51888,json:raw.M6b_cov_max,0.9305185185185185
+N-1084,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_te,91.0
+N-1085,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_ndi_con_min,0.6
+N-1086,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_ndi_pat_min,0.57
+N-1087,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_rsv_min,-1.3583951205184257
+N-1088,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_ext_min,7.600529801685996
+N-1089,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_bulk_min,2.5552345857187353
+N-1090,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_bulk_max,3.359743733685927
+N-1091,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_0_both_min,23.61948981975177
+N-1092,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_te,88.0
+N-1093,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_ndi_con_min,0.58
+N-1094,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_ndi_pat_min,0.54
+N-1095,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_rsv_min,-1.8458038884985384
+N-1096,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_ext_min,10.617242267435278
+N-1097,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_bulk_min,3.6312591014620255
+N-1098,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_bulk_max,4.706061860188715
+N-1099,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_1_both_min,35.066307461263115
+N-1100,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_te,89.0
+N-1101,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_ndi_con_min,0.6277
+N-1102,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_ndi_pat_min,0.6223
+N-1103,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_rsv_min,-0.2588798043601568
+N-1104,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_ext_min,1.3645441344381615
+N-1105,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_bulk_min,0.4400003336268776
+N-1106,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_bulk_max,0.5987250382610387
+N-1107,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.t3_2_both_min,3.778893572519748
+N-1108,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.bonnier_pct_min,0.49134300421151966
+N-1109,ledger/sources/s92_values.json/50160e5484d1,50160e5484d17644d1a3118f180570b60910c63ee799e1528bec28f62d46d1d0,json:raw.bonnier_pct_max,2.7568922305764465
+N-1110,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.ext_prior_min,5.5772755066736845
+N-1111,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.ext_prior_max,14.81682891430629
+N-1112,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.both_prior_min,13.489288359649997
+N-1113,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.r_nosol_t2in70,1.0950876584362899
+N-1114,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.r_nosol_t2in95,1.1290475364492505
+N-1115,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.pd_pct_abs,11.627906976744196
+N-1116,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.fiso_p_min_pct,10.0
+N-1117,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.fiso_p_max_pct,20.0
+N-1118,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.fiso_min,0.08416854523375171
+N-1119,ledger/sources/s93_values.json/e0d0ed0d0adc,e0d0ed0d0adc7149e6db3bb8c5985b060bd826185770c761c8cc8a5269e9f8f8,json:raw.fiso_max,0.0913369025915763

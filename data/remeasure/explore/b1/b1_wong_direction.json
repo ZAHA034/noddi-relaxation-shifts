@@ -1,0 +1,1205 @@
+{
+ "label": "B1 — post hoc after E1 (exploratory · descriptive · no threshold)",
+ "made": "2026-11-01T23:34:13+09:00",
+ "script_sha256": "dfdd0ed14933c5e6801b304385487542ba238091af8f8bb917b4c9bc0c368773",
+ "plan_sha256_at_definition": "589bafb09a64e233…",
+ "wedge": [
+  48.5,
+  72.1
+ ],
+ "theta_c": 60.3,
+ "seed": 20261141,
+ "ndraw": 10000,
+ "by_participant": {
+  "sub-01": {
+   "n": 27,
+   "theta_median": 27.63186941001311,
+   "theta_min": -27.2056177802392,
+   "theta_max": 65.37452965282768,
+   "in_wedge": 3,
+   "ci_overlaps_wedge": 9,
+   "bperp_per10ms_median": -0.05105864671785535,
+   "sd_rep_p": 0.08404058973862391,
+   "n_rep_diffs": 54,
+   "ratio_median": 4.252832210442312,
+   "ratio_min": 0.7985821686400234,
+   "ratio_max": 12.919116794075121,
+   "units": [
+    {
+     "unit": "Anterior corona radiata",
+     "bx": 0.0068732788352316755,
+     "by": 0.005560435241574425,
+     "theta": 38.97262031374715,
+     "ci": [
+      30.293777106782564,
+      44.515651857600545
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.032153807631081596,
+     "ratio_perp_drift_to_rep": 2.6781898380007325
+    },
+    {
+     "unit": "Anterior limb of internal capsule",
+     "bx": 0.010407990696427928,
+     "by": 0.009241169313738513,
+     "theta": 41.601609236231944,
+     "ci": [
+      33.17331828649781,
+      51.473757498874505
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.044620912779534866,
+     "ratio_perp_drift_to_rep": 3.7166134891268365
+    },
+    {
+     "unit": "Body of corpus callosum",
+     "bx": 0.008711381180814673,
+     "by": 0.004967347859591699,
+     "theta": 29.69237572306049,
+     "ci": [
+      15.551772221420682,
+      42.96719279813101
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05105864671785535,
+     "ratio_perp_drift_to_rep": 4.252832210442312
+    },
+    {
+     "unit": "Cerebral peduncle",
+     "bx": 0.011689354782226295,
+     "by": 0.0015641271879863593,
+     "theta": 7.621353440765463,
+     "ci": [
+      -1.1748961932421103,
+      12.848539016101416
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.09378781573471891,
+     "ratio_perp_drift_to_rep": 7.811876525198955
+    },
+    {
+     "unit": "Cingulum (cingulate gyrus)",
+     "bx": 0.008592995895816326,
+     "by": 0.004013152473236897,
+     "theta": 25.03379743375016,
+     "ci": [
+      15.666270181183544,
+      32.29682857689436
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05475795857937921,
+     "ratio_perp_drift_to_rep": 4.560959308445837
+    },
+    {
+     "unit": "Cingulum (hippocampus)",
+     "bx": 0.008802185843408505,
+     "by": 0.012898809349364214,
+     "theta": 55.690256291750536,
+     "ci": [
+      51.319111350415206,
+      61.495183940909875
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.01255029114926854,
+     "ratio_perp_drift_to_rep": 1.0453524697781147
+    },
+    {
+     "unit": "Corticospinal tract",
+     "bx": 0.017173123861810587,
+     "by": -0.001197506062334866,
+     "theta": -3.988858358751342,
+     "ci": [
+      -11.140244878257018,
+      2.5556986983432455
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.15510431346803336,
+     "ratio_perp_drift_to_rep": 12.919116794075121
+    },
+    {
+     "unit": "External capsule",
+     "bx": 0.005693988614394141,
+     "by": 0.012422157117131143,
+     "theta": 65.37452965282768,
+     "ci": [
+      60.91099157188476,
+      69.99716292129143
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.012086874709969497,
+     "ratio_perp_drift_to_rep": 1.006753084823984
+    },
+    {
+     "unit": "Fornix (column and body of fornix)",
+     "bx": 0.005406698504875319,
+     "by": 0.0028303840604217575,
+     "theta": 27.63186941001311,
+     "ci": [
+      -1.4755224939991842,
+      52.220266355359016
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.03294090392671678,
+     "ratio_perp_drift_to_rep": 2.7437495168009645
+    },
+    {
+     "unit": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+     "bx": 0.010522539522883189,
+     "by": 0.006979892696019796,
+     "theta": 33.55742171886775,
+     "ci": [
+      16.12709633509571,
+      52.73647050786543
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.056819611005266904,
+     "ratio_perp_drift_to_rep": 4.732680699574788
+    },
+    {
+     "unit": "Genu of corpus callosum",
+     "bx": 0.013270850120231109,
+     "by": 0.007120409762109454,
+     "theta": 28.21556504763615,
+     "ci": [
+      23.73442742916185,
+      32.94107509350483
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07999609898390733,
+     "ratio_perp_drift_to_rep": 6.663121887042107
+    },
+    {
+     "unit": "Inferior cerebellar peduncle",
+     "bx": 0.007939405843073559,
+     "by": -0.00035921960779299565,
+     "theta": -2.590589346707866,
+     "ci": [
+      -30.81352620109087,
+      20.80137880863878
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07074396589760339,
+     "ratio_perp_drift_to_rep": 5.892483177752297
+    },
+    {
+     "unit": "Medial lemniscus",
+     "bx": 0.010467191937452106,
+     "by": -0.000435699205746712,
+     "theta": -2.383573633609746,
+     "ci": [
+      -29.163069081080508,
+      21.51942937912678
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.09308003732860572,
+     "ratio_perp_drift_to_rep": 7.752923478127282
+    },
+    {
+     "unit": "Middle cerebellar peduncle",
+     "bx": 0.010891776407002394,
+     "by": -0.00559896279290282,
+     "theta": -27.2056177802392,
+     "ci": [
+      -32.263972105681255,
+      -22.395135443320015
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.12234994885310876,
+     "ratio_perp_drift_to_rep": 10.1909047120614
+    },
+    {
+     "unit": "Pontine crossing tract (a part of MCP)",
+     "bx": 0.017295936646913566,
+     "by": 0.0022761417309195993,
+     "theta": 7.4970318348380145,
+     "ci": [
+      -5.130662848734199,
+      21.926362958952048
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.1389606149207068,
+     "ratio_perp_drift_to_rep": 11.574458335790291
+    },
+    {
+     "unit": "Posterior corona radiata",
+     "bx": 0.00515439954646908,
+     "by": 0.004186543167503353,
+     "theta": 39.08444037616366,
+     "ci": [
+      25.466419875668983,
+      49.229350983245766
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.024030147809629573,
+     "ratio_perp_drift_to_rep": 2.0015451484879274
+    },
+    {
+     "unit": "Posterior limb of internal capsule",
+     "bx": 0.00933033990647644,
+     "by": 0.0005640087367055594,
+     "theta": 3.4592571990639938,
+     "ci": [
+      -11.811992812277756,
+      19.77561645352811
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07825184265513344,
+     "ratio_perp_drift_to_rep": 6.517837396067077
+    },
+    {
+     "unit": "Posterior thalamic radiation (include optic radiation)",
+     "bx": 0.007261287864678911,
+     "by": 0.003060047379484677,
+     "theta": 22.851500303938717,
+     "ci": [
+      14.240162078960504,
+      30.861491688648915
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.04791256474688145,
+     "ratio_perp_drift_to_rep": 3.990785336838616
+    },
+    {
+     "unit": "Retrolenticular part of internal capsule",
+     "bx": 0.008196134190913662,
+     "by": 0.005746165385148178,
+     "theta": 35.03362094512801,
+     "ci": [
+      15.8304322563499,
+      46.535034406245316
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.042724330044740653,
+     "ratio_perp_drift_to_rep": 3.558641261839407
+    },
+    {
+     "unit": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+     "bx": 0.007669868124590652,
+     "by": 0.005000395459691167,
+     "theta": 33.10247084650347,
+     "ci": [
+      23.70041372190578,
+      39.981975459037756
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.04184799888510345,
+     "ratio_perp_drift_to_rep": 3.4856489359104867
+    },
+    {
+     "unit": "Splenium of corpus callosum",
+     "bx": 0.012681271647241615,
+     "by": -0.0015083712092739383,
+     "theta": -6.783165238231214,
+     "ci": [
+      -13.46462729692458,
+      -0.7739943394715083
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.11762687786794226,
+     "ratio_perp_drift_to_rep": 9.797505558164568
+    },
+    {
+     "unit": "Superior cerebellar peduncle",
+     "bx": 0.00841613358873917,
+     "by": 0.0029653148227146466,
+     "theta": 19.409244053610045,
+     "ci": [
+      -7.522190457348816,
+      42.526153645818184
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05841327931355555,
+     "ratio_perp_drift_to_rep": 4.865422249731872
+    },
+    {
+     "unit": "Superior corona radiata",
+     "bx": 0.006423493560105733,
+     "by": 0.003610693236397688,
+     "theta": 29.340662813557177,
+     "ci": [
+      21.56189603381558,
+      36.718918676636214
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.037906996760751134,
+     "ratio_perp_drift_to_rep": 3.1573907102570837
+    },
+    {
+     "unit": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+     "bx": 0.004450746858392632,
+     "by": 0.0008253380662112854,
+     "theta": 10.505487173641146,
+     "ci": [
+      -71.69181394875388,
+      55.187475679345845
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.03457138084694992,
+     "ratio_perp_drift_to_rep": 2.8795569698082413
+    },
+    {
+     "unit": "Superior longitudinal fasciculus",
+     "bx": 0.007337378940306982,
+     "by": 0.004919918541134078,
+     "theta": 33.84296230056876,
+     "ci": [
+      27.495204994117703,
+      39.52099015087278
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.039358622917395406,
+     "ratio_perp_drift_to_rep": 3.2783011313775567
+    },
+    {
+     "unit": "Tapetum",
+     "bx": 0.0075267202300052394,
+     "by": 0.0010568448352250186,
+     "theta": 7.992783516560865,
+     "ci": [
+      -47.49240865221882,
+      63.38548898188208
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.06014323457341767,
+     "ratio_perp_drift_to_rep": 5.009515560555813
+    },
+    {
+     "unit": "Uncinate fasciculus",
+     "bx": 0.006438324202922508,
+     "by": 0.013222683107992092,
+     "theta": 64.03784940928071,
+     "ci": [
+      56.1729394551542,
+      71.88094775155342
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.00958761662960811,
+     "ratio_perp_drift_to_rep": 0.7985821686400234
+    }
+   ]
+  },
+  "sub-02": {
+   "n": 27,
+   "theta_median": 25.3496317912992,
+   "theta_min": -10.313968510218405,
+   "theta_max": 63.20318583445442,
+   "in_wedge": 3,
+   "ci_overlaps_wedge": 7,
+   "bperp_per10ms_median": -0.057783711224058565,
+   "sd_rep_p": 0.06468848845758032,
+   "n_rep_diffs": 54,
+   "ratio_median": 6.252827793830009,
+   "ratio_min": 0.6945660678988471,
+   "ratio_max": 11.150706095821407,
+   "units": [
+    {
+     "unit": "Anterior corona radiata",
+     "bx": 0.007293452447269077,
+     "by": 0.004845844113464664,
+     "theta": 33.600468115510125,
+     "ci": [
+      25.37536673536909,
+      42.51031915087308
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.03934407172866048,
+     "ratio_perp_drift_to_rep": 4.257457681689739
+    },
+    {
+     "unit": "Anterior limb of internal capsule",
+     "bx": 0.012310315934585389,
+     "by": 0.006088627541575365,
+     "theta": 26.31679453911313,
+     "ci": [
+      21.302488468189345,
+      31.98702767765074
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.0767646507914169,
+     "ratio_perp_drift_to_rep": 8.306772477645524
+    },
+    {
+     "unit": "Body of corpus callosum",
+     "bx": 0.007519469364357297,
+     "by": -0.0005783868337999697,
+     "theta": -4.398448669968054,
+     "ci": [
+      -34.73060061600722,
+      31.633095447492934
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.06818214832246632,
+     "ratio_perp_drift_to_rep": 7.3780521022722425
+    },
+    {
+     "unit": "Cerebral peduncle",
+     "bx": 0.008946445257673474,
+     "by": -0.00013572019672742025,
+     "theta": -0.8691270994787401,
+     "ci": [
+      -10.205866696992148,
+      9.39943859131438
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07838408040961237,
+     "ratio_perp_drift_to_rep": 8.482012425241482
+    },
+    {
+     "unit": "Cingulum (cingulate gyrus)",
+     "bx": 0.010603836458948052,
+     "by": 0.0068622896286936715,
+     "theta": 32.908989296933285,
+     "ci": [
+      17.941090491197702,
+      46.01310421892104
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05810845640360865,
+     "ratio_perp_drift_to_rep": 6.287968764210563
+    },
+    {
+     "unit": "Cingulum (hippocampus)",
+     "bx": 0.008499323860499383,
+     "by": 0.013127724337981374,
+     "theta": 57.079642092447514,
+     "ci": [
+      47.47222736876086,
+      64.711669161882
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.00878535736602272,
+     "ratio_perp_drift_to_rep": 0.9506714877483374
+    },
+    {
+     "unit": "Corticospinal tract",
+     "bx": 0.011878487992500337,
+     "by": 0.0014877867952528309,
+     "theta": 7.139148812350012,
+     "ci": [
+      -4.223934423078083,
+      21.41339640671497
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.0958089214967415,
+     "ratio_perp_drift_to_rep": 10.367570281333432
+    },
+    {
+     "unit": "External capsule",
+     "bx": 0.005713299240392343,
+     "by": 0.011311972927487307,
+     "theta": 63.20318583445442,
+     "ci": [
+      57.04259708718626,
+      69.21619889881526
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.00641863272375736,
+     "ratio_perp_drift_to_rep": 0.6945660678988471
+    },
+    {
+     "unit": "Fornix (column and body of fornix)",
+     "bx": 0.008580693053490707,
+     "by": 0.00230309733775118,
+     "theta": 15.024341335766923,
+     "ci": [
+      2.328781264939334,
+      33.26601485558087
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.06312370861750477,
+     "ratio_perp_drift_to_rep": 6.830673754454603
+    },
+    {
+     "unit": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+     "bx": 0.010340379436690276,
+     "by": 0.0048988381231156375,
+     "theta": 25.3496317912992,
+     "ci": [
+      9.44601080548855,
+      43.09206199165137
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.06554807636613016,
+     "ratio_perp_drift_to_rep": 7.093016787118077
+    },
+    {
+     "unit": "Genu of corpus callosum",
+     "bx": 0.0113591281951388,
+     "by": 0.002003770335449276,
+     "theta": 10.004155924798596,
+     "ci": [
+      -0.48719557857825524,
+      21.72708751511757
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.08874111344594918,
+     "ratio_perp_drift_to_rep": 9.602756362578948
+    },
+    {
+     "unit": "Inferior cerebellar peduncle",
+     "bx": 0.007784992951004396,
+     "by": 0.001442594033433646,
+     "theta": 10.498085068547347,
+     "ci": [
+      -25.12336223410545,
+      32.57240595112937
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.06047544498028022,
+     "ratio_perp_drift_to_rep": 6.544102744641502
+    },
+    {
+     "unit": "Medial lemniscus",
+     "bx": 0.008898249886292703,
+     "by": 0.003937622402180638,
+     "theta": 23.870180674101185,
+     "ci": [
+      2.315994082734192,
+      36.975331504290445
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.057783711224058565,
+     "ratio_perp_drift_to_rep": 6.252827793830009
+    },
+    {
+     "unit": "Middle cerebellar peduncle",
+     "bx": 0.008327103497223431,
+     "by": -0.0015153884392553791,
+     "theta": -10.313968510218405,
+     "ci": [
+      -16.424080405621428,
+      -3.3421655327875057
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07983996859948081,
+     "ratio_perp_drift_to_rep": 8.639555406567474
+    },
+    {
+     "unit": "Pontine crossing tract (a part of MCP)",
+     "bx": 0.013654615778309445,
+     "by": 0.008364970487976953,
+     "theta": 31.492102062113812,
+     "ci": [
+      16.861717589935623,
+      44.4018007614351
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07716332443135106,
+     "ratio_perp_drift_to_rep": 8.34991331376769
+    },
+    {
+     "unit": "Posterior corona radiata",
+     "bx": 0.004744952587668957,
+     "by": 0.0026374535631549715,
+     "theta": 29.067232671222087,
+     "ci": [
+      8.528441764774291,
+      47.777678434411726
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.0281486612171123,
+     "ratio_perp_drift_to_rep": 3.0459921574608453
+    },
+    {
+     "unit": "Posterior limb of internal capsule",
+     "bx": 0.009533705380343625,
+     "by": 0.0021958727389712086,
+     "theta": 12.970574644206744,
+     "ci": [
+      2.635731269974632,
+      25.436004774017924
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07193312759437716,
+     "ratio_perp_drift_to_rep": 7.78394897093372
+    },
+    {
+     "unit": "Posterior thalamic radiation (include optic radiation)",
+     "bx": 0.0057235978134624905,
+     "by": 0.004825971983544937,
+     "theta": 40.13661734103492,
+     "ci": [
+      26.597891825889754,
+      52.75396813418398
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.025806277838837634,
+     "ratio_perp_drift_to_rep": 2.792520727862134
+    },
+    {
+     "unit": "Retrolenticular part of internal capsule",
+     "bx": 0.006967618810736533,
+     "by": 0.003727196497669864,
+     "theta": 28.143715143257875,
+     "ci": [
+      15.72604581545336,
+      40.6399134462482
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.04205621465876659,
+     "ratio_perp_drift_to_rep": 4.550941127715723
+    },
+    {
+     "unit": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+     "bx": 0.006202550391834437,
+     "by": 0.005420987988687845,
+     "theta": 41.15324337229202,
+     "ci": [
+      31.85346738784981,
+      50.215417886245234
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.027018552497749884,
+     "ratio_perp_drift_to_rep": 2.923702068077718
+    },
+    {
+     "unit": "Splenium of corpus callosum",
+     "bx": 0.011936494979210349,
+     "by": 0.00012879197953205663,
+     "theta": 0.6181840258771152,
+     "ci": [
+      -6.010646995774384,
+      5.843925864213732
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.10304604608191624,
+     "ratio_perp_drift_to_rep": 11.150706095821407
+    },
+    {
+     "unit": "Superior cerebellar peduncle",
+     "bx": 0.00658276839132603,
+     "by": 0.001222109214369885,
+     "theta": 10.517377432694754,
+     "ci": [
+      -14.9804337979332,
+      27.488428884794832
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05112495472922706,
+     "ratio_perp_drift_to_rep": 5.5322777149023485
+    },
+    {
+     "unit": "Superior corona radiata",
+     "bx": 0.006016052451651774,
+     "by": 0.002651607296694802,
+     "theta": 23.78574302243794,
+     "ci": [
+      10.444076694697465,
+      35.365825524861975
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.039119709315918114,
+     "ratio_perp_drift_to_rep": 4.233179221539499
+    },
+    {
+     "unit": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+     "bx": 0.0052157233100379044,
+     "by": 0.0037672864081417816,
+     "theta": 35.84036109738647,
+     "ci": [
+      -36.471673127888465,
+      49.53784427268358
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.02664006930307366,
+     "ratio_perp_drift_to_rep": 2.882746058347008
+    },
+    {
+     "unit": "Superior longitudinal fasciculus",
+     "bx": 0.0064492512519462196,
+     "by": 0.00257454072624033,
+     "theta": 21.761881396025704,
+     "ci": [
+      9.027807704755855,
+      33.500652218458896
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.043264443619224074,
+     "ratio_perp_drift_to_rep": 4.681684679232597
+    },
+    {
+     "unit": "Tapetum",
+     "bx": 0.005456594961750453,
+     "by": 0.003516375499894425,
+     "theta": 32.798813035157885,
+     "ci": [
+      13.590900660485204,
+      63.3224993574219
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.029975516224150667,
+     "ratio_perp_drift_to_rep": 3.2436777944912167
+    },
+    {
+     "unit": "Uncinate fasciculus",
+     "bx": 0.004861176553619829,
+     "by": 0.006914740771842236,
+     "theta": 54.89215067131075,
+     "ci": [
+      23.09681519924492,
+      68.59324196864848
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.007966028963499863,
+     "ratio_perp_drift_to_rep": 0.8620112182875518
+    }
+   ]
+  },
+  "sub-03": {
+   "n": 27,
+   "theta_median": 25.42864926128064,
+   "theta_min": -22.395792065459474,
+   "theta_max": 99.8546952568227,
+   "in_wedge": 4,
+   "ci_overlaps_wedge": 7,
+   "bperp_per10ms_median": -0.04676457142643,
+   "sd_rep_p": 0.09787407630247037,
+   "n_rep_diffs": 54,
+   "ratio_median": 4.089362169516269,
+   "ratio_min": 1.1326304670261775,
+   "ratio_max": 9.227472991585065,
+   "units": [
+    {
+     "unit": "Anterior corona radiata",
+     "bx": 0.005570017888209302,
+     "by": 0.005999690245051652,
+     "theta": 47.12685607247895,
+     "ci": [
+      43.91501523509276,
+      50.95758785905851
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.018656945338628654,
+     "ratio_perp_drift_to_rep": 1.3343535112075868
+    },
+    {
+     "unit": "Anterior limb of internal capsule",
+     "bx": 0.012189787801298287,
+     "by": 0.005795608036623205,
+     "theta": 25.42864926128064,
+     "ci": [
+      19.915187194833376,
+      31.18504382298616
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07716949597940427,
+     "ratio_perp_drift_to_rep": 5.519198671019237
+    },
+    {
+     "unit": "Body of corpus callosum",
+     "bx": 0.00741192892732196,
+     "by": -0.001838421407219307,
+     "theta": -13.930257415487409,
+     "ci": [
+      -44.27625772752448,
+      30.156027325516522
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07349096871486423,
+     "ratio_perp_drift_to_rep": 5.256108669820111
+    },
+    {
+     "unit": "Cerebral peduncle",
+     "bx": 0.013590709235201191,
+     "by": -0.0022131905640341374,
+     "theta": -9.249190996148165,
+     "ci": [
+      -17.63607449171015,
+      -0.8411498279848703
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.12901862795105445,
+     "ratio_perp_drift_to_rep": 9.227472991585065
+    },
+    {
+     "unit": "Cingulum (cingulate gyrus)",
+     "bx": 0.00758130140513762,
+     "by": 0.008583364779803369,
+     "theta": 48.547281804340415,
+     "ci": [
+      39.637375829938044,
+      57.019320423174385
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.023326548364860755,
+     "ratio_perp_drift_to_rep": 1.668325717316669
+    },
+    {
+     "unit": "Cingulum (hippocampus)",
+     "bx": 0.010260205851805234,
+     "by": 0.012715086892150028,
+     "theta": 51.098842531690174,
+     "ci": [
+      38.93280105128092,
+      60.99157718106251
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.0261253812691416,
+     "ratio_perp_drift_to_rep": 1.868499563856168
+    },
+    {
+     "unit": "Corticospinal tract",
+     "bx": 0.009701240979429213,
+     "by": -0.0039977294926335,
+     "theta": -22.395792065459474,
+     "ci": [
+      -45.835068235646055,
+      -1.3173463986010188
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.10407513375064598,
+     "ratio_perp_drift_to_rep": 7.443502547120677
+    },
+    {
+     "unit": "External capsule",
+     "bx": 0.00467596397172122,
+     "by": 0.012474583387519507,
+     "theta": 69.45202801162125,
+     "ci": [
+      63.525903515278735,
+      75.0463649454497
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.021189508082148235,
+     "ratio_perp_drift_to_rep": 1.5154835905337054
+    },
+    {
+     "unit": "Fornix (column and body of fornix)",
+     "bx": -0.001623973318040204,
+     "by": 0.009348586406516101,
+     "theta": 99.8546952568227,
+     "ci": [
+      50.79443913788563,
+      119.73801101101333
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.0604247257535425,
+     "ratio_perp_drift_to_rep": 4.321604823810955
+    },
+    {
+     "unit": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+     "bx": 0.00890380573016396,
+     "by": 0.006171390890560035,
+     "theta": 34.72653890254001,
+     "ci": [
+      26.126792002166372,
+      44.44626529688645
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.04676457142643,
+     "ratio_perp_drift_to_rep": 3.3446241574056885
+    },
+    {
+     "unit": "Genu of corpus callosum",
+     "bx": 0.009602587551928433,
+     "by": 0.0019837173390856,
+     "theta": 11.672060223034867,
+     "ci": [
+      -8.979486569836057,
+      25.954658227621472
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07358260216387288,
+     "ratio_perp_drift_to_rep": 5.262662337219007
+    },
+    {
+     "unit": "Inferior cerebellar peduncle",
+     "bx": 0.006561975942971166,
+     "by": -0.00041836166182703877,
+     "theta": -3.6479802478289405,
+     "ci": [
+      -14.646202012017023,
+      14.996798723546194
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.05907220012942016,
+     "ratio_perp_drift_to_rep": 4.224871554629467
+    },
+    {
+     "unit": "Medial lemniscus",
+     "bx": 0.009507670291740702,
+     "by": 0.00016526976079286513,
+     "theta": 0.9958597542354317,
+     "ci": [
+      -5.933684368778564,
+      9.576941439159766
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.0817677770867915,
+     "ratio_perp_drift_to_rep": 5.84806989992603
+    },
+    {
+     "unit": "Middle cerebellar peduncle",
+     "bx": 0.010030401389015406,
+     "by": -0.003944794007086694,
+     "theta": -21.468908666601372,
+     "ci": [
+      -31.40821721415673,
+      -6.376143157438854
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.10667205134954702,
+     "ratio_perp_drift_to_rep": 7.62923531599125
+    },
+    {
+     "unit": "Pontine crossing tract (a part of MCP)",
+     "bx": 0.012764671597270651,
+     "by": 0.0069062458779910185,
+     "theta": 28.415327474077355,
+     "ci": [
+      -0.8251676245460643,
+      46.27112146946638
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.07666036634267138,
+     "ratio_perp_drift_to_rep": 5.482785479786491
+    },
+    {
+     "unit": "Posterior corona radiata",
+     "bx": 0.004281023132560677,
+     "by": 0.0034238103402071175,
+     "theta": 38.65157989799006,
+     "ci": [
+      26.666200266457523,
+      50.86850462038254
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": -0.02022275094856984,
+     "ratio_perp_drift_to_rep": 1.446340665351606
+    },
+    {
+     "unit": "Posterior limb of internal capsule",
+     "bx": 0.010417968220782729,
+     "by": 0.0020099956505065823,
+     "theta": 10.920209543553542,
+     "ci": [
+      1.450616008495573,
+      19.942184829055858
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.08053505744432526,
+     "ratio_perp_drift_to_rep": 5.75990521093733
+    },
+    {
+     "unit": "Posterior thalamic radiation (include optic radiation)",
+     "bx": 0.0057679585978170885,
+     "by": 0.0025653555947396695,
+     "theta": 23.977571080043763,
+     "ci": [
+      16.235259687534903,
+      31.332265854742836
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.037392029450132994,
+     "ratio_perp_drift_to_rep": 2.674295544225989
+    },
+    {
+     "unit": "Retrolenticular part of internal capsule",
+     "bx": 0.008162165767066782,
+     "by": 0.005052694228265895,
+     "theta": 31.759099182325606,
+     "ci": [
+      25.23440674243511,
+      38.81921463919814
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.045865132570100484,
+     "ratio_perp_drift_to_rep": 3.2802958670946847
+    },
+    {
+     "unit": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+     "bx": 0.006859170579692772,
+     "by": 0.0032934458281286268,
+     "theta": 25.64809276120593,
+     "ci": [
+      12.017186542070462,
+      37.82734207214905
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.04326325443869541,
+     "ratio_perp_drift_to_rep": 3.094208318604832
+    },
+    {
+     "unit": "Splenium of corpus callosum",
+     "bx": 0.012838600973040919,
+     "by": -0.0011054851961493988,
+     "theta": -4.921392066134962,
+     "ci": [
+      -7.9651331445482585,
+      -1.8642980776116005
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.11699735629736087,
+     "ratio_perp_drift_to_rep": 8.36770598529628
+    },
+    {
+     "unit": "Superior cerebellar peduncle",
+     "bx": 0.00792429543709925,
+     "by": 4.5231036767707864e-05,
+     "theta": 0.3270346728817801,
+     "ci": [
+      -28.249478505191288,
+      45.52902302790372
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.06860882637134424,
+     "ratio_perp_drift_to_rep": 4.906935551710415
+    },
+    {
+     "unit": "Superior corona radiata",
+     "bx": 0.005217780426687021,
+     "by": 0.0037377170284362943,
+     "theta": 35.61562835474531,
+     "ci": [
+      23.265914378034374,
+      46.24356124629296
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.026804442121529166,
+     "ratio_perp_drift_to_rep": 1.9170663156079082
+    },
+    {
+     "unit": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+     "bx": 0.004605282066187734,
+     "by": 0.002121976582353419,
+     "theta": 24.738840230377253,
+     "ci": [
+      -0.18300341954182256,
+      40.8922006438203
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.029489414436301174,
+     "ratio_perp_drift_to_rep": 2.1090967991990945
+    },
+    {
+     "unit": "Superior longitudinal fasciculus",
+     "bx": 0.006845708082731244,
+     "by": 0.005268981251645897,
+     "theta": 37.58463643154524,
+     "ci": [
+      33.02087813185047,
+      41.714046612528904
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.03335835344368811,
+     "ratio_perp_drift_to_rep": 2.3858051378608303
+    },
+    {
+     "unit": "Tapetum",
+     "bx": 0.0060695206671286086,
+     "by": -0.0008993156086554435,
+     "theta": -8.42814548083959,
+     "ci": [
+      -56.46038338623329,
+      43.684858617410434
+     ],
+     "in_wedge": false,
+     "ci_overlaps_wedge": false,
+     "bperp_per10ms": -0.0571775064296673,
+     "ratio_perp_drift_to_rep": 4.089362169516269
+    },
+    {
+     "unit": "Uncinate fasciculus",
+     "bx": 0.004880018092609239,
+     "by": 0.011751903904102263,
+     "theta": 67.44916526962056,
+     "ci": [
+      58.13136183366185,
+      73.79337671638784
+     ],
+     "in_wedge": true,
+     "ci_overlaps_wedge": true,
+     "bperp_per10ms": 0.01583645153603182,
+     "ratio_perp_drift_to_rep": 1.1326304670261775
+    }
+   ]
+  }
+ },
+ "overall": {
+  "n": 81,
+  "theta_median": 25.42864926128064,
+  "in_wedge": 10,
+  "ci_overlaps_wedge": 23,
+  "ratio_median": 4.550941127715723,
+  "max_abs_diff_vs_E1_deg": 0.0
+ }
+}

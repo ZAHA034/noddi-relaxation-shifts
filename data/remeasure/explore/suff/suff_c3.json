@@ -1,0 +1,132 @@
+{
+ "made": "2026-11-03T02:19:55+09:00",
+ "script_sha256": "2c31d4b82d2649fa663d580cae7060569bebcaca105639a755dcc53858139033",
+ "pair": "OXF1PRI~OXF2PRI",
+ "combos": [
+  "32|64",
+  "32|32",
+  "64|64"
+ ],
+ "seed": 6000,
+ "seconds": 1415.4,
+ "gate": {
+  "pit": true,
+  "mean": true,
+  "sd": true,
+  "okc": true,
+  "covc": true,
+  "n_units": true,
+  "passed": true
+ },
+ "n_rows": 540,
+ "n_use_d1": 191,
+ "rule": "§24-1 — 지지 = 같은 L 두 조합 × NDI · ODI 넷 모두 덮음 ≥ 대칭 문턱(NDI 0.80 · ODI 0.75)이고 |z 평균| < 1 · 약화 = 어느 성분이든 두 조합 모두에서 덮음 < 0.5 또는 |z 평균| > 2 · 그 밖 = 판단 보류",
+ "reading": "지지",
+ "cells": {
+  "32|64|NDI": {
+   "n": 191,
+   "coverage": 0.010471204188481676,
+   "z_mean": -4.430328458679957,
+   "z_sd": 1.4934360660496824,
+   "pit_mean": 0.9964083769633503,
+   "tail": 0.9895287958115183,
+   "comp": "NDI",
+   "threshold": 0.8,
+   "n_flag_this_combo": 0,
+   "dz_vs_32_64": 0.0
+  },
+  "32|64|ODI": {
+   "n": 191,
+   "coverage": 0.6492146596858639,
+   "z_mean": -1.1787960706939629,
+   "z_sd": 1.4366319003520358,
+   "pit_mean": 0.7502303664921464,
+   "tail": 0.3507853403141361,
+   "comp": "ODI",
+   "threshold": 0.75,
+   "n_flag_this_combo": 0,
+   "dz_vs_32_64": 0.0
+  },
+  "32|32|NDI": {
+   "n": 191,
+   "coverage": 0.9214659685863874,
+   "z_mean": 0.24661379165835123,
+   "z_sd": 0.9050575670101055,
+   "pit_mean": 0.43715183246073275,
+   "tail": 0.07853403141361257,
+   "comp": "NDI",
+   "threshold": 0.8,
+   "n_flag_this_combo": 1,
+   "dz_vs_32_64": 4.685845130398935,
+   "expected": {
+    "observed_32_64_z": -4.430328458679957,
+    "sim_shift_match": 2.9875770207051575,
+    "sim_shift_key": "NDI|side B|64->32|match",
+    "expected_z": -1.4427514379747999,
+    "z_sd_kept": 1.4934360660496824,
+    "expected_coverage_normal": 0.534477457494304
+   }
+  },
+  "32|32|ODI": {
+   "n": 191,
+   "coverage": 0.900523560209424,
+   "z_mean": 0.6018484510032407,
+   "z_sd": 0.9753411374422779,
+   "pit_mean": 0.3087905759162303,
+   "tail": 0.09947643979057591,
+   "comp": "ODI",
+   "threshold": 0.75,
+   "n_flag_this_combo": 1,
+   "dz_vs_32_64": 1.808047648169637,
+   "expected": {
+    "observed_32_64_z": -1.1787960706939629,
+    "sim_shift_match": 2.742055154807737,
+    "sim_shift_key": "ODI|side B|64->32|match",
+    "expected_z": 1.5632590841137741,
+    "z_sd_kept": 1.4366319003520358,
+    "expected_coverage_normal": 0.5098741748442166
+   }
+  },
+  "64|64|NDI": {
+   "n": 189,
+   "coverage": 0.9312169312169312,
+   "z_mean": 0.12552974178630716,
+   "z_sd": 0.9726092925932702,
+   "pit_mean": 0.47669312169312145,
+   "tail": 0.06878306878306878,
+   "comp": "NDI",
+   "threshold": 0.8,
+   "n_flag_this_combo": 64,
+   "dz_vs_32_64": 4.611224355705899,
+   "expected": {
+    "observed_32_64_z": -4.430328458679957,
+    "sim_shift_match": 3.6861931121958387,
+    "sim_shift_key": "NDI|side A|32->64|match",
+    "expected_z": -0.7441353464841187,
+    "z_sd_kept": 1.4934360660496824,
+    "expected_coverage_normal": 0.6719478408032566
+   }
+  },
+  "64|64|ODI": {
+   "n": 189,
+   "coverage": 0.9206349206349206,
+   "z_mean": 0.5334848050586832,
+   "z_sd": 0.8430997870968983,
+   "pit_mean": 0.32858730158730165,
+   "tail": 0.07407407407407407,
+   "comp": "ODI",
+   "threshold": 0.75,
+   "n_flag_this_combo": 64,
+   "dz_vs_32_64": 1.7672750468585883,
+   "expected": {
+    "observed_32_64_z": -1.1787960706939629,
+    "sim_shift_match": 2.833051919839031,
+    "sim_shift_key": "ODI|side A|32->64|match",
+    "expected_z": 1.654255849145068,
+    "z_sd_kept": 1.4366319003520358,
+    "expected_coverage_normal": 0.48656313537283447
+   }
+  }
+ },
+ "note": "탐색 · 판정 아님 · 판단기 점 추정은 내지 않음(z · PIT 는 보정 진단)"
+}

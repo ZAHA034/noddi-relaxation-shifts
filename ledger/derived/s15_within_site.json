@@ -1,0 +1,392 @@
+{
+ "what": "Supplementary Table S15, column 'within one site' (direction §5d): patient − control apparent NDI at one TE, both groups at that TE (illustration of Section 2.4; Eqs. (3)-(4); derived; no data)",
+ "model": "decomp/stage1/config.py weights (TE term only, no TR term) and apparent (free water 0), the code path of residual_s15.py (Table S15) and Fig. 3",
+ "inputs": {
+  "nu_both_groups": 0.46,
+  "T2_in_controls_ms": 82.5,
+  "T2_en_controls_ms": 52.0,
+  "T2_iso_ms_unused_fiso0": 1000.0,
+  "TE_ms": [
+   70.0,
+   80.0,
+   90.0,
+   100.0
+  ],
+  "l2_factor_code": 1.0984,
+  "l2_pct_code": 9.840000000000003,
+  "brandhofe_ratio_113.03/102.9": 1.0984450923226432,
+  "brandhofe_pct": 9.84450923226432,
+  "brandhofe_pct_printed": "9.84",
+  "l2_pct_code_printed": "9.84"
+ },
+ "read_only_sources": {
+  "config_py": {
+   "path": "decomp/stage1/config.py (repository)",
+   "sha256": "acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7"
+  },
+  "residual_s15_json": {
+   "path": "x15/ledger/derived/residual_s15.json",
+   "sha256": "f5faed372661a3e98c2bf7ceb93a9cecb5de40ab44733230a539d0e423e9186f"
+  },
+  "residual_s15_py": {
+   "path": "x15/ledger/derived/residual_s15.py",
+   "sha256": "29f8f2ed7ee0954b7880196693cc7591f71817216ed32261f1951f0d0d93b796"
+  },
+  "s74_clinical_json": {
+   "path": "x15/ledger/derived/s74_clinical.json",
+   "sha256": "1a7b65b5da98f79903ee04fa98b6134dd31ba9d874a2237713be80ae77244967"
+  },
+  "s74_clinical_py": {
+   "path": "x15/ledger/derived/s74_clinical.py",
+   "sha256": "7a9033e1cf18a45cf44ea615da50d01496b7faa28ec0be678df12d1c357492d0"
+  }
+ },
+ "runtime": {
+  "python": "3.12.3",
+  "numpy": "2.5.3"
+ },
+ "rows": {
+  "diffuse_en": {
+   "label": "Diffuse, extra-neurite only (T2,en + 9.84 %)",
+   "source": "S-M2 level L2",
+   "T2_in_patients_ms": 82.5,
+   "T2_en_patients_ms": 57.116800000000005,
+   "within": {
+    "te70": {
+     "TE_ms": 70.0,
+     "control_app_ndi": 0.5835409149628544,
+     "patient_app_ndi": 0.5539717387406751,
+     "raw": -0.02956917622217936,
+     "raw_printed": "−0.030",
+     "logit": -0.12059499131604043,
+     "logit_eq4": -0.12059499131604035,
+     "logit_printed": "−0.121"
+    },
+    "te80": {
+     "TE_ms": 80.0,
+     "control_app_ndi": 0.6007094242593198,
+     "patient_app_ndi": 0.567239970222757,
+     "raw": -0.03346945403656287,
+     "raw_printed": "−0.033",
+     "logit": -0.1378228472183321,
+     "logit_eq4": -0.13782284721833182,
+     "logit_printed": "−0.138"
+    },
+    "te90": {
+     "TE_ms": 90.0,
+     "control_app_ndi": 0.6176339305368074,
+     "patient_app_ndi": 0.5804124549016851,
+     "raw": -0.037221475635122236,
+     "raw_printed": "−0.037",
+     "logit": -0.15505070312062336,
+     "logit_eq4": -0.1550507031206233,
+     "logit_printed": "−0.155"
+    },
+    "te100": {
+     "TE_ms": 100.0,
+     "control_app_ndi": 0.6342778141209179,
+     "patient_app_ndi": 0.593471342313162,
+     "raw": -0.04080647180775587,
+     "raw_printed": "−0.041",
+     "logit": -0.17227855902291422,
+     "logit_eq4": -0.17227855902291478,
+     "logit_printed": "−0.172"
+    }
+   },
+   "grid_te70_100_step0.5": {
+    "abs_min": 0.02956917622217936,
+    "abs_max": 0.04080647180775587,
+    "te_at_abs_min": 70.0,
+    "te_at_abs_max": 100.0,
+    "abs_increases_with_te": true,
+    "all_negative": true
+   }
+  },
+  "diffuse_both": {
+   "label": "Diffuse, both compartments (T2,in and T2,en + 9.84 %)",
+   "source": "S-M2 level L2",
+   "T2_in_patients_ms": 90.61800000000001,
+   "T2_en_patients_ms": 57.116800000000005,
+   "within": {
+    "te70": {
+     "TE_ms": 70.0,
+     "control_app_ndi": 0.5835409149628544,
+     "patient_app_ndi": 0.5726674692683221,
+     "raw": -0.010873445694532302,
+     "raw_printed": "−0.011",
+     "logit": -0.044583602850172654,
+     "logit_eq4": -0.04458360285017258,
+     "logit_printed": "−0.045"
+    },
+    "te80": {
+     "TE_ms": 80.0,
+     "control_app_ndi": 0.6007094242593198,
+     "patient_app_ndi": 0.5884276681841165,
+     "raw": -0.01228175607520332,
+     "raw_printed": "−0.012",
+     "logit": -0.05095268897162564,
+     "logit_eq4": -0.050952688971625804,
+     "logit_printed": "−0.051"
+    },
+    "te90": {
+     "TE_ms": 90.0,
+     "control_app_ndi": 0.6176339305368074,
+     "patient_app_ndi": 0.6040085455369603,
+     "raw": -0.013625384999847112,
+     "raw_printed": "−0.014",
+     "logit": -0.057321775093078786,
+     "logit_eq4": -0.05732177509307903,
+     "logit_printed": "−0.057"
+    },
+    "te100": {
+     "TE_ms": 100.0,
+     "control_app_ndi": 0.6342778141209179,
+     "patient_app_ndi": 0.619381113686516,
+     "raw": -0.014896700434401833,
+     "raw_printed": "−0.015",
+     "logit": -0.0636908612145316,
+     "logit_eq4": -0.06369086121453225,
+     "logit_printed": "−0.064"
+    }
+   },
+   "grid_te70_100_step0.5": {
+    "abs_min": 0.010873445694532302,
+    "abs_max": 0.014896700434401833,
+    "te_at_abs_min": 70.0,
+    "te_at_abs_max": 100.0,
+    "abs_increases_with_te": true,
+    "all_negative": true
+   }
+  },
+  "fig3": {
+   "label": "Illustration of Section 2.4 and Fig. 3 (T2,en 70 ms)",
+   "source": "Section 2.4; Fig. 3",
+   "T2_in_patients_ms": 82.5,
+   "T2_en_patients_ms": 70.0,
+   "within": {
+    "te70": {
+     "TE_ms": 70.0,
+     "control_app_ndi": 0.5835409149628544,
+     "patient_app_ndi": 0.49779313969072403,
+     "raw": -0.0857477752721304,
+     "raw_printed": "−0.086",
+     "logit": -0.34615384615384626,
+     "logit_eq4": -0.34615384615384626,
+     "logit_printed": "−0.346"
+    },
+    "te80": {
+     "TE_ms": 80.0,
+     "control_app_ndi": 0.6007094242593198,
+     "patient_app_ndi": 0.5032043369016204,
+     "raw": -0.09750508735769947,
+     "raw_printed": "−0.098",
+     "logit": -0.395604395604396,
+     "logit_eq4": -0.39560439560439575,
+     "logit_printed": "−0.396"
+    },
+    "te90": {
+     "TE_ms": 90.0,
+     "control_app_ndi": 0.6176339305368074,
+     "patient_app_ndi": 0.5086147835748747,
+     "raw": -0.10901914696193271,
+     "raw_printed": "−0.109",
+     "logit": -0.4450549450549449,
+     "logit_eq4": -0.4450549450549452,
+     "logit_printed": "−0.445"
+    },
+    "te100": {
+     "TE_ms": 100.0,
+     "control_app_ndi": 0.6342778141209179,
+     "patient_app_ndi": 0.514023212961611,
+     "raw": -0.12025460115930686,
+     "raw_printed": "−0.120",
+     "logit": -0.4945054945054945,
+     "logit_eq4": -0.49450549450549464,
+     "logit_printed": "−0.495"
+    }
+   },
+   "grid_te70_100_step0.5": {
+    "abs_min": 0.0857477752721304,
+    "abs_max": 0.12025460115930686,
+    "te_at_abs_min": 70.0,
+    "te_at_abs_max": 100.0,
+    "abs_increases_with_te": true,
+    "all_negative": true
+   }
+  },
+  "focal_small": {
+   "label": "Focal lesion, small end (T2,en × 2.1, T2,in × 1.02)",
+   "source": "S-M2 level L3",
+   "T2_in_patients_ms": 84.15,
+   "T2_en_patients_ms": 109.2,
+   "within": {
+    "te70": {
+     "TE_ms": 70.0,
+     "control_app_ndi": 0.5835409149628544,
+     "patient_app_ndi": 0.41309996446691266,
+     "raw": -0.17044095049594177,
+     "raw_printed": "−0.170",
+     "logit": -0.6884912473147768,
+     "logit_eq4": -0.6884912473147767,
+     "logit_printed": "−0.688"
+    },
+    "te80": {
+     "TE_ms": 80.0,
+     "control_app_ndi": 0.6007094242593198,
+     "patient_app_ndi": 0.40650677066631835,
+     "raw": -0.19420265359300148,
+     "raw_printed": "−0.194",
+     "logit": -0.7868471397883167,
+     "logit_eq4": -0.7868471397883163,
+     "logit_printed": "−0.787"
+    },
+    "te90": {
+     "TE_ms": 90.0,
+     "control_app_ndi": 0.6176339305368074,
+     "patient_app_ndi": 0.39994709691788455,
+     "raw": -0.21768683361892283,
+     "raw_printed": "−0.218",
+     "logit": -0.8852030322618558,
+     "logit_eq4": -0.8852030322618558,
+     "logit_printed": "−0.885"
+    },
+    "te100": {
+     "TE_ms": 100.0,
+     "control_app_ndi": 0.6342778141209179,
+     "patient_app_ndi": 0.3934231063178906,
+     "raw": -0.24085470780302726,
+     "raw_printed": "−0.241",
+     "logit": -0.9835589247353951,
+     "logit_eq4": -0.9835589247353954,
+     "logit_printed": "−0.984"
+    }
+   },
+   "grid_te70_100_step0.5": {
+    "abs_min": 0.17044095049594177,
+    "abs_max": 0.24085470780302726,
+    "te_at_abs_min": 70.0,
+    "te_at_abs_max": 100.0,
+    "abs_increases_with_te": true,
+    "all_negative": true
+   }
+  },
+  "focal_large": {
+   "label": "Focal lesion, large end (T2,en × 3.4, T2,in × 0.77)",
+   "source": "S-M2 level L3",
+   "T2_in_patients_ms": 63.525,
+   "T2_en_patients_ms": 176.79999999999998,
+   "within": {
+    "te70": {
+     "TE_ms": 70.0,
+     "control_app_ndi": 0.5835409149628544,
+     "patient_app_ndi": 0.29601572884001,
+     "raw": -0.28752518612284444,
+     "raw_printed": "−0.288",
+     "logit": -1.2036697705146904,
+     "logit_eq4": -1.2036697705146906,
+     "logit_printed": "−1.204"
+    },
+    "te80": {
+     "TE_ms": 80.0,
+     "control_app_ndi": 0.6007094242593198,
+     "patient_app_ndi": 0.27543881830142425,
+     "raw": -0.3252706059578956,
+     "raw_printed": "−0.325",
+     "logit": -1.3756225948739322,
+     "logit_eq4": -1.375622594873932,
+     "logit_printed": "−1.376"
+    },
+    "te90": {
+     "TE_ms": 90.0,
+     "control_app_ndi": 0.6176339305368074,
+     "patient_app_ndi": 0.25577258769790917,
+     "raw": -0.3618613428388982,
+     "raw_printed": "−0.362",
+     "logit": -1.5475754192331732,
+     "logit_eq4": -1.5475754192331734,
+     "logit_printed": "−1.548"
+    },
+    "te100": {
+     "TE_ms": 100.0,
+     "control_app_ndi": 0.6342778141209179,
+     "patient_app_ndi": 0.23705112606960804,
+     "raw": -0.39722668805130984,
+     "raw_printed": "−0.397",
+     "logit": -1.7195282435924149,
+     "logit_eq4": -1.719528243592415,
+     "logit_printed": "−1.720"
+    }
+   },
+   "grid_te70_100_step0.5": {
+    "abs_min": 0.28752518612284444,
+    "abs_max": 0.39722668805130984,
+    "te_at_abs_min": 70.0,
+    "te_at_abs_max": 100.0,
+    "abs_increases_with_te": true,
+    "all_negative": true
+   }
+  }
+ },
+ "fig3_check": {
+  "te70": -0.0857477752721304,
+  "ledger_N649": 0.086,
+  "te100": -0.12025460115930686,
+  "ledger_N650": 0.12,
+  "equals_residual_s15_fig3_check": true,
+  "ok": true
+ },
+ "s74_clinical_comparison": {
+  "70": {
+   "both": {
+    "table_path_l2_1.0984": -0.010873445694532302,
+    "s74_clinical_113.03/102.9": -0.010877997391816607,
+    "difference": 4.551697284305156e-06,
+    "printed_equal": true
+   },
+   "extra_only": {
+    "table_path_l2_1.0984": -0.02956917622217936,
+    "s74_clinical_113.03/102.9": -0.029581607323066916,
+    "difference": 1.2431100887555502e-05,
+    "printed_equal": true
+   },
+   "s74_reproduced_by_this_code_path_with_113.03/102.9": true
+  },
+  "100": {
+   "both": {
+    "table_path_l2_1.0984": -0.014896700434401833,
+    "s74_clinical_113.03/102.9": -0.014902964494940218,
+    "difference": 6.264060538385685e-06,
+    "printed_equal": true
+   },
+   "extra_only": {
+    "table_path_l2_1.0984": -0.04080647180775587,
+    "s74_clinical_113.03/102.9": -0.04082381201249563,
+    "difference": 1.7340204739757503e-05,
+    "printed_equal": true
+   },
+   "s74_reproduced_by_this_code_path_with_113.03/102.9": true
+  }
+ },
+ "sentence_2_4": {
+  "both": {
+   "abs_min": 0.010873445694532302,
+   "abs_max": 0.014896700434401833,
+   "abs_min_printed": "0.011",
+   "abs_max_printed": "0.015"
+  },
+  "extra_only": {
+   "abs_min": 0.02956917622217936,
+   "abs_max": 0.04080647180775587,
+   "abs_min_printed": "0.030",
+   "abs_max_printed": "0.041"
+  }
+ },
+ "sentence_5_2": {
+  "diffuse": {
+   "abs_min": 0.010873445694532302,
+   "abs_max": 0.04080647180775587,
+   "abs_min_printed": "0.011",
+   "abs_max_printed": "0.041"
+  }
+ }
+}

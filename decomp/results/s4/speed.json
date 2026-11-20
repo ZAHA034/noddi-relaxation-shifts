@@ -1,0 +1,143 @@
+{
+ "what": "S4 0 단계 속도 측정(SPEC_S4 §10 · 시간만 · 결과 아님) — 2026-10-25 03:48–03:50 KST · 저장소 밖 별도 작업 폴더 · CPU 16 스레드 · 커밋 5029f4b 의 코드",
+ "measured": [
+  {
+   "UTC": "2026-10-24T18:48:47Z",
+   "step": "tables",
+   "seconds": 18.54342596,
+   "load1": 3.6,
+   "note": "설계 둘 × b 배율 셋"
+  },
+  {
+   "UTC": "2026-10-24T18:48:57Z",
+   "step": "sim_kernels",
+   "seconds": 8.967671854,
+   "load1": 4.71,
+   "cases": 10,
+   "note": "AMICO 커널 첫 생성 포함"
+  },
+  {
+   "UTC": "2026-10-24T18:49:59Z",
+   "step": "sim_train",
+   "seconds": 61.926294452,
+   "load1": 8.93,
+   "cases": 2000,
+   "pixel_fits": 1024000,
+   "threads": 16
+  },
+  {
+   "UTC": "2026-10-24T18:49:59Z",
+   "step": "sim_oracle",
+   "seconds": 0.199339094,
+   "load1": 8.93,
+   "cases": 20000
+  },
+  {
+   "UTC": "2026-10-24T18:50:04Z",
+   "step": "train_c3",
+   "seconds": 4.992563963,
+   "load1": 8.54,
+   "rows": 2000,
+   "epochs": 3,
+   "threads": 16
+  },
+  {
+   "UTC": "2026-10-24T18:50:09Z",
+   "step": "train_c7",
+   "seconds": 4.925006559,
+   "load1": 8.09,
+   "rows": 2000,
+   "epochs": 3,
+   "threads": 16
+  },
+  {
+   "UTC": "2026-10-24T18:50:14Z",
+   "step": "train_q",
+   "seconds": 4.895992568,
+   "load1": 7.68,
+   "rows": 2000,
+   "epochs": 3,
+   "threads": 16
+  },
+  {
+   "step": "sample_throughput",
+   "seconds": 5.07,
+   "samples": 500000,
+   "per_sec": 98548,
+   "threads": 16,
+   "load1": 8.11083984375
+  },
+  {
+   "step": "train_log",
+   "UTC": "2026-10-24T18:50:03Z",
+   "model": "c3",
+   "seed": 11,
+   "rows": 2000,
+   "epochs": 4,
+   "seconds": 1.6,
+   "sec_per_epoch": 0.41,
+   "threads": 16,
+   "load1": 8.5361328125,
+   "probe": true
+  },
+  {
+   "step": "train_log",
+   "UTC": "2026-10-24T18:50:08Z",
+   "model": "c7",
+   "seed": 11,
+   "rows": 2000,
+   "epochs": 4,
+   "seconds": 1.7,
+   "sec_per_epoch": 0.42,
+   "threads": 16,
+   "load1": 8.0927734375,
+   "probe": true
+  },
+  {
+   "step": "train_log",
+   "UTC": "2026-10-24T18:50:13Z",
+   "model": "q",
+   "seed": 11,
+   "rows": 2000,
+   "epochs": 4,
+   "seconds": 1.6,
+   "sec_per_epoch": 0.39,
+   "threads": 16,
+   "load1": 7.6845703125,
+   "probe": true
+  },
+  {
+   "step": "sample_throughput",
+   "seconds": 5.07,
+   "samples": 500000,
+   "per_sec": 98548,
+   "threads": 16,
+   "load1": 8.11083984375
+  }
+ ],
+ "throughput": {
+  "sim_cases_per_sec": 32.3,
+  "pixel_fits_per_sec": 16536,
+  "sample_per_sec": 98548
+ },
+ "estimate": {
+  "sim_cases": {
+   "train": 100000,
+   "test": 20000,
+   "cards": 22400,
+   "maps": 19600,
+   "inject": 4000
+  },
+  "sim_hours": 1.43,
+  "sec_per_epoch_full": 21.0,
+  "E_est": 200,
+  "models": 12,
+  "train_hours_sequential": 14.0,
+  "budget_hours": 24,
+  "validation_reserved_hours": 4,
+  "train_share_hours": 18.57,
+  "reduction_needed": false,
+  "epoch_cap": 265
+ },
+ "note": "R26: 같은 줄의 load1 이 동시 부하(64 코어 · 다른 사용자 포함). 벽시계는 그 부하 아래의 값이다. epoch 당 시간은 행 수에 비례한다고 놓은 상한 추정이다(작은 자료의 고정 비용까지 비례시켰다)."
+}

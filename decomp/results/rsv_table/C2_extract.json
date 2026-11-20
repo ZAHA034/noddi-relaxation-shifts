@@ -1,0 +1,1028 @@
+{
+ "rows": [
+  {
+   "study": "Collorone 2020",
+   "patient_group": "RRMS",
+   "disease": "multiple sclerosis (relapsing-remitting)",
+   "te_ms": 91,
+   "tr": "12000 ms (Table 1 footnote a: approximate, cardiac gated, TR=12 heart beats)",
+   "field_T": 3,
+   "n_con": 16,
+   "n_pat": 24,
+   "n_note": "enrolled 28 RRMS / 20 HC; brain analysis 24 / 16 (Table 4 'N of subjects 24 16'; Results p.14)",
+   "b_values": "300/1000/2855 s/mm2 (text: 8/30/60 directions; Table 1 footnote a: 6/30/60) + 8 b=0",
+   "software": "MATLAB NODDI toolbox, default settings",
+   "ndi_label": "NDI",
+   "regions": [
+    {
+     "name": "Brain WM ('NDI WM' row; Results text: brain normal-appearing WM)",
+     "ndi_con": 0.6,
+     "ndi_pat": 0.57,
+     "diff": null,
+     "sd_con": 0.03,
+     "sd_pat": 0.03,
+     "source": "UCL Discovery PDF (version label unconfirmed) p.34, Table 4 'Brain' block, row 'NDI WM': '0.57 ± 0.03 | 0.60 ± 0.03 | -0.35 | 0.032' (RRMS | HC | standardized B | P)",
+     "extra": {
+      "b_raw_text": -0.021,
+      "b_raw_text_quote": "B= -0.021, 95% confidence interval (CIs): -0.041 to -0.002, p=0.032 (Results p.14)",
+      "standardized_b_table4": -0.35
+     }
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Wang 2026",
+   "patient_group": "MS (CIS n=13 + RRMS n=66)",
+   "disease": "multiple sclerosis (CIS + RRMS)",
+   "te_ms": 88,
+   "tr": "4000 ms",
+   "field_T": 3.0,
+   "n_con": 44,
+   "n_pat": 79,
+   "n_note": "Table 1 header 'MS (n = 79) | HC (n = 44)'; Methods 2.1",
+   "b_values": "0, 1000, 2000 s/mm2; 48 directions per non-zero shell",
+   "software": "AMICO (via Diffusion-MRI platform; FSL eddy)",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "NAWM (patients) vs deep brain WM (HC)",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.54,
+     "diff": null,
+     "sd_con": 0.02,
+     "sd_pat": 0.04,
+     "source": "Results 3.3 'White Matter Microstructural Assessment': 'reduced FA (0.34 ± 0.03 vs. 0.36 ± 0.02 p = 0.024) and ICVF (0.54 ± 0.04 vs. 0.58 ± 0.02 p = 0.001)' (NAWM vs HC)",
+     "rule_note": "whole-mask region #1 of 2; see md"
+    },
+    {
+     "name": "Deep brain WM, both groups (Table 1; whether lesions are excluded for MS is not stated)",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.54,
+     "diff": null,
+     "sd_con": 0.02,
+     "sd_pat": 0.05,
+     "source": "Table 1, 'Deep brain WM' block, row 'ICVF': '0.54 (0.05) | 0.58 (0.02) | −5.90 | < 0.001 a' (MS | HC | test statistic | p)",
+     "rule_note": "whole-mask region #2 of 2; see md"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Takahashi 2026",
+   "patient_group": "MDD",
+   "disease": "major depressive disorder",
+   "te_ms": 89.0,
+   "tr": "3600 ms",
+   "field_T": 3,
+   "n_con": 112,
+   "n_pat": 159,
+   "n_note": "Table 1 'Number of subjects | 112 | 159'; two sites (KUHP 55 HC/76 MDD; NCNP 57 HC/83 MDD)",
+   "b_values": "0/700/2000 s/mm2; 67 (AP) + 68 (PA) directions",
+   "software": "AMICO version 2.0.1 (HCP pipeline preprocessing)",
+   "ndi_label": "NDI",
+   "regions": [
+    {
+     "name": "WM skeleton mean (TBSS mean FA skeleton, threshold 0.2)",
+     "ndi_con": 0.6277,
+     "ndi_pat": 0.6223,
+     "diff": null,
+     "sd_con": 0.0222,
+     "sd_pat": 0.023,
+     "source": "Table 3 (WM diffusion indices), row 'NDI': '0.6277 (0.0222) | 0.6223 (0.0230) | −0.1369 (0.0027) | −2.368 | 0.0186' (HC | MDD | standardized beta (SE) | t | p)",
+     "rule_note": "Statistical analyses: ComBat applied to extracted global metrics before analysis; whether Table 3 means are pre- or post-ComBat is not stated"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Chen 2025",
+   "patient_group": "MOGAD",
+   "disease": "MOG antibody-associated disease",
+   "te_ms": 89.2,
+   "tr": "3,230 ms",
+   "field_T": 3.0,
+   "n_con": 45,
+   "n_pat": 21,
+   "n_note": "Table 1 'Number of subjects [n] (total = 97) | 21 | 31 | 45' (MOGAD | NMOSD | HC); same 45 HC for both patient groups",
+   "b_values": "5 s/mm2 [7], 1,500 s/mm2 [46], 3000 s/mm2 [46] (99 directions)",
+   "software": "AMICO; tissue-weighted means (Parker et al. 2021) via fslstats",
+   "ndi_label": "NDI (reported as wNDI, tissue-weighted mean)",
+   "regions": [
+    {
+     "name": "NAWM (whole-brain WM mask minus lesions)",
+     "ndi_con": 0.524,
+     "ndi_pat": 0.522,
+     "diff": null,
+     "sd_con": 0.025,
+     "sd_pat": 0.035,
+     "source": "Publisher PDF p.5, Table 2 'NAWM' block, row 'wNDI': '0.522 (0.035) | 0.516 (0.036) | 0.524 (0.025)' (MOGAD | NMOSD | HC); this row = MOGAD"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Chen 2025",
+   "patient_group": "AQP4+ NMOSD",
+   "disease": "AQP4-IgG+ neuromyelitis optica spectrum disorder",
+   "te_ms": 89.2,
+   "tr": "3,230 ms",
+   "field_T": 3.0,
+   "n_con": 45,
+   "n_pat": 31,
+   "n_note": "Table 1 'Number of subjects [n] (total = 97) | 21 | 31 | 45' (MOGAD | NMOSD | HC); same 45 HC for both patient groups",
+   "b_values": "5 s/mm2 [7], 1,500 s/mm2 [46], 3000 s/mm2 [46] (99 directions)",
+   "software": "AMICO; tissue-weighted means (Parker et al. 2021) via fslstats",
+   "ndi_label": "NDI (reported as wNDI, tissue-weighted mean)",
+   "regions": [
+    {
+     "name": "NAWM (whole-brain WM mask minus lesions)",
+     "ndi_con": 0.524,
+     "ndi_pat": 0.516,
+     "diff": null,
+     "sd_con": 0.025,
+     "sd_pat": 0.036,
+     "source": "Publisher PDF p.5, Table 2 'NAWM' block, row 'wNDI': '0.522 (0.035) | 0.516 (0.036) | 0.524 (0.025)' (MOGAD | NMOSD | HC); this row = NMOSD"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Huang 2022",
+   "patient_group": "T2DM",
+   "disease": "type 2 diabetes mellitus",
+   "te_ms": 72,
+   "tr": "4200 ms",
+   "field_T": 3,
+   "n_con": 61,
+   "n_pat": 61,
+   "n_note": "Table 3 header 'T2DM (n = 61) | Healthy Control (n = 61)'; Methods 'Participants'; per-tract n may be lower (tracking failures shown in Fig. 2, not read)",
+   "b_values": "DSI, 11 b-values 300-3000 s/mm2 (300, 350, 650, 950, 1000, 1350, 1650, 1700, 2000, 2700, 3000), 99 directions, 2 b=0",
+   "software": "AMICO (NODDI), Qsiprep 0.14.2, pyAFQ 0.12 tract profiles",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "ACR L",
+     "ndi_con": 0.59229,
+     "ndi_pat": 0.59178,
+     "diff": null,
+     "sd_con": 0.0259,
+     "sd_pat": 0.02804,
+     "source": "Table 2, row 'ACR L', ICVF columns: T2DM '0.59178 (0.02804)' | Healthy '0.59229 (0.02590)'"
+    },
+    {
+     "name": "ACR R",
+     "ndi_con": 0.59082,
+     "ndi_pat": 0.58465,
+     "diff": null,
+     "sd_con": 0.02773,
+     "sd_pat": 0.0319,
+     "source": "Table 2, row 'ACR R', ICVF columns: T2DM '0.58465 (0.03190)' | Healthy '0.59082 (0.02773)'"
+    },
+    {
+     "name": "ATR L",
+     "ndi_con": 0.56102,
+     "ndi_pat": 0.56351,
+     "diff": null,
+     "sd_con": 0.06174,
+     "sd_pat": 0.02518,
+     "source": "Table 2, row 'ATR L', ICVF columns: T2DM '0.56351 (0.02518)' | Healthy '0.56102 (0.06174)'"
+    },
+    {
+     "name": "ATR R",
+     "ndi_con": 0.55758,
+     "ndi_pat": 0.55323,
+     "diff": null,
+     "sd_con": 0.06086,
+     "sd_pat": 0.03115,
+     "source": "Table 2, row 'ATR R', ICVF columns: T2DM '0.55323 (0.03115)' | Healthy '0.55758 (0.06086)'"
+    },
+    {
+     "name": "CGC L",
+     "ndi_con": 0.53794,
+     "ndi_pat": 0.53839,
+     "diff": null,
+     "sd_con": 0.03209,
+     "sd_pat": 0.02732,
+     "source": "Table 2, row 'CGC L', ICVF columns: T2DM '0.53839 (0.02732)' | Healthy '0.53794 (0.03209)'"
+    },
+    {
+     "name": "CGC R",
+     "ndi_con": 0.53215,
+     "ndi_pat": 0.53105,
+     "diff": null,
+     "sd_con": 0.02605,
+     "sd_pat": 0.02969,
+     "source": "Table 2, row 'CGC R', ICVF columns: T2DM '0.53105 (0.02969)' | Healthy '0.53215 (0.02605)'"
+    },
+    {
+     "name": "CST L",
+     "ndi_con": 0.6531,
+     "ndi_pat": 0.64457,
+     "diff": null,
+     "sd_con": 0.0501,
+     "sd_pat": 0.02177,
+     "source": "Table 2, row 'CST L', ICVF columns: T2DM '0.64457 (0.02177)' | Healthy '0.65310 (0.05010)'"
+    },
+    {
+     "name": "CST R",
+     "ndi_con": 0.63666,
+     "ndi_pat": 0.63325,
+     "diff": null,
+     "sd_con": 0.05415,
+     "sd_pat": 0.02058,
+     "source": "Table 2, row 'CST R', ICVF columns: T2DM '0.63325 (0.02058)' | Healthy '0.63666 (0.05415)'"
+    },
+    {
+     "name": "FMI",
+     "ndi_con": 0.55695,
+     "ndi_pat": 0.55061,
+     "diff": null,
+     "sd_con": 0.06296,
+     "sd_pat": 0.0306,
+     "source": "Table 2, row 'FMI', ICVF columns: T2DM '0.55061 (0.03060)' | Healthy '0.55695 (0.06296)'"
+    },
+    {
+     "name": "FMA",
+     "ndi_con": 0.58884,
+     "ndi_pat": 0.58109,
+     "diff": null,
+     "sd_con": 0.06197,
+     "sd_pat": 0.0284,
+     "source": "Table 2, row 'FMA', ICVF columns: T2DM '0.58109 (0.02840)' | Healthy '0.58884 (0.06197)'"
+    },
+    {
+     "name": "IFOF L",
+     "ndi_con": 0.51676,
+     "ndi_pat": 0.51461,
+     "diff": null,
+     "sd_con": 0.02054,
+     "sd_pat": 0.02718,
+     "source": "Table 2, row 'IFOF L', ICVF columns: T2DM '0.51461 (0.02718)' | Healthy '0.51676 (0.02054)'"
+    },
+    {
+     "name": "IFOF R",
+     "ndi_con": 0.51702,
+     "ndi_pat": 0.51515,
+     "diff": null,
+     "sd_con": 0.02262,
+     "sd_pat": 0.02509,
+     "source": "Table 2, row 'IFOF R', ICVF columns: T2DM '0.51515 (0.02509)' | Healthy '0.51702 (0.02262)'"
+    },
+    {
+     "name": "ILF L",
+     "ndi_con": 0.49929,
+     "ndi_pat": 0.49724,
+     "diff": null,
+     "sd_con": 0.0224,
+     "sd_pat": 0.02779,
+     "source": "Table 2, row 'ILF L', ICVF columns: T2DM '0.49724 (0.02779)' | Healthy '0.49929 (0.02240)'"
+    },
+    {
+     "name": "ILF R",
+     "ndi_con": 0.50531,
+     "ndi_pat": 0.50188,
+     "diff": null,
+     "sd_con": 0.02438,
+     "sd_pat": 0.02558,
+     "source": "Table 2, row 'ILF R', ICVF columns: T2DM '0.50188 (0.02558)' | Healthy '0.50531 (0.02438)'"
+    },
+    {
+     "name": "SLF L",
+     "ndi_con": 0.58775,
+     "ndi_pat": 0.58054,
+     "diff": null,
+     "sd_con": 0.02823,
+     "sd_pat": 0.02551,
+     "source": "Table 2, row 'SLF L', ICVF columns: T2DM '0.58054 (0.02551)' | Healthy '0.58775 (0.02823)'"
+    },
+    {
+     "name": "SLF R",
+     "ndi_con": 0.58601,
+     "ndi_pat": 0.58083,
+     "diff": null,
+     "sd_con": 0.02965,
+     "sd_pat": 0.0273,
+     "source": "Table 2, row 'SLF R', ICVF columns: T2DM '0.58083 (0.02730)' | Healthy '0.58601 (0.02965)'"
+    },
+    {
+     "name": "UNF L",
+     "ndi_con": 0.48422,
+     "ndi_pat": 0.47613,
+     "diff": null,
+     "sd_con": 0.06569,
+     "sd_pat": 0.02863,
+     "source": "Table 2, row 'UNF L', ICVF columns: T2DM '0.47613 (0.02863)' | Healthy '0.48422 (0.06569)'"
+    },
+    {
+     "name": "UNF R",
+     "ndi_con": 0.48602,
+     "ndi_pat": 0.48052,
+     "diff": null,
+     "sd_con": 0.06647,
+     "sd_pat": 0.02376,
+     "source": "Table 2, row 'UNF R', ICVF columns: T2DM '0.48052 (0.02376)' | Healthy '0.48602 (0.06647)'"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Sone 2018",
+   "patient_group": "L-TLE (Table 6)",
+   "disease": "temporal lobe epilepsy",
+   "te_ms": 87,
+   "tr": "6807 ms",
+   "field_T": 3.0,
+   "n_con": 33,
+   "n_pat": 16,
+   "n_note": "Table 1 headers; same 33 controls in all four comparisons; Tables 6 and 7 are two partitions of the same 33 patients",
+   "b_values": "1000 and 2000 s/mm2, 32 directions, one b=0",
+   "software": "NODDI toolbox (MATLAB); FSL 5.0.8 eddy_correct; TBSS skeleton + JHU atlas ROI means",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "Forceps major",
+     "ndi_con": 0.62,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": 0.03,
+     "sd_pat": 0.032,
+     "source": "Table 6, block 'Forceps major', ICVF column: Controls '0.62 ± 0.030' | L-TLE '0.62 ± 0.032'"
+    },
+    {
+     "name": "Forceps minor",
+     "ndi_con": 0.52,
+     "ndi_pat": 0.5,
+     "diff": null,
+     "sd_con": 0.036,
+     "sd_pat": 0.04,
+     "source": "Table 6, block 'Forceps minor', ICVF column: Controls '0.52 ± 0.036' | L-TLE '0.50 ± 0.040'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) L",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.63,
+     "diff": null,
+     "sd_con": 0.044,
+     "sd_pat": 0.046,
+     "source": "Table 6, block 'Cingulum (cingulate gyrus) L', ICVF column: Controls '0.64 ± 0.044' | L-TLE '0.63 ± 0.046'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) R",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.63,
+     "diff": null,
+     "sd_con": 0.048,
+     "sd_pat": 0.039,
+     "source": "Table 6, block 'Cingulum (cingulate gyrus) R', ICVF column: Controls '0.64 ± 0.048' | L-TLE '0.63 ± 0.039'"
+    },
+    {
+     "name": "Cingulum (hippocampus) L",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.55,
+     "diff": null,
+     "sd_con": 0.041,
+     "sd_pat": 0.066,
+     "source": "Table 6, block 'Cingulum (hippocampus) L', ICVF column: Controls '0.58 ± 0.041' | L-TLE '0.55 ± 0.066'"
+    },
+    {
+     "name": "Cingulum (hippocampus) R",
+     "ndi_con": 0.56,
+     "ndi_pat": 0.54,
+     "diff": null,
+     "sd_con": 0.048,
+     "sd_pat": 0.05,
+     "source": "Table 6, block 'Cingulum (hippocampus) R', ICVF column: Controls '0.56 ± 0.048' | L-TLE '0.54 ± 0.050'"
+    },
+    {
+     "name": "Uncinate fasciculus L",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.46,
+     "diff": null,
+     "sd_con": 0.026,
+     "sd_pat": 0.032,
+     "source": "Table 6, block 'Uncinate fasciculus L', ICVF column: Controls '0.50 ± 0.026' | L-TLE '0.46 ± 0.032 **'"
+    },
+    {
+     "name": "Uncinate fasciculus R",
+     "ndi_con": 0.49,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.033,
+     "sd_pat": 0.038,
+     "source": "Table 6, block 'Uncinate fasciculus R', ICVF column: Controls '0.49 ± 0.033' | L-TLE '0.48 ± 0.038'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus L",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.026,
+     "sd_pat": 0.035,
+     "source": "Table 6, block 'Inferior fronto-occipital fasciculus L', ICVF column: Controls '0.51 ± 0.026' | L-TLE '0.48 ± 0.035 **'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus R",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.029,
+     "source": "Table 6, block 'Inferior fronto-occipital fasciculus R', ICVF column: Controls '0.51 ± 0.028' | L-TLE '0.49 ± 0.029'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus L",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.029,
+     "sd_pat": 0.034,
+     "source": "Table 6, block 'Inferior longitudinal fasciculus L', ICVF column: Controls '0.50 ± 0.029' | L-TLE '0.47 ± 0.034 *'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus R",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.026,
+     "source": "Table 6, block 'Inferior longitudinal fasciculus R', ICVF column: Controls '0.50 ± 0.031' | L-TLE '0.49 ± 0.026'"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Sone 2018",
+   "patient_group": "R-TLE (Table 6)",
+   "disease": "temporal lobe epilepsy",
+   "te_ms": 87,
+   "tr": "6807 ms",
+   "field_T": 3.0,
+   "n_con": 33,
+   "n_pat": 17,
+   "n_note": "Table 1 headers; same 33 controls in all four comparisons; Tables 6 and 7 are two partitions of the same 33 patients",
+   "b_values": "1000 and 2000 s/mm2, 32 directions, one b=0",
+   "software": "NODDI toolbox (MATLAB); FSL 5.0.8 eddy_correct; TBSS skeleton + JHU atlas ROI means",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "Forceps major",
+     "ndi_con": 0.62,
+     "ndi_pat": 0.6,
+     "diff": null,
+     "sd_con": 0.03,
+     "sd_pat": 0.037,
+     "source": "Table 6, block 'Forceps major', ICVF column: Controls '0.62 ± 0.030' | R-TLE '0.60 ± 0.037'"
+    },
+    {
+     "name": "Forceps minor",
+     "ndi_con": 0.52,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.036,
+     "sd_pat": 0.052,
+     "source": "Table 6, block 'Forceps minor', ICVF column: Controls '0.52 ± 0.036' | R-TLE '0.48 ± 0.052 **'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) L",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": 0.044,
+     "sd_pat": 0.06,
+     "source": "Table 6, block 'Cingulum (cingulate gyrus) L', ICVF column: Controls '0.64 ± 0.044' | R-TLE '0.62 ± 0.060'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) R",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.59,
+     "diff": null,
+     "sd_con": 0.048,
+     "sd_pat": 0.063,
+     "source": "Table 6, block 'Cingulum (cingulate gyrus) R', ICVF column: Controls '0.64 ± 0.048' | R-TLE '0.59 ± 0.063 *'"
+    },
+    {
+     "name": "Cingulum (hippocampus) L",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.58,
+     "diff": null,
+     "sd_con": 0.041,
+     "sd_pat": 0.057,
+     "source": "Table 6, block 'Cingulum (hippocampus) L', ICVF column: Controls '0.58 ± 0.041' | R-TLE '0.58 ± 0.057'"
+    },
+    {
+     "name": "Cingulum (hippocampus) R",
+     "ndi_con": 0.56,
+     "ndi_pat": 0.53,
+     "diff": null,
+     "sd_con": 0.048,
+     "sd_pat": 0.054,
+     "source": "Table 6, block 'Cingulum (hippocampus) R', ICVF column: Controls '0.56 ± 0.048' | R-TLE '0.53 ± 0.054 *'"
+    },
+    {
+     "name": "Uncinate fasciculus L",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.46,
+     "diff": null,
+     "sd_con": 0.026,
+     "sd_pat": 0.034,
+     "source": "Table 6, block 'Uncinate fasciculus L', ICVF column: Controls '0.50 ± 0.026' | R-TLE '0.46 ± 0.034 **'"
+    },
+    {
+     "name": "Uncinate fasciculus R",
+     "ndi_con": 0.49,
+     "ndi_pat": 0.45,
+     "diff": null,
+     "sd_con": 0.033,
+     "sd_pat": 0.035,
+     "source": "Table 6, block 'Uncinate fasciculus R', ICVF column: Controls '0.49 ± 0.033' | R-TLE '0.45 ± 0.035 ***'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus L",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.026,
+     "sd_pat": 0.041,
+     "source": "Table 6, block 'Inferior fronto-occipital fasciculus L', ICVF column: Controls '0.51 ± 0.026' | R-TLE '0.48 ± 0.041 **'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus R",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.039,
+     "source": "Table 6, block 'Inferior fronto-occipital fasciculus R', ICVF column: Controls '0.51 ± 0.028' | R-TLE '0.47 ± 0.039 **'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus L",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.029,
+     "sd_pat": 0.037,
+     "source": "Table 6, block 'Inferior longitudinal fasciculus L', ICVF column: Controls '0.50 ± 0.029' | R-TLE '0.48 ± 0.037 *'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus R",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.46,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.033,
+     "source": "Table 6, block 'Inferior longitudinal fasciculus R', ICVF column: Controls '0.50 ± 0.031' | R-TLE '0.46 ± 0.033 ***'"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Sone 2018",
+   "patient_group": "TLE-HS (Table 7)",
+   "disease": "temporal lobe epilepsy",
+   "te_ms": 87,
+   "tr": "6807 ms",
+   "field_T": 3.0,
+   "n_con": 33,
+   "n_pat": 14,
+   "n_note": "Table 1 headers; same 33 controls in all four comparisons; Tables 6 and 7 are two partitions of the same 33 patients",
+   "b_values": "1000 and 2000 s/mm2, 32 directions, one b=0",
+   "software": "NODDI toolbox (MATLAB); FSL 5.0.8 eddy_correct; TBSS skeleton + JHU atlas ROI means",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "Forceps major",
+     "ndi_con": 0.62,
+     "ndi_pat": 0.6,
+     "diff": null,
+     "sd_con": 0.03,
+     "sd_pat": 0.028,
+     "source": "Table 7, block 'Forceps major', ICVF column: Controls '0.62 ± 0.030' | TLE-HS '0.60 ± 0.028'"
+    },
+    {
+     "name": "Forceps minor",
+     "ndi_con": 0.52,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.036,
+     "sd_pat": 0.044,
+     "source": "Table 7, block 'Forceps minor', ICVF column: Controls '0.52 ± 0.036' | TLE-HS '0.47 ± 0.044 **'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) Ipsi",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.59,
+     "diff": null,
+     "sd_con": 0.05,
+     "sd_pat": 0.06,
+     "source": "Table 7, block 'Cingulum (cingulate gyrus) Ipsi', ICVF column: Controls '0.64 ± 0.050' | TLE-HS '0.59 ± 0.060 *'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) Contra",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.61,
+     "diff": null,
+     "sd_con": 0.043,
+     "sd_pat": 0.052,
+     "source": "Table 7, block 'Cingulum (cingulate gyrus) Contra', ICVF column: Controls '0.64 ± 0.043' | TLE-HS '0.61 ± 0.052'"
+    },
+    {
+     "name": "Cingulum (hippocampus) Ipsi",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.5,
+     "diff": null,
+     "sd_con": 0.04,
+     "sd_pat": 0.05,
+     "source": "Table 7, block 'Cingulum (hippocampus) Ipsi', ICVF column: Controls '0.58 ± 0.040' | TLE-HS '0.50 ± 0.050 ***'"
+    },
+    {
+     "name": "Cingulum (hippocampus) Contra",
+     "ndi_con": 0.57,
+     "ndi_pat": 0.57,
+     "diff": null,
+     "sd_con": 0.05,
+     "sd_pat": 0.054,
+     "source": "Table 7, block 'Cingulum (hippocampus) Contra', ICVF column: Controls '0.57 ± 0.050' | TLE-HS '0.57 ± 0.054'"
+    },
+    {
+     "name": "Uncinate fasciculus Ipsi",
+     "ndi_con": 0.49,
+     "ndi_pat": 0.44,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.029,
+     "source": "Table 7, block 'Uncinate fasciculus Ipsi', ICVF column: Controls '0.49 ± 0.028' | TLE-HS '0.44 ± 0.029 ***'"
+    },
+    {
+     "name": "Uncinate fasciculus Contra",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.029,
+     "source": "Table 7, block 'Uncinate fasciculus Contra', ICVF column: Controls '0.50 ± 0.031' | TLE-HS '0.47 ± 0.029 *'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus Ipsi",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.45,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.033,
+     "source": "Table 7, block 'Inferior fronto-occipital fasciculus Ipsi', ICVF column: Controls '0.51 ± 0.028' | TLE-HS '0.45 ± 0.033 ***'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus Contra",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.027,
+     "sd_pat": 0.034,
+     "source": "Table 7, block 'Inferior fronto-occipital fasciculus Contra', ICVF column: Controls '0.51 ± 0.027' | TLE-HS '0.48 ± 0.034 **'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus Ipsi",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.44,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.029,
+     "source": "Table 7, block 'Inferior longitudinal fasciculus Ipsi', ICVF column: Controls '0.50 ± 0.031' | TLE-HS '0.44 ± 0.029 ***'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus Contra",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.029,
+     "sd_pat": 0.027,
+     "source": "Table 7, block 'Inferior longitudinal fasciculus Contra', ICVF column: Controls '0.50 ± 0.029' | TLE-HS '0.47 ± 0.027 *'"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Sone 2018",
+   "patient_group": "MRI+/PET- (Table 7) [printed 'MRI+/PET-'; Table 1 and text call this group 'MRI-/PET+']",
+   "disease": "temporal lobe epilepsy",
+   "te_ms": 87,
+   "tr": "6807 ms",
+   "field_T": 3.0,
+   "n_con": 33,
+   "n_pat": 19,
+   "n_note": "Table 1 headers; same 33 controls in all four comparisons; Tables 6 and 7 are two partitions of the same 33 patients",
+   "b_values": "1000 and 2000 s/mm2, 32 directions, one b=0",
+   "software": "NODDI toolbox (MATLAB); FSL 5.0.8 eddy_correct; TBSS skeleton + JHU atlas ROI means",
+   "ndi_label": "ICVF",
+   "regions": [
+    {
+     "name": "Forceps major",
+     "ndi_con": 0.62,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": 0.03,
+     "sd_pat": 0.036,
+     "source": "Table 7, block 'Forceps major', ICVF column: Controls '0.62 ± 0.030' | MRI+/PET- '0.62 ± 0.036'"
+    },
+    {
+     "name": "Forceps minor",
+     "ndi_con": 0.52,
+     "ndi_pat": 0.5,
+     "diff": null,
+     "sd_con": 0.036,
+     "sd_pat": 0.048,
+     "source": "Table 7, block 'Forceps minor', ICVF column: Controls '0.52 ± 0.036' | MRI+/PET- '0.50 ± 0.048'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) Ipsi",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": 0.05,
+     "sd_pat": 0.053,
+     "source": "Table 7, block 'Cingulum (cingulate gyrus) Ipsi', ICVF column: Controls '0.64 ± 0.050' | MRI+/PET- '0.62 ± 0.053'"
+    },
+    {
+     "name": "Cingulum (cingulate gyrus) Contra",
+     "ndi_con": 0.64,
+     "ndi_pat": 0.63,
+     "diff": null,
+     "sd_con": 0.043,
+     "sd_pat": 0.049,
+     "source": "Table 7, block 'Cingulum (cingulate gyrus) Contra', ICVF column: Controls '0.64 ± 0.043' | MRI+/PET- '0.63 ± 0.049'"
+    },
+    {
+     "name": "Cingulum (hippocampus) Ipsi",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.57,
+     "diff": null,
+     "sd_con": 0.04,
+     "sd_pat": 0.053,
+     "source": "Table 7, block 'Cingulum (hippocampus) Ipsi', ICVF column: Controls '0.58 ± 0.040' | MRI+/PET- '0.57 ± 0.053'"
+    },
+    {
+     "name": "Cingulum (hippocampus) Contra",
+     "ndi_con": 0.57,
+     "ndi_pat": 0.55,
+     "diff": null,
+     "sd_con": 0.05,
+     "sd_pat": 0.058,
+     "source": "Table 7, block 'Cingulum (hippocampus) Contra', ICVF column: Controls '0.57 ± 0.050' | MRI+/PET- '0.55 ± 0.058'"
+    },
+    {
+     "name": "Uncinate fasciculus Ipsi",
+     "ndi_con": 0.49,
+     "ndi_pat": 0.47,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.033,
+     "source": "Table 7, block 'Uncinate fasciculus Ipsi', ICVF column: Controls '0.49 ± 0.028' | MRI+/PET- '0.47 ± 0.033 *'"
+    },
+    {
+     "name": "Uncinate fasciculus Contra",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.042,
+     "source": "Table 7, block 'Uncinate fasciculus Contra', ICVF column: Controls '0.50 ± 0.031' | MRI+/PET- '0.48 ± 0.042'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus Ipsi",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": 0.028,
+     "sd_pat": 0.032,
+     "source": "Table 7, block 'Inferior fronto-occipital fasciculus Ipsi', ICVF column: Controls '0.51 ± 0.028' | MRI+/PET- '0.49 ± 0.032'"
+    },
+    {
+     "name": "Inferior fronto-occipital fasciculus Contra",
+     "ndi_con": 0.51,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": 0.027,
+     "sd_pat": 0.036,
+     "source": "Table 7, block 'Inferior fronto-occipital fasciculus Contra', ICVF column: Controls '0.51 ± 0.027' | MRI+/PET- '0.49 ± 0.036'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus Ipsi",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.48,
+     "diff": null,
+     "sd_con": 0.031,
+     "sd_pat": 0.028,
+     "source": "Table 7, block 'Inferior longitudinal fasciculus Ipsi', ICVF column: Controls '0.50 ± 0.031' | MRI+/PET- '0.48 ± 0.028'"
+    },
+    {
+     "name": "Inferior longitudinal fasciculus Contra",
+     "ndi_con": 0.5,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": 0.029,
+     "sd_pat": 0.035,
+     "source": "Table 7, block 'Inferior longitudinal fasciculus Contra', ICVF column: Controls '0.50 ± 0.029' | MRI+/PET- '0.49 ± 0.035'"
+    }
+   ],
+   "t2_reported": null
+  },
+  {
+   "study": "Timmers 2015",
+   "disease": "classic galactosemia",
+   "te_ms": 97,
+   "tr": "8500 ms",
+   "field_T": null,
+   "n_con": 8,
+   "n_pat": 8,
+   "regions": [
+    {
+     "name": "L corpus callosum",
+     "ndi_con": 0.67,
+     "ndi_pat": 0.61,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "L forceps minor",
+     "ndi_con": 0.59,
+     "ndi_pat": 0.51,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "L corona radiata",
+     "ndi_con": 0.63,
+     "ndi_pat": 0.57,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "L external capsule",
+     "ndi_con": 0.57,
+     "ndi_pat": 0.52,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "L superior longitudinal fasciculus",
+     "ndi_con": 0.67,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R corpus callosum",
+     "ndi_con": 0.69,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R forceps minor",
+     "ndi_con": 0.58,
+     "ndi_pat": 0.51,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R corona radiata",
+     "ndi_con": 0.62,
+     "ndi_pat": 0.58,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R internal capsule",
+     "ndi_con": 0.67,
+     "ndi_pat": 0.62,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R external capsule",
+     "ndi_con": 0.55,
+     "ndi_pat": 0.5,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R inferior occipital fasciculus",
+     "ndi_con": 0.6,
+     "ndi_pat": 0.51,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R inferior longitudinal fasciculus",
+     "ndi_con": 0.6,
+     "ndi_pat": 0.55,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R superior longitudinal fasciculus",
+     "ndi_con": 0.68,
+     "ndi_pat": 0.63,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    },
+    {
+     "name": "R uncinate fasciculus",
+     "ndi_con": 0.55,
+     "ndi_pat": 0.49,
+     "diff": null,
+     "sd_con": null,
+     "sd_pat": null,
+     "source": "PMC4341012 Table 2, block 'Regions of interest based on group differences in neurite density index (NDI)', NDI mean values (SD) patients | controls"
+    }
+   ],
+   "t2_reported": null,
+   "note": "ROIs were defined where NDI differed between groups (Table 2 block title) — selected regions; d may be inflated",
+   "source_note": "read from PMC4341012 efetch XML, 2026-11-18; TE/TR: Methods 'Data acquisition' «repetition time [TR] = 8500 ms; echo time [TE] = 97 ms»; n: Methods 'Participants' «Eight patients ... and eight ... healthy controls»"
+  }
+ ],
+ "bonnier2014": {
+  "regions": [
+   {
+    "name": "temporal NAWM",
+    "t2_con_ms": 79.8,
+    "t2_pat_ms": 82.0,
+    "sd_con_ms": 2.0,
+    "sd_pat_ms": 2.38,
+    "source": "Results 'Between-groups comparison of multicontrast MRI data', paragraph 1: 'T2 rt: 82.0 ± 2.38 msec in patients and 79.8 ± 2.0 msec in HC, d = 1, P = 0.03'"
+   },
+   {
+    "name": "parietal NAWM",
+    "t2_con_ms": 81.8,
+    "t2_pat_ms": 83.5,
+    "sd_con_ms": 2.62,
+    "sd_pat_ms": 2.44,
+    "source": "Results 'Between-groups comparison of multicontrast MRI data', paragraph 3: 'parietal NAWM T2: 83.5 ± 2.44 msec in patients compared to 81.8 ± 2.62 msec in HC; d = 0.7, P = 0.05'"
+   },
+   {
+    "name": "cerebellar WM (sentence opens 'parietal NAWM and cerebellar NAWM')",
+    "t2_con_ms": 85.48,
+    "t2_pat_ms": 85.9,
+    "sd_con_ms": 1.47,
+    "sd_pat_ms": 1.69,
+    "source": "Results 'Between-groups comparison of multicontrast MRI data', paragraph 3: 'cerebellar WM T2: 85.90 ± 1.69 msec in patients compared to 85.48 ± 1.47 msec in HC; d = 1.62, P = 0.07'"
+   }
+  ],
+  "not_printed": "frontal and occipital NAWM T2: text says no differences, values not printed",
+  "n_con": 18,
+  "n_pat": 36,
+  "disease": "relapsing-remitting multiple sclerosis",
+  "t2_method": "3T Siemens Trio; T2 relaxometry TR/TE = 5850/9 ms, 21 echos, model-based nonlinear inverse reconstruction estimating a T2 and spin-density map"
+ },
+ "dropped": [
+  {
+   "study": "Collorone 2021",
+   "reason": "NDI level not readable: main text gives only the adjusted unstandardized coefficient (Table 3, NAWM 'Corpus callosum' NDI B = −0.03, 99% bootstrap CI −0.06 to −0.006, adjusted for age and sex); no control-group NDI mean in tables or text (only Figure 2 box plots; supplementary PDF not opened because the plan requires the level in the main text)",
+   "extracted": {
+    "diff_corpus_callosum_B": -0.03,
+    "te_ms": 91,
+    "tr": "12 000 ms",
+    "field_T": 3,
+    "n_con": 16,
+    "n_pat": 40,
+    "n_note": "NODDI analysis n = 40 patients, 16 controls (Table 3 'NODDI (n = 40 patients; n = 16 healthy controls)'); enrolled 42/16",
+    "b_values": "300 (8 dirs), 711 (15), 2000 (30) s/mm2 + 8 b=0",
+    "software": "MATLAB NODDI toolbox, default settings",
+    "ndi_label": "NDI"
+   }
+  }
+ ],
+ "meta": {
+  "date": "2026-11-18",
+  "plan": "decomp/rsv_table/PLAN.md (바꾼 기록 1)",
+  "screen_log": "r41/C2_SCREEN_2026-11-18.md",
+  "note": "rows split by patient group where a study has more than one patient group (Chen 2025, Sone 2018); extra keys beyond the requested schema: patient_group, n_note, b_values, software, ndi_label, regions[].rule_note/extra",
+  "note_extract": "values read from the article text or tables at the locations given in each 'source'; the outside-repository record of extraction is C2_EXTRACT_2026-11-18.md"
+ }
+}

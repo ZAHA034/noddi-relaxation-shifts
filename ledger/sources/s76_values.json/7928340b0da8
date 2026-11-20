@@ -1,0 +1,141 @@
+{
+ "what": "Size and sign of the tissue-T2 path on apparent FISO for Section 5.2 (2026-11-17; exploratory: computed after closely related values had been seen; existing code; no data read): a diffuse lengthening of tissue T2 by 9.84 % (both tissue compartments, or the extra-neurite compartment only; assignment assumed), starting from an apparent FISO of 0.080 as for Proposition 2, at TE 70-100 ms; tissue compartments share T1",
+ "model": "decomp/stage1/config.py weights and apparent (Eq. (3)); closed form f' = f / (f + (1 - f) rho), rho = ratio of tissue weights",
+ "inputs": {
+  "f0_apparent": 0.08,
+  "nu": 0.46,
+  "T2_in_ms": 82.5,
+  "T2_en_ms": 52.0,
+  "T2_iso_ms": 1000.0,
+  "factor": 1.0984,
+  "TE_ms": [
+   70.0,
+   100.0
+  ],
+  "TR_ms_for_check": 3600.0,
+  "T1_tissue_ms_for_check": [
+   850.0,
+   1100.0
+  ],
+  "T1_iso_ms_for_check": 4300.0
+ },
+ "results": {
+  "both": {
+   "te70": {
+    "TE_ms": 70.0,
+    "rho": 1.0994617504151256,
+    "fiso_app": 0.07329330960255516,
+    "change": -0.006706690397444842,
+    "printed": "0.073"
+   },
+   "te100": {
+    "TE_ms": 100.0,
+    "rho": 1.141512312432327,
+    "fiso_app": 0.07078447521037715,
+    "change": -0.009215524789622856,
+    "printed": "0.071"
+   },
+   "grid_te70_100_step0.5": {
+    "all_negative": true,
+    "abs_increases_with_te": true,
+    "min_change": -0.009215524789622856,
+    "max_change": -0.006706690397444842
+   }
+  },
+  "extra_only": {
+   "te70": {
+    "TE_ms": 70.0,
+    "rho": 1.0533766872104304,
+    "fiso_app": 0.07625536207897694,
+    "change": -0.0037446379210230585,
+    "printed": "0.076"
+   },
+   "te100": {
+    "TE_ms": 100.0,
+    "rho": 1.06875895919204,
+    "fiso_app": 0.07524042307460378,
+    "change": -0.0047595769253962195,
+    "printed": "0.075"
+   },
+   "grid_te70_100_step0.5": {
+    "all_negative": true,
+    "abs_increases_with_te": true,
+    "min_change": -0.0047595769253962195,
+    "max_change": -0.0037446379210230585
+   }
+  }
+ },
+ "check_direct_eq3": {
+  "T1850|both|TE70": {
+   "true_fiso": 0.05185521333597656,
+   "direct": 0.07329330960255515,
+   "closed": 0.07329330960255516,
+   "diff": -1.3877787807814457e-17
+  },
+  "T1850|both|TE100": {
+   "true_fiso": 0.03478849285946051,
+   "direct": 0.07078447521037712,
+   "closed": 0.07078447521037715,
+   "diff": -2.7755575615628914e-17
+  },
+  "T1850|extra_only|TE70": {
+   "true_fiso": 0.05185521333597656,
+   "direct": 0.07625536207897696,
+   "closed": 0.07625536207897694,
+   "diff": 1.3877787807814457e-17
+  },
+  "T1850|extra_only|TE100": {
+   "true_fiso": 0.03478849285946051,
+   "direct": 0.07524042307460375,
+   "closed": 0.07524042307460378,
+   "diff": -2.7755575615628914e-17
+  },
+  "T11100|both|TE70": {
+   "true_fiso": 0.05068501694831953,
+   "direct": 0.07329330960255516,
+   "closed": 0.07329330960255516,
+   "diff": 0.0
+  },
+  "T11100|both|TE100": {
+   "true_fiso": 0.03398962785588676,
+   "direct": 0.07078447521037713,
+   "closed": 0.07078447521037715,
+   "diff": -1.3877787807814457e-17
+  },
+  "T11100|extra_only|TE70": {
+   "true_fiso": 0.05068501694831953,
+   "direct": 0.07625536207897694,
+   "closed": 0.07625536207897694,
+   "diff": 0.0
+  },
+  "T11100|extra_only|TE100": {
+   "true_fiso": 0.03398962785588676,
+   "direct": 0.07524042307460377,
+   "closed": 0.07524042307460378,
+   "diff": -1.3877787807814457e-17
+  }
+ },
+ "t1_path_same_code": {
+  "T1850": {
+   "fiso_app": 0.08021232473210911,
+   "change": 0.0002123247321091093
+  },
+  "T11100": {
+   "fiso_app": 0.08043215525840454,
+   "change": 0.0004321552584045374
+  }
+ },
+ "sources": {
+  "config.py": "acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7",
+  "s4cfg.py": "c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d"
+ },
+ "python": "3.12.3",
+ "numpy": "2.5.3",
+ "printed": {
+  "t2_factor_pct": 9.84,
+  "both_te70_drop": 0.006706690397444842,
+  "both_te100_drop": 0.009215524789622856,
+  "en_te70_drop": 0.0037446379210230585,
+  "en_te100_drop": 0.0047595769253962195
+ }
+}

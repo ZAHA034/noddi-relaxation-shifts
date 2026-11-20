@@ -1,0 +1,161 @@
+{
+ "문서": "s_ref — 층 1 구간의 참조 재검사 SD(LOCK_B §143-2 · §110). ⛔ roi_s.frozen 의 판정선 s_ROI 와 다른 양",
+ "입력": {
+  "참조": "OXF1PRI",
+  "피험자": [
+   "sub-13192",
+   "sub-16974"
+  ],
+  "세션 수": {
+   "sub-13192": 6,
+   "sub-16974": 6
+  },
+  "파일": [
+   {
+    "file": "sub-13192_ses-OXF1PRI001.roi.tsv",
+    "sha256": "aaea86635efe5f92a30f063addc950f892a7ce5d88a80cb0ccb84a98d9af441a"
+   },
+   {
+    "file": "sub-13192_ses-OXF1PRI002.roi.tsv",
+    "sha256": "a2e50d614030434c4bdf7e3f704c08d9c5bd5c8954bd4886fe5f2cd92240faa4"
+   },
+   {
+    "file": "sub-13192_ses-OXF1PRI003.roi.tsv",
+    "sha256": "5a39d96d8d4551be0025cbea5455fd34d1ef2da78b24b3b7a4dd9de3911b9043"
+   },
+   {
+    "file": "sub-13192_ses-OXF1PRI004.roi.tsv",
+    "sha256": "e6046156e7c1e5a41aa06145a2336a08473c91bb19d3bac443259fe859935175"
+   },
+   {
+    "file": "sub-13192_ses-OXF1PRI005.roi.tsv",
+    "sha256": "44ceb2396b69957fee5208e84db76059cadaab9834dc6f7fae5088345db715bd"
+   },
+   {
+    "file": "sub-13192_ses-OXF1PRI006.roi.tsv",
+    "sha256": "3c7bd35fa1b66eac6d21b0e6d61026928929f62b8acaa85b4ebee26521ec23a4"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI001.roi.tsv",
+    "sha256": "b557b1d3f144055c5408bda0fbf8b5b6b7acd32c47d70d5d2ce5540a517a03d2"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI002.roi.tsv",
+    "sha256": "5cbcf4152d37e37eae96a31108cd68804c4c24d7e4f9a99b4ce615bd85c4dce6"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI003.roi.tsv",
+    "sha256": "d3532a311e85c6f46e5d881ceeabe6f7a691cfca638c49314799a000eab9c85d"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI004.roi.tsv",
+    "sha256": "98c33d47858fa1f616dd40761a3103bdf3b7cd1129661fbc8af8bec738534d83"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI005.roi.tsv",
+    "sha256": "ad108c5adee3ec510d8c3fdeb9f82dbfe6fdf24f4f952e7c47d7bee6c35265b6"
+   },
+   {
+    "file": "sub-16974_ses-OXF1PRI006.roi.tsv",
+    "sha256": "22c2a842ab8733c5cf74c72bbab3e1b90887c0e197edea08883e9142e369bfca"
+   }
+  ],
+  "스캐너 간 값": "쓰지 않음(입력 디렉터리에 없다, P9-9)"
+ },
+ "자유도": 10,
+ "s 의 95% 구간 배수(자유도만)": {
+  "하한": 0.6987,
+  "상한": 1.7549
+ },
+ "⛔ 얇다": "df 10 — roi_s(df 45) 보다 얇다. 이 불확실성은 G5 폭 분모 z·s_ref 와 층 1 v 의 뺄셈 두 곳에 동시에 들어간다(정하 «승인 넷» 2 ①)",
+ "단위": "원래 단위(로짓 아님) · 축 = Frame.AXES · ODI 는 판정 대상이 아니다(기술)",
+ "ROI별 s_ref": {
+  "ndi": {
+   "Middle cerebellar peduncle": 0.005920290195590069,
+   "Pontine crossing tract (a part of MCP)": 0.011195675389780368,
+   "Genu of corpus callosum": 0.004137698162424784,
+   "Body of corpus callosum": 0.0035895017226164547,
+   "Splenium of corpus callosum": 0.006661347586387206,
+   "Fornix (column and body of fornix)": 0.017746375969945716,
+   "Corticospinal tract": 0.018484134553268472,
+   "Medial lemniscus": 0.0094784727121075,
+   "Inferior cerebellar peduncle": 0.008647327264584913,
+   "Superior cerebellar peduncle": 0.009575085899527618,
+   "Cerebral peduncle": 0.009466386349649638,
+   "Anterior limb of internal capsule": 0.00889038304386637,
+   "Posterior limb of internal capsule": 0.004949388893674985,
+   "Retrolenticular part of internal capsule": 0.006146857368132627,
+   "Anterior corona radiata": 0.004893356951435963,
+   "Superior corona radiata": 0.002992489493855133,
+   "Posterior corona radiata": 0.004632390461917771,
+   "Posterior thalamic radiation (include optic radiation)": 0.005138821498326886,
+   "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.002043993347388063,
+   "External capsule": 0.002674442859425758,
+   "Cingulum (cingulate gyrus)": 0.005915684808907034,
+   "Cingulum (hippocampus)": 0.0056136784494067475,
+   "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.0073740341924101,
+   "Superior longitudinal fasciculus": 0.003111024320193165,
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.008364705908358866,
+   "Uncinate fasciculus": 0.005792440027023701,
+   "Tapetum": 0.008590205678804589
+  },
+  "odi": {
+   "Middle cerebellar peduncle": 0.0010797509049158842,
+   "Pontine crossing tract (a part of MCP)": 0.006172985401462303,
+   "Genu of corpus callosum": 0.0017702703418781373,
+   "Body of corpus callosum": 0.0006666493956096168,
+   "Splenium of corpus callosum": 0.0007987758550849326,
+   "Fornix (column and body of fornix)": 0.011768751109045796,
+   "Corticospinal tract": 0.0035765197568073566,
+   "Medial lemniscus": 0.0027958706813203398,
+   "Inferior cerebellar peduncle": 0.0019037817867777408,
+   "Superior cerebellar peduncle": 0.00290346989034959,
+   "Cerebral peduncle": 0.0009708248576167926,
+   "Anterior limb of internal capsule": 0.0013746144989899318,
+   "Posterior limb of internal capsule": 0.0007105141917419132,
+   "Retrolenticular part of internal capsule": 0.0013167472390958963,
+   "Anterior corona radiata": 0.0013734514082534303,
+   "Superior corona radiata": 0.0010834108946593923,
+   "Posterior corona radiata": 0.0012086383885044644,
+   "Posterior thalamic radiation (include optic radiation)": 0.0017107243762998965,
+   "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.0017960642075104066,
+   "External capsule": 0.0007729754577820296,
+   "Cingulum (cingulate gyrus)": 0.0026985392475992165,
+   "Cingulum (hippocampus)": 0.001444114314784903,
+   "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.0016849630868854847,
+   "Superior longitudinal fasciculus": 0.0013105145617911575,
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.0026230981435762866,
+   "Uncinate fasciculus": 0.0023827300378627316,
+   "Tapetum": 0.002616728538015872
+  },
+  "fiso": {
+   "Middle cerebellar peduncle": 0.008374171592860191,
+   "Pontine crossing tract (a part of MCP)": 0.0166778561921689,
+   "Genu of corpus callosum": 0.003573511289101144,
+   "Body of corpus callosum": 0.003964783625874177,
+   "Splenium of corpus callosum": 0.004047286712519059,
+   "Fornix (column and body of fornix)": 0.021119080473196113,
+   "Corticospinal tract": 0.012232355278113859,
+   "Medial lemniscus": 0.008398165119040386,
+   "Inferior cerebellar peduncle": 0.006930071932647356,
+   "Superior cerebellar peduncle": 0.012175353760089819,
+   "Cerebral peduncle": 0.009902086445963465,
+   "Anterior limb of internal capsule": 0.004978946227616844,
+   "Posterior limb of internal capsule": 0.005288199330033494,
+   "Retrolenticular part of internal capsule": 0.00381068985771168,
+   "Anterior corona radiata": 0.0054941372965492345,
+   "Superior corona radiata": 0.003941460866015711,
+   "Posterior corona radiata": 0.0057963080498135465,
+   "Posterior thalamic radiation (include optic radiation)": 0.0044892990339992596,
+   "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.004295492673043067,
+   "External capsule": 0.003589426154229484,
+   "Cingulum (cingulate gyrus)": 0.0044790105403797985,
+   "Cingulum (hippocampus)": 0.004168855013170083,
+   "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.006546693657233907,
+   "Superior longitudinal fasciculus": 0.0037373649931023165,
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.011940986406944501,
+   "Uncinate fasciculus": 0.004473346572105348,
+   "Tapetum": 0.013328664855616009
+  }
+ }
+}

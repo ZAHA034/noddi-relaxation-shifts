@@ -1,0 +1,67 @@
+{
+ "mode": "pairs",
+ "inputs_equal": true,
+ "cells": [
+  {
+   "variant": "main",
+   "cell": "OXF1PRI~NOT2ING-89|ODI",
+   "level": "B",
+   "differing_fields": [
+    "by_coil_combo",
+    "coverage",
+    "coverage_by_k",
+    "coverage_incl_excluded",
+    "coverage_max",
+    "coverage_min",
+    "coverage_uniform_mixture_reference",
+    "decomposition",
+    "exceed_rate",
+    "n_excluded_misspec",
+    "n_units_used"
+   ],
+   "verdict": [
+    "실패",
+    "실패"
+   ],
+   "coverage": [
+    0.08695652173913043,
+    0.0851063829787234
+   ],
+   "threshold": [
+    0.75,
+    0.75
+   ],
+   "n_units_used": [
+    46,
+    47
+   ]
+  }
+ ],
+ "blocks": {},
+ "level": "B",
+ "n_cells": 1,
+ "n_cells_level_a": 0,
+ "target": {
+  "target_sha256": "f6003589c01ad0bd693a6c809cb78ec6e69c70907be55703e22774d47f240a2a",
+  "in_manifest": true,
+  "in_verdict_record": true
+ },
+ "recompute": {
+  "mode": "pairs",
+  "pairs": [
+   "OXF1PRI~NOT2ING-89"
+  ],
+  "seconds_by_pair": {
+   "OXF1PRI~NOT2ING-89": 204.0
+  },
+  "total_seconds": 204.0,
+  "threads": "16",
+  "seed_offset": 0,
+  "shift_roi": 0.5,
+  "guard": {
+   "head": "5ece4360dcd46c7cc8ae7881dc1666e6e83f0628",
+   "fixed_commit": "be59d71503f3e0f62e39064154e19706afc842ab",
+   "pipeline_commit": "41fe3a502e2410e195f3ba6132f08db984cc0881"
+  }
+ }
+}

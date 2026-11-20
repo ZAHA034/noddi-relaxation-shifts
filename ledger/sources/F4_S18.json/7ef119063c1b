@@ -1,0 +1,1120 @@
+{
+ "what": "Supplementary Table S18 — share of units at retest level by ROI unit and coordinate (the values of Fig. 4b)",
+ "grade": "post hoc, descriptive; displayed after the verdict; no test; the verdict is the pooled magnitude test (Fig. 4a)",
+ "run": "F4-20261106T183145Z",
+ "written": "2026-11-07T03:31:51+09:00",
+ "rules": [
+  {
+   "file": "x15/v12/V12_DISPLAY_RULES.md",
+   "sha256": "a4197909b5bb54f2056fdc48f1f2087cb02c73723521d5e0639cb3c07c1cc0f8"
+  },
+  {
+   "file": "x15/v12/V12B_S43_RULES.md",
+   "sha256": "d56e5563ef178cb7b786f614f08a9613d3529e697780a24b79cfda69186484b2",
+   "section": "§3 (Table S18), §0.4"
+  }
+ ],
+ "script": {
+  "file": "x15/ms/S41_files/src/make_F4.py",
+  "sha256": "0cd8c5d826929d430c6171089174a9c27f14ee1e93d16962c701a90154caf303"
+ },
+ "definition": "unit = participant × ROI unit × center pair of the fixed magnitude test; at retest level when |Δ| <= t0.975(df) · √2 · s, s the c10 retest SD of the ROI unit (c10r1 – c10r3, 6 degrees of freedom); share = units at retest level / units with Δ and s, per ROI unit and coordinate; ROI values = means over JHU label ∩ FMRIB58 skeleton (>= 2000) voxels (roi.py, table «주»)",
+ "threshold": {
+  "ledger": "N-330",
+  "value": 0.9,
+  "rule": "«*» when share < threshold"
+ },
+ "rounding": "half up to 3 decimals, from the exact fraction n_retest / n_den",
+ "denominator": {
+  "value": 135,
+  "per": "ROI unit and coordinate",
+  "center_pairs": 45,
+  "participants": 3
+ },
+ "pooled": {
+  "x": {
+   "n_retest": 3394,
+   "n_den": 3645,
+   "share": 0.9311385459533608,
+   "ledger": [
+    "N-324",
+    "N-334",
+    "N-214"
+   ]
+  },
+  "y": {
+   "n_retest": 3075,
+   "n_den": 3645,
+   "share": 0.8436213991769548,
+   "ledger": [
+    "N-326",
+    "N-335",
+    "N-214"
+   ]
+  },
+  "ODI": {
+   "n_retest": 3404,
+   "n_den": 3645,
+   "share": 0.9338820301783265,
+   "ledger": [
+    "N-325",
+    "N-336",
+    "N-214"
+   ]
+  }
+ },
+ "v12_comparison": {
+  "file": "F4_shares.json of the v12 run (FIG_OUT of run F4-20261106T122238Z; scratch, not kept with the drafts)",
+  "sha256": "21e3fd6d01926c2456ed24fe818800c2748b4002f009cc539efc25d2cb4e3db4",
+  "run": "F4-20261106T122238Z",
+  "n_compared": 81,
+  "equal": true,
+  "same_tables": true,
+  "n_tables": 36
+ },
+ "tables": [
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c01r1/roi.json",
+   "sha256": "c7e306a3da194a1aca772ee4a47c9a5644da02cdb831be3864548a2e99c30000",
+   "bytes": 28223
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c02r1/roi.json",
+   "sha256": "8cbb88d4aa596fb18f56b03a087998ad52a78a04460a71e5a95e5b102e511306",
+   "bytes": 28233
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c03r1/roi.json",
+   "sha256": "c744681433cfaab1c300549e233a0d9d683cb8bc0baab492f3da88be711edafd",
+   "bytes": 28205
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c04r1/roi.json",
+   "sha256": "c4e12d927557eea49b64e52df44e17de8740af25b628d635713098162ec1dc54",
+   "bytes": 28201
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c05r1/roi.json",
+   "sha256": "cc08fd6c097effa1f11f3be798341394c0338e4f1831ab1054fec02a7a6a0317",
+   "bytes": 28236
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c06r1/roi.json",
+   "sha256": "970f915a36bb9d295d911e0eebd5ac87dbca7e95e9248a588d8005a9e7bea740",
+   "bytes": 28227
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c07r1/roi.json",
+   "sha256": "40da7affdd8ed296592d3fafcb87d979b6455679ee57729535fe4f2384d468be",
+   "bytes": 28214
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c08r1/roi.json",
+   "sha256": "df9d1644eab13ccfe1758dbb682779e2c9e55a8997af86298a146de795a78d5c",
+   "bytes": 28198
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c09r1/roi.json",
+   "sha256": "899037dc44d57106ab7dd7994b598c7ca12376fdccccfab77b6c33e591075309",
+   "bytes": 28231
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c10r1/roi.json",
+   "sha256": "e46643fa2f07424bb423584cd434101a2dc3de759e16080e5d21cadb5b2393be",
+   "bytes": 28228
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c10r2/roi.json",
+   "sha256": "e86140748eeb377a2679e8b99afd535763ed4051c70542a3ce1f1dce5a70a53f",
+   "bytes": 28228
+  },
+  {
+   "file": "data/remeasure/tong/sub-1_ses-c10r3/roi.json",
+   "sha256": "2a56c7dd9eb3305e0684a076ce93c5d43b5f3ee4b9006c8587ff0f80dedd9257",
+   "bytes": 28209
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c01r1/roi.json",
+   "sha256": "4e90b0035b735cbe39cb0c5c65cb5bd2b6ba7dfa153f5b253a80f2249b90628f",
+   "bytes": 28222
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c02r1/roi.json",
+   "sha256": "3786d6421e10f97ef82accacd5ec55b7e232a384ded5a9c8ae61c290c297d1fe",
+   "bytes": 28234
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c03r1/roi.json",
+   "sha256": "38b6a52ed0558f94ec567eb0190c63829c59f1862de36726626be9d58f67887c",
+   "bytes": 28229
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c04r1/roi.json",
+   "sha256": "df03f8e970aec630fbb501b54c75f49565c361781e4d30fe9bd9a1ef7a33cf85",
+   "bytes": 28203
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c05r1/roi.json",
+   "sha256": "dc1a17aad66a53ff00659737d5b51dd38fa220f721635476ef22c5aeda101590",
+   "bytes": 28236
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c06r1/roi.json",
+   "sha256": "f27cb3a55022afead7fe5e9f596381755bdfc2ef5fc8b7389578512befc3a34d",
+   "bytes": 28220
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c07r1/roi.json",
+   "sha256": "605f44174e852a8e4c143df42fafff4c282d19b65e98089a67a4d36bf09fc8d6",
+   "bytes": 28202
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c08r1/roi.json",
+   "sha256": "41f595894a7089aaf9ffcf80f3386cc2fb90e66576213e39ae93da1b78a3be98",
+   "bytes": 28215
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c09r1/roi.json",
+   "sha256": "447634e63903c62ab719112f6310471f1cbae58b6f31dccf071c4a2274d5b6a3",
+   "bytes": 28213
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c10r1/roi.json",
+   "sha256": "21576d080e4cf63848e9be23068a26ec9fe5739cd2178ddf18724fce69f6b60d",
+   "bytes": 28231
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c10r2/roi.json",
+   "sha256": "854b04fa215cf6c056ee997d691023fd166b345a430980b8d63d2251ac6c42b6",
+   "bytes": 28213
+  },
+  {
+   "file": "data/remeasure/tong/sub-2_ses-c10r3/roi.json",
+   "sha256": "3e85cd4576d4782ba02ea2030005c1572d134e1065d27b47f0cc1317e6826fdb",
+   "bytes": 28210
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c01r1/roi.json",
+   "sha256": "d77231a1e6fbc38793b862cc1894af7a2999adb45a5177bbc3590e3506da134f",
+   "bytes": 28199
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c02r1/roi.json",
+   "sha256": "bd583f65387bef4e9e3c5da073a405b7f89f981ef3744f58d4aec30cc0fdb7b6",
+   "bytes": 28223
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c03r1/roi.json",
+   "sha256": "d4ff947d4b296498c6c302a1b8cec53082a9a29c5d1899e78fe2b1c1c0e08e72",
+   "bytes": 28241
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c04r1/roi.json",
+   "sha256": "1654969641e1eff3c8bfc008431cfd729399e8ca843b712de67a40ba56dbfe57",
+   "bytes": 28198
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c05r1/roi.json",
+   "sha256": "6f7ad6affa8a843517b4f349ab2cb9a0a8175470c8f8867c913f530acea3734e",
+   "bytes": 28215
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c06r1/roi.json",
+   "sha256": "44a66544eaf58bb49fc36d29cdef23cb01de9a5ad15ee76de69a3643917579b4",
+   "bytes": 28233
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c07r1/roi.json",
+   "sha256": "2181fc016512641e24fe1c915580e523aa76c1c1c535844cde33825de5ef68ae",
+   "bytes": 28227
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c08r1/roi.json",
+   "sha256": "bd4d803f5c741bc983d425d8cc89a1e14c2cd51e580b2606f484c7347df9f1ea",
+   "bytes": 28201
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c09r1/roi.json",
+   "sha256": "2b05e7be7b170d00366573540a5b5d1e8be220b7a42623b201a2bf5fd8616c6a",
+   "bytes": 28218
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c10r1/roi.json",
+   "sha256": "db034798c44c9762033613339b39cd1b9829820c65d7169bb8b0baf756cf221e",
+   "bytes": 28243
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c10r2/roi.json",
+   "sha256": "12b578741d928eaa501b7aec56d894ddbb5787d378de337b80fb8799973965c1",
+   "bytes": 28206
+  },
+  {
+   "file": "data/remeasure/tong/sub-3_ses-c10r3/roi.json",
+   "sha256": "7b3aaa61a4babb15a039cd049d6cd4081760bcafed5f74a433994f5d0753a439",
+   "bytes": 28200
+  }
+ ],
+ "order": [
+  "MCP",
+  "PCT",
+  "GCC",
+  "BCC",
+  "SCC",
+  "FX",
+  "CST",
+  "ML",
+  "ICP",
+  "SCP",
+  "CP",
+  "ALIC",
+  "PLIC",
+  "RLIC",
+  "ACR",
+  "SCR",
+  "PCR",
+  "PTR",
+  "SS",
+  "EC",
+  "CGC",
+  "CGH",
+  "FX/ST",
+  "SLF",
+  "SFO",
+  "UNC",
+  "TAP"
+ ],
+ "fields": "units.<abbreviation>.<x|y|ODI>.share (raw) · .text (printed) · .n_retest · .n_den; denominator.value",
+ "units": {
+  "MCP": {
+   "row": 1,
+   "name": "Middle cerebellar peduncle",
+   "abbreviation": "MCP",
+   "first_label": 1,
+   "labels": [
+    1
+   ],
+   "x": {
+    "n_retest": 125,
+    "n_den": 135,
+    "share": 0.9259259259259259,
+    "text": "0.926",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 129,
+    "n_den": 135,
+    "share": 0.9555555555555556,
+    "text": "0.956",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   }
+  },
+  "PCT": {
+   "row": 2,
+   "name": "Pontine crossing tract (a part of MCP)",
+   "abbreviation": "PCT",
+   "first_label": 2,
+   "labels": [
+    2
+   ],
+   "x": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 127,
+    "n_den": 135,
+    "share": 0.9407407407407408,
+    "text": "0.941",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   }
+  },
+  "GCC": {
+   "row": 3,
+   "name": "Genu of corpus callosum",
+   "abbreviation": "GCC",
+   "first_label": 3,
+   "labels": [
+    3
+   ],
+   "x": {
+    "n_retest": 129,
+    "n_den": 135,
+    "share": 0.9555555555555556,
+    "text": "0.956",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 98,
+    "n_den": 135,
+    "share": 0.725925925925926,
+    "text": "0.726",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   }
+  },
+  "BCC": {
+   "row": 4,
+   "name": "Body of corpus callosum",
+   "abbreviation": "BCC",
+   "first_label": 4,
+   "labels": [
+    4
+   ],
+   "x": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 105,
+    "n_den": 135,
+    "share": 0.7777777777777778,
+    "text": "0.778",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 132,
+    "n_den": 135,
+    "share": 0.9777777777777777,
+    "text": "0.978",
+    "below_threshold": false
+   }
+  },
+  "SCC": {
+   "row": 5,
+   "name": "Splenium of corpus callosum",
+   "abbreviation": "SCC",
+   "first_label": 5,
+   "labels": [
+    5
+   ],
+   "x": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 104,
+    "n_den": 135,
+    "share": 0.7703703703703704,
+    "text": "0.770",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   }
+  },
+  "FX": {
+   "row": 6,
+   "name": "Fornix (column and body of fornix)",
+   "abbreviation": "FX",
+   "first_label": 6,
+   "labels": [
+    6
+   ],
+   "x": {
+    "n_retest": 132,
+    "n_den": 135,
+    "share": 0.9777777777777777,
+    "text": "0.978",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 119,
+    "n_den": 135,
+    "share": 0.8814814814814815,
+    "text": "0.881",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 112,
+    "n_den": 135,
+    "share": 0.8296296296296296,
+    "text": "0.830",
+    "below_threshold": true
+   }
+  },
+  "CST": {
+   "row": 7,
+   "name": "Corticospinal tract",
+   "abbreviation": "CST",
+   "first_label": 7,
+   "labels": [
+    7,
+    8
+   ],
+   "x": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 134,
+    "n_den": 135,
+    "share": 0.9925925925925926,
+    "text": "0.993",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   }
+  },
+  "ML": {
+   "row": 8,
+   "name": "Medial lemniscus",
+   "abbreviation": "ML",
+   "first_label": 9,
+   "labels": [
+    9,
+    10
+   ],
+   "x": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 129,
+    "n_den": 135,
+    "share": 0.9555555555555556,
+    "text": "0.956",
+    "below_threshold": false
+   }
+  },
+  "ICP": {
+   "row": 9,
+   "name": "Inferior cerebellar peduncle",
+   "abbreviation": "ICP",
+   "first_label": 11,
+   "labels": [
+    11,
+    12
+   ],
+   "x": {
+    "n_retest": 131,
+    "n_den": 135,
+    "share": 0.9703703703703703,
+    "text": "0.970",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 132,
+    "n_den": 135,
+    "share": 0.9777777777777777,
+    "text": "0.978",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 134,
+    "n_den": 135,
+    "share": 0.9925925925925926,
+    "text": "0.993",
+    "below_threshold": false
+   }
+  },
+  "SCP": {
+   "row": 10,
+   "name": "Superior cerebellar peduncle",
+   "abbreviation": "SCP",
+   "first_label": 13,
+   "labels": [
+    13,
+    14
+   ],
+   "x": {
+    "n_retest": 123,
+    "n_den": 135,
+    "share": 0.9111111111111111,
+    "text": "0.911",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 127,
+    "n_den": 135,
+    "share": 0.9407407407407408,
+    "text": "0.941",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 121,
+    "n_den": 135,
+    "share": 0.8962962962962963,
+    "text": "0.896",
+    "below_threshold": true
+   }
+  },
+  "CP": {
+   "row": 11,
+   "name": "Cerebral peduncle",
+   "abbreviation": "CP",
+   "first_label": 15,
+   "labels": [
+    15,
+    16
+   ],
+   "x": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 128,
+    "n_den": 135,
+    "share": 0.9481481481481482,
+    "text": "0.948",
+    "below_threshold": false
+   }
+  },
+  "ALIC": {
+   "row": 12,
+   "name": "Anterior limb of internal capsule",
+   "abbreviation": "ALIC",
+   "first_label": 17,
+   "labels": [
+    17,
+    18
+   ],
+   "x": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 120,
+    "n_den": 135,
+    "share": 0.8888888888888888,
+    "text": "0.889",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 114,
+    "n_den": 135,
+    "share": 0.8444444444444444,
+    "text": "0.844",
+    "below_threshold": true
+   }
+  },
+  "PLIC": {
+   "row": 13,
+   "name": "Posterior limb of internal capsule",
+   "abbreviation": "PLIC",
+   "first_label": 19,
+   "labels": [
+    19,
+    20
+   ],
+   "x": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 131,
+    "n_den": 135,
+    "share": 0.9703703703703703,
+    "text": "0.970",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 127,
+    "n_den": 135,
+    "share": 0.9407407407407408,
+    "text": "0.941",
+    "below_threshold": false
+   }
+  },
+  "RLIC": {
+   "row": 14,
+   "name": "Retrolenticular part of internal capsule",
+   "abbreviation": "RLIC",
+   "first_label": 21,
+   "labels": [
+    21,
+    22
+   ],
+   "x": {
+    "n_retest": 123,
+    "n_den": 135,
+    "share": 0.9111111111111111,
+    "text": "0.911",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 95,
+    "n_den": 135,
+    "share": 0.7037037037037037,
+    "text": "0.704",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 129,
+    "n_den": 135,
+    "share": 0.9555555555555556,
+    "text": "0.956",
+    "below_threshold": false
+   }
+  },
+  "ACR": {
+   "row": 15,
+   "name": "Anterior corona radiata",
+   "abbreviation": "ACR",
+   "first_label": 23,
+   "labels": [
+    23,
+    24
+   ],
+   "x": {
+    "n_retest": 111,
+    "n_den": 135,
+    "share": 0.8222222222222222,
+    "text": "0.822",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 69,
+    "n_den": 135,
+    "share": 0.5111111111111111,
+    "text": "0.511",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 121,
+    "n_den": 135,
+    "share": 0.8962962962962963,
+    "text": "0.896",
+    "below_threshold": true
+   }
+  },
+  "SCR": {
+   "row": 16,
+   "name": "Superior corona radiata",
+   "abbreviation": "SCR",
+   "first_label": 25,
+   "labels": [
+    25,
+    26
+   ],
+   "x": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 115,
+    "n_den": 135,
+    "share": 0.8518518518518519,
+    "text": "0.852",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   }
+  },
+  "PCR": {
+   "row": 17,
+   "name": "Posterior corona radiata",
+   "abbreviation": "PCR",
+   "first_label": 27,
+   "labels": [
+    27,
+    28
+   ],
+   "x": {
+    "n_retest": 129,
+    "n_den": 135,
+    "share": 0.9555555555555556,
+    "text": "0.956",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 114,
+    "n_den": 135,
+    "share": 0.8444444444444444,
+    "text": "0.844",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   }
+  },
+  "PTR": {
+   "row": 18,
+   "name": "Posterior thalamic radiation (include optic radiation)",
+   "abbreviation": "PTR",
+   "first_label": 29,
+   "labels": [
+    29,
+    30
+   ],
+   "x": {
+    "n_retest": 119,
+    "n_den": 135,
+    "share": 0.8814814814814815,
+    "text": "0.881",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 98,
+    "n_den": 135,
+    "share": 0.725925925925926,
+    "text": "0.726",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 101,
+    "n_den": 135,
+    "share": 0.7481481481481481,
+    "text": "0.748",
+    "below_threshold": true
+   }
+  },
+  "SS": {
+   "row": 19,
+   "name": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+   "abbreviation": "SS",
+   "first_label": 31,
+   "labels": [
+    31,
+    32
+   ],
+   "x": {
+    "n_retest": 127,
+    "n_den": 135,
+    "share": 0.9407407407407408,
+    "text": "0.941",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 132,
+    "n_den": 135,
+    "share": 0.9777777777777777,
+    "text": "0.978",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 111,
+    "n_den": 135,
+    "share": 0.8222222222222222,
+    "text": "0.822",
+    "below_threshold": true
+   }
+  },
+  "EC": {
+   "row": 20,
+   "name": "External capsule",
+   "abbreviation": "EC",
+   "first_label": 33,
+   "labels": [
+    33,
+    34
+   ],
+   "x": {
+    "n_retest": 89,
+    "n_den": 135,
+    "share": 0.6592592592592592,
+    "text": "0.659",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 115,
+    "n_den": 135,
+    "share": 0.8518518518518519,
+    "text": "0.852",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 121,
+    "n_den": 135,
+    "share": 0.8962962962962963,
+    "text": "0.896",
+    "below_threshold": true
+   }
+  },
+  "CGC": {
+   "row": 21,
+   "name": "Cingulum (cingulate gyrus)",
+   "abbreviation": "CGC",
+   "first_label": 35,
+   "labels": [
+    35,
+    36
+   ],
+   "x": {
+    "n_retest": 134,
+    "n_den": 135,
+    "share": 0.9925925925925926,
+    "text": "0.993",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 83,
+    "n_den": 135,
+    "share": 0.6148148148148148,
+    "text": "0.615",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   }
+  },
+  "CGH": {
+   "row": 22,
+   "name": "Cingulum (hippocampus)",
+   "abbreviation": "CGH",
+   "first_label": 37,
+   "labels": [
+    37,
+    38
+   ],
+   "x": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 134,
+    "n_den": 135,
+    "share": 0.9925925925925926,
+    "text": "0.993",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   }
+  },
+  "FX/ST": {
+   "row": 23,
+   "name": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+   "abbreviation": "FX/ST",
+   "first_label": 39,
+   "labels": [
+    39,
+    40
+   ],
+   "x": {
+    "n_retest": 117,
+    "n_den": 135,
+    "share": 0.8666666666666667,
+    "text": "0.867",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 85,
+    "n_den": 135,
+    "share": 0.6296296296296297,
+    "text": "0.630",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 122,
+    "n_den": 135,
+    "share": 0.9037037037037037,
+    "text": "0.904",
+    "below_threshold": false
+   }
+  },
+  "SLF": {
+   "row": 24,
+   "name": "Superior longitudinal fasciculus",
+   "abbreviation": "SLF",
+   "first_label": 41,
+   "labels": [
+    41,
+    42
+   ],
+   "x": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 108,
+    "n_den": 135,
+    "share": 0.8,
+    "text": "0.800",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 135,
+    "n_den": 135,
+    "share": 1.0,
+    "text": "1.000",
+    "below_threshold": false
+   }
+  },
+  "SFO": {
+   "row": 25,
+   "name": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+   "abbreviation": "SFO",
+   "first_label": 43,
+   "labels": [
+    43,
+    44
+   ],
+   "x": {
+    "n_retest": 115,
+    "n_den": 135,
+    "share": 0.8518518518518519,
+    "text": "0.852",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 90,
+    "n_den": 135,
+    "share": 0.6666666666666666,
+    "text": "0.667",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 134,
+    "n_den": 135,
+    "share": 0.9925925925925926,
+    "text": "0.993",
+    "below_threshold": false
+   }
+  },
+  "UNC": {
+   "row": 26,
+   "name": "Uncinate fasciculus",
+   "abbreviation": "UNC",
+   "first_label": 45,
+   "labels": [
+    45,
+    46
+   ],
+   "x": {
+    "n_retest": 96,
+    "n_den": 135,
+    "share": 0.7111111111111111,
+    "text": "0.711",
+    "below_threshold": true
+   },
+   "y": {
+    "n_retest": 113,
+    "n_den": 135,
+    "share": 0.837037037037037,
+    "text": "0.837",
+    "below_threshold": true
+   },
+   "ODI": {
+    "n_retest": 118,
+    "n_den": 135,
+    "share": 0.8740740740740741,
+    "text": "0.874",
+    "below_threshold": true
+   }
+  },
+  "TAP": {
+   "row": 27,
+   "name": "Tapetum",
+   "abbreviation": "TAP",
+   "first_label": 47,
+   "labels": [
+    47,
+    48
+   ],
+   "x": {
+    "n_retest": 133,
+    "n_den": 135,
+    "share": 0.9851851851851852,
+    "text": "0.985",
+    "below_threshold": false
+   },
+   "y": {
+    "n_retest": 130,
+    "n_den": 135,
+    "share": 0.9629629629629629,
+    "text": "0.963",
+    "below_threshold": false
+   },
+   "ODI": {
+    "n_retest": 118,
+    "n_den": 135,
+    "share": 0.8740740740740741,
+    "text": "0.874",
+    "below_threshold": true
+   }
+  }
+ }
+}

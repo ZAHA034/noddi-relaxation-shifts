@@ -1,0 +1,34 @@
+{
+ "source": [
+  "out",
+  "s86_values.json",
+  "rv_b_family.json"
+ ],
+ "raw": {
+  "te_mean": 84.45625,
+  "control_nu_app": 0.6082837836023969,
+  "m1_bias_logit_D0_S2b": -0.054155289582252845,
+  "m1_bias_ndi_D0_S2b": -0.012976757323579058,
+  "m1_bias_ndi_abs_D0_S2b": 0.012976757323579058,
+  "m1_bias_logit_D0_S2e": -0.14566910828944565,
+  "m1_bias_ndi_D0_S2e": -0.03520229282291165,
+  "m1_bias_ndi_abs_D0_S2e": 0.03520229282291165,
+  "m1_bias_logit_D1_S2b": -0.05371064234368,
+  "m1_bias_ndi_D1_S2b": -0.012869638976898967,
+  "m1_bias_ndi_abs_D1_S2b": 0.012869638976898967,
+  "m1_bias_logit_D1_S2e": -0.145469201434927,
+  "m1_bias_ndi_D1_S2e": -0.035153384507348284,
+  "m1_bias_ndi_abs_D1_S2e": 0.035153384507348284,
+  "tol_one_se_per_s": 0.11380233245971624,
+  "e_example": 0.5,
+  "lin_units_x": 66,
+  "lin_need": 65,
+  "lin_margin_x": 1,
+  "grid_iso_t2_low_ratio": 100.0,
+  "grid_min_ratio_other": 2.0,
+  "grid_n_match": 27,
+  "grid_n_conditions": 1701,
+  "family_t2iso": 114.97937339725722
+ },
+ "fails": []
+}

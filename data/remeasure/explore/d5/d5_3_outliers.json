@@ -1,0 +1,5887 @@
+{
+ "made": "2026-11-02T10:02:11+09:00",
+ "script_sha256": "d3c15e5d12818d35caeeef17d33aa399946ea75dc3d6c75a87071e11b9c7efa3",
+ "rule": "기기 안 강건 표준화 → 합동 MCD → χ²_p 0.99 · 피험자 부트스트랩 안정 ≥ 0.8(계획서 §17 ③)",
+ "n_sessions": 119,
+ "session": {
+  "Q": {
+   "p": 4,
+   "cutoff": 30.507787164464247,
+   "cutoff_sub": 48.54300206166505,
+   "chi2_99": 13.276704135987622,
+   "expected_false_flags": 1.19,
+   "n_flag": 6,
+   "n_stable": 2,
+   "stable_sessions": [
+    {
+     "session": "sub-10975_ses-NOT2ING001",
+     "device": "NOT2ING",
+     "d2": 88.54797362650376,
+     "freq": 0.974
+    },
+    {
+     "session": "sub-16745_ses-OXF4GEP001",
+     "device": "OXF4GEP",
+     "d2": 168.42345252217777,
+     "freq": 0.862
+    }
+   ],
+   "flagged_unstable": [
+    {
+     "session": "sub-13305_ses-OXF1PRI001",
+     "d2": 37.50692344809987,
+     "freq": 0.138
+    },
+    {
+     "session": "sub-16793_ses-OXF1PRI001",
+     "d2": 36.405334060733075,
+     "freq": 0.026
+    },
+    {
+     "session": "sub-16794_ses-OXF4GEP001",
+     "d2": 52.03756717753508,
+     "freq": 0.474
+    },
+    {
+     "session": "sub-16842_ses-OXF4GEP001",
+     "d2": 84.88446276028382,
+     "freq": 0.666
+    }
+   ],
+   "main_excluded_check": {
+    "sub-16794_ses-NOT4GEP001": {
+     "d2": 3.186654255667957,
+     "flag": false,
+     "freq": 0.0
+    }
+   },
+   "by_device": {
+    "NOT1ACH": 0,
+    "NOT2ING": 1,
+    "NOT4GEP": 0,
+    "OXF1PRI": 0,
+    "OXF2PRI": 0,
+    "OXF3TRI": 0,
+    "OXF4GEP": 1
+   },
+   "d2_all": {
+    "sub-03286_ses-NOT1ACH001": 2.9306825312256697,
+    "sub-03286_ses-NOT2ING001": 1.5409273348944814,
+    "sub-03286_ses-OXF1PRI001": 11.093561456271354,
+    "sub-03286_ses-OXF2PRI001": 7.035320455077,
+    "sub-03286_ses-OXF3TRI001": 3.5942444043174815,
+    "sub-03997_ses-NOT1ACH001": 9.67539423109261,
+    "sub-03997_ses-NOT2ING001": 1.14547539439233,
+    "sub-03997_ses-OXF1PRI001": 2.528242373207246,
+    "sub-03997_ses-OXF2PRI001": 12.411547708066836,
+    "sub-03997_ses-OXF3TRI001": 0.7064984137018973,
+    "sub-10975_ses-NOT1ACH001": 7.621039462443806,
+    "sub-10975_ses-NOT2ING001": 88.54797362650376,
+    "sub-10975_ses-OXF1PRI001": 6.194593705899804,
+    "sub-10975_ses-OXF2PRI001": 9.670164123620669,
+    "sub-10975_ses-OXF3TRI001": 3.9872355212556134,
+    "sub-12813_ses-NOT1ACH001": 5.95825456102416,
+    "sub-12813_ses-NOT2ING001": 1.3877531591210361,
+    "sub-12813_ses-OXF1PRI001": 5.7202946193372926,
+    "sub-12813_ses-OXF2PRI001": 3.482953938091348,
+    "sub-12813_ses-OXF3TRI001": 19.01187764505235,
+    "sub-13192_ses-NOT1ACH001": 2.9044415173244773,
+    "sub-13192_ses-NOT2ING001": 1.9786826124250985,
+    "sub-13192_ses-OXF1PRI001": 13.662587579403045,
+    "sub-13192_ses-OXF1PRI002": 6.388768355638905,
+    "sub-13192_ses-OXF1PRI003": 7.89725251929269,
+    "sub-13192_ses-OXF1PRI004": 3.555189603958335,
+    "sub-13192_ses-OXF1PRI005": 8.372434840881503,
+    "sub-13192_ses-OXF1PRI006": 1.645425747280452,
+    "sub-13192_ses-OXF2PRI001": 2.291246881711641,
+    "sub-13192_ses-OXF3TRI001": 6.964612785935907,
+    "sub-13305_ses-NOT1ACH001": 6.177309639544965,
+    "sub-13305_ses-NOT2ING001": 1.4596846706903515,
+    "sub-13305_ses-OXF1PRI001": 37.50692344809987,
+    "sub-13305_ses-OXF2PRI001": 5.710153947150179,
+    "sub-13305_ses-OXF3TRI001": 2.7955938501175077,
+    "sub-14221_ses-NOT1ACH001": 5.882948102356477,
+    "sub-14221_ses-NOT2ING001": 2.2211269103634628,
+    "sub-14221_ses-OXF1PRI001": 1.2903734081271836,
+    "sub-14221_ses-OXF2PRI001": 10.477639903132888,
+    "sub-14221_ses-OXF3TRI001": 3.2943333504293695,
+    "sub-14229_ses-NOT1ACH001": 8.570656774356074,
+    "sub-14229_ses-NOT2ING001": 1.476512204900132,
+    "sub-14229_ses-OXF1PRI001": 2.9333646343852866,
+    "sub-14229_ses-OXF2PRI001": 1.990332608562391,
+    "sub-14229_ses-OXF3TRI001": 1.250565090504119,
+    "sub-14230_ses-NOT1ACH001": 3.009939301048205,
+    "sub-14230_ses-NOT2ING001": 3.201350652980304,
+    "sub-14230_ses-OXF1PRI001": 5.485891181396485,
+    "sub-14230_ses-OXF2PRI001": 2.491033705490462,
+    "sub-14230_ses-OXF3TRI001": 10.141820263074704,
+    "sub-14482_ses-NOT1ACH001": 9.704859639443015,
+    "sub-14482_ses-NOT2ING001": 2.580107861951374,
+    "sub-14482_ses-OXF1PRI001": 3.2471617681933926,
+    "sub-14482_ses-OXF2PRI001": 1.951015486298174,
+    "sub-14482_ses-OXF3TRI001": 1.5836015758566986,
+    "sub-15320_ses-NOT1ACH001": 0.8962698852339083,
+    "sub-15320_ses-NOT2ING001": 5.577483447975455,
+    "sub-15320_ses-NOT4GEP001": 14.551535712000174,
+    "sub-15320_ses-OXF1PRI001": 7.20081437407054,
+    "sub-15320_ses-OXF2PRI001": 0.6756219223584309,
+    "sub-15320_ses-OXF4GEP001": 5.214744462825215,
+    "sub-16745_ses-NOT1ACH001": 15.0433245827362,
+    "sub-16745_ses-NOT2ING001": 1.7174625759494544,
+    "sub-16745_ses-NOT4GEP001": 5.590392989099235,
+    "sub-16745_ses-OXF1PRI001": 9.698658786546678,
+    "sub-16745_ses-OXF2PRI001": 4.064340543046307,
+    "sub-16745_ses-OXF4GEP001": 168.42345252217777,
+    "sub-16766_ses-NOT1ACH001": 5.711934757964244,
+    "sub-16766_ses-NOT2ING001": 9.554786360683691,
+    "sub-16766_ses-NOT4GEP001": 2.642148622419981,
+    "sub-16766_ses-OXF1PRI001": 13.52016595035803,
+    "sub-16766_ses-OXF2PRI001": 8.82263594706319,
+    "sub-16766_ses-OXF4GEP001": 0.5136656100235298,
+    "sub-16793_ses-NOT1ACH001": 15.33445236074807,
+    "sub-16793_ses-NOT2ING001": 6.118432799946709,
+    "sub-16793_ses-NOT4GEP001": 3.76712344803046,
+    "sub-16793_ses-OXF1PRI001": 36.405334060733075,
+    "sub-16793_ses-OXF2PRI001": 1.2173078370546508,
+    "sub-16794_ses-NOT1ACH001": 2.325853719385383,
+    "sub-16794_ses-NOT2ING001": 3.4012951587123337,
+    "sub-16794_ses-NOT4GEP001": 3.186654255667957,
+    "sub-16794_ses-OXF1PRI001": 4.913904507514893,
+    "sub-16794_ses-OXF2PRI001": 8.63957086069235,
+    "sub-16794_ses-OXF4GEP001": 52.03756717753508,
+    "sub-16841_ses-NOT1ACH001": 1.8365470826644834,
+    "sub-16841_ses-NOT2ING001": 1.3968284426114264,
+    "sub-16841_ses-NOT4GEP001": 5.434703102092267,
+    "sub-16841_ses-OXF1PRI001": 6.597966762113047,
+    "sub-16841_ses-OXF2PRI001": 6.542612157253439,
+    "sub-16841_ses-OXF4GEP001": 1.0742998293851433,
+    "sub-16842_ses-NOT1ACH001": 1.756591674997286,
+    "sub-16842_ses-NOT2ING001": 12.77864912678517,
+    "sub-16842_ses-NOT4GEP001": 2.4706163949269953,
+    "sub-16842_ses-OXF1PRI001": 2.1581550010813837,
+    "sub-16842_ses-OXF2PRI001": 6.217058723435877,
+    "sub-16842_ses-OXF4GEP001": 84.88446276028382,
+    "sub-16974_ses-NOT1ACH001": 0.6835261996198849,
+    "sub-16974_ses-NOT2ING001": 4.385570967593747,
+    "sub-16974_ses-NOT4GEP001": 4.363416531475572,
+    "sub-16974_ses-OXF1PRI001": 0.7482157121925757,
+    "sub-16974_ses-OXF1PRI002": 1.3972345395084944,
+    "sub-16974_ses-OXF1PRI003": 2.8653677056684224,
+    "sub-16974_ses-OXF1PRI004": 0.5262596586252892,
+    "sub-16974_ses-OXF1PRI005": 3.9651103615849936,
+    "sub-16974_ses-OXF1PRI006": 3.6089802990508066,
+    "sub-16974_ses-OXF2PRI001": 4.9822909181861395,
+    "sub-16974_ses-OXF4GEP001": 2.5570721570129105,
+    "sub-16975_ses-NOT1ACH001": 1.2247519763168582,
+    "sub-16975_ses-NOT2ING001": 2.0689891681149746,
+    "sub-16975_ses-NOT4GEP001": 5.539225548675235,
+    "sub-16975_ses-OXF1PRI001": 1.4727341057168584,
+    "sub-16975_ses-OXF2PRI001": 8.419764907432095,
+    "sub-16975_ses-OXF4GEP001": 1.7859264123228478,
+    "sub-16981_ses-NOT1ACH001": 6.957035206449055,
+    "sub-16981_ses-NOT2ING001": 1.4789157606518957,
+    "sub-16981_ses-NOT4GEP001": 0.94884042577134,
+    "sub-16981_ses-OXF1PRI001": 8.033616251932662,
+    "sub-16981_ses-OXF2PRI001": 0.7633642787448761,
+    "sub-16981_ses-OXF4GEP001": 2.7124611837105626
+   }
+  },
+  "S": {
+   "p": 6,
+   "cutoff": 39.00506769055697,
+   "cutoff_sub": 70.11337144459394,
+   "chi2_99": 16.811893829770927,
+   "expected_false_flags": 1.19,
+   "n_flag": 5,
+   "n_stable": 0,
+   "stable_sessions": [],
+   "flagged_unstable": [
+    {
+     "session": "sub-13192_ses-OXF1PRI001",
+     "d2": 53.1322420353887,
+     "freq": 0.234
+    },
+    {
+     "session": "sub-13305_ses-NOT2ING001",
+     "d2": 45.27459192905363,
+     "freq": 0.144
+    },
+    {
+     "session": "sub-14229_ses-OXF3TRI001",
+     "d2": 41.52836777634204,
+     "freq": 0.176
+    },
+    {
+     "session": "sub-14230_ses-OXF3TRI001",
+     "d2": 46.972820265328345,
+     "freq": 0.348
+    },
+    {
+     "session": "sub-14482_ses-NOT2ING001",
+     "d2": 40.15316450985025,
+     "freq": 0.022
+    }
+   ],
+   "main_excluded_check": {
+    "sub-16794_ses-NOT4GEP001": {
+     "d2": 6.713302045161112,
+     "flag": false,
+     "freq": 0.0
+    }
+   },
+   "by_device": {
+    "NOT1ACH": 0,
+    "NOT2ING": 0,
+    "NOT4GEP": 0,
+    "OXF1PRI": 0,
+    "OXF2PRI": 0,
+    "OXF3TRI": 0,
+    "OXF4GEP": 0
+   },
+   "d2_all": {
+    "sub-03286_ses-NOT1ACH001": 8.031341202745514,
+    "sub-03286_ses-NOT2ING001": 36.97659217664184,
+    "sub-03286_ses-OXF1PRI001": 20.152334163360756,
+    "sub-03286_ses-OXF2PRI001": 13.066708811059554,
+    "sub-03286_ses-OXF3TRI001": 27.40145258742989,
+    "sub-03997_ses-NOT1ACH001": 3.3075251042397693,
+    "sub-03997_ses-NOT2ING001": 3.599267075575729,
+    "sub-03997_ses-OXF1PRI001": 21.08191659764142,
+    "sub-03997_ses-OXF2PRI001": 12.838227399386941,
+    "sub-03997_ses-OXF3TRI001": 6.960500039092741,
+    "sub-10975_ses-NOT1ACH001": 3.6005352167939364,
+    "sub-10975_ses-NOT2ING001": 3.7226489132916782,
+    "sub-10975_ses-OXF1PRI001": 9.374056967342858,
+    "sub-10975_ses-OXF2PRI001": 10.46882422719147,
+    "sub-10975_ses-OXF3TRI001": 3.453887686874942,
+    "sub-12813_ses-NOT1ACH001": 8.414648528003667,
+    "sub-12813_ses-NOT2ING001": 4.01966491796444,
+    "sub-12813_ses-OXF1PRI001": 16.60364113402645,
+    "sub-12813_ses-OXF2PRI001": 7.506982597969999,
+    "sub-12813_ses-OXF3TRI001": 7.0272115760631735,
+    "sub-13192_ses-NOT1ACH001": 9.968091152302756,
+    "sub-13192_ses-NOT2ING001": 38.132377051819596,
+    "sub-13192_ses-OXF1PRI001": 53.1322420353887,
+    "sub-13192_ses-OXF1PRI002": 3.6106384686798108,
+    "sub-13192_ses-OXF1PRI003": 3.3393739749881957,
+    "sub-13192_ses-OXF1PRI004": 1.824682445789289,
+    "sub-13192_ses-OXF1PRI005": 1.6004154877531072,
+    "sub-13192_ses-OXF1PRI006": 2.6517472012980896,
+    "sub-13192_ses-OXF2PRI001": 5.5896821538684645,
+    "sub-13192_ses-OXF3TRI001": 9.951340252785931,
+    "sub-13305_ses-NOT1ACH001": 5.396177170503209,
+    "sub-13305_ses-NOT2ING001": 45.27459192905363,
+    "sub-13305_ses-OXF1PRI001": 26.915133305670146,
+    "sub-13305_ses-OXF2PRI001": 8.511924393903124,
+    "sub-13305_ses-OXF3TRI001": 4.142660454873929,
+    "sub-14221_ses-NOT1ACH001": 5.1199417387580795,
+    "sub-14221_ses-NOT2ING001": 1.1047111606691504,
+    "sub-14221_ses-OXF1PRI001": 9.110925273278385,
+    "sub-14221_ses-OXF2PRI001": 3.536730239289275,
+    "sub-14221_ses-OXF3TRI001": 26.327413125925073,
+    "sub-14229_ses-NOT1ACH001": 2.586030799916249,
+    "sub-14229_ses-NOT2ING001": 24.467959581252405,
+    "sub-14229_ses-OXF1PRI001": 24.49472842999534,
+    "sub-14229_ses-OXF2PRI001": 5.362323756973167,
+    "sub-14229_ses-OXF3TRI001": 41.52836777634204,
+    "sub-14230_ses-NOT1ACH001": 7.643205249290845,
+    "sub-14230_ses-NOT2ING001": 5.6072710815038365,
+    "sub-14230_ses-OXF1PRI001": 11.550474096529411,
+    "sub-14230_ses-OXF2PRI001": 3.857890154562769,
+    "sub-14230_ses-OXF3TRI001": 46.972820265328345,
+    "sub-14482_ses-NOT1ACH001": 3.708489923185621,
+    "sub-14482_ses-NOT2ING001": 40.15316450985025,
+    "sub-14482_ses-OXF1PRI001": 21.98143737261368,
+    "sub-14482_ses-OXF2PRI001": 4.936068837902438,
+    "sub-14482_ses-OXF3TRI001": 4.209633786402972,
+    "sub-15320_ses-NOT1ACH001": 10.794350093912723,
+    "sub-15320_ses-NOT2ING001": 5.518341031578381,
+    "sub-15320_ses-NOT4GEP001": 5.856800143656957,
+    "sub-15320_ses-OXF1PRI001": 25.556853361241384,
+    "sub-15320_ses-OXF2PRI001": 25.579434933954474,
+    "sub-15320_ses-OXF4GEP001": 8.370023111277142,
+    "sub-16745_ses-NOT1ACH001": 3.0523609727518743,
+    "sub-16745_ses-NOT2ING001": 5.732254982018429,
+    "sub-16745_ses-NOT4GEP001": 5.731421771014658,
+    "sub-16745_ses-OXF1PRI001": 18.442282990592574,
+    "sub-16745_ses-OXF2PRI001": 4.373434261131513,
+    "sub-16745_ses-OXF4GEP001": 14.215224458702577,
+    "sub-16766_ses-NOT1ACH001": 1.7656147342262827,
+    "sub-16766_ses-NOT2ING001": 10.578354552444136,
+    "sub-16766_ses-NOT4GEP001": 9.274367722209094,
+    "sub-16766_ses-OXF1PRI001": 5.7319918949317605,
+    "sub-16766_ses-OXF2PRI001": 5.808617093677658,
+    "sub-16766_ses-OXF4GEP001": 3.9948546879410203,
+    "sub-16793_ses-NOT1ACH001": 6.501446355346221,
+    "sub-16793_ses-NOT2ING001": 0.8554651936264805,
+    "sub-16793_ses-NOT4GEP001": 4.342413568547733,
+    "sub-16793_ses-OXF1PRI001": 22.203539304019564,
+    "sub-16793_ses-OXF2PRI001": 8.25553771350904,
+    "sub-16794_ses-NOT1ACH001": 22.074606653413376,
+    "sub-16794_ses-NOT2ING001": 3.4700612993627535,
+    "sub-16794_ses-NOT4GEP001": 6.713302045161112,
+    "sub-16794_ses-OXF1PRI001": 4.2465163915877255,
+    "sub-16794_ses-OXF2PRI001": 2.644843782560119,
+    "sub-16794_ses-OXF4GEP001": 5.944735136760393,
+    "sub-16841_ses-NOT1ACH001": 5.022907420644927,
+    "sub-16841_ses-NOT2ING001": 0.9781595579762749,
+    "sub-16841_ses-NOT4GEP001": 10.096376249988602,
+    "sub-16841_ses-OXF1PRI001": 4.731336496346025,
+    "sub-16841_ses-OXF2PRI001": 6.403479754555611,
+    "sub-16841_ses-OXF4GEP001": 3.900040258694455,
+    "sub-16842_ses-NOT1ACH001": 9.798500023009842,
+    "sub-16842_ses-NOT2ING001": 2.267488820896974,
+    "sub-16842_ses-NOT4GEP001": 2.950996229387045,
+    "sub-16842_ses-OXF1PRI001": 1.2459858375762505,
+    "sub-16842_ses-OXF2PRI001": 11.363745614534512,
+    "sub-16842_ses-OXF4GEP001": 22.997071949462942,
+    "sub-16974_ses-NOT1ACH001": 1.500771933999906,
+    "sub-16974_ses-NOT2ING001": 2.0820299320568956,
+    "sub-16974_ses-NOT4GEP001": 14.706340603741536,
+    "sub-16974_ses-OXF1PRI001": 8.210054939128272,
+    "sub-16974_ses-OXF1PRI002": 1.1780705733111891,
+    "sub-16974_ses-OXF1PRI003": 2.351761755558044,
+    "sub-16974_ses-OXF1PRI004": 22.328531351438105,
+    "sub-16974_ses-OXF1PRI005": 7.238209065295566,
+    "sub-16974_ses-OXF1PRI006": 28.909755142727874,
+    "sub-16974_ses-OXF2PRI001": 13.458043418276992,
+    "sub-16974_ses-OXF4GEP001": 1.2288583914138398,
+    "sub-16975_ses-NOT1ACH001": 10.989229609751067,
+    "sub-16975_ses-NOT2ING001": 5.214244348311948,
+    "sub-16975_ses-NOT4GEP001": 16.438708155855522,
+    "sub-16975_ses-OXF1PRI001": 11.560366924423695,
+    "sub-16975_ses-OXF2PRI001": 14.378661656086095,
+    "sub-16975_ses-OXF4GEP001": 6.350307923384124,
+    "sub-16981_ses-NOT1ACH001": 5.811919165170624,
+    "sub-16981_ses-NOT2ING001": 1.9383355532960875,
+    "sub-16981_ses-NOT4GEP001": 27.21953524608783,
+    "sub-16981_ses-OXF1PRI001": 16.775193538552656,
+    "sub-16981_ses-OXF2PRI001": 2.992169735902302,
+    "sub-16981_ses-OXF4GEP001": 7.273751344564902
+   }
+  }
+ },
+ "unit": {
+  "p": 6,
+  "n_rows": 3213,
+  "cutoff": 32.10526463133887,
+  "cutoff_sub": 52.843369926351116,
+  "expected_false_flags": 32.13,
+  "n_flag": 1399,
+  "n_stable": 895,
+  "stable": [
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 919.135707759604,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 90462.7195376295,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 5140.174054349773,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 3647.3536656473157,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 179.43600767112727,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 378.309124813688,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 18115.20723251975,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 78276.90543214256,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 176.40441929538335,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-03286_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 78469.29379960858,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 97.05877367425819,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-03286_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 48333.03067866805,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1376.9899459609221,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-03286_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 38776.12678800587,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 11480.144386076601,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 108.57407755382336,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 9862.213918784752,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 1259.7538025318281,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 594.1441866103052,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 21772.5971966417,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 13915.96238924959,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 502.4833109227002,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 130.40219074627745,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Anterior corona radiata",
+    "d2": 404.3022521632447,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 38941.895037582144,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "External capsule",
+    "d2": 127.42374905165343,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 22328.95286669792,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 103.78746963941738,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 236.61150495567927,
+    "freq": 0.82
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 16817.618907037602,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 241.02005807237217,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 7996.295108349295,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 432.3684267079134,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 3537.8368825619104,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-03286_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 2797.313007117031,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 375.6242074319052,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1086.1884023366365,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 495.31700462992734,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 106728.93559480726,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Medial lemniscus",
+    "d2": 28828.082245787027,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 3249.0742280651466,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 13295.724572740612,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03286_ses-OXF3TRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 4194.5619270344905,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 1131.4396250180214,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 283.11179084520063,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1933.455837584741,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 579.1596209573507,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 22244.675251558194,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "External capsule",
+    "d2": 1188.36745395913,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 446.491927379313,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Uncinate fasciculus",
+    "d2": 1074.843396284832,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 303.0179735558522,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-03997_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 355802.77978017274,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 179.09228809215077,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-03997_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 243.6606664890387,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-03997_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 1828.9921760756404,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 635.6511672921953,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 835.9720010442908,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 21626.72895116382,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 4042.981571699842,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "External capsule",
+    "d2": 117.47581572669513,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 86.60532160445472,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-03997_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 227.97704566772882,
+    "freq": 0.85
+   },
+   {
+    "session": "sub-03997_ses-OXF2PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 10689.6551558504,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 4865.036754778324,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-03997_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 844.311962648695,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-03997_ses-OXF2PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 70.03109878728539,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-03997_ses-OXF3TRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 64493.65941840089,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF3TRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 17757.66948942491,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-03997_ses-OXF3TRI001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 509.1354521597278,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-03997_ses-OXF3TRI001",
+    "roi": "Uncinate fasciculus",
+    "d2": 130.69489335001526,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 329869.0313619796,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 4973.8750048942165,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 94053.31025020148,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 345.1831901975129,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Anterior corona radiata",
+    "d2": 773.0767136341747,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 780680.5209294251,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 4506.784995912575,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 34248.357831629924,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Medial lemniscus",
+    "d2": 1766.9695374096775,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 423.0504109603517,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 6198.136958017188,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 10638.036613026869,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Superior corona radiata",
+    "d2": 221.40905865926834,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "External capsule",
+    "d2": 2604.262753862626,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 109372.24131320535,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1442.5766011972519,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 52083.24989639153,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 165864.62200661705,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 781.689548428134,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 134.1316899734611,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 1426.177582545919,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Anterior corona radiata",
+    "d2": 1590.0571300736194,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 141704.42404696066,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 1142647.365643192,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1710.1920491397614,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF1PRI001",
+    "roi": "Uncinate fasciculus",
+    "d2": 4403.089952463603,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1190.2561666663387,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 1463.5406280442255,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 234.08670767780856,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 98.83633574760461,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 166.2656910828919,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 924.8647086420316,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 47778.137372392695,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF2PRI001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1976.9021454242754,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Corticospinal tract",
+    "d2": 3922.0491028712863,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 2534.3706934860675,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 11662.427130416967,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 778.9300320321707,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 43169.55493519164,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-10975_ses-OXF3TRI001",
+    "roi": "Uncinate fasciculus",
+    "d2": 129.79173888012426,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 819.2492375326037,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 4678.5792837175095,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 1875.5781758698358,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 33427.44468072025,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 1482.4636452382108,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT1ACH001",
+    "roi": "Posterior corona radiata",
+    "d2": 84.6691729114118,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-12813_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 613.8070688274311,
+    "freq": 0.905
+   },
+   {
+    "session": "sub-12813_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 13156.315099458006,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-NOT2ING001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1698.1543612405806,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF1PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 208.2422392137469,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-12813_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 86951.40656011552,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 3553.9858299105254,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 52526.90198703571,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 1568.3245096182218,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 266134.95736027136,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "External capsule",
+    "d2": 240.5369089271853,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1295.8835270514317,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-12813_ses-OXF3TRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 608.958007605408,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-12813_ses-OXF3TRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 47361.653855093755,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-12813_ses-OXF3TRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 231.52997273919388,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 365805.48720129667,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 2409.070026463654,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 2339.842327090242,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 18521.10713638755,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 168011.72154896683,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 529688.7311154306,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 931.7590669835992,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 124.9512838455639,
+    "freq": 0.885
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 4954.69048936572,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Superior corona radiata",
+    "d2": 780.8128222537634,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 8060.901835044147,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 1474.4021224086318,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 5463.285397964864,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 51878.0472345436,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 63328.57362355443,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 804574.4434856167,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 52963.20627859444,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 284.387740670998,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 30172.22451117539,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Corticospinal tract",
+    "d2": 9630.591933822607,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Medial lemniscus",
+    "d2": 26727.09607321472,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 3107.4446238353703,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 29200.926074746876,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 117022.15872579614,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 138116.92670539112,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 2322417.3333924115,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 4383.482754233555,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 563455.462730201,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Superior corona radiata",
+    "d2": 318.16378413391516,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 463800.7611091026,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 19723.187461941616,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 15768.688820040436,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "External capsule",
+    "d2": 41009.608494425775,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 19816.761085183563,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 632143.8401349894,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 111643.45745546233,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 542.2277538700583,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 7834.81293525995,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-13192_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 27983.481664953808,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 218.1309227084312,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 751.9932737415003,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 270273.9210670884,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 1840153.8916641027,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1927.9186913001465,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 21020.189303826075,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 74.93899048973593,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 401.0569824990307,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 170843.5908636432,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 29592.47578192106,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI002",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 534.592982828988,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI002",
+    "roi": "Medial lemniscus",
+    "d2": 2775832.848688483,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI002",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 5696.213632538333,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI003",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1162.4782930162328,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI003",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 827.5252149522821,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI003",
+    "roi": "Corticospinal tract",
+    "d2": 732.7295131416467,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI003",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 4918.129958687002,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI003",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 977.015748781443,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI004",
+    "roi": "Medial lemniscus",
+    "d2": 117767.48633731717,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI004",
+    "roi": "Cerebral peduncle",
+    "d2": 713.795497215062,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI004",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 2350.4402080958826,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI004",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 733.8810286146837,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI005",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 2777.273310959965,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI005",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1103.198990302466,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI005",
+    "roi": "Posterior corona radiata",
+    "d2": 85.98576860443679,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI005",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 5511.007646574581,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI005",
+    "roi": "Tapetum",
+    "d2": 29583.095570682082,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI006",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 2296.690496996933,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI006",
+    "roi": "Corticospinal tract",
+    "d2": 350.78457436075047,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI006",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 6313.54705140939,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI006",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 210.45650782407756,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-13192_ses-OXF1PRI006",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 739.9798726715597,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-13192_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 336.591646616891,
+    "freq": 0.885
+   },
+   {
+    "session": "sub-13192_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 168061.8906319691,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF2PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 247.20411178519134,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-13192_ses-OXF2PRI001",
+    "roi": "Anterior corona radiata",
+    "d2": 425.4076867668119,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF2PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 157.23848485191047,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1083.505627644001,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 52395.16828354774,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Medial lemniscus",
+    "d2": 912.0438593887449,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 8962.942569532956,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 356178.4041848071,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 190.34181750548305,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13192_ses-OXF3TRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 395.86193460086355,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1681.8322217281532,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 1237.0690096272592,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 34618.809823591844,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 745.8837228207195,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Posterior corona radiata",
+    "d2": 2601.974080735934,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 551.7411628066948,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 149.0091421381603,
+    "freq": 0.915
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 183.4034210872428,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Uncinate fasciculus",
+    "d2": 70680.1607497437,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 304.045152036566,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 70561.90529311926,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 5507.024391479078,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 22929.787430503522,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1614.8819764561194,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 41491.8889220141,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Corticospinal tract",
+    "d2": 11737.55554657933,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Medial lemniscus",
+    "d2": 17586.80600412376,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 153903.88175462562,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 9402.827108262893,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 524935.0280684177,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 1386883.9178419749,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 30195.79481987673,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 26830.109410690144,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Superior corona radiata",
+    "d2": 181.90137962662268,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 3311.06948640247,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 39052.86242371716,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 65838.4092476964,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "External capsule",
+    "d2": 4673.439058455609,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 275103.0539702805,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 8481.245041158283,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 1071255.9196098892,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 547.56261064719,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 699856.002374404,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 5542656.601355898,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 14531.683968171363,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF1PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 286.73604629758125,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 14473.301548535468,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13305_ses-OXF2PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 730.39674747338,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-13305_ses-OXF2PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 191.27635935544822,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 140514.26286606138,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 21799.016288886658,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 1297991.2985598948,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1965.2925271446004,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Corticospinal tract",
+    "d2": 271.2486036976224,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 2460.406038085159,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 71.04296550726211,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 1644.3175103473043,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 165.52758649505267,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-13305_ses-OXF3TRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 5108.299519794177,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 838.0214410658082,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 1508.246603478401,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Corticospinal tract",
+    "d2": 389.9847521624343,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 3062.717893041103,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 1325.3997343653755,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 15515.54109106312,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 187.4240840506409,
+    "freq": 0.84
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 530.5716240250986,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 555.1220994876603,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 13156.002018641564,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 594.1099247596884,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 3117.2995851321616,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 509.28596930728236,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 20480.460291206433,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 61985.54056168347,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 187.25603926165783,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "External capsule",
+    "d2": 315.31603933034785,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 78566.69546265202,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF1PRI001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 298.63600752239654,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 2307.2282483681774,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1175.6415817883537,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 921.6662431937257,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 95.55549759285896,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 234.742965013902,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-14221_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 1835.2550829726385,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF3TRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 450.0546185687854,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14221_ses-OXF3TRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 2068.5855563413934,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-14221_ses-OXF3TRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 2020.1091426889468,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 763.8981567742302,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 15068.777806857632,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1927.7576499251884,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 9093.148169539287,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 1164.7463119407619,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Anterior corona radiata",
+    "d2": 770.061729004854,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 127.84297509602492,
+    "freq": 0.905
+   },
+   {
+    "session": "sub-14229_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 33553.837528424396,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 6045.856113476156,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 39853.72312467225,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 30156.788637111487,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 143054.48284315923,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 234618.3793844967,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 30131.95006448656,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Corticospinal tract",
+    "d2": 5299.5326209880595,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 1323.5229357247879,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 3725.5615878333338,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 640792.8955697026,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 71772.62493046593,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 9767.413494654116,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Superior corona radiata",
+    "d2": 1059.7346148522336,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 122896.28636595236,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 38327.403032406,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 1086.0299610384247,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "External capsule",
+    "d2": 28470.824104252737,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 18359.13602164161,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 447866.3094069063,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 54944.34582409158,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 1418.1203381800585,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1222.6444163899066,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 19883.70891731128,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 83320.54962818896,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 1166801.6614131033,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 22764.655842845266,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 243.59142596839956,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 2267.45936660195,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 357.5444583833596,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 420575.47871140955,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 25443.00155135966,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 451.7057881084802,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 2273.2964930892485,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 3636.7027109990017,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1157591.961352933,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 67665.05284398189,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 97.80346235809886,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 3306.527611201629,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Superior corona radiata",
+    "d2": 1972.8655541384358,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 196.57183697438816,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 562.1966382000281,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 245.12014119501694,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-14229_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 2801.830748370063,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-14229_ses-OXF3TRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 17621.254036442027,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF3TRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 286665.4045122341,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14229_ses-OXF3TRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 599.8514375301056,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-14229_ses-OXF3TRI001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 508.4091778213369,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-14229_ses-OXF3TRI001",
+    "roi": "Tapetum",
+    "d2": 28012.325578659365,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 38982.80940625438,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 1302.6140875899655,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 177.56901745208597,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 3928.945100147219,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 524.4737468298008,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-14230_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 66767785.23444776,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 9552.618695388956,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 2335.487628238668,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 3856.876976952917,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 6773.198129921831,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 17220.264237799212,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 41468.81824624189,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Corticospinal tract",
+    "d2": 939.5688845852274,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 58116.10327015643,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 1770.3768495813563,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 219.80867068504816,
+    "freq": 0.875
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 13441.564495849887,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 199.15787036110123,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 214.99518509473822,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 12359.69294682634,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 3338.2019263871407,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-14230_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 5930.160330936313,
+    "freq": 0.82
+   },
+   {
+    "session": "sub-14230_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 444.48003405915375,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-14230_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 5811.911953540402,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-14230_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 701.49108076196,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-14230_ses-OXF2PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 2559.0218226892175,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 272.19775794065936,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 61047.93790504023,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF2PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 9148.327262447829,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF2PRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 165.97172084344857,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 20562.52005140402,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 6108.252484236437,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 2449.967716028681,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Superior corona radiata",
+    "d2": 899.153622820766,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 126182.43190849198,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14230_ses-OXF3TRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 92170.37026739727,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1029.1703408162575,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 2170.3857072806272,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 14833.054980543793,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "External capsule",
+    "d2": 149.54550171094522,
+    "freq": 0.88
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 46108.74268465896,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT1ACH001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 246.64697068326086,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 8932.901859053001,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 44946.55473173271,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 198064.4152927457,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Body of corpus callosum",
+    "d2": 32795.40306192543,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 700214.6746910838,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 1813658.8528710753,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Corticospinal tract",
+    "d2": 7430.994549508149,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 116475.97439021069,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 30242.347879082663,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 6690.0022514028815,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 4417.538635892036,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 865.3478378379913,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 193.00389989127143,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 238751.86111887035,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 57370.58169013029,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 1552.1489999954067,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 59653.17529747938,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 2419.927714624755,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 35853759.15342664,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 157970.32755503245,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 12732.286440823778,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 4052.428511693055,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 593.6655622600955,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF1PRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 248.35297633351001,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-14482_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 162100.7546188822,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 862.3470884196577,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 121.81186616244666,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 99.62947920367971,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 71.24488475924407,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "External capsule",
+    "d2": 238.29190360667144,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 2812.5774925123546,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 14145214.517309606,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1084.6217885476508,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1013.1285051283121,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 1309.6848303935697,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1688.7280033006248,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Corticospinal tract",
+    "d2": 743.2411515392452,
+    "freq": 0.915
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Medial lemniscus",
+    "d2": 3041.7003088758943,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 1672.0123444884375,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 287.73152909586133,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Anterior corona radiata",
+    "d2": 152.6058757064311,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 94844.392511284,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 2962.4760715644807,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 774.5288858365748,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 869.2313946679351,
+    "freq": 0.905
+   },
+   {
+    "session": "sub-14482_ses-OXF3TRI001",
+    "roi": "Tapetum",
+    "d2": 4752.85483971602,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 160.22705244842197,
+    "freq": 0.86
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 2227.301383401915,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 2103.1435289594556,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Corticospinal tract",
+    "d2": 538.2007267361623,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 8037.905373800488,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 16855.258828478018,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 25419.94412553246,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Medial lemniscus",
+    "d2": 13357.630725635247,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1102.092573541315,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 13366.38767183863,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 8691.033601546396,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT2ING001",
+    "roi": "Tapetum",
+    "d2": 265234.85543588485,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 1089.045072847839,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 8783.959905372569,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 654.5359711706296,
+    "freq": 0.83
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 347306.15000098664,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 16240.861960522598,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 3905.720570063946,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 45878.634121818286,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-15320_ses-NOT4GEP001",
+    "roi": "Tapetum",
+    "d2": 1261.8086051522514,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1100.2465453051848,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 2553.4656002833653,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 402.64222994952434,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 9828727.354568362,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 130250.36961812434,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 733.0648810242201,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 210.9630623716403,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 36916.566178869696,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 6727.888735903062,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 970.0950454108678,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 3249.1452917329734,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 427.5437116698413,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-15320_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 33510.088638653164,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 37094.00430339535,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 28977.99539479709,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 5756.014428308278,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 4001.3173209128436,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 3541.0731693946873,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 22798.01118989201,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 318.8622465233384,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 1053.9932874887747,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 21952.138699984735,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-15320_ses-OXF4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1445.6327963992517,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1222.5772469400983,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 2007.8268073549696,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 950.0132338399344,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 7344.843565157965,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 2589.1009393533463,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 560.3326727430576,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 525.0761477141859,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-16745_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 11602.35437844187,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 3730.0993643132383,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 5971.250914289543,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 9988.723477780904,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1772.8662367322613,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 14615.394353778334,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 1154.505091030711,
+    "freq": 0.88
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 957.8199201228817,
+    "freq": 0.85
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 201.38191907786313,
+    "freq": 0.855
+   },
+   {
+    "session": "sub-16745_ses-NOT4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 12504.349261613885,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16745_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 1216.2653248715797,
+    "freq": 0.88
+   },
+   {
+    "session": "sub-16745_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 275.66557030211703,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 119.57650471603118,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16745_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 734.0074584675675,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16745_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 1404.521008448475,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 422.7203445782834,
+    "freq": 0.84
+   },
+   {
+    "session": "sub-16745_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 1205760.6458990874,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 3520.8777556036944,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 2406.61598314932,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 317633.5954813829,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 28872.96628380392,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 848522.1698479272,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 9903.987899495216,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 2507.293244017812,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 387908.97271019936,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 5100.024904537101,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 13253.086581904354,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 10100.810396909363,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 1224.1075828652831,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 11983.061775595093,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 8718.414303973914,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 27870.012535484042,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16745_ses-OXF4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 228.37105873461044,
+    "freq": 0.86
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 8734.469633645742,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 20628.176755991877,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 90572.82384490011,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 3485.5432029841327,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 248.05627942930735,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 284.4135812136665,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 695.4746555544078,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 11609.508180186562,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 637.3390839471939,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16766_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 1040.1239401206985,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 714.7822144411113,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16766_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 4908.160910241713,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 761.6395597408336,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 2214.3891428890997,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 425.58022494189214,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 66478.6387885779,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 4347.6474587274715,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 8429.837995879192,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 8263.370950211627,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16766_ses-NOT4GEP001",
+    "roi": "Tapetum",
+    "d2": 13045.621773399835,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-16766_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 14894.694508299843,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 2554.509884654035,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16766_ses-OXF1PRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 206.36621415086123,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-16766_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 233.6147337160128,
+    "freq": 0.825
+   },
+   {
+    "session": "sub-16766_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 301.9666369405095,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-16766_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 102.64036436201786,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-16766_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 444.35556251188973,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-16766_ses-OXF2PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 111.95736482691608,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 10478.27895384137,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1763.6035995060956,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 115.4404882666272,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 120.58050046932294,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 60758.39695243712,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16766_ses-OXF4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 2119.769371046714,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 121073.48456894232,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 5680.103444521722,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 6917.320797957217,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 63.49081422320887,
+    "freq": 0.84
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 786.8966157692774,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT1ACH001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 684.4903626327797,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 112.41461760463879,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-16793_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 561.3416465501869,
+    "freq": 0.88
+   },
+   {
+    "session": "sub-16793_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 1532.8735895072787,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16793_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 2031.3296193824715,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16793_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 10252.898930814117,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 324399.4109443973,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 483304.0466540175,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 17456.912566968702,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 22353.6018136573,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Anterior corona radiata",
+    "d2": 22412.08915503294,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Superior corona radiata",
+    "d2": 11335.487295936677,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 17446.65835918992,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 3618.468545964206,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 402.93888920871535,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1263.3897004145183,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16793_ses-NOT4GEP001",
+    "roi": "Tapetum",
+    "d2": 60686.828034452104,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 34257.21472230612,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 18595.068295170666,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 20472.969706217176,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 1254.4177002867361,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 117698.61216054298,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 1924.7606894922212,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 1347.0181328968029,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 783.022269406196,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Posterior corona radiata",
+    "d2": 127.88593613603918,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 826.332310439262,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 1939.0177727726116,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 24014.803049054284,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 2935.6770253900754,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 31559.458111041222,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 2140.8622680823028,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 874.8750096060029,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 14170.784963200917,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16793_ses-OXF2PRI001",
+    "roi": "Uncinate fasciculus",
+    "d2": 70.26912862451516,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 8567.415108411922,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 383.39350521004604,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 3461.2731886998517,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Cerebral peduncle",
+    "d2": 3987.899046694307,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 565.7418601639148,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 6185.135893793543,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 2029.9431614335338,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 209.40108982888708,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 21646.043058159466,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 2146.191855580699,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 715.991540133815,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 718.1366651930548,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 2703.700459314962,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 184.23570797872526,
+    "freq": 0.84
+   },
+   {
+    "session": "sub-16794_ses-NOT2ING001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1568.9996748785777,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1405.9193003878174,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 45791.71495426382,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 42217.80624325044,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 2782.2180903812555,
+    "freq": 0.86
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 483346.79358566593,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 724.4712669130022,
+    "freq": 0.815
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 25096.97352437122,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 8861.012750953962,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 4376.247638970584,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 1840.892040321378,
+    "freq": 0.875
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 5256.979664960586,
+    "freq": 0.875
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 8670.071951561418,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-NOT4GEP001",
+    "roi": "Tapetum",
+    "d2": 33260.22335664403,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 3257.1605936446867,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF1PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 707.8249048749713,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF1PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 2532.6061150087335,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF1PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 747.4436921244269,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16794_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 138.68372282493328,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF2PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 297.7406011532148,
+    "freq": 0.85
+   },
+   {
+    "session": "sub-16794_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 262238.1774415654,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF2PRI001",
+    "roi": "Anterior corona radiata",
+    "d2": 312.3410008118017,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 41699.29819106497,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 13573.334902905042,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 7740.177095309876,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 192339.98656754056,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 400.3745636262938,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 41490.444444715045,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 48774.08553333209,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 11377.303797141096,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 444.20985768035456,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16794_ses-OXF4GEP001",
+    "roi": "Tapetum",
+    "d2": 90900.75326332955,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 13881.438886258662,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Corticospinal tract",
+    "d2": 258.9552569282568,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 199146.0519221062,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 58635.348186686744,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 249526.01932038457,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 3572.310092278683,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 566772.9623449282,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT1ACH001",
+    "roi": "Uncinate fasciculus",
+    "d2": 3920.627634459582,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 2622.004702018989,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Genu of corpus callosum",
+    "d2": 182.40940640138612,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 76.07599472893888,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 158009.16877505148,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 1252.2751608850378,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 1347.416766001312,
+    "freq": 0.915
+   },
+   {
+    "session": "sub-16841_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 511.744366657007,
+    "freq": 0.82
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 54130.50280620903,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 76221.68398341339,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 240377.32490818202,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 39701.162681159745,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 4845.817510902546,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 42634.50575551175,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 10160.87075401083,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 71859.19662516087,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 26451.156640349014,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Anterior corona radiata",
+    "d2": 9066.560406823815,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Superior corona radiata",
+    "d2": 44295.09208679456,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 11400.22118141223,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 1624.9828427267278,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "External capsule",
+    "d2": 2673.242536559308,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 74661.83672118257,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 389097.9931832184,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 60345.807633685356,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-NOT4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 6019.171938934015,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF1PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 21872.670348318992,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 2094.116319933811,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16841_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 86980.07132837082,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 2330.327106880839,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 387.29848035329263,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 168.08665745015787,
+    "freq": 0.885
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 14100.931089196936,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 591.5605731941941,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 190.54653525598405,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 701.9683943897835,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "External capsule",
+    "d2": 206.77213034872514,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 6462.058861115366,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 416656.49016244145,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 47520.979839065,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 197113.79031003217,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 26239.668654690668,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 3688.160520383885,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 4070.1065692020347,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16841_ses-OXF4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 12096.307635761304,
+    "freq": 0.875
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1293.9698628275873,
+    "freq": 0.94
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 6605.148188736012,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Corticospinal tract",
+    "d2": 2954.799831704091,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 90.86376679891418,
+    "freq": 0.83
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 721.7491701237013,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Uncinate fasciculus",
+    "d2": 11304.295784096059,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-NOT1ACH001",
+    "roi": "Tapetum",
+    "d2": 296.4196990569508,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-16842_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 3892.115749668912,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-NOT2ING001",
+    "roi": "Cerebral peduncle",
+    "d2": 2627.678526711359,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16842_ses-NOT2ING001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 360.00873433457303,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-16842_ses-NOT2ING001",
+    "roi": "Anterior corona radiata",
+    "d2": 254.37771397157485,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16842_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 255.7195358863919,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 18254.212890260416,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 627.9252880394743,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 2903.1452856636024,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 527.9025611270044,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 24452.872130907024,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1681.9967677848365,
+    "freq": 0.85
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1895.1520952099454,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 80532.81073567415,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16842_ses-NOT4GEP001",
+    "roi": "Tapetum",
+    "d2": 122181.17369511632,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF1PRI001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 1290.4131748741636,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF1PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 4472.320787566744,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 64726.259223542176,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16842_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 4310.221863236671,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 213.58638331917248,
+    "freq": 0.885
+   },
+   {
+    "session": "sub-16842_ses-OXF2PRI001",
+    "roi": "Tapetum",
+    "d2": 2796.3329682606127,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 58768.924024723296,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 82867.44180232094,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Anterior corona radiata",
+    "d2": 8506.132882157108,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 3509.882527328693,
+    "freq": 0.95
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 10289.472575305903,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 126.30358059358878,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-16842_ses-OXF4GEP001",
+    "roi": "Tapetum",
+    "d2": 18827.887146838737,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 295074.40372178494,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Genu of corpus callosum",
+    "d2": 2101.5988859699723,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 901.3817489553477,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 304817.5243547791,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 281897.764349612,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 9250.128856426601,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Anterior corona radiata",
+    "d2": 250.48816788646948,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Posterior corona radiata",
+    "d2": 11434.183462969844,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 1722.173799106837,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "External capsule",
+    "d2": 429.16480937853345,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 2127.6852654648974,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 549.178108834014,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT1ACH001",
+    "roi": "Uncinate fasciculus",
+    "d2": 4977.0055188664555,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT2ING001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 817.2889553302049,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-NOT2ING001",
+    "roi": "Posterior corona radiata",
+    "d2": 678.8076899943262,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 466658.3145128924,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 5016.865139250659,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-16974_ses-NOT4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 171523.39008909068,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-NOT4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 61739.169490598484,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-NOT4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 18086.836995678954,
+    "freq": 0.93
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 3144.1435336979625,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 174.92328178555,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 478969.3724880778,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 16395.88038245865,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 11064.382536906282,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 2478.7208159468205,
+    "freq": 0.955
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 3077.4062439824047,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI002",
+    "roi": "Body of corpus callosum",
+    "d2": 5132.046736475546,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI002",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 223.91390327932277,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI002",
+    "roi": "Cerebral peduncle",
+    "d2": 907.8942833173061,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI002",
+    "roi": "Anterior corona radiata",
+    "d2": 90.51835209459749,
+    "freq": 0.82
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Genu of corpus callosum",
+    "d2": 1157.943363759703,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Splenium of corpus callosum",
+    "d2": 1099.1537845956918,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 96405.97510339959,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 617.2771810792946,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Cerebral peduncle",
+    "d2": 5504.747173102399,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "External capsule",
+    "d2": 81.72578500261444,
+    "freq": 0.82
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI003",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 25401.83016176801,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Genu of corpus callosum",
+    "d2": 285.5653535710408,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Body of corpus callosum",
+    "d2": 288.90069780298285,
+    "freq": 0.91
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 131948.11776468254,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 95.70783891432622,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 51853.44390254561,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 2998.325258891607,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI004",
+    "roi": "Tapetum",
+    "d2": 4295.680694404946,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 319.0108648707464,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Body of corpus callosum",
+    "d2": 1351.998318699887,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Splenium of corpus callosum",
+    "d2": 587.0188984711058,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 1813.2282805629366,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 252.3103862923381,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "External capsule",
+    "d2": 214.4381207588331,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 22337.968295810973,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI005",
+    "roi": "Tapetum",
+    "d2": 1377.3543555873293,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 20812.191824694106,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Genu of corpus callosum",
+    "d2": 67416.03241660375,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 12608.029435949386,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Medial lemniscus",
+    "d2": 8508.055476548267,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 442.48100077328854,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 38943.42241067161,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 4747.252332749078,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 10720.107477040961,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF1PRI006",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 645.8999047192702,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Body of corpus callosum",
+    "d2": 286690.8034316069,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 23340.533104968377,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 345757.55258463835,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 7855.5935951363645,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 617.243739355974,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 90.33393238955342,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 6440.671053237893,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 132.66000282246569,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 99.32083988098748,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 38946.295244678855,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 320180.05138254265,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF2PRI001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 922.514905649361,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 2679122.007978535,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 33534.0933698015,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Genu of corpus callosum",
+    "d2": 197763.8783334582,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 840.146957283976,
+    "freq": 0.875
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 12007.443330940034,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 295958.6245252572,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 817002.7874908233,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 4207.775435398288,
+    "freq": 0.835
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 86092.88552099398,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 358.3002956294513,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "External capsule",
+    "d2": 903.598753154438,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 12270.02708073068,
+    "freq": 0.84
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 3427.0660760614123,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 300.66061817523223,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 12066.005924863335,
+    "freq": 0.81
+   },
+   {
+    "session": "sub-16974_ses-OXF4GEP001",
+    "roi": "Tapetum",
+    "d2": 327782.21848133486,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16975_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 2916.739244314886,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16975_ses-NOT1ACH001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 2818.7997006778314,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-NOT1ACH001",
+    "roi": "Corticospinal tract",
+    "d2": 530.0949496021786,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-NOT1ACH001",
+    "roi": "Superior corona radiata",
+    "d2": 144.5104059708283,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16975_ses-NOT1ACH001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 261.95350359996155,
+    "freq": 0.895
+   },
+   {
+    "session": "sub-16975_ses-NOT2ING001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 227.96273374492378,
+    "freq": 0.8
+   },
+   {
+    "session": "sub-16975_ses-NOT2ING001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 294.6186532975116,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-16975_ses-NOT2ING001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 441.3622294271444,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-16975_ses-NOT4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 18159.927991384262,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-NOT4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 5401.23382973131,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-16975_ses-NOT4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 28531.644129389544,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16975_ses-NOT4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 909.9885004172975,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16975_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1238.676719089177,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF1PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 19911.79713560798,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF1PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 2706.32025768717,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16975_ses-OXF1PRI001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 4046.2577270026086,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16975_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 1185.0140178015863,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF2PRI001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 315.1172850263593,
+    "freq": 0.865
+   },
+   {
+    "session": "sub-16975_ses-OXF2PRI001",
+    "roi": "Corticospinal tract",
+    "d2": 22181.666077643862,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF2PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 1060.7052955797117,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF2PRI001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 189.79396835220177,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16975_ses-OXF4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 303.15032697964494,
+    "freq": 0.98
+   },
+   {
+    "session": "sub-16975_ses-OXF4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 7865.819436271006,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-16975_ses-OXF4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 2200.017758101909,
+    "freq": 0.915
+   },
+   {
+    "session": "sub-16975_ses-OXF4GEP001",
+    "roi": "Cingulum (cingulate gyrus)",
+    "d2": 8642.89378080159,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16975_ses-OXF4GEP001",
+    "roi": "Tapetum",
+    "d2": 248681.59015672063,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 13965175.300768355,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 982.0447733007824,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Body of corpus callosum",
+    "d2": 3571.6236180588025,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 105.72304220573551,
+    "freq": 0.89
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Medial lemniscus",
+    "d2": 354606.75597736705,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 11236909.825753134,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 9170.79629479759,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 1562.609967443481,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 9754.78269026219,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT1ACH001",
+    "roi": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)",
+    "d2": 1963.3608900526158,
+    "freq": 0.845
+   },
+   {
+    "session": "sub-16981_ses-NOT2ING001",
+    "roi": "Medial lemniscus",
+    "d2": 3639.321784422529,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16981_ses-NOT2ING001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1309.8714055826056,
+    "freq": 0.965
+   },
+   {
+    "session": "sub-16981_ses-NOT2ING001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 26104.290496515114,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16981_ses-NOT2ING001",
+    "roi": "Uncinate fasciculus",
+    "d2": 3163.7783344732893,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 21388.95814456907,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 11960717.367400963,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 96032.97170928145,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Corticospinal tract",
+    "d2": 9186384.323400479,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 1245782.3285106018,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 47508.858813883155,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 846177.5215532505,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Cerebral peduncle",
+    "d2": 908205.2810764868,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 4024.6725722317065,
+    "freq": 0.925
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Posterior limb of internal capsule",
+    "d2": 49611.99770204699,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 117903.70394441207,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Posterior thalamic radiation (include optic radiation)",
+    "d2": 666818.0479747951,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)",
+    "d2": 11428.674587096992,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "External capsule",
+    "d2": 812.030803537149,
+    "freq": 0.99
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 8635.674602931744,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Superior longitudinal fasciculus",
+    "d2": 3974.455376286729,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-NOT4GEP001",
+    "roi": "Uncinate fasciculus",
+    "d2": 6698.274777577956,
+    "freq": 0.9
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 102709.91661502328,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Genu of corpus callosum",
+    "d2": 1423.955079353451,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 4953.908397151915,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 2753.9494047569315,
+    "freq": 0.96
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 1970.1362450554152,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 440.4390744837728,
+    "freq": 0.945
+   },
+   {
+    "session": "sub-16981_ses-OXF1PRI001",
+    "roi": "Tapetum",
+    "d2": 1381.8857049994988,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF2PRI001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 14720.976625119218,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF2PRI001",
+    "roi": "Medial lemniscus",
+    "d2": 10697.636417336238,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF2PRI001",
+    "roi": "Cerebral peduncle",
+    "d2": 15879.217423824593,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF2PRI001",
+    "roi": "Cingulum (hippocampus)",
+    "d2": 3017.247417181861,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Middle cerebellar peduncle",
+    "d2": 3751977.429682296,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Pontine crossing tract (a part of MCP)",
+    "d2": 74252.77294477378,
+    "freq": 0.985
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Body of corpus callosum",
+    "d2": 65345.221159730274,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Splenium of corpus callosum",
+    "d2": 33109.1538356827,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Fornix (column and body of fornix)",
+    "d2": 1201.8330099186426,
+    "freq": 0.995
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Medial lemniscus",
+    "d2": 4596045.215964252,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Inferior cerebellar peduncle",
+    "d2": 2961363.03579852,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Superior cerebellar peduncle",
+    "d2": 28530.639853826433,
+    "freq": 0.975
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Anterior limb of internal capsule",
+    "d2": 102.09249850086051,
+    "freq": 0.92
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Retrolenticular part of internal capsule",
+    "d2": 131.12059236008807,
+    "freq": 0.97
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Posterior corona radiata",
+    "d2": 601.8515939975258,
+    "freq": 1.0
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "External capsule",
+    "d2": 1136.2103123369595,
+    "freq": 0.935
+   },
+   {
+    "session": "sub-16981_ses-OXF4GEP001",
+    "roi": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)",
+    "d2": 1192.3337301965723,
+    "freq": 0.91
+   }
+  ],
+  "by_device": {
+   "NOT1ACH": 160,
+   "NOT2ING": 184,
+   "NOT4GEP": 98,
+   "OXF1PRI": 180,
+   "OXF2PRI": 122,
+   "OXF3TRI": 63,
+   "OXF4GEP": 88
+  },
+  "by_roi": {
+   "Middle cerebellar peduncle": 43,
+   "Pontine crossing tract (a part of MCP)": 40,
+   "Genu of corpus callosum": 40,
+   "Body of corpus callosum": 39,
+   "Splenium of corpus callosum": 33,
+   "Fornix (column and body of fornix)": 57,
+   "Corticospinal tract": 32,
+   "Medial lemniscus": 40,
+   "Inferior cerebellar peduncle": 41,
+   "Superior cerebellar peduncle": 49,
+   "Cerebral peduncle": 42,
+   "Anterior limb of internal capsule": 27,
+   "Posterior limb of internal capsule": 24,
+   "Retrolenticular part of internal capsule": 29,
+   "Anterior corona radiata": 18,
+   "Superior corona radiata": 10,
+   "Posterior corona radiata": 24,
+   "Posterior thalamic radiation (include optic radiation)": 25,
+   "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 39,
+   "External capsule": 19,
+   "Cingulum (cingulate gyrus)": 36,
+   "Cingulum (hippocampus)": 45,
+   "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 50,
+   "Superior longitudinal fasciculus": 17,
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 13,
+   "Uncinate fasciculus": 22,
+   "Tapetum": 41
+  }
+ },
+ "typology": {
+  "between": {
+   "k": 7,
+   "bic": [
+    4167.187414667936,
+    3509.15101390878,
+    3109.521393052169,
+    3033.082602059704,
+    2954.2967654222566,
+    2907.7025426600662,
+    2802.0157636470835,
+    2810.3269882225786
+   ],
+   "ari_vs_device": 0.38622226875856297,
+   "table": {
+    "0": {
+     "NOT1ACH": 0,
+     "NOT2ING": 1,
+     "NOT4GEP": 0,
+     "OXF1PRI": 29,
+     "OXF2PRI": 9,
+     "OXF3TRI": 0,
+     "OXF4GEP": 0
+    },
+    "1": {
+     "NOT1ACH": 10,
+     "NOT2ING": 4,
+     "NOT4GEP": 0,
+     "OXF1PRI": 1,
+     "OXF2PRI": 10,
+     "OXF3TRI": 10,
+     "OXF4GEP": 1
+    },
+    "2": {
+     "NOT1ACH": 0,
+     "NOT2ING": 5,
+     "NOT4GEP": 0,
+     "OXF1PRI": 0,
+     "OXF2PRI": 0,
+     "OXF3TRI": 0,
+     "OXF4GEP": 0
+    },
+    "3": {
+     "NOT1ACH": 1,
+     "NOT2ING": 0,
+     "NOT4GEP": 0,
+     "OXF1PRI": 0,
+     "OXF2PRI": 0,
+     "OXF3TRI": 0,
+     "OXF4GEP": 0
+    },
+    "4": {
+     "NOT1ACH": 7,
+     "NOT2ING": 0,
+     "NOT4GEP": 10,
+     "OXF1PRI": 0,
+     "OXF2PRI": 0,
+     "OXF3TRI": 0,
+     "OXF4GEP": 7
+    },
+    "5": {
+     "NOT1ACH": 1,
+     "NOT2ING": 10,
+     "NOT4GEP": 0,
+     "OXF1PRI": 0,
+     "OXF2PRI": 1,
+     "OXF3TRI": 0,
+     "OXF4GEP": 1
+    },
+    "6": {
+     "NOT1ACH": 1,
+     "NOT2ING": 0,
+     "NOT4GEP": 0,
+     "OXF1PRI": 0,
+     "OXF2PRI": 0,
+     "OXF3TRI": 0,
+     "OXF4GEP": 0
+    }
+   }
+  },
+  "within": {
+   "k": 5,
+   "bic": [
+    4055.0406078994283,
+    3983.9873944013793,
+    3953.7683318120426,
+    3895.842750739919,
+    3873.225153573731
+   ],
+   "stability_ari_median": 0.387983342164238,
+   "sizes": [
+    24,
+    45,
+    1,
+    39,
+    10
+   ],
+   "ari_vs_device": 0.0027337287537220678
+  }
+ },
+ "session_stable_any": [
+  "sub-10975_ses-NOT2ING001",
+  "sub-16745_ses-OXF4GEP001"
+ ]
+}

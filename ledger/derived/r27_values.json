@@ -1,0 +1,39 @@
+{
+ "what": "4.1 재검 SD 문장의 두 비(c10 ÷ OXF1PRI) · R27(v16z3) · 저자 결정(1i)",
+ "inputs": {
+  "c10_x": 0.11058455355988728,
+  "c10_y": 0.06392477115602441,
+  "onh_x": 0.030606807295170752,
+  "onh_y": 0.08419142268652795
+ },
+ "ratio_x": 3.613070533408288,
+ "ratio_y": 0.7592789041472446,
+ "printed": {
+  "ratio_x": "3.6",
+  "ratio_y": "0.76"
+ },
+ "sources": {
+  "judgements": {
+   "path": "decomp/results/remeasure/judgements.json",
+   "sha256": "c2a502b020f54697dd3fe082137cc9c5c216757b5866b4a0bc540183c63793d8"
+  },
+  "s73_fitter": {
+   "path": "data/remeasure/explore/s73/s73_fitter.json",
+   "sha256": "efda3b4b2553482170f0e505e302d5bffc897c07a785d4dbf22d11cb448a9b95"
+  },
+  "s1a": {
+   "path": "<project-notes>/x15/env/out/s1a.json",
+   "sha256": "a8cf3745eb42d5128e84312144b3e883e51003ec5228025179965fcdd2e46897"
+  }
+ },
+ "controls": {
+  "s1a_equals_s73_x": true,
+  "printed_sds": [
+   "0.111",
+   "0.064",
+   "0.031",
+   "0.084"
+  ],
+  "swapped_inputs_change_printed": true
+ }
+}

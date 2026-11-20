@@ -1,0 +1,4465 @@
+{
+ "what": "V4 속성 표(§2-5-1) — V4 값보다 먼저",
+ "snr_table_sha256": "1714e6df9e2221df4abc59d58dc40f85c81d5e10c4406a4bcb2e36caddbd8cec",
+ "dropped_sessions": {
+  "sub-16793_ses-OXF4GEP001": "다시도 실패"
+ },
+ "pairs": {
+  "OXF1PRI~OXF2PRI": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF2PRI001"
+    ],
+    "te_ms": [
+     92.0,
+     92.0
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~OXF3TRI": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~NOT2ING-89": {
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.9
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.57
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4004.2299999999996
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~NOT2ING-98": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4363.52
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4373.75
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4366.13
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4293.07
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4367.3099999999995
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4349.66
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4372.01
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     98.356
+    ],
+    "tr_ms": [
+     3600.0,
+     4322.84
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4364.620000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4372.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4351.78
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4363.74
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4366.73
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4364.849999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~NOT4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": true
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~OXF4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.8
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.3
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.7
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.2
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.0
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.6
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.4
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.1
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.9
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF1PRI~NOT1ACH": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10610.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10365.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10355.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10368.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10018.599999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     9808.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10370.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10019.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10015.3
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10379.300000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10575.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10608.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10567.4
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10547.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10578.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10607.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10586.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10608.800000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10542.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF1PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10561.7
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~OXF3TRI": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF3TRI001"
+    ],
+    "te_ms": [
+     92.0,
+     96.4
+    ],
+    "tr_ms": [
+     3600.0,
+     3600.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~NOT2ING-89": {
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.9
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.57
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4004.2299999999996
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~NOT2ING-98": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4363.52
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4373.75
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4366.13
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4293.07
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4367.3099999999995
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4349.66
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4372.01
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     98.356
+    ],
+    "tr_ms": [
+     3600.0,
+     4322.84
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4364.620000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4372.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4351.78
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4363.74
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4366.73
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     92.0,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4364.849999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~NOT4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": true
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.0
+    ],
+    "tr_ms": [
+     3600.0,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~OXF4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.8
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.3
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.7
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.2
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.0
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.6
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     70.4
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     69.1
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     92.0,
+     68.9
+    ],
+    "tr_ms": [
+     3600.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF2PRI~NOT1ACH": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10610.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10365.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10355.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10368.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10018.599999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     9808.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10370.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10019.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10015.3
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10379.300000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10575.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10608.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10567.4
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10547.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10578.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10607.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10586.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10608.800000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10542.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF2PRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     92.0,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10561.7
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF3TRI~NOT2ING-89": {
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.9
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4030.57
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     89.075
+    ],
+    "tr_ms": [
+     3600.0,
+     4004.2299999999996
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF3TRI~NOT2ING-98": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4378.4400000000005
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4363.52
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4373.75
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4366.13
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT2ING001"
+    ],
+    "te_ms": [
+     96.4,
+     97.967
+    ],
+    "tr_ms": [
+     3600.0,
+     4293.07
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF3TRI~NOT1ACH": {
+   "sub-03286": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10610.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10365.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10355.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10368.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13192": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10018.599999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     9808.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10370.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10019.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     70.438
+    ],
+    "tr_ms": [
+     3600.0,
+     10015.3
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-OXF3TRI001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     96.4,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     3600.0,
+     10379.300000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "NOT2ING-89~NOT1ACH": {
+   "sub-13192": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     89.075,
+     70.438
+    ],
+    "tr_ms": [
+     4030.9,
+     10018.599999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-13305": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     89.075,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4030.6,
+     9808.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14229": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     89.075,
+     70.438
+    ],
+    "tr_ms": [
+     4030.57,
+     10019.6
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14230": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     89.075,
+     70.438
+    ],
+    "tr_ms": [
+     4004.2299999999996,
+     10015.3
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "NOT2ING-98~NOT4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4367.3099999999995,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4349.66,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4372.01,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     98.356,
+     68.0
+    ],
+    "tr_ms": [
+     4322.84,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4364.620000000001,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": true
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4372.099999999999,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4351.78,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4363.74,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4366.73,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.0
+    ],
+    "tr_ms": [
+     4364.849999999999,
+     4900.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "NOT2ING-98~OXF4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     69.8
+    ],
+    "tr_ms": [
+     4367.3099999999995,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     70.3
+    ],
+    "tr_ms": [
+     4349.66,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     69.7
+    ],
+    "tr_ms": [
+     4372.01,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     69.2
+    ],
+    "tr_ms": [
+     4364.620000000001,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     69.0
+    ],
+    "tr_ms": [
+     4372.099999999999,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     70.6
+    ],
+    "tr_ms": [
+     4351.78,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     70.4
+    ],
+    "tr_ms": [
+     4363.74,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     69.1
+    ],
+    "tr_ms": [
+     4366.73,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     97.967,
+     68.9
+    ],
+    "tr_ms": [
+     4364.849999999999,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "NOT2ING-98~NOT1ACH": {
+   "sub-03286": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4378.4400000000005,
+     10610.099999999999
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-03997": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4378.4400000000005,
+     10365.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-10975": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4363.52,
+     10355.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-12813": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4373.75,
+     10368.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14221": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4366.13,
+     10370.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-14482": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     71.20400000000001
+    ],
+    "tr_ms": [
+     4293.07,
+     10379.300000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-15320": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4367.3099999999995,
+     10575.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4349.66,
+     10608.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4372.01,
+     10567.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     98.356,
+     70.438
+    ],
+    "tr_ms": [
+     4322.84,
+     10547.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4364.620000000001,
+     10578.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4372.099999999999,
+     10607.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4351.78,
+     10586.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4363.74,
+     10608.800000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4366.73,
+     10542.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-NOT2ING001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     97.967,
+     70.438
+    ],
+    "tr_ms": [
+     4364.849999999999,
+     10561.7
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "NOT4GEP~OXF4GEP": {
+   "sub-15320": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     69.8
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     70.3
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     69.7
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     69.2
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": true
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     69.0
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     70.6
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     70.4
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     69.1
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-OXF4GEP001"
+    ],
+    "te_ms": [
+     68.0,
+     68.9
+    ],
+    "tr_ms": [
+     4900.0,
+     8000
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": true,
+    "main_excluded": false
+   }
+  },
+  "NOT4GEP~NOT1ACH": {
+   "sub-15320": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10575.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10608.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10567.4
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16793": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10547.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10578.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": true
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10607.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10586.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10608.800000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10542.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-NOT4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.0,
+     70.438
+    ],
+    "tr_ms": [
+     4900.0,
+     10561.7
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  },
+  "OXF4GEP~NOT1ACH": {
+   "sub-15320": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     69.8,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10575.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16745": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     70.3,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10608.4
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16766": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     69.7,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10567.4
+    ],
+    "noise": false,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16794": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     69.2,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10578.0
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16841": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     69.0,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10607.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16842": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     70.6,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10586.2
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16974": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     70.4,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10608.800000000001
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16975": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     69.1,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10542.1
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   },
+   "sub-16981": {
+    "sessions": [
+     "ses-OXF4GEP001",
+     "ses-NOT1ACH001"
+    ],
+    "te_ms": [
+     68.9,
+     70.438
+    ],
+    "tr_ms": [
+     8000,
+     10561.7
+    ],
+    "noise": true,
+    "range": false,
+    "same_maker": false,
+    "main_excluded": false
+   }
+  }
+ }
+}

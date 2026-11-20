@@ -1,0 +1,52 @@
+{
+ "무엇": "C7 (numerical guard, deviation) — 판별식 clamp(min=0) 기록 · 판정은 C3 그대로(R11)",
+ "start": "2026-11-01T15:21:44+09:00",
+ "end": "2026-11-03T00:12:50+09:00",
+ "seconds": 118267.5,
+ "v4_c7_sha256": "8f5e9105707e56c89aa8a5e125048493b154e966c7bb6be84ae7b70fd5f86793",
+ "guard": {
+  "nflows_file": "nflows/transforms/splines/rational_quadratic.py",
+  "nflows_file_sha256": "68c23311a0f8e056f754b824942ff65ed4e008244aa917fc6be1c29f6018b180",
+  "orig_rational_quadratic_spline_sha256": "7149e3c294ab10190f7fc89e8f280040cf11b6c730e9860ef6a55049208c22e7",
+  "guarded_rational_quadratic_spline_sha256": "da37c35821ded91056b9af1e9bbcaae6773c5b4535be932de8aec52cced16070",
+  "orig_unconstrained_sha256": "20a953307134978df6be27b3a8aa4d40da756ed55ef90fd98ec9036043fd3a7d",
+  "recording_unconstrained_sha256": "9aada45221cfe03ce97040021e679bb55435ad67262484432ba9b7cd38a09c0e",
+  "changed_line": {
+   "old": "assert (discriminant >= 0).all()",
+   "new": "discriminant = _c7_guard(discriminant, a, b, c)"
+  },
+  "recording_line": "_c7_mask(inside_interval_mask)",
+  "driver_sha256": "98f0751dfc1c731ed3321c6a597ea221e6eb9812f30ae615439f498bb2e5f72d"
+ },
+ "rel_tol": 1e-05,
+ "n_guard_calls": 147300,
+ "n_calls_with_negative": 4,
+ "n_elements_clamped": 4,
+ "min_d": -2.86102294921875e-06,
+ "unmapped": 0,
+ "n_obs_clamped": 4,
+ "n_obs_unreliable": 0,
+ "unreliable": [],
+ "by_obs": {
+  "SNR20|Neff25|NOT4GEP~OXF4GEP|combo3|k0|sub-16794|Tapetum|dim2": {
+   "count": 1,
+   "min_d": -1.9073486328125e-06,
+   "max_rel": 1.0177392084642634e-07
+  },
+  "SNR20|Neff100|OXF2PRI~NOT2ING-98|combo0|k4|sub-16842|Tapetum|dim2": {
+   "count": 1,
+   "min_d": -1.9073486328125e-06,
+   "max_rel": 8.37789073671047e-08
+  },
+  "SNR20|Neff100|OXF3TRI~NOT2ING-98|combo2|k1|sub-10975|Pontine crossing tract (a part of MCP)|dim0": {
+   "count": 1,
+   "min_d": -1.9073486328125e-06,
+   "max_rel": 2.597017498828791e-07
+  },
+  "SNR50|Neff100|OXF3TRI~NOT2ING-98|combo0|k2|sub-03286|Fornix (column and body of fornix)|dim0": {
+   "count": 1,
+   "min_d": -2.86102294921875e-06,
+   "max_rel": 8.613657769274141e-07
+  }
+ }
+}

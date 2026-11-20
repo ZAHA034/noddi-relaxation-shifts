@@ -1,0 +1,52 @@
+{
+ "made": "2026-11-01T23:16:55+0900",
+ "script_sha256": "220f55562fdd1474751c862b020c827280d9e1e418669085db6230d0ccf43626",
+ "simulate_sha256": "7bc3cb1c83bbb5e73a628329c22484366f1adde5e262f0050a72abcd07d36dea",
+ "s4cfg_sha256": "c31892986ed7b04b8d45353633e1be670b0d079d935ab884385791eeda76c75d",
+ "n_cases": 108000,
+ "n_centres": 54,
+ "centres_clipped": 2,
+ "V2": {
+  "delta0": true,
+  "L0": true,
+  "relax_same": true,
+  "TE": true,
+  "TR": true,
+  "design": true,
+  "coil": true,
+  "bscale": true,
+  "snr_finite": true,
+  "k9_balanced": true,
+  "dpar_in_table": true
+ },
+ "V1": {
+  "x_c3": true,
+  "x_c7": true,
+  "captured": 2,
+  "finite_A": 10240,
+  "finite_B": 10240
+ },
+ "neffs": [
+  16.0,
+  25.0,
+  50.0,
+  100.0,
+  200.0
+ ],
+ "scen_snr": [
+  "snr30",
+  "snr20",
+  "snr50",
+  "measured"
+ ],
+ "measured_snr": {
+  "sub-13192": 17.702422035154054,
+  "sub-16974": 18.457175634239352
+ },
+ "seeds": {
+  "plan": 20261121,
+  "chunk": 20261122,
+  "neff": 20261123
+ },
+ "nrep": 500
+}

@@ -1,0 +1,327 @@
+{
+ "rule": "칸 29(자료 있는 24 + 없는 5) 모두 k 아홉 덮음 · n_units_used · n_excluded_misspec · n_units_dropped_k · by_coil_combo 가 v4_c3.json 과 정확히 같음 · 한 쌍이라도 어긋나면 그 자리에서 멈춤(계획서 §2-2 · §16)",
+ "started": "2026-11-02T18:08:16+09:00",
+ "roi_files_logged": 109,
+ "pairs": {
+  "OXF1PRI~OXF2PRI": {
+   "n_units": 540,
+   "seconds": 708.0,
+   "seed": 6000
+  },
+  "OXF1PRI~OXF3TRI": {
+   "n_units": 270,
+   "seconds": 534.6,
+   "seed": 6001
+  },
+  "OXF1PRI~NOT2ING-89": {
+   "n_units": 108,
+   "seconds": 251.9,
+   "seed": 6002
+  },
+  "OXF1PRI~NOT2ING-98": {
+   "n_units": 432,
+   "seconds": 863.4,
+   "seed": 6003
+  },
+  "OXF1PRI~NOT4GEP": {
+   "n_units": 270,
+   "seconds": 526.3,
+   "seed": 6004
+  },
+  "OXF1PRI~OXF4GEP": {
+   "n_units": 243,
+   "seconds": 514.8,
+   "seed": 6005
+  },
+  "OXF1PRI~NOT1ACH": {
+   "n_units": 540,
+   "seconds": 1205.8,
+   "seed": 6006
+  },
+  "OXF2PRI~OXF3TRI": {
+   "n_units": 270,
+   "seconds": 621.4,
+   "seed": 6007
+  },
+  "OXF2PRI~NOT2ING-89": {
+   "n_units": 108,
+   "seconds": 337.4,
+   "seed": 6008
+  },
+  "OXF2PRI~NOT2ING-98": {
+   "n_units": 432,
+   "seconds": 1253.6,
+   "seed": 6009
+  },
+  "OXF2PRI~NOT4GEP": {
+   "n_units": 270,
+   "seconds": 738.8,
+   "seed": 6010
+  },
+  "OXF2PRI~OXF4GEP": {
+   "n_units": 243,
+   "seconds": 664.4,
+   "seed": 6011
+  },
+  "OXF2PRI~NOT1ACH": {
+   "n_units": 540,
+   "seconds": 2447.0,
+   "seed": 6012
+  },
+  "OXF3TRI~NOT2ING-89": {
+   "n_units": 108,
+   "seconds": 671.3,
+   "seed": 6013
+  },
+  "OXF3TRI~NOT2ING-98": {
+   "n_units": 162,
+   "seconds": 805.4,
+   "seed": 6014
+  },
+  "OXF3TRI~NOT4GEP": {
+   "n_units": 0,
+   "seconds": 0.0,
+   "seed": 6015
+  },
+  "OXF3TRI~OXF4GEP": {
+   "n_units": 0,
+   "seconds": 0.0,
+   "seed": 6016
+  },
+  "OXF3TRI~NOT1ACH": {
+   "n_units": 270,
+   "seconds": 1532.1,
+   "seed": 6017
+  },
+  "NOT2ING-89~NOT2ING-98": {
+   "n_units": 0,
+   "seconds": 0.0,
+   "seed": 6018
+  },
+  "NOT2ING-89~NOT4GEP": {
+   "n_units": 0,
+   "seconds": 0.0,
+   "seed": 6019
+  },
+  "NOT2ING-89~OXF4GEP": {
+   "n_units": 0,
+   "seconds": 0.0,
+   "seed": 6020
+  },
+  "NOT2ING-89~NOT1ACH": {
+   "n_units": 108,
+   "seconds": 824.4,
+   "seed": 6021
+  },
+  "NOT2ING-98~NOT4GEP": {
+   "n_units": 270,
+   "seconds": 1322.0,
+   "seed": 6022
+  },
+  "NOT2ING-98~OXF4GEP": {
+   "n_units": 243,
+   "seconds": 1338.2,
+   "seed": 6023
+  },
+  "NOT2ING-98~NOT1ACH": {
+   "n_units": 432,
+   "seconds": 2304.2,
+   "seed": 6024
+  },
+  "NOT4GEP~OXF4GEP": {
+   "n_units": 243,
+   "seconds": 1116.6,
+   "seed": 6025
+  },
+  "NOT4GEP~NOT1ACH": {
+   "n_units": 270,
+   "seconds": 1502.6,
+   "seed": 6026
+  },
+  "OXF4GEP~NOT1ACH": {
+   "n_units": 243,
+   "seconds": 2193.3,
+   "seed": 6027
+  }
+ },
+ "cells": {
+  "OXF1PRI~OXF2PRI|NDI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~OXF2PRI|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~OXF3TRI|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~NOT2ING-89|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~NOT2ING-98|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~NOT4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~OXF4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF1PRI~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~OXF3TRI|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~NOT2ING-89|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~NOT2ING-98|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~NOT4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~OXF4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF2PRI~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF3TRI~NOT2ING-89|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF3TRI~NOT2ING-98|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF3TRI~NOT4GEP|ODI": {
+   "no_data": true,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF3TRI~OXF4GEP|ODI": {
+   "no_data": true,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF3TRI~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-89~NOT2ING-98|ODI": {
+   "no_data": true,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-89~NOT4GEP|ODI": {
+   "no_data": true,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-89~OXF4GEP|ODI": {
+   "no_data": true,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-89~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-98~NOT4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-98~OXF4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT2ING-98~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT4GEP~OXF4GEP|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "NOT4GEP~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  },
+  "OXF4GEP~NOT1ACH|ODI": {
+   "no_data": false,
+   "match": true,
+   "mismatch_units": 0,
+   "mismatch_coil": 0
+  }
+ },
+ "passed": true,
+ "seconds": 24277.4,
+ "mismatch_units_total": 0,
+ "mismatch_coil_total": 0
+}

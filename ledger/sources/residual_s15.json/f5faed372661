@@ -1,0 +1,141 @@
+{
+ "what": "Supplementary Table S15 (v16a): change in the patient-control difference between two sites that differ in TE (illustration of Proposition 4; derived; no data)",
+ "model": "decomp/stage1/config.py weights (TE term only, no TR term) and apparent (free water 0), as for Fig. 3 (decomp/manuscript/recompute/a_values.py)",
+ "inputs": {
+  "nu": 0.46,
+  "T2_in_controls_ms": 82.5,
+  "T2_en_controls_ms": 52.0,
+  "TE_B_ms": 70.0,
+  "TE_A_ms": [
+   80.0,
+   90.0,
+   100.0
+  ]
+ },
+ "config_py_sha256": "acde78213382e0dd88903425045b1d25db0a84a8c67ea8e0831971a2fc40f8d7",
+ "rows": {
+  "diffuse_en": {
+   "label": "Diffuse, extra-neurite only (T2,en + 9.84 %)",
+   "source": "S-M2 level L2",
+   "T2_in_patients_ms": 82.5,
+   "T2_en_patients_ms": 57.116800000000005,
+   "dte10": {
+    "dTE_ms": 10.0,
+    "logit": -0.017227855902291478,
+    "raw": -0.0039002778143835126
+   },
+   "dte20": {
+    "dTE_ms": 20.0,
+    "logit": -0.034455711804582956,
+    "raw": -0.007652299412942876
+   },
+   "dte30": {
+    "dTE_ms": 30.0,
+    "logit": -0.051683567706874434,
+    "raw": -0.011237295585576512
+   }
+  },
+  "diffuse_both": {
+   "label": "Diffuse, both compartments (T2,in and T2,en + 9.84 %)",
+   "source": "S-M2 level L2",
+   "T2_in_patients_ms": 90.61800000000001,
+   "T2_en_patients_ms": 57.116800000000005,
+   "dte10": {
+    "dTE_ms": 10.0,
+    "logit": -0.0063690861214532254,
+    "raw": -0.0014083103806710184
+   },
+   "dte20": {
+    "dTE_ms": 20.0,
+    "logit": -0.012738172242906451,
+    "raw": -0.00275193930531481
+   },
+   "dte30": {
+    "dTE_ms": 30.0,
+    "logit": -0.019107258364359676,
+    "raw": -0.004023254739869531
+   }
+  },
+  "fig3": {
+   "label": "Illustration of Section 2.4 and Fig. 3 (T2,en 70 ms)",
+   "source": "Section 2.4; Fig. 3",
+   "T2_in_patients_ms": 82.5,
+   "T2_en_patients_ms": 70.0,
+   "dte10": {
+    "dTE_ms": 10.0,
+    "logit": -0.04945054945054947,
+    "raw": -0.011757312085569072
+   },
+   "dte20": {
+    "dTE_ms": 20.0,
+    "logit": -0.09890109890109894,
+    "raw": -0.02327137168980231
+   },
+   "dte30": {
+    "dTE_ms": 30.0,
+    "logit": -0.1483516483516484,
+    "raw": -0.03450682588717646
+   }
+  },
+  "focal_small": {
+   "label": "Focal lesion, small end (T2,en × 2.1, T2,in × 1.02)",
+   "source": "S-M2 level L3",
+   "T2_in_patients_ms": 84.15,
+   "T2_en_patients_ms": 109.2,
+   "dte10": {
+    "dTE_ms": 10.0,
+    "logit": -0.09835589247353954,
+    "raw": -0.023761703097059717
+   },
+   "dte20": {
+    "dTE_ms": 20.0,
+    "logit": -0.19671178494707908,
+    "raw": -0.04724588312298106
+   },
+   "dte30": {
+    "dTE_ms": 30.0,
+    "logit": -0.2950676774206186,
+    "raw": -0.07041375730708549
+   }
+  },
+  "focal_large": {
+   "label": "Focal lesion, large end (T2,en × 3.4, T2,in × 0.77)",
+   "source": "S-M2 level L3",
+   "T2_in_patients_ms": 63.525,
+   "T2_en_patients_ms": 176.79999999999998,
+   "dte10": {
+    "dTE_ms": 10.0,
+    "logit": -0.1719528243592415,
+    "raw": -0.03774541983505114
+   },
+   "dte20": {
+    "dTE_ms": 20.0,
+    "logit": -0.343905648718483,
+    "raw": -0.07433615671605376
+   },
+   "dte30": {
+    "dTE_ms": 30.0,
+    "logit": -0.5158584730777245,
+    "raw": -0.1097015019284654
+   }
+  }
+ },
+ "fig3_check": {
+  "logit_dte30": -0.1483516483516484,
+  "ledger_N106": -0.148,
+  "gap_TE70": 0.0857477752721304,
+  "ledger_N649": 0.086,
+  "gap_TE100": 0.12025460115930686,
+  "ledger_N650": 0.12,
+  "raw_dte30": -0.03450682588717646,
+  "raw_dte30_equals_gap70_minus_gap100": true,
+  "ok": true
+ },
+ "sentence_5_2": {
+  "dTE_ms": 30.0,
+  "diffuse_min": 0.004023254739869531,
+  "diffuse_max": 0.011237295585576512,
+  "focal_min": 0.07041375730708549,
+  "focal_max": 0.1097015019284654
+ }
+}

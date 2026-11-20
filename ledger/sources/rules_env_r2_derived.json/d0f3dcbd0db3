@@ -1,0 +1,10 @@
+{
+ "sources": {
+  "s3.json": "0b9d8000a9572e531258af39fbc21ff917a4b9ad8ea5f38d85cfa8ae534a5a34"
+ },
+ "s3": {
+  "max_raw_dte30": 0.011018457561802864,
+  "max_raw_dte30_cell": "0.6|-0.2|100",
+  "n_cells_dte30": 6
+ }
+}

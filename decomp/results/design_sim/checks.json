@@ -1,0 +1,132 @@
+{
+ "when": "2026-11-17 23:19:23",
+ "seconds": 5.8,
+ "all_ok": true,
+ "checks": [
+  {
+   "check": "K-0 Δ 상수",
+   "clean": {
+    "value": 0.0,
+    "ok": true,
+    "criterion": "|Δ − s75 기울기| < 1e−12 (b, e)"
+   },
+   "planted_fault": "연장 배수 1.0984 → 1.10",
+   "planted": {
+    "value": 2.5466158022603713e-05,
+    "ok": false,
+    "criterion": "|Δ − s75 기울기| < 1e−12 (b, e)"
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-a 잡음 없는 대수",
+   "clean": {
+    "value": 2.3175905639050143e-15,
+    "ok": true,
+    "criterion": "사이트별 집단 차 = θ + TE_s·Δ, 최대 차 < 1e−10"
+   },
+   "planted_fault": "생성기에서 TE 항을 뺌",
+   "planted": {
+    "value": 0.16883298784245726,
+    "ok": false,
+    "criterion": "사이트별 집단 차 = θ + TE_s·Δ, 최대 차 < 1e−10"
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-b 영가설 보정(D0 · S0 · M2)",
+   "clean": {
+    "value": 0.9521481481481482,
+    "mcse": 0.0024870708872921127,
+    "ok": true,
+    "criterion": "M2 포함률 0.929–0.971"
+   },
+   "planted_fault": "SE 를 절반으로",
+   "planted": {
+    "value": 0.6719629629629631,
+    "mcse": 0.005318545879968329,
+    "ok": false,
+    "criterion": "M2 포함률 0.929–0.971"
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-c 해석적 편향(D0 · S2e · M2)",
+   "clean": {
+    "value": -0.14553253813720476,
+    "mcse": 0.0002042649361524506,
+    "expected": -0.14550001050479044,
+    "ok": true,
+    "criterion": "M2 편향 = TE_c·Δ_e ± 3 MC SE"
+   },
+   "planted_fault": "T2 를 같은 비율로 줄임(부호가 바뀌어야)",
+   "planted": {
+    "value": 0.1597846839060474,
+    "mcse": 0.00020426493615245073,
+    "expected": -0.14550001050479044,
+    "ok": false,
+    "criterion": "M2 편향 = TE_c·Δ_e ± 3 MC SE",
+    "sign_flipped": 1.0
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-d S-M9.7 검정력(S2b)",
+   "clean": {
+    "value": 0.12414814814814813,
+    "mcse": 0.005324164026391255,
+    "expected": 0.13619266744099404,
+    "ok": true,
+    "criterion": "M3 group × TE 기각률 = 0.136 ± 3 MC SE"
+   },
+   "planted_fault": "이완 차이를 0 으로(S0)",
+   "planted": {
+    "value": 0.04407407407407408,
+    "mcse": 0.002545774256149019,
+    "expected": 0.13619266744099404,
+    "ok": false
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-d S-M9.7 검정력(S2e)",
+   "clean": {
+    "value": 0.631037037037037,
+    "mcse": 0.008842592209234628,
+    "expected": 0.633805758090803,
+    "ok": true,
+    "criterion": "M3 group × TE 기각률 = 0.634 ± 3 MC SE"
+   },
+   "planted_fault": "이완 차이를 0 으로(S0)",
+   "planted": {
+    "value": 0.04407407407407408,
+    "mcse": 0.002545774256149019,
+    "expected": 0.633805758090803,
+    "ok": false
+   },
+   "passed": true,
+   "planted_failed": true
+  },
+  {
+   "check": "K-e ComBat 구현",
+   "clean": {
+    "value": 0.0,
+    "ok": true,
+    "criterion": "combat_apply(모든 참가자로 학습) = neuroCombat 출력, 최대 차 < 1e−10"
+   },
+   "planted_fault": "EB 축소를 끔(γ̂, δ̂)",
+   "planted": {
+    "value": 0.036412640301855426,
+    "ok": false,
+    "criterion": "combat_apply(모든 참가자로 학습) = neuroCombat 출력, 최대 차 < 1e−10"
+   },
+   "passed": true,
+   "planted_failed": true
+  }
+ ]
+}

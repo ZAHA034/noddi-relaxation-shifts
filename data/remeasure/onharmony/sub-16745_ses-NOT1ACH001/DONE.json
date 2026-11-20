@@ -1,0 +1,18 @@
+{
+ "자료": "ON-Harmony",
+ "세션": "sub-16745_ses-NOT1ACH001",
+ "근거": {
+  "head": "5f95b18f2d6ee5c8f0ad849f6b9177c7681239df",
+  "fixed_commit": "5f95b18f2d6ee5c8f0ad849f6b9177c7681239df",
+  "pipeline_commit": "08a189c65b4bc96fd2a65e4c4e7f0a7a7655595b"
+ },
+ "eddy": "eddy_cpu",
+ "스레드": 8,
+ "SNR": {
+  "snr": 11.110415536904764,
+  "n_b0": 7,
+  "n_vox": 65531,
+  "in_train": false
+ },
+ "끝_utc": "2026-10-29T00:15:37+00:00"
+}

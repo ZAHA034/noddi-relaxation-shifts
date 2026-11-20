@@ -1,0 +1,30 @@
+{
+ "source": "s93_values.py (v17k · S91 6 · 7; exploratory; signal model only; inputs from s92_values.json)",
+ "raw": {
+  "d": -0.12361395596717673,
+  "s_per_ms": -0.0013583951205184256,
+  "te": 91.0,
+  "ndi_con": 0.6,
+  "ndi_pat": 0.57,
+  "ext_prior_min": 5.5772755066736845,
+  "ext_prior_max": 14.81682891430629,
+  "ext_t2en_min": 38.888888888888886,
+  "ext_t2en_max": 95.0,
+  "both_prior_min": 13.489288359649997,
+  "r_nosol_t2in70": 1.0950876584362899,
+  "r_nosol_t2in95": 1.1290475364492505,
+  "pd_pct": -11.627906976744196,
+  "pd_pct_abs": 11.627906976744196,
+  "fiso_f0": 0.08,
+  "fiso_t2iso": 115.0,
+  "fiso_p_min_pct": 10.0,
+  "fiso_p_max_pct": 20.0,
+  "fiso_min": 0.08416854523375171,
+  "fiso_max": 0.0913369025915763,
+  "fiso_te70.0_p10": 0.08416854523375171,
+  "fiso_te70.0_p20": 0.08779199150480722,
+  "fiso_te100.0_p10": 0.0860147490820285,
+  "fiso_te100.0_p20": 0.0913369025915763
+ },
+ "fails": []
+}

@@ -1,0 +1,18 @@
+{
+ "snr_table_sha256": "1714e6df9e2221df4abc59d58dc40f85c81d5e10c4406a4bcb2e36caddbd8cec",
+ "made": "2026-11-01T22:37:22+09:00",
+ "n_sessions": 119,
+ "n_first": 109,
+ "n_out": 73,
+ "n_below_15": 73,
+ "n_above_60": 0,
+ "below_range": [
+  4.45,
+  14.99
+ ],
+ "above_range": null,
+ "first_in_train_range": [
+  15.02,
+  20.31
+ ]
+}

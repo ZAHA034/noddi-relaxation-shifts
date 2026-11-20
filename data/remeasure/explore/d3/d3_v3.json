@@ -1,0 +1,98 @@
+{
+ "made": "2026-11-02T02:47:34+09:00",
+ "script_sha256": "6a1ff7318666613487a8a9bb471a56d76282674780fc4d5209656d4c6d52b32d",
+ "plan_sha256_at_definition": "5b8085ca8d248507…",
+ "variants": [
+  "dpar1.5|t2iso1000",
+  "dpar1.5|t2iso2000",
+  "dpar1.7|t2iso1000",
+  "dpar1.7|t2iso2000",
+  "dpar2.0|t2iso1000",
+  "dpar2.0|t2iso2000"
+ ],
+ "truths": [
+  1.6,
+  2.64
+ ],
+ "scales": [
+  1.0,
+  2.0
+ ],
+ "n_groups": 20,
+ "V_S": 0.0,
+ "sigma_shell": {
+  "b700": 0.012801982057833342,
+  "b2000": 0.013531011960269401,
+  "n_diffs": {
+   "700": 162,
+   "2000": 162
+  }
+ },
+ "errors": [],
+ "KAT": {
+  "r1.6|snr×1.0": {
+   "n": 20,
+   "coverage_hull": 0.55,
+   "correct_reading": 0.0,
+   "n_error": 0,
+   "rhat_main_median": 5.999644645729772,
+   "hull_median": [
+    0.5,
+    6.0
+   ],
+   "open_hi_main": 11,
+   "readings": {
+    "판정 보류": 20
+   }
+  },
+  "r1.6|snr×2.0": {
+   "n": 20,
+   "coverage_hull": 0.0,
+   "correct_reading": 0.0,
+   "n_error": 0,
+   "rhat_main_median": 4.47867820767264,
+   "hull_median": [
+    3.9683316489693414,
+    5.4242874029778
+   ],
+   "open_hi_main": 0,
+   "readings": {
+    "판정 보류": 20
+   }
+  },
+  "r2.64|snr×1.0": {
+   "n": 20,
+   "coverage_hull": 0.95,
+   "correct_reading": 0.0,
+   "n_error": 0,
+   "rhat_main_median": 6.0,
+   "hull_median": [
+    0.5,
+    6.0
+   ],
+   "open_hi_main": 17,
+   "readings": {
+    "판정 보류": 20
+   }
+  },
+  "r2.64|snr×2.0": {
+   "n": 20,
+   "coverage_hull": 0.0,
+   "correct_reading": 0.0,
+   "n_error": 0,
+   "rhat_main_median": 6.0,
+   "hull_median": [
+    5.851412011644182,
+    6.0
+   ],
+   "open_hi_main": 20,
+   "readings": {
+    "판정 보류": 20
+   }
+  }
+ },
+ "gate_for_real_fit": {
+  "passed": false,
+  "rule": "두 SNR 배수 모두 · 참값 1.6 · 2.64 각각 합 구간 덮음 ≥ 0.85 · 맞게 읽힌 비율 ≥ 0.8(계획서 §15)"
+ }
+}

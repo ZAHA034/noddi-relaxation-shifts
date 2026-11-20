@@ -1,0 +1,159 @@
+{
+ "made": "2026-11-02T11:37:24+09:00",
+ "script_sha256": "d7f988224dd68af1753bb069315a9a50f40375e565e3127939360c187c01f3c9",
+ "n_units": 54,
+ "by_scen": {
+  "snr30": {
+   "x": {
+    "ratio_median": 0.7184832960922464,
+    "ratio_q25": 0.5010020127119582,
+    "ratio_q75": 1.0287413476347678,
+    "ratio_median_without_fornix": 0.697641354458109,
+    "pooled_neff50": 0.9982174303158579,
+    "pooled_neff50_without_fornix": 0.9322103350367585,
+    "contour_pooled": {
+     "16": 0.567,
+     "25": 0.713,
+     "50": 0.998,
+     "100": 1.371,
+     "200": 1.832
+    }
+   },
+   "y": {
+    "ratio_median": 1.452724687406055,
+    "ratio_q25": 1.0850995006081345,
+    "ratio_q75": 2.0893663361159858,
+    "ratio_median_without_fornix": 1.4443648356596974,
+    "pooled_neff50": 1.9423306591366072,
+    "pooled_neff50_without_fornix": 1.8601919638883675,
+    "contour_pooled": {
+     "16": 0.97,
+     "25": 1.285,
+     "50": 1.942,
+     "100": 2.689,
+     "200": 3.576
+    }
+   },
+   "ODI": {
+    "ratio_median": 0.5752378661826192,
+    "ratio_q25": 0.3222823951474887,
+    "ratio_q75": 0.9186978894276592,
+    "ratio_median_without_fornix": 0.5669449350692864,
+    "pooled_neff50": 1.5210496527778787,
+    "pooled_neff50_without_fornix": 0.9049773406017455,
+    "contour_pooled": {
+     "16": 0.868,
+     "25": 1.082,
+     "50": 1.521,
+     "100": 2.126,
+     "200": 2.944
+    }
+   },
+   "FWF_abs": {
+    "ratio_median": 0.6866719783102477,
+    "ratio_q25": 0.5231961551808981,
+    "ratio_q75": 1.2054386245449185,
+    "ratio_median_without_fornix": 0.6709013041132926,
+    "pooled_neff50": 1.5079195232209714,
+    "pooled_neff50_without_fornix": 1.0738427087719515,
+    "contour_pooled": {
+     "16": 0.884,
+     "25": 1.095,
+     "50": 1.508,
+     "100": 2.03,
+     "200": 2.629
+    }
+   },
+   "level_check": {
+    "sim_apparent_fwf_median": 0.22986948117613792,
+    "obs_fwf_median": 0.07145518612202283,
+    "median_abs_diff": 0.13869266547067033
+   }
+  },
+  "measured": {
+   "x": {
+    "ratio_median": 0.3368984264942203,
+    "ratio_q25": 0.22288877460122408,
+    "ratio_q75": 0.4730074581192083,
+    "ratio_median_without_fornix": 0.32421716726772637,
+    "pooled_neff50": 0.45969184186347833,
+    "pooled_neff50_without_fornix": 0.41568235460434105,
+    "contour_pooled": {
+     "16": 0.241,
+     "25": 0.32,
+     "50": 0.46,
+     "100": 0.629,
+     "200": 0.827
+    }
+   },
+   "y": {
+    "ratio_median": 1.726917917714637,
+    "ratio_q25": 1.2488655124928767,
+    "ratio_q75": 2.6359105996034935,
+    "ratio_median_without_fornix": 1.7016410236431718,
+    "pooled_neff50": 2.240505598450223,
+    "pooled_neff50_without_fornix": 2.1466248590998718,
+    "contour_pooled": {
+     "16": 1.285,
+     "25": 1.607,
+     "50": 2.241,
+     "100": 3.063,
+     "200": 4.074
+    }
+   },
+   "ODI": {
+    "ratio_median": 0.4039245678677801,
+    "ratio_q25": 0.24639462100130993,
+    "ratio_q75": 0.687906076038061,
+    "ratio_median_without_fornix": 0.3910625789617531,
+    "pooled_neff50": 1.1099423569493028,
+    "pooled_neff50_without_fornix": 0.661563443040409,
+    "contour_pooled": {
+     "16": 0.631,
+     "25": 0.788,
+     "50": 1.11,
+     "100": 1.559,
+     "200": 2.175
+    }
+   },
+   "FWF_abs": {
+    "ratio_median": 0.5837855343800842,
+    "ratio_q25": 0.4308008071177978,
+    "ratio_q75": 1.0089037124376323,
+    "ratio_median_without_fornix": 0.56742455533792,
+    "pooled_neff50": 1.280373943084909,
+    "pooled_neff50_without_fornix": 0.9042219613982072,
+    "contour_pooled": {
+     "16": 0.749,
+     "25": 0.928,
+     "50": 1.28,
+     "100": 1.731,
+     "200": 2.264
+    }
+   },
+   "level_check": {
+    "sim_apparent_fwf_median": 0.25666364282369614,
+    "obs_fwf_median": 0.07145518612202283,
+    "median_abs_diff": 0.1735598563758866
+   }
+  }
+ },
+ "d2_original_snr30_neff50": {
+  "x": {
+   "ratio_median": 0.5497564995358479,
+   "pooled": 0.782178851811949,
+   "pooled_without_fornix": 0.6965757634584258
+  },
+  "y": {
+   "ratio_median": 2.2004918566883696,
+   "pooled": 2.5982718436921894,
+   "pooled_without_fornix": 2.482251900482767
+  },
+  "ODI": {
+   "ratio_median": 0.5755044350459129,
+   "pooled": 1.6177517543566344,
+   "pooled_without_fornix": 0.9613555008472406
+  }
+ },
+ "reading_y": "부분"
+}

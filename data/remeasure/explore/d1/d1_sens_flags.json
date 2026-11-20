@@ -1,0 +1,933 @@
+{
+ "rule": "§9 — 민감도 칸마다 동결 q 밀도로 오지정 점수만(같은 문턱 · 코일 조합 규칙 같음 · main 변형). k 미충족 수는 저장된 통과 표시가 None 이고 피험자 ≥ 3 인 칸에서만 «단위 수 − 오지정 수» · 그 밖은 «알 수 없음»(계획서 §2-9)",
+ "main_check": {
+  "OXF1PRI~OXF2PRI|NDI": {
+   "n_excluded_misspec": 317,
+   "stored": 317,
+   "same": true
+  },
+  "OXF1PRI~OXF2PRI|ODI": {
+   "n_excluded_misspec": 317,
+   "stored": 317,
+   "same": true
+  },
+  "OXF1PRI~OXF3TRI|ODI": {
+   "n_excluded_misspec": 44,
+   "stored": 44,
+   "same": true
+  },
+  "OXF1PRI~NOT2ING-89|ODI": {
+   "n_excluded_misspec": 25,
+   "stored": 25,
+   "same": true
+  },
+  "OXF1PRI~NOT2ING-98|ODI": {
+   "n_excluded_misspec": 186,
+   "stored": 186,
+   "same": true
+  },
+  "OXF1PRI~NOT4GEP|ODI": {
+   "n_excluded_misspec": 110,
+   "stored": 110,
+   "same": true
+  },
+  "OXF1PRI~OXF4GEP|ODI": {
+   "n_excluded_misspec": 132,
+   "stored": 132,
+   "same": true
+  },
+  "OXF1PRI~NOT1ACH|ODI": {
+   "n_excluded_misspec": 333,
+   "stored": 333,
+   "same": true
+  },
+  "OXF2PRI~OXF3TRI|ODI": {
+   "n_excluded_misspec": 79,
+   "stored": 79,
+   "same": true
+  },
+  "OXF2PRI~NOT2ING-89|ODI": {
+   "n_excluded_misspec": 64,
+   "stored": 64,
+   "same": true
+  },
+  "OXF2PRI~NOT2ING-98|ODI": {
+   "n_excluded_misspec": 312,
+   "stored": 312,
+   "same": true
+  },
+  "OXF2PRI~NOT4GEP|ODI": {
+   "n_excluded_misspec": 176,
+   "stored": 176,
+   "same": true
+  },
+  "OXF2PRI~OXF4GEP|ODI": {
+   "n_excluded_misspec": 185,
+   "stored": 185,
+   "same": true
+  },
+  "OXF2PRI~NOT1ACH|ODI": {
+   "n_excluded_misspec": 418,
+   "stored": 418,
+   "same": true
+  },
+  "OXF3TRI~NOT2ING-89|ODI": {
+   "n_excluded_misspec": 32,
+   "stored": 32,
+   "same": true
+  },
+  "OXF3TRI~NOT2ING-98|ODI": {
+   "n_excluded_misspec": 63,
+   "stored": 63,
+   "same": true
+  },
+  "OXF3TRI~NOT1ACH|ODI": {
+   "n_excluded_misspec": 167,
+   "stored": 167,
+   "same": true
+  },
+  "NOT2ING-89~NOT1ACH|ODI": {
+   "n_excluded_misspec": 49,
+   "stored": 49,
+   "same": true
+  },
+  "NOT2ING-98~NOT4GEP|ODI": {
+   "n_excluded_misspec": 57,
+   "stored": 57,
+   "same": true
+  },
+  "NOT2ING-98~OXF4GEP|ODI": {
+   "n_excluded_misspec": 72,
+   "stored": 72,
+   "same": true
+  },
+  "NOT2ING-98~NOT1ACH|ODI": {
+   "n_excluded_misspec": 150,
+   "stored": 150,
+   "same": true
+  },
+  "NOT4GEP~OXF4GEP|ODI": {
+   "n_excluded_misspec": 54,
+   "stored": 54,
+   "same": true
+  },
+  "NOT4GEP~NOT1ACH|ODI": {
+   "n_excluded_misspec": 78,
+   "stored": 78,
+   "same": true
+  },
+  "OXF4GEP~NOT1ACH|ODI": {
+   "n_excluded_misspec": 97,
+   "stored": 97,
+   "same": true
+  }
+ },
+ "cells": {
+  "OXF3TRI~NOT4GEP|ODI": {
+   "SNR30|Neff50": {
+    "no_data": true
+   },
+   "SNR20|Neff25": {
+    "no_data": true
+   },
+   "SNR20|Neff100": {
+    "no_data": true
+   },
+   "SNR50|Neff25": {
+    "no_data": true
+   },
+   "SNR50|Neff100": {
+    "no_data": true
+   }
+  },
+  "OXF3TRI~OXF4GEP|ODI": {
+   "SNR30|Neff50": {
+    "no_data": true
+   },
+   "SNR20|Neff25": {
+    "no_data": true
+   },
+   "SNR20|Neff100": {
+    "no_data": true
+   },
+   "SNR50|Neff25": {
+    "no_data": true
+   },
+   "SNR50|Neff100": {
+    "no_data": true
+   }
+  },
+  "NOT2ING-89~NOT2ING-98|ODI": {
+   "SNR30|Neff50": {
+    "no_data": true
+   },
+   "SNR20|Neff25": {
+    "no_data": true
+   },
+   "SNR20|Neff100": {
+    "no_data": true
+   },
+   "SNR50|Neff25": {
+    "no_data": true
+   },
+   "SNR50|Neff100": {
+    "no_data": true
+   }
+  },
+  "NOT2ING-89~NOT4GEP|ODI": {
+   "SNR30|Neff50": {
+    "no_data": true
+   },
+   "SNR20|Neff25": {
+    "no_data": true
+   },
+   "SNR20|Neff100": {
+    "no_data": true
+   },
+   "SNR50|Neff25": {
+    "no_data": true
+   },
+   "SNR50|Neff100": {
+    "no_data": true
+   }
+  },
+  "NOT2ING-89~OXF4GEP|ODI": {
+   "SNR30|Neff50": {
+    "no_data": true
+   },
+   "SNR20|Neff25": {
+    "no_data": true
+   },
+   "SNR20|Neff100": {
+    "no_data": true
+   },
+   "SNR50|Neff25": {
+    "no_data": true
+   },
+   "SNR50|Neff100": {
+    "no_data": true
+   }
+  },
+  "OXF1PRI~OXF2PRI|NDI": {
+   "SNR20|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 509,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 508,
+    "stored_passed": null,
+    "n_k_unfilled": 32
+   },
+   "SNR50|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 127,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 128,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~OXF2PRI|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 509,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 508,
+    "stored_passed": null,
+    "n_k_unfilled": 32
+   },
+   "SNR50|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 127,
+    "stored_passed": true,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 128,
+    "stored_passed": true,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~OXF3TRI|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 140,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 137,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 31,
+    "stored_passed": true,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 33,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~NOT2ING-89|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 71,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 70,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 19,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 17,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~NOT2ING-98|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 341,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 338,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 105,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 101,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~NOT4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 192,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 197,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 58,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 56,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~OXF4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 197,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 202,
+    "stored_passed": null,
+    "n_k_unfilled": 41
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 75,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 78,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF1PRI~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 424,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR20|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 429,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 248,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 269,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~OXF3TRI|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 235,
+    "stored_passed": null,
+    "n_k_unfilled": 35
+   },
+   "SNR20|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 234,
+    "stored_passed": null,
+    "n_k_unfilled": 36
+   },
+   "SNR50|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 37,
+    "stored_passed": true,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 35,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~NOT2ING-89|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 100,
+    "stored_passed": null,
+    "n_k_unfilled": 8
+   },
+   "SNR20|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 98,
+    "stored_passed": null,
+    "n_k_unfilled": 10
+   },
+   "SNR50|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 22,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 23,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~NOT2ING-98|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 423,
+    "stored_passed": null,
+    "n_k_unfilled": 9
+   },
+   "SNR20|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 420,
+    "stored_passed": null,
+    "n_k_unfilled": 12
+   },
+   "SNR50|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 135,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 129,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~NOT4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 243,
+    "stored_passed": null,
+    "n_k_unfilled": 0
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 243,
+    "stored_passed": null,
+    "n_k_unfilled": 0
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 81,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 76,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~OXF4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 243,
+    "stored_passed": null,
+    "n_k_unfilled": 0
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 243,
+    "stored_passed": null,
+    "n_k_unfilled": 0
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 96,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 92,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF2PRI~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 538,
+    "stored_passed": null,
+    "n_k_unfilled": 2
+   },
+   "SNR20|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 537,
+    "stored_passed": null,
+    "n_k_unfilled": 3
+   },
+   "SNR50|Neff25": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 296,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 540,
+    "n_subjects": 20,
+    "n_excluded_misspec": 286,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF3TRI~NOT2ING-89|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 76,
+    "stored_passed": null,
+    "n_k_unfilled": 32
+   },
+   "SNR20|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 77,
+    "stored_passed": null,
+    "n_k_unfilled": 31
+   },
+   "SNR50|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 28,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 26,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF3TRI~NOT2ING-98|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 162,
+    "n_subjects": 6,
+    "n_excluded_misspec": 123,
+    "stored_passed": null,
+    "n_k_unfilled": 39
+   },
+   "SNR20|Neff100": {
+    "n_units": 162,
+    "n_subjects": 6,
+    "n_excluded_misspec": 124,
+    "stored_passed": null,
+    "n_k_unfilled": 38
+   },
+   "SNR50|Neff25": {
+    "n_units": 162,
+    "n_subjects": 6,
+    "n_excluded_misspec": 40,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 162,
+    "n_subjects": 6,
+    "n_excluded_misspec": 41,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF3TRI~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 210,
+    "stored_passed": null,
+    "n_k_unfilled": 60
+   },
+   "SNR20|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 214,
+    "stored_passed": null,
+    "n_k_unfilled": 56
+   },
+   "SNR50|Neff25": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 123,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 270,
+    "n_subjects": 10,
+    "n_excluded_misspec": 132,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT2ING-89~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 62,
+    "stored_passed": null,
+    "n_k_unfilled": 46
+   },
+   "SNR20|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 67,
+    "stored_passed": null,
+    "n_k_unfilled": 41
+   },
+   "SNR50|Neff25": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 30,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 108,
+    "n_subjects": 4,
+    "n_excluded_misspec": 27,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT2ING-98~NOT4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 125,
+    "stored_passed": null,
+    "n_k_unfilled": 118
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 132,
+    "stored_passed": null,
+    "n_k_unfilled": 111
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 30,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 29,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT2ING-98~OXF4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 146,
+    "stored_passed": null,
+    "n_k_unfilled": 97
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 144,
+    "stored_passed": null,
+    "n_k_unfilled": 99
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 56,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 47,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT2ING-98~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 235,
+    "stored_passed": null,
+    "n_k_unfilled": 197
+   },
+   "SNR20|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 255,
+    "stored_passed": null,
+    "n_k_unfilled": 177
+   },
+   "SNR50|Neff25": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 105,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 432,
+    "n_subjects": 16,
+    "n_excluded_misspec": 94,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT4GEP~OXF4GEP|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 216,
+    "n_subjects": 8,
+    "n_excluded_misspec": 115,
+    "stored_passed": null,
+    "n_k_unfilled": 101
+   },
+   "SNR20|Neff100": {
+    "n_units": 216,
+    "n_subjects": 8,
+    "n_excluded_misspec": 111,
+    "stored_passed": null,
+    "n_k_unfilled": 105
+   },
+   "SNR50|Neff25": {
+    "n_units": 216,
+    "n_subjects": 8,
+    "n_excluded_misspec": 33,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 216,
+    "n_subjects": 8,
+    "n_excluded_misspec": 31,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "NOT4GEP~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 154,
+    "stored_passed": null,
+    "n_k_unfilled": 89
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 159,
+    "stored_passed": null,
+    "n_k_unfilled": 84
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 51,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 47,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  },
+  "OXF4GEP~NOT1ACH|ODI": {
+   "SNR20|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 164,
+    "stored_passed": null,
+    "n_k_unfilled": 79
+   },
+   "SNR20|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 162,
+    "stored_passed": null,
+    "n_k_unfilled": 81
+   },
+   "SNR50|Neff25": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 63,
+    "stored_passed": true,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   },
+   "SNR50|Neff100": {
+    "n_units": 243,
+    "n_subjects": 9,
+    "n_excluded_misspec": 62,
+    "stored_passed": false,
+    "n_k_unfilled": "알 수 없음(표본 필요)"
+   }
+  }
+ },
+ "main_check_all_same": true
+}

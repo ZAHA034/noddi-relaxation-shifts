@@ -1,0 +1,17 @@
+{
+ "sources": {
+  "s3.json": "0b9d8000a9572e531258af39fbc21ff917a4b9ad8ea5f38d85cfa8ae534a5a34",
+  "e6.json": "85bef1fc81c90e57d338f5eb244c75910b272ef2adf73de0202b298909ccb865"
+ },
+ "s3": {
+  "max_raw_dte30": 0.011018457561802864,
+  "max_raw_dte30_cell": "0.6|-0.2|100",
+  "n_cells_dte30": 6
+ },
+ "e6": {
+  "diff_interval": [
+   -0.012345679012345623,
+   0.12345679012345678
+  ]
+ }
+}

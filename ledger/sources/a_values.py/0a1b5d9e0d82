@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v = np.asarray(C.frac_coords(0.6 - e, 0.05), float).ravel()[:2] - np.asarray(C.frac_coords(0.6, 0.05), float).ravel()[:2]
+
+
+
+
+
+
+
+
+sh = [nu_app(0.6, 92.0, 82.0, 82.0 / r) - nu_app(0.6, 68.0, 82.0, 82.0 / r) for r in np.linspace(1.0, 1.8, 81)]
+
+
+dd = [nu_app(0.46, te, 82.0, 52.0 * k) - nu_app(0.46, te, 82.0, 52.0) for te in np.linspace(80, 110, 31) for k in np.linspace(2, 3, 21)]
+
+
+dA = {te: nu_app(0.46, te, 82.0, 70.0) - nu_app(0.46, te, 82.0, 52.0) for te in (70.0, 100.0)}
+
+
+
+
+

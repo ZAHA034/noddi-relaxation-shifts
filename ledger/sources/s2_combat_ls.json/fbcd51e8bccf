@@ -1,0 +1,18 @@
+{
+ "source": {
+  "s2.json": "92a84781968994a1851b39082e9a8301c5bf8d3f356ad7a113300911ba78afd7"
+ },
+ "cells": "pop|x|two \u00d7 (fig3, l2en, l2both) \u00d7 (T-in, T-app, T-none)",
+ "combat_ls": {
+  "ratio_min": 0.9933366896236279,
+  "ratio_max": 1.2571503665795793,
+  "n": 9,
+  "n_outside_band": 1
+ },
+ "location_check": {
+  "ratio_min": 1.0024675821467923,
+  "ratio_max": 1.2963444489978213,
+  "n": 36,
+  "n_outside_band": 3
+ }
+}

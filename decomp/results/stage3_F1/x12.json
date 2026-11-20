@@ -1,0 +1,446 @@
+{
+ "impl": [
+  "E6 특징은 섬유 방향 4 개 평균(무잡음). E6n 관측은 그 경우의 섬유 방향 하나(기준 색인 % 4 의 짝수 색인) · Rician SNR 30 · F2 적합.",
+  "frac 특징의 관측은 겉보기 분율 (x, y) + N(0, C3 Σ 의 2×2 블록) — 결정적 시드 20261021.",
+  "X8 의 분석가 가정 η 집합 = L1(CV 3 % · ρ 0 · iii) 16 점 + 중심 — 모든 경우에 같다(건강 성인 가정). 같은 사람(L0) 이라는 정보는 쓰지 않는다.",
+  "X8 구간: S_A · S_B 를 따로 구해 Δ = [min S_B − max S_A, max S_B − min S_A]. 빈 집합이면 «구간 없음» 으로 세고 포함으로 치지 않는다.",
+  "X9 의 «K 안» 판정: 적합 좌표 (x, y) 이동 방향(선 · mod 180°)이 분율 수준 원뿔 각 범위(η = L1 전체 위의 대수 이동 방향) 안인가.",
+  "X12 의 K 생성 공간: 쌍의 특징 이동 벡터 Δ_q(θ, η)(기준 조직 · L1 η) 를 Σ_A 로 백색화해 쌓은 행렬의 앞 두 왼쪽 특이벡터.",
+  "카드의 원뿔 각은 L4(사전 격자 54) 와 L1 두 판을 낸다. 외부 자료 카드는 대수 칸만(적합기 수준 «미평가»).",
+  "적합기 F1 판(SPEC_v3 §0 예외 · 중계 ZZZ-5) — 같은 코드 · 같은 기준 · 적합기만 바꿨다"
+ ],
+ "X12": {
+  "T-in|Q1|F|balanced|cov": {
+   "ratio_median": 0.96411888641542,
+   "label": "보존",
+   "ratio_raw_median": 0.9675261955254575,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q1|F|balanced|nocov": {
+   "ratio_median": 0.9681433624275935,
+   "label": "보존",
+   "ratio_raw_median": 0.9765417672540881,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q1|F|confounded|nocov": {
+   "ratio_median": 0.2499306441851235,
+   "label": "부분",
+   "ratio_raw_median": 0.8785314666714175,
+   "label_raw": "부분",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q1|N|balanced|cov": {
+   "ratio_median": 1.028031176399133,
+   "label": "보존",
+   "ratio_raw_median": 1.0018129109562877,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q1|N|balanced|nocov": {
+   "ratio_median": 1.0221546258451304,
+   "label": "보존",
+   "ratio_raw_median": 1.0342801191491637,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q1|N|confounded|nocov": {
+   "ratio_median": 0.6870011020817375,
+   "label": "부분",
+   "ratio_raw_median": 1.022340305547086,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|F|balanced|cov": {
+   "ratio_median": 1.0390004781766666,
+   "label": "보존",
+   "ratio_raw_median": 1.01691173687927,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|F|balanced|nocov": {
+   "ratio_median": 1.0130349310286042,
+   "label": "보존",
+   "ratio_raw_median": 1.0229962842723246,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|F|confounded|nocov": {
+   "ratio_median": 0.28281938422645037,
+   "label": "부분",
+   "ratio_raw_median": 1.4361106345264443,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|N|balanced|cov": {
+   "ratio_median": 1.0241118784039402,
+   "label": "보존",
+   "ratio_raw_median": 1.0079533147290967,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|N|balanced|nocov": {
+   "ratio_median": 0.9932750483747299,
+   "label": "보존",
+   "ratio_raw_median": 0.9986419291441087,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q2|N|confounded|nocov": {
+   "ratio_median": 0.4880397019234531,
+   "label": "부분",
+   "ratio_raw_median": 1.2056646325122196,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|F|balanced|cov": {
+   "ratio_median": 1.0124226127426936,
+   "label": "보존",
+   "ratio_raw_median": 0.9918344054537208,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|F|balanced|nocov": {
+   "ratio_median": 0.9783098724098584,
+   "label": "보존",
+   "ratio_raw_median": 0.9940928860328407,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|F|confounded|nocov": {
+   "ratio_median": 0.32001963199386885,
+   "label": "부분",
+   "ratio_raw_median": 1.0616001691060895,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|N|balanced|cov": {
+   "ratio_median": 1.015264149822144,
+   "label": "보존",
+   "ratio_raw_median": 1.0137444135785936,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|N|balanced|nocov": {
+   "ratio_median": 0.9679578337826695,
+   "label": "보존",
+   "ratio_raw_median": 1.0010446357124785,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-in|Q3|N|confounded|nocov": {
+   "ratio_median": 0.37359600740643684,
+   "label": "부분",
+   "ratio_raw_median": 0.9301349472040712,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|F|balanced|cov": {
+   "ratio_median": 0.9553215339792758,
+   "label": "보존",
+   "ratio_raw_median": 0.9373121146615313,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|F|balanced|nocov": {
+   "ratio_median": 0.9094114220602578,
+   "label": "보존",
+   "ratio_raw_median": 0.9476454052894157,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|F|confounded|nocov": {
+   "ratio_median": 0.3597061658352569,
+   "label": "부분",
+   "ratio_raw_median": 0.8518951265475473,
+   "label_raw": "부분",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|N|balanced|cov": {
+   "ratio_median": 0.9769155414773436,
+   "label": "보존",
+   "ratio_raw_median": 0.9711837830613487,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|N|balanced|nocov": {
+   "ratio_median": 0.9787261220144534,
+   "label": "보존",
+   "ratio_raw_median": 0.9816322329447376,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q1|N|confounded|nocov": {
+   "ratio_median": 0.6794374265986771,
+   "label": "부분",
+   "ratio_raw_median": 1.0668381597626269,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|F|balanced|cov": {
+   "ratio_median": 1.0457519852581392,
+   "label": "보존",
+   "ratio_raw_median": 1.0367225463084702,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|F|balanced|nocov": {
+   "ratio_median": 1.0287691392815512,
+   "label": "보존",
+   "ratio_raw_median": 1.0450459553328846,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|F|confounded|nocov": {
+   "ratio_median": 0.30713734192815845,
+   "label": "부분",
+   "ratio_raw_median": 1.330140041873022,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|N|balanced|cov": {
+   "ratio_median": 1.0375848274559019,
+   "label": "보존",
+   "ratio_raw_median": 1.0340827486066901,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|N|balanced|nocov": {
+   "ratio_median": 0.9571813037300965,
+   "label": "보존",
+   "ratio_raw_median": 0.9751002339794642,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q2|N|confounded|nocov": {
+   "ratio_median": 0.2877142858489393,
+   "label": "부분",
+   "ratio_raw_median": 1.2081855351020734,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|F|balanced|cov": {
+   "ratio_median": 1.0151768683389637,
+   "label": "보존",
+   "ratio_raw_median": 0.9821329357577444,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|F|balanced|nocov": {
+   "ratio_median": 0.9727780016010867,
+   "label": "보존",
+   "ratio_raw_median": 1.0057798636077138,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|F|confounded|nocov": {
+   "ratio_median": 0.2824359711844439,
+   "label": "부분",
+   "ratio_raw_median": 1.0370398384969028,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|N|balanced|cov": {
+   "ratio_median": 0.9908340418392652,
+   "label": "보존",
+   "ratio_raw_median": 0.9621943513757854,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|N|balanced|nocov": {
+   "ratio_median": 0.9861998480125747,
+   "label": "보존",
+   "ratio_raw_median": 1.0064036549508162,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-app|Q3|N|confounded|nocov": {
+   "ratio_median": 0.36915940035306016,
+   "label": "부분",
+   "ratio_raw_median": 1.0373883742944883,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|F|balanced|cov": {
+   "ratio_median": 0.9418960044167045,
+   "label": "보존",
+   "ratio_raw_median": 0.9318616309935179,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|F|balanced|nocov": {
+   "ratio_median": 0.9200200062856163,
+   "label": "보존",
+   "ratio_raw_median": 0.9487303674789207,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|F|confounded|nocov": {
+   "ratio_median": 0.4401601513335627,
+   "label": "부분",
+   "ratio_raw_median": 0.891543910009768,
+   "label_raw": "부분",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|N|balanced|cov": {
+   "ratio_median": 0.9697315133677823,
+   "label": "보존",
+   "ratio_raw_median": 0.939844888797336,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|N|balanced|nocov": {
+   "ratio_median": 0.9876688743023856,
+   "label": "보존",
+   "ratio_raw_median": 1.014141507354372,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q1|N|confounded|nocov": {
+   "ratio_median": 0.32839470172265806,
+   "label": "부분",
+   "ratio_raw_median": 1.0052687207413902,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|F|balanced|cov": {
+   "ratio_median": 1.0530722924977876,
+   "label": "보존",
+   "ratio_raw_median": 1.0507298630987982,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|F|balanced|nocov": {
+   "ratio_median": 0.9775094314493338,
+   "label": "보존",
+   "ratio_raw_median": 1.0067103988381538,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|F|confounded|nocov": {
+   "ratio_median": 0.222444165107635,
+   "label": "부분",
+   "ratio_raw_median": 1.397855390579549,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|N|balanced|cov": {
+   "ratio_median": 0.9790620143710593,
+   "label": "보존",
+   "ratio_raw_median": 0.9754353270714942,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|N|balanced|nocov": {
+   "ratio_median": 0.9753540318854239,
+   "label": "보존",
+   "ratio_raw_median": 1.0069961973969155,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q2|N|confounded|nocov": {
+   "ratio_median": 0.42156153426048176,
+   "label": "부분",
+   "ratio_raw_median": 1.1973266470232908,
+   "label_raw": "과장",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|F|balanced|cov": {
+   "ratio_median": 1.01839514119089,
+   "label": "보존",
+   "ratio_raw_median": 0.9994429557084298,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|F|balanced|nocov": {
+   "ratio_median": 0.9867931293941945,
+   "label": "보존",
+   "ratio_raw_median": 1.0124633903991953,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|F|confounded|nocov": {
+   "ratio_median": 0.2630981306652457,
+   "label": "부분",
+   "ratio_raw_median": 1.0175617210526213,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|N|balanced|cov": {
+   "ratio_median": 1.0470561515686252,
+   "label": "보존",
+   "ratio_raw_median": 1.0295244419357523,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|N|balanced|nocov": {
+   "ratio_median": 0.939957085328204,
+   "label": "보존",
+   "ratio_raw_median": 0.9529259138765211,
+   "label_raw": "보존",
+   "n": 200,
+   "errors": 0
+  },
+  "T-none|Q3|N|confounded|nocov": {
+   "ratio_median": 0.5891012535084547,
+   "label": "부분",
+   "ratio_raw_median": 0.8621337760848609,
+   "label_raw": "부분",
+   "n": 200,
+   "errors": 0
+  }
+ }
+}

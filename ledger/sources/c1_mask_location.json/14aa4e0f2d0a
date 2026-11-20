@@ -1,0 +1,4174 @@
+{
+ "what": "(c-1) location of the stored noise-floor mask in template space; post hoc, descriptive; defined after the verdict and recorded before computing; no new effective L; verdicts unchanged (#34)",
+ "rules": {
+  "file": "drafts/x15/v12/V12B_S43_RULES.md",
+  "sha256": "d56e5563ef178cb7b786f614f08a9613d3529e697780a24b79cfda69186484b2",
+  "recorded": "2026-11-07T03:14:31+0900",
+  "sections": "§0, §1.1-§1.7"
+ },
+ "run": {
+  "id": "C1-20261106T182533Z",
+  "started": "2026-11-07T03:25:33+09:00",
+  "grid_checks_passed": "2026-11-07T03:25:34+09:00",
+  "finished": "2026-11-07T03:27:09+09:00",
+  "script": "<project-notes>/x15/ms/S41_files/src/c1_mask_location.py",
+  "script_sha256": "700da8c2b3e3f22a26f472b6eb16713979a8c24b91e7577b997dd33547dc0ee0",
+  "fsldir": "../fsl",
+  "guard_basis": {
+   "head": "3fa09e8a8c0c86941f8efb76be7b12750fe4e83f",
+   "fixed_commit": "5f95b18f2d6ee5c8f0ad849f6b9177c7681239df",
+   "pipeline_commit": "08a189c65b4bc96fd2a65e4c4e7f0a7a7655595b"
+  },
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "nibabel": "5.4.2",
+  "scipy": "1.18.1"
+ },
+ "definitions": {
+  "sessions": "read_sessions.jsonl (last line per session) on OXF1PRI, OXF2PRI, OXF3TRI with a stored R = the sessions of b2k_result_siemens.json (n_value; n_sigma_q_drop 0; median R = R_med)",
+  "mask": "masks/<session>.npz «V» (raw dwi grid), written as 0/1 uint8 NIfTI with the dti_FA header",
+  "transform": "applywarp -r FMRIB58_FA_1mm -w <session>/fa2std_warp --interp=nn (cmds.applywarp with nearest neighbour)",
+  "categories": {
+   "1": "lateral ventricle: HarvardOxford-sub-maxprob-thr25-1mm value 3 or 14",
+   "2": "outside MNI152_T1_1mm_brain_mask (value 0), not category 1",
+   "3": "inside the brain mask with distance_transform_edt to the nearest outside voxel <= 5 mm (1 mm voxels), not category 1",
+   "4": "the rest of the brain mask"
+  },
+  "shares": "per session: template voxels of value 1 by category / all template voxels of value 1",
+  "V": "median over all sessions of the category-1 share",
+  "S": "median over all sessions of (category 2 + category 3 share)",
+  "O": "median over all sessions of the category-4 share",
+  "case_rule": "ㄱ if S >= 0.50; else ㄴ if V >= 0.50; else ㄷ (§1.6, fixed before computing)",
+  "rounding": "text fields: half up to two decimals (Decimal of repr)"
+ },
+ "session_set": {
+  "checks": {
+   "OXF1PRI": {
+    "n_headers": 20,
+    "n_read": 20,
+    "n_with_R": 20,
+    "summary_n_expected": 20,
+    "summary_n_records": 20,
+    "summary_n_value": 20,
+    "summary_n_sigma_q_drop": 0,
+    "summary_R_med": 1.9597498558657283,
+    "median_R_of_set": 1.9597498558657283
+   },
+   "OXF2PRI": {
+    "n_headers": 20,
+    "n_read": 20,
+    "n_with_R": 20,
+    "summary_n_expected": 20,
+    "summary_n_records": 20,
+    "summary_n_value": 20,
+    "summary_n_sigma_q_drop": 0,
+    "summary_R_med": 1.9857486500220616,
+    "median_R_of_set": 1.9857486500220616
+   },
+   "OXF3TRI": {
+    "n_headers": 10,
+    "n_read": 10,
+    "n_with_R": 10,
+    "summary_n_expected": 10,
+    "summary_n_records": 10,
+    "summary_n_value": 10,
+    "summary_n_sigma_q_drop": 0,
+    "summary_R_med": 1.851735011701593,
+    "median_R_of_set": 1.851735011701593
+   }
+  },
+  "duplicate_lines_in_read_sessions": [],
+  "n_sessions": {
+   "OXF1PRI": 20,
+   "OXF2PRI": 20,
+   "OXF3TRI": 10
+  }
+ },
+ "grid": {
+  "sessions": {
+   "sub-03286_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.554271697987389e-06,
+    "fa_sha256": "f3c47b4ebb7ecee67114b5cc4cabe1a8bfd652a0b5cbc949ea9eef314ab274d6"
+   },
+   "sub-03997_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.206542968177018e-06,
+    "fa_sha256": "52fcea6435ba248d3a858b945c36131599fe0dcabb728ad43d0bc41ae9043a97"
+   },
+   "sub-10975_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.9581909180584915e-06,
+    "fa_sha256": "01f576a54191ac583a41d1cc16d41ede67b1ffda8077d2ded0a2974b046a2150"
+   },
+   "sub-12813_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.512329101480361e-06,
+    "fa_sha256": "95e46027eaf49d3fb7d2099e99a35013478e99ab34f608b2591b21da270a3062"
+   },
+   "sub-13192_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.239327907565316e-06,
+    "fa_sha256": "d7a0684f2afd97f1fc05f4d795e69abb197ef2d74b7ac68a37e4e4645422b3e6"
+   },
+   "sub-13305_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.4801521301707226e-06,
+    "fa_sha256": "7242205a02525d7da58447cfbb19c46e72a75efa9ef9508c43f3211a9c01f95a"
+   },
+   "sub-14221_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.8828125045474735e-06,
+    "fa_sha256": "dd92442c1ecc993c4f33c3dd764057f49bc67a916abeccf295098c0765c29ed4"
+   },
+   "sub-14229_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.9914360046310335e-06,
+    "fa_sha256": "17ce7df4fbb5ed6fe868902e6c9cf7f7bdb5306a1eca40e8133756bcc97a7724"
+   },
+   "sub-14230_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.422569274797894e-06,
+    "fa_sha256": "4435b3930a29a5ca71c67e7a18680d28f22d1cc6e10edecd89213e40c286cd26"
+   },
+   "sub-14482_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.3295359611478235e-06,
+    "fa_sha256": "8765bf005ff922a466b0a1a5f02793bf5d1933d53ba3f834b47fc9b677610461"
+   },
+   "sub-15320_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.9241638182540015e-06,
+    "fa_sha256": "998578082273e3d0feb2f82fe760fb859d0c000c87569f80dc97327ddab62553"
+   },
+   "sub-16745_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.244503974917824e-06,
+    "fa_sha256": "180fa0a13e43a91f89cad3c30c6d0f16cdbb72b64ad16d78923081ebcdd6e640"
+   },
+   "sub-16766_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.980468752080469e-06,
+    "fa_sha256": "f4e2c5a9d36f90bd19eb80fcf0ffe92d7a65bd01b547d8e86737be6440508a6e"
+   },
+   "sub-16793_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.928703308149096e-06,
+    "fa_sha256": "c21eff94e13a8fd7a9ebfc1355122d46c50f06a41a21c3b817de4368f0a9a491"
+   },
+   "sub-16794_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.806845188137787e-06,
+    "fa_sha256": "a1962f7fbd3b570d57efbd9e14c793c6f89acbd7476218106e52a0972f653276"
+   },
+   "sub-16841_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.859697818757058e-06,
+    "fa_sha256": "d4efaa21eafb221e5c370d4e8129f860a9364c86da5588fd3693a83843db01cf"
+   },
+   "sub-16842_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 3.575075864792332e-06,
+    "fa_sha256": "0835370b01d038723237a36ce645bbc3e5750cbbdbbceb96001b01ee83c37137"
+   },
+   "sub-16974_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.980468744975042e-06,
+    "fa_sha256": "e0cf31c38e5597c70aa9da0cfcb8fdb2db1c8837238d46c19f9c2a17e755021d"
+   },
+   "sub-16975_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.9095153809020076e-06,
+    "fa_sha256": "3f624549e317b27eca8ad849a77cb185dd4f46a76b2c01d48e76fbd84369b913"
+   },
+   "sub-16981_ses-OXF1PRI001": {
+    "device": "OXF1PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.8881912231291125e-06,
+    "fa_sha256": "d4328e120149c506c9db122f97aa00105a39788c047145acc3a9426eea00cbf8"
+   },
+   "sub-03286_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.74441289901803e-06,
+    "fa_sha256": "81891c7ddec240625cdb35bede12f05fb475345e99956dec0e0c28c7c7ea0301"
+   },
+   "sub-03997_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.941005706804447e-06,
+    "fa_sha256": "1e1fc83d45150ccc95cb1c520a8f4c49f30092e182844b4a6bc26d24a5a2e6cc"
+   },
+   "sub-10975_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.833984377228262e-06,
+    "fa_sha256": "9c4a11c73e83066939c21555b238ac8dd3df3be39b95102463f8da27e8027f5a"
+   },
+   "sub-12813_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.8628997803001894e-06,
+    "fa_sha256": "96031672c0b643b66cfb4c4de09441e91ccc777bd4a0f4e22ea4a6104f1b3f0c"
+   },
+   "sub-13192_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.833984377228262e-06,
+    "fa_sha256": "d2f6ecd042f3ec9689cec50f9207407a3fb16f5e4f70e50b1ef60b121c394478"
+   },
+   "sub-13305_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.5121431350714225e-06,
+    "fa_sha256": "f6700ed480ced564c2afa6ec610182688b0a26eb9b1d87a64c20bdd8fcdae007"
+   },
+   "sub-14221_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.1507339477719896e-06,
+    "fa_sha256": "6fcead3d1899b4324f43b6a743a01dda71e134b8d907e8f3928d6cbe6cde3bae"
+   },
+   "sub-14229_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.067001342811238e-06,
+    "fa_sha256": "f0a468a5e38e9c6f1afc94c8b77812074ee13491a7b61ee435419eee7730fb63"
+   },
+   "sub-14230_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 3.7546205520627707e-06,
+    "fa_sha256": "f53cf3b56e5982455a6f1334d4c7957f164a02caf17a267f49ae4c31874df2ba"
+   },
+   "sub-14482_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.9546813962741965e-06,
+    "fa_sha256": "150bc8b997157d5766e8af71ad47596ebec2fad470de12bf40b5f42829da42d4"
+   },
+   "sub-15320_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.436550140374251e-06,
+    "fa_sha256": "1cc5049de181aa0bb3daaff5caf9d23c2097c5f57fec04a9d3851d148fcc2e90"
+   },
+   "sub-16745_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.507598877045993e-06,
+    "fa_sha256": "27f174baf410b79596d9bba6d7afe6f7689e8a8472d90d79c7080db9b296196a"
+   },
+   "sub-16766_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.638671867951416e-06,
+    "fa_sha256": "c4026f9ddc5458096d4bfb4c191b7532e2f3320ee4adda0554a55eb407adeff0"
+   },
+   "sub-16793_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.833984377228262e-06,
+    "fa_sha256": "0631c6fb7e463641c48a6b86f79419a39ecac0904dd7d400aa1fc1230fa947e0"
+   },
+   "sub-16794_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.727554321348748e-06,
+    "fa_sha256": "02cba5b5eb9dcb1b6e7bd8a9c41e4bf8382cb0d0429004d6441b58208611f673"
+   },
+   "sub-16841_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.316082000688226e-06,
+    "fa_sha256": "dc45e5b03de756804d0db6a80b8e0d6333fdf4852359fa851f91b87ea360d5e9"
+   },
+   "sub-16842_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.318847658169034e-06,
+    "fa_sha256": "f417d825d2fe0753317b389fba250a3118a84504aed8f33bb5e143e2ef0d9423"
+   },
+   "sub-16974_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.836406707786622e-06,
+    "fa_sha256": "18c218ba146414960130fcf3ca7bd5a51ad1e777500c2739fc796cd4c9c51c75"
+   },
+   "sub-16975_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.4702148471742476e-06,
+    "fa_sha256": "c64b4cde77aec7eb754f03a84fcba9da0c9dd7567bfb71872f71c0118ee372b2"
+   },
+   "sub-16981_ses-OXF2PRI001": {
+    "device": "OXF2PRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 2.6005172728549297e-06,
+    "fa_sha256": "d066ec3e2ac4a40e4e7d646b529339bb105a3f61d566e710a4c64ce06c8986f3"
+   },
+   "sub-03286_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.830741882289047e-06,
+    "fa_sha256": "448e87fd6688e1b39ed7273e09b855138629fa3d306150b669ecb393c5668423"
+   },
+   "sub-03997_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.650878906886646e-06,
+    "fa_sha256": "67c3489f24c0dbc1a359369b4f2116462f055f2d9e3d197165af9fd91b54c5f2"
+   },
+   "sub-10975_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.921875003560672e-06,
+    "fa_sha256": "5e1d4ab11ad1c09964aeef645ab5eef239d5a4b53442788588bed8f40188e682"
+   },
+   "sub-12813_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.565429684078026e-06,
+    "fa_sha256": "f45164df164bd4fc9cddbb9c0506e2172952bcd99c9cd721ffb3ac82dbfc314a"
+   },
+   "sub-13192_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 3.845214843645195e-06,
+    "fa_sha256": "b14c70dd0ec42440fc3cfcc35984e1a54e09294c572901cd0e95830b06ddf8b0"
+   },
+   "sub-13305_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 3.835449220446208e-06,
+    "fa_sha256": "b00b3bde7aea963419ea82452f954e835d7a62dc4df8ad9313cd95d73aab0731"
+   },
+   "sub-14221_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 3.4949684143414927e-06,
+    "fa_sha256": "232407921950222645b4cbafccb01306d4df8284f258bacf7082c056883fa892"
+   },
+   "sub-14229_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.902343746948645e-06,
+    "fa_sha256": "32dbf794ae0f1a18f0b524405d765a6299bd9dc0fadd1f45b956ce2b344bc0ed"
+   },
+   "sub-14230_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.812810420990604e-06,
+    "fa_sha256": "3cf8676d2b3be35106ad63e4c69a945e0daab83b28906900ee53777fa73227df"
+   },
+   "sub-14482_ses-OXF3TRI001": {
+    "device": "OXF3TRI",
+    "same_grid": true,
+    "raw_shape": [
+     104,
+     104,
+     72
+    ],
+    "fa_shape": [
+     104,
+     104,
+     72
+    ],
+    "max_abs_affine_diff": 4.8828125045474735e-06,
+    "fa_sha256": "efecd25764781ea1b9c3c99f0f1abce7ce300927c95f1a1b5b67a48e75af779f"
+   }
+  },
+  "templates": {
+   "shapes": {
+    "FA": [
+     182,
+     218,
+     182
+    ],
+    "BM": [
+     182,
+     218,
+     182
+    ],
+    "HO": [
+     182,
+     218,
+     182
+    ]
+   },
+   "affines": {
+    "FA": [
+     [
+      -1.0,
+      0.0,
+      0.0,
+      90.0
+     ],
+     [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+     ],
+     [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "BM": [
+     [
+      -1.0,
+      0.0,
+      0.0,
+      90.0
+     ],
+     [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+     ],
+     [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "HO": [
+     [
+      -1.0,
+      0.0,
+      0.0,
+      90.0
+     ],
+     [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+     ],
+     [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+     ],
+     [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    ]
+   },
+   "max_abs_affine_diff": {
+    "FA-BM": 0.0,
+    "FA-HO": 0.0,
+    "BM-HO": 0.0
+   },
+   "zooms": {
+    "FA": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "BM": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "HO": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "sform_code": {
+    "FA": 4,
+    "BM": 4,
+    "HO": 4
+   },
+   "qform_code": {
+    "FA": 4,
+    "BM": 4,
+    "HO": 4
+   },
+   "sha256": {
+    "FA": "1268fd84b658451c9a85799a636688bc1f6947fdf8de2d9cf7f62320de1b3837",
+    "BM": "274b41c4cf787ada4ce683524301ee052d1ef64b208569c05ce7e9c00717404e",
+    "HO": "5772ccce4a0444c9b29c071390db086b7bb0e2074662d2ccecc8c9820fff0fa7"
+   },
+   "ho_xml_names": {
+    "2": "Left Lateral Ventricle",
+    "13": "Right Lateral Ventricle"
+   },
+   "ho_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "brain_mask_values": [
+    0.0,
+    1.0
+   ]
+  },
+  "tolerance": 0.001
+ },
+ "template_categories": {
+  "n_template": {
+   "1": 17582,
+   "2": 5386914,
+   "3": 441015,
+   "4": 1375521
+  },
+  "n_lv_label": 17582,
+  "n_lv_outside_brain_mask": 6875,
+  "n_brain_mask": 1827243,
+  "brain_mask_voxels_on_grid_faces": 148
+ },
+ "sessions": [
+  {
+   "session": "sub-03286_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 85,
+   "n_template_voxels": 503,
+   "n_by_category": {
+    "1": 0,
+    "2": 3,
+    "3": 105,
+    "4": 395
+   },
+   "share_by_category": {
+    "1": 0.0,
+    "2": 0.005964214711729622,
+    "3": 0.20874751491053678,
+    "4": 0.7852882703777336
+   },
+   "S_share": 0.2147117296222664,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03286_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "0dfdfb7f29bed128171f9d78b68b48ba600df7b3ff8c24fa9d1151180cfc6a26",
+   "mask_sha256": "b7cef85a63e526471f93fc979611c39d4d706ef6be698696e733c502e5b79a97",
+   "stderr": ""
+  },
+  {
+   "session": "sub-03997_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 292,
+   "n_template_voxels": 3466,
+   "n_by_category": {
+    "1": 2791,
+    "2": 375,
+    "3": 221,
+    "4": 79
+   },
+   "share_by_category": {
+    "1": 0.8052510098095788,
+    "2": 0.10819388343912291,
+    "3": 0.06376226197345643,
+    "4": 0.02279284477784189
+   },
+   "S_share": 0.17195614541257934,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03997_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "1f13421f5bc176a26887615d82abbb657918a56801c47a611af066a510453864",
+   "mask_sha256": "2ca6b999205b6361af34b8dff42aac0369910fde449a96d0d9fb9cab023e034b",
+   "stderr": ""
+  },
+  {
+   "session": "sub-10975_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 84,
+   "n_template_voxels": 1063,
+   "n_by_category": {
+    "1": 938,
+    "2": 12,
+    "3": 37,
+    "4": 76
+   },
+   "share_by_category": {
+    "1": 0.8824082784571966,
+    "2": 0.011288805268109126,
+    "3": 0.034807149576669805,
+    "4": 0.07149576669802446
+   },
+   "S_share": 0.04609595484477893,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-10975_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "33d89b09867afa8f78ce7a237e3c4cd43594f02a76d35b78e1a66ae61e496f87",
+   "mask_sha256": "5e51620a0ab1e68744dcc7cf3bb7fb067561810b125f3537dc7675aa7a5c0691",
+   "stderr": ""
+  },
+  {
+   "session": "sub-12813_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 112,
+   "n_template_voxels": 1086,
+   "n_by_category": {
+    "1": 800,
+    "2": 0,
+    "3": 59,
+    "4": 227
+   },
+   "share_by_category": {
+    "1": 0.7366482504604052,
+    "2": 0.0,
+    "3": 0.05432780847145488,
+    "4": 0.20902394106813996
+   },
+   "S_share": 0.05432780847145488,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-12813_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "794c2fa321ad2d5c03faf08e540dc38a8a327727d6c5c13f34344c9f59d1ec49",
+   "mask_sha256": "f7f87cc9dd671d973662a0508eb426b2bb84ecbc17d24c2839f73f4df050edaf",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13192_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 620,
+   "n_template_voxels": 6693,
+   "n_by_category": {
+    "1": 4941,
+    "2": 577,
+    "3": 583,
+    "4": 592
+   },
+   "share_by_category": {
+    "1": 0.7382339757956073,
+    "2": 0.08620947258329598,
+    "3": 0.08710593157029732,
+    "4": 0.08845062005079934
+   },
+   "S_share": 0.1733154041535933,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13192_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "4c926a19fa47b62a770a655e60ab8cd1ed1e134c982309f7b899d4f08191e928",
+   "mask_sha256": "204f55d3a33ba5d6752d9a154fbcc444d44e8fc4286039571db8a360e47da210",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13305_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 116,
+   "n_template_voxels": 968,
+   "n_by_category": {
+    "1": 448,
+    "2": 116,
+    "3": 59,
+    "4": 345
+   },
+   "share_by_category": {
+    "1": 0.4628099173553719,
+    "2": 0.11983471074380166,
+    "3": 0.060950413223140494,
+    "4": 0.35640495867768596
+   },
+   "S_share": 0.18078512396694216,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13305_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "5a729542fa0c0a3b05942f0a3b734e0c291358c1f411a9345b65a07e2ac79666",
+   "mask_sha256": "19fca7e67dfb94aea892ba8d82a089ee3514182b5b48bb54cc2983ad2bdc20ba",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14221_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 423,
+   "n_template_voxels": 4155,
+   "n_by_category": {
+    "1": 3580,
+    "2": 253,
+    "3": 214,
+    "4": 108
+   },
+   "share_by_category": {
+    "1": 0.8616125150421179,
+    "2": 0.06089049338146811,
+    "3": 0.051504211793020456,
+    "4": 0.025992779783393503
+   },
+   "S_share": 0.11239470517448857,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14221_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "fe3a0b3f5f50498c84526df7e4b41575414d6512aea85255c5e81817943f5c3d",
+   "mask_sha256": "5a87d86d2ba944ff07d8c779b6e0531fc1bc3a4652583f399c79b2af56fdf192",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14229_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 104,
+   "n_template_voxels": 582,
+   "n_by_category": {
+    "1": 6,
+    "2": 0,
+    "3": 57,
+    "4": 519
+   },
+   "share_by_category": {
+    "1": 0.010309278350515464,
+    "2": 0.0,
+    "3": 0.0979381443298969,
+    "4": 0.8917525773195877
+   },
+   "S_share": 0.0979381443298969,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14229_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "79ac5cf25ca802caff0706a3c5e7f4ec383f543305581c259ed02a37256b8335",
+   "mask_sha256": "ce5a97dd1215f8228770e1936cc61397cc2e2e6f5a6bf17b50952b33639d4c9c",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14230_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 170,
+   "n_template_voxels": 2758,
+   "n_by_category": {
+    "1": 1571,
+    "2": 649,
+    "3": 461,
+    "4": 77
+   },
+   "share_by_category": {
+    "1": 0.5696156635242929,
+    "2": 0.23531544597534446,
+    "3": 0.16715010877447425,
+    "4": 0.027918781725888325
+   },
+   "S_share": 0.4024655547498187,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14230_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "f3315b31c53812391c1b5519b8434cfbb3148b418572837433fc8e25326ca858",
+   "mask_sha256": "f70eb88f94aa3ee75a7005d7fd3b4524724f6aed0c97a425d787dbf6e81ec332",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14482_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 131,
+   "n_template_voxels": 1544,
+   "n_by_category": {
+    "1": 1224,
+    "2": 93,
+    "3": 212,
+    "4": 15
+   },
+   "share_by_category": {
+    "1": 0.7927461139896373,
+    "2": 0.06023316062176166,
+    "3": 0.13730569948186527,
+    "4": 0.009715025906735751
+   },
+   "S_share": 0.19753886010362692,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14482_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "875966422332b457545689b64937c3e33a00887db25a8b957e7301f70a4b22fd",
+   "mask_sha256": "77f653cebf2a74e5e86dd94c7b761f813fb48bca8f0da51155908590cc71562b",
+   "stderr": ""
+  },
+  {
+   "session": "sub-15320_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 219,
+   "n_template_voxels": 2983,
+   "n_by_category": {
+    "1": 2533,
+    "2": 85,
+    "3": 324,
+    "4": 41
+   },
+   "share_by_category": {
+    "1": 0.8491451558833389,
+    "2": 0.02849480388870265,
+    "3": 0.10861548776399597,
+    "4": 0.013744552463962454
+   },
+   "S_share": 0.1371102916526986,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-15320_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "065bb628d743b60d9f447f80b020fd4075d0b822263d22a55fbb94b6105e050e",
+   "mask_sha256": "90dca1196580205f5a5060f10ae4bcf225908f093281db3ed0d49fc70cc37a54",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16745_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 114,
+   "n_template_voxels": 1999,
+   "n_by_category": {
+    "1": 1666,
+    "2": 199,
+    "3": 83,
+    "4": 51
+   },
+   "share_by_category": {
+    "1": 0.8334167083541771,
+    "2": 0.09954977488744372,
+    "3": 0.0415207603801901,
+    "4": 0.025512756378189096
+   },
+   "S_share": 0.14107053526763383,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16745_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "b4f4e3a7027feb36bb68997a22981fd102252ff0552bb35f7d1c1a4e1c1ec12f",
+   "mask_sha256": "7ea2cff3a4821bda0755798bedc2b27abe80a7be340d57253ad16dbf48ed3061",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16766_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 240,
+   "n_template_voxels": 3031,
+   "n_by_category": {
+    "1": 2074,
+    "2": 463,
+    "3": 286,
+    "4": 208
+   },
+   "share_by_category": {
+    "1": 0.6842626195974926,
+    "2": 0.15275486638073243,
+    "3": 0.09435829759155394,
+    "4": 0.06862421643022105
+   },
+   "S_share": 0.2471131639722864,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16766_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "1eb08477e7d815abe0a78547d022403ca07b2a25eafd914f879f67602b115eb7",
+   "mask_sha256": "e793d7cf58b227812b27e5c372e6ea7f184c80c6c3ff0237183fd10c879d2ca4",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16793_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 94,
+   "n_template_voxels": 1644,
+   "n_by_category": {
+    "1": 1291,
+    "2": 138,
+    "3": 98,
+    "4": 117
+   },
+   "share_by_category": {
+    "1": 0.7852798053527981,
+    "2": 0.08394160583941605,
+    "3": 0.05961070559610705,
+    "4": 0.07116788321167883
+   },
+   "S_share": 0.1435523114355231,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16793_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "85c38afa951229995f66f1abf6a80a1b4196005a82c1ac29fd421e7d7b6f3d2b",
+   "mask_sha256": "9def5170061b485fc5de87d9ece1fec96b254b31a7e28324049ab75a6e169a75",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16794_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 206,
+   "n_template_voxels": 3093,
+   "n_by_category": {
+    "1": 2096,
+    "2": 619,
+    "3": 139,
+    "4": 239
+   },
+   "share_by_category": {
+    "1": 0.6776592305205302,
+    "2": 0.20012932428063368,
+    "3": 0.04494018752020692,
+    "4": 0.07727125767862916
+   },
+   "S_share": 0.2450695118008406,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16794_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "0285781ac13144f95aa0d3dc09aae9f26448fbf9a2b4aaf557abe6c3d5c214bb",
+   "mask_sha256": "c8caf56823c2336823272997bbbe26b5429884da58d7d30f88c0eb0ac44356f2",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16841_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 122,
+   "n_template_voxels": 1565,
+   "n_by_category": {
+    "1": 1052,
+    "2": 272,
+    "3": 115,
+    "4": 126
+   },
+   "share_by_category": {
+    "1": 0.6722044728434505,
+    "2": 0.17380191693290734,
+    "3": 0.07348242811501597,
+    "4": 0.08051118210862619
+   },
+   "S_share": 0.2472843450479233,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16841_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "e188d176ab65817d1fa67bd5dcbde6eea1280f56dddc2b4eecf20be77c13f802",
+   "mask_sha256": "5963b4c596e6f8bd7103b2adf1c6b970574bcf7a31cc1d5f6d9152ec9e6e15bf",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16842_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 176,
+   "n_template_voxels": 2322,
+   "n_by_category": {
+    "1": 1771,
+    "2": 362,
+    "3": 97,
+    "4": 92
+   },
+   "share_by_category": {
+    "1": 0.7627045650301464,
+    "2": 0.15590008613264428,
+    "3": 0.04177433247200689,
+    "4": 0.03962101636520241
+   },
+   "S_share": 0.19767441860465118,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16842_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "62a124c5f3f62445fa648cff353cb4e0f60de4ee101ad9fec9a03890eda55ce0",
+   "mask_sha256": "ea77d76a70594c5df413c28d614bbf8207abc78c7b86f1feca745704d6c3a6af",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16974_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 238,
+   "n_template_voxels": 2598,
+   "n_by_category": {
+    "1": 2309,
+    "2": 16,
+    "3": 175,
+    "4": 98
+   },
+   "share_by_category": {
+    "1": 0.888760585065435,
+    "2": 0.006158583525789068,
+    "3": 0.06735950731331794,
+    "4": 0.037721324095458045
+   },
+   "S_share": 0.07351809083910701,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16974_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "8bb9624ede32bfd9dc3cea5df861a517c47958147ae92ec5ac1327dd8c869b91",
+   "mask_sha256": "8b59263abd6257ce82cf697fa697a13904e9c3f1c6350aaa854d7b9f7000f440",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16975_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 241,
+   "n_template_voxels": 2248,
+   "n_by_category": {
+    "1": 1981,
+    "2": 0,
+    "3": 77,
+    "4": 190
+   },
+   "share_by_category": {
+    "1": 0.8812277580071174,
+    "2": 0.0,
+    "3": 0.03425266903914591,
+    "4": 0.08451957295373666
+   },
+   "S_share": 0.03425266903914591,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16975_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "fb15979ec52b37358557bcbcea5f02733d2279f4d6d5f7fcb37a748323f1875a",
+   "mask_sha256": "a86079680a452cd60c3ee4482113795588206e40869948606357539be3926933",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16981_ses-OXF1PRI001",
+   "scanner": "OXF1PRI",
+   "n_mask_voxels_native": 153,
+   "n_template_voxels": 924,
+   "n_by_category": {
+    "1": 38,
+    "2": 21,
+    "3": 37,
+    "4": 828
+   },
+   "share_by_category": {
+    "1": 0.04112554112554113,
+    "2": 0.022727272727272728,
+    "3": 0.04004329004329004,
+    "4": 0.8961038961038961
+   },
+   "S_share": 0.06277056277056277,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16981_ses-OXF1PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "3c1ab1394f8af31a94a528f9b127a22e9c9775d5891640d3b60a910a1813c67c",
+   "mask_sha256": "323879ffc3beac60e21c780ce80923baca92857733bcbe6a9275c88c45c9f2cd",
+   "stderr": ""
+  },
+  {
+   "session": "sub-03286_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 167,
+   "n_template_voxels": 1111,
+   "n_by_category": {
+    "1": 13,
+    "2": 0,
+    "3": 61,
+    "4": 1037
+   },
+   "share_by_category": {
+    "1": 0.011701170117011701,
+    "2": 0.0,
+    "3": 0.05490549054905491,
+    "4": 0.9333933393339334
+   },
+   "S_share": 0.05490549054905491,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03286_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "7631773e92bdfd8504316121dc7e4c6e2bd0eb90482d625e864f1b96c455e60c",
+   "mask_sha256": "5bac43874c427d2f1e5d5932b2c10cd9cbee98e7ba02a58a5e5649a45dd67187",
+   "stderr": ""
+  },
+  {
+   "session": "sub-03997_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 270,
+   "n_template_voxels": 3292,
+   "n_by_category": {
+    "1": 2363,
+    "2": 516,
+    "3": 317,
+    "4": 96
+   },
+   "share_by_category": {
+    "1": 0.7178007290400972,
+    "2": 0.15674362089914945,
+    "3": 0.09629404617253949,
+    "4": 0.02916160388821385
+   },
+   "S_share": 0.25303766707168895,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03997_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "d8d7cca81908d4119a2e442fd70b78b707e17c853f413bda300b7e5841c2e67c",
+   "mask_sha256": "c109ee8ad5b1a7faa849870e9e179d4d5ca3ab0763680c1779122b45292d91c7",
+   "stderr": ""
+  },
+  {
+   "session": "sub-10975_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 135,
+   "n_template_voxels": 1327,
+   "n_by_category": {
+    "1": 924,
+    "2": 22,
+    "3": 11,
+    "4": 370
+   },
+   "share_by_category": {
+    "1": 0.6963074604370761,
+    "2": 0.016578749058025623,
+    "3": 0.008289374529012811,
+    "4": 0.2788244159758855
+   },
+   "S_share": 0.024868123587038434,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-10975_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "3e501e03c31cc5f45e26176165e1e8d720ab728cc11c1a06ac9220f841142d75",
+   "mask_sha256": "c88dc2571b6804d7df21dea56b4ca77682fdcea9dfaa0ed4470ae3d1f89265b4",
+   "stderr": ""
+  },
+  {
+   "session": "sub-12813_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 141,
+   "n_template_voxels": 1474,
+   "n_by_category": {
+    "1": 1124,
+    "2": 21,
+    "3": 58,
+    "4": 271
+   },
+   "share_by_category": {
+    "1": 0.762550881953867,
+    "2": 0.014246947082767978,
+    "3": 0.03934871099050204,
+    "4": 0.18385345997286295
+   },
+   "S_share": 0.05359565807327001,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-12813_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "9f37b84347e1820fc65d44435e6426201118eee7200efcc2661b9e04b7816427",
+   "mask_sha256": "53eaf4d7b5c4d4ed29e2c38f2dc3643a4921ad5cbc3f4a7b2673ca8a1999c0ed",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13192_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 536,
+   "n_template_voxels": 5637,
+   "n_by_category": {
+    "1": 3899,
+    "2": 465,
+    "3": 584,
+    "4": 689
+   },
+   "share_by_category": {
+    "1": 0.6916799716161078,
+    "2": 0.08249068653539117,
+    "3": 0.103601206315416,
+    "4": 0.12222813553308498
+   },
+   "S_share": 0.18609189285080718,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13192_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "50630681683d97cd92a6242b0215df509a23045ab168c4a5387a661fc1ae0e54",
+   "mask_sha256": "a7c968d3f9b2e236184b27325ec0d90dc99c571e6666fd4a2d619060f6f414b6",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13305_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 190,
+   "n_template_voxels": 1502,
+   "n_by_category": {
+    "1": 599,
+    "2": 153,
+    "3": 118,
+    "4": 632
+   },
+   "share_by_category": {
+    "1": 0.3988015978695073,
+    "2": 0.10186418109187749,
+    "3": 0.07856191744340879,
+    "4": 0.4207723035952064
+   },
+   "S_share": 0.1804260985352863,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13305_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "3a34f68be974f87f5ea81a9e9bba6357a2ba55f42736bd1eec7795a85a717775",
+   "mask_sha256": "0dd9c2ac6883e707feb01e7296081263183173a5c2df12117b4c98a3bf2b3335",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14221_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 347,
+   "n_template_voxels": 3474,
+   "n_by_category": {
+    "1": 2931,
+    "2": 201,
+    "3": 191,
+    "4": 151
+   },
+   "share_by_category": {
+    "1": 0.8436960276338514,
+    "2": 0.05785837651122625,
+    "3": 0.05497985031663788,
+    "4": 0.043465745538284396
+   },
+   "S_share": 0.11283822682786412,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14221_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "1f60f2b2b2fc9342df4bffd04cad51f7642c1590b7ea0e75fc470ceb6871c536",
+   "mask_sha256": "f207e5f765928dd445c1d34a7d7087dc16eb2a4a4f9e381169c090b6bec7fd84",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14229_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 96,
+   "n_template_voxels": 543,
+   "n_by_category": {
+    "1": 86,
+    "2": 0,
+    "3": 29,
+    "4": 428
+   },
+   "share_by_category": {
+    "1": 0.15837937384898712,
+    "2": 0.0,
+    "3": 0.053406998158379376,
+    "4": 0.7882136279926335
+   },
+   "S_share": 0.053406998158379376,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14229_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "d6a8fbb219f9e8d81b8d9c466651cbe4716c68aca8d5257313094c29ad22b1c2",
+   "mask_sha256": "8795bde9e4f2221ebd4b135cd5736755fb2e81cd4077128612c06d397bb622c9",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14230_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 127,
+   "n_template_voxels": 2025,
+   "n_by_category": {
+    "1": 905,
+    "2": 652,
+    "3": 360,
+    "4": 108
+   },
+   "share_by_category": {
+    "1": 0.4469135802469136,
+    "2": 0.3219753086419753,
+    "3": 0.17777777777777778,
+    "4": 0.05333333333333334
+   },
+   "S_share": 0.49975308641975313,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14230_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "00e3626e21fc8dff3882705d09ef93666c0d98ca73fcd4a6c0a943594d67554d",
+   "mask_sha256": "fe68d1d1bb6e7b5c9e9f78b0eaee16ad08f39451a46291768371e416bf933723",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14482_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 136,
+   "n_template_voxels": 1463,
+   "n_by_category": {
+    "1": 919,
+    "2": 55,
+    "3": 159,
+    "4": 330
+   },
+   "share_by_category": {
+    "1": 0.6281613123718387,
+    "2": 0.03759398496240601,
+    "3": 0.10868079289131921,
+    "4": 0.22556390977443608
+   },
+   "S_share": 0.14627477785372522,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14482_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "b2d6c3c65e12a6645faa8d194a777c7db0b202ecd1def6fd3cd802a38c039b2e",
+   "mask_sha256": "f7c8d7bb215cbb90ae7e56fe7234c41359fb72d914273850dc56625db4a8a9bc",
+   "stderr": ""
+  },
+  {
+   "session": "sub-15320_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 249,
+   "n_template_voxels": 3468,
+   "n_by_category": {
+    "1": 2577,
+    "2": 142,
+    "3": 669,
+    "4": 80
+   },
+   "share_by_category": {
+    "1": 0.7430795847750865,
+    "2": 0.040945790080738176,
+    "3": 0.19290657439446368,
+    "4": 0.02306805074971165
+   },
+   "S_share": 0.23385236447520186,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-15320_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "d6e7e5da064f07eb998c31ba1ddce10476369a1172d4d5d5cbf672d9a8543d34",
+   "mask_sha256": "a9e50274b4864c58ae80959fd73b0028e0797d956d4ee3a0743bf153762c8ebf",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16745_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 156,
+   "n_template_voxels": 2250,
+   "n_by_category": {
+    "1": 1603,
+    "2": 180,
+    "3": 165,
+    "4": 302
+   },
+   "share_by_category": {
+    "1": 0.7124444444444444,
+    "2": 0.08,
+    "3": 0.07333333333333333,
+    "4": 0.13422222222222221
+   },
+   "S_share": 0.15333333333333332,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16745_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "52f67807d39de7e77997e52bb567ea15e5b39a6ae308be7a965702ee9d0b33fd",
+   "mask_sha256": "2b7f6a72b3ab1bec547cdc2d6030f105827b802f041b2b53ac9f78ca95533f83",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16766_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 278,
+   "n_template_voxels": 3396,
+   "n_by_category": {
+    "1": 1950,
+    "2": 838,
+    "3": 184,
+    "4": 424
+   },
+   "share_by_category": {
+    "1": 0.5742049469964664,
+    "2": 0.24676089517078917,
+    "3": 0.05418138987043581,
+    "4": 0.1248527679623086
+   },
+   "S_share": 0.300942285041225,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16766_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "7a08c8338fb89bdc541045e9e84650f7de7a09a3d1cc20b70ad03dcabbce4d53",
+   "mask_sha256": "879cdc7bdc02045c5554c52270c9af4ee61044cb3b76a0e8288adca36e603356",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16793_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 125,
+   "n_template_voxels": 1522,
+   "n_by_category": {
+    "1": 875,
+    "2": 96,
+    "3": 64,
+    "4": 487
+   },
+   "share_by_category": {
+    "1": 0.5749014454664915,
+    "2": 0.06307490144546649,
+    "3": 0.04204993429697766,
+    "4": 0.3199737187910644
+   },
+   "S_share": 0.10512483574244415,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16793_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "f65ab957405cd052cef4fd26ae5c02f23f0d21210c6c6e8db62d085c4552dc69",
+   "mask_sha256": "c6afb4ebf69a4e7c4f58f934183142772ecadbbeb4fc3f35fa38c120aa204095",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16794_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 231,
+   "n_template_voxels": 3133,
+   "n_by_category": {
+    "1": 1569,
+    "2": 523,
+    "3": 292,
+    "4": 749
+   },
+   "share_by_category": {
+    "1": 0.5007979572294925,
+    "2": 0.16693265240983082,
+    "3": 0.09320140440472391,
+    "4": 0.23906798595595277
+   },
+   "S_share": 0.2601340568145547,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16794_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "fc8eba678ad113eb70023690149cf7e4de35435eb828f0c563c4b0fe9088e0d7",
+   "mask_sha256": "90fa1744aeb5510290c0654b5c4570c6a973e3875db76713beaf1ee1d511ff8e",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16841_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 99,
+   "n_template_voxels": 1052,
+   "n_by_category": {
+    "1": 457,
+    "2": 321,
+    "3": 61,
+    "4": 213
+   },
+   "share_by_category": {
+    "1": 0.4344106463878327,
+    "2": 0.3051330798479088,
+    "3": 0.05798479087452472,
+    "4": 0.20247148288973385
+   },
+   "S_share": 0.3631178707224335,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16841_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "e1cfb2ec30da09c73b0c6c5cf0059db8edccf0f3a22a42048ba6957ea1ff3d94",
+   "mask_sha256": "195c6ce16b9196b11a99b3869682b69af8a424a3b4ae992815f596b63cd38069",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16842_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 174,
+   "n_template_voxels": 2125,
+   "n_by_category": {
+    "1": 1274,
+    "2": 448,
+    "3": 224,
+    "4": 179
+   },
+   "share_by_category": {
+    "1": 0.5995294117647059,
+    "2": 0.21082352941176472,
+    "3": 0.10541176470588236,
+    "4": 0.08423529411764706
+   },
+   "S_share": 0.31623529411764706,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16842_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "c8a925b5d655c2a0a92dd47b922ab151799806d02e1f5b84570f392567ee049f",
+   "mask_sha256": "18077bbf06f668ce382041deea0bd9f1de26ac2a640fcf91186b3d0d20d042ee",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16974_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 272,
+   "n_template_voxels": 2911,
+   "n_by_category": {
+    "1": 2593,
+    "2": 14,
+    "3": 162,
+    "4": 142
+   },
+   "share_by_category": {
+    "1": 0.8907591892820337,
+    "2": 0.0048093438680865686,
+    "3": 0.05565097904500172,
+    "4": 0.04878048780487805
+   },
+   "S_share": 0.06046032291308829,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16974_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "3d94ba8d77294a9ab5e126455142bbf26d6967f201d02f7d71b58183a9bef220",
+   "mask_sha256": "5b29685e1a256ca8c6c39687873d8f93fcd42bba833f207c082fc4822f68125b",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16975_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 207,
+   "n_template_voxels": 2031,
+   "n_by_category": {
+    "1": 1803,
+    "2": 0,
+    "3": 60,
+    "4": 168
+   },
+   "share_by_category": {
+    "1": 0.8877400295420975,
+    "2": 0.0,
+    "3": 0.029542097488921712,
+    "4": 0.0827178729689808
+   },
+   "S_share": 0.029542097488921712,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16975_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "b4386dced10107f8a115b7bae6322cc72f00070bd0a3b34cd1b62a30951ae234",
+   "mask_sha256": "13e3971f14a592eca54a6d508c549f90197f6b633562967f40a2f34fee878b08",
+   "stderr": ""
+  },
+  {
+   "session": "sub-16981_ses-OXF2PRI001",
+   "scanner": "OXF2PRI",
+   "n_mask_voxels_native": 160,
+   "n_template_voxels": 965,
+   "n_by_category": {
+    "1": 57,
+    "2": 36,
+    "3": 38,
+    "4": 834
+   },
+   "share_by_category": {
+    "1": 0.05906735751295337,
+    "2": 0.03730569948186528,
+    "3": 0.039378238341968914,
+    "4": 0.8642487046632125
+   },
+   "S_share": 0.0766839378238342,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-16981_ses-OXF2PRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "f96547c5a9b8e5c794e8aecbf812b64d815b5317dd0584c78312548861fddbf1",
+   "mask_sha256": "f0df7a71dce2e597d7659de8ae41f7042056593374f5be2aeee08158f1878612",
+   "stderr": ""
+  },
+  {
+   "session": "sub-03286_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 123,
+   "n_template_voxels": 691,
+   "n_by_category": {
+    "1": 9,
+    "2": 0,
+    "3": 485,
+    "4": 197
+   },
+   "share_by_category": {
+    "1": 0.013024602026049204,
+    "2": 0.0,
+    "3": 0.7018813314037626,
+    "4": 0.28509406657018815
+   },
+   "S_share": 0.7018813314037626,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03286_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "1143587da22dbe24d4c3915505b19b1cd7fc1e4e0306813c15c050d38d63db17",
+   "mask_sha256": "f53dfc42148d9547b097aed04addfd4e6c9586716cc0b533caaf7add381f8b6a",
+   "stderr": ""
+  },
+  {
+   "session": "sub-03997_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 456,
+   "n_template_voxels": 5845,
+   "n_by_category": {
+    "1": 4586,
+    "2": 512,
+    "3": 648,
+    "4": 99
+   },
+   "share_by_category": {
+    "1": 0.7846022241231823,
+    "2": 0.08759623609923012,
+    "3": 0.11086398631308811,
+    "4": 0.016937553464499572
+   },
+   "S_share": 0.19846022241231823,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-03997_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "d608cf8bc74ec0b5032b4b2e64d0ea78ad347c3b211e7a4368aae87952ef2a5c",
+   "mask_sha256": "fb32b00b25debaebc64c91d5645bedd91896851c171dc69585f2093ca39616a0",
+   "stderr": ""
+  },
+  {
+   "session": "sub-10975_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 246,
+   "n_template_voxels": 3288,
+   "n_by_category": {
+    "1": 2915,
+    "2": 165,
+    "3": 201,
+    "4": 7
+   },
+   "share_by_category": {
+    "1": 0.8865571776155717,
+    "2": 0.05018248175182482,
+    "3": 0.06113138686131387,
+    "4": 0.0021289537712895377
+   },
+   "S_share": 0.11131386861313869,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-10975_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "33d3630551f774cd8b99ae4488a581bd809e61da9430cb377552601ea7e2d039",
+   "mask_sha256": "1ea20b1cc957b20a55c3493583d24498a1cc335cef36044840f4f086277a5238",
+   "stderr": ""
+  },
+  {
+   "session": "sub-12813_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 359,
+   "n_template_voxels": 4218,
+   "n_by_category": {
+    "1": 3705,
+    "2": 32,
+    "3": 301,
+    "4": 180
+   },
+   "share_by_category": {
+    "1": 0.8783783783783784,
+    "2": 0.007586533902323376,
+    "3": 0.07136083451872925,
+    "4": 0.04267425320056899
+   },
+   "S_share": 0.07894736842105263,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-12813_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "3e84b8b11117ba4223b7e3b3c95d4cc2d44548e556585cc0d40201bbab6c7db2",
+   "mask_sha256": "7b64f581aa73a26abfe5a93cc4540a305e5d51386c606dbb3943ea8af03a0507",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13192_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 965,
+   "n_template_voxels": 10779,
+   "n_by_category": {
+    "1": 7404,
+    "2": 1108,
+    "3": 1433,
+    "4": 834
+   },
+   "share_by_category": {
+    "1": 0.6868911772891734,
+    "2": 0.10279246683365804,
+    "3": 0.1329436867984043,
+    "4": 0.07737266907876426
+   },
+   "S_share": 0.23573615363206235,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13192_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "d60a56f4f6a18162f8b1f8422871ab3779bcf12c1c2b88c9d37c7c2909ceb812",
+   "mask_sha256": "a6eb57a53121c4f83be0e3d86aabaf50bddab53fa0f0d192e0f8c3401b1dd9f9",
+   "stderr": ""
+  },
+  {
+   "session": "sub-13305_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 249,
+   "n_template_voxels": 3140,
+   "n_by_category": {
+    "1": 2346,
+    "2": 335,
+    "3": 291,
+    "4": 168
+   },
+   "share_by_category": {
+    "1": 0.7471337579617834,
+    "2": 0.10668789808917198,
+    "3": 0.09267515923566878,
+    "4": 0.0535031847133758
+   },
+   "S_share": 0.19936305732484078,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-13305_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "649f540b0ba1cda46acabf5b36929babab6f920bfe211ccff48c760f789ac37f",
+   "mask_sha256": "4a58a001edd5bf5dbf2387946bac25b7b9154636af9edddf931dfe187d54c03e",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14221_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 711,
+   "n_template_voxels": 7272,
+   "n_by_category": {
+    "1": 6061,
+    "2": 347,
+    "3": 664,
+    "4": 200
+   },
+   "share_by_category": {
+    "1": 0.8334708470847084,
+    "2": 0.047717271727172716,
+    "3": 0.09130913091309131,
+    "4": 0.027502750275027504
+   },
+   "S_share": 0.13902640264026403,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14221_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "c5e54bf5b123a8b1aaa614e38963eb5175dbfe04bb5f79cc0d92cfde352ae1ea",
+   "mask_sha256": "b7517c357e84ffbfb55aabc323b0f08a4cb6a4c7fb6e818c8a0d4cef19f35713",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14229_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 774,
+   "n_template_voxels": 5726,
+   "n_by_category": {
+    "1": 4448,
+    "2": 15,
+    "3": 398,
+    "4": 865
+   },
+   "share_by_category": {
+    "1": 0.7768075445337059,
+    "2": 0.002619629758994062,
+    "3": 0.06950750960530912,
+    "4": 0.15106531610199092
+   },
+   "S_share": 0.07212713936430318,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14229_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "1aebbb241a250a1f9672893c4b9195182fe11351dfde2b6da1282af874649004",
+   "mask_sha256": "406a80d62f38de8d5d75205a343877310612f7f9e799e4a6e0f0f35b7cdab4f0",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14230_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 338,
+   "n_template_voxels": 5124,
+   "n_by_category": {
+    "1": 3016,
+    "2": 931,
+    "3": 932,
+    "4": 245
+   },
+   "share_by_category": {
+    "1": 0.5886026541764247,
+    "2": 0.18169398907103826,
+    "3": 0.18188914910226386,
+    "4": 0.04781420765027322
+   },
+   "S_share": 0.3635831381733021,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14230_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "59a6c80f3ce50897edfb03a8479a547d4d3bce6bae36c145d714aec16477dc2f",
+   "mask_sha256": "ee040f7435b06a3b17066984b407a97251a33566d434436a5768f6d69d2d11ea",
+   "stderr": ""
+  },
+  {
+   "session": "sub-14482_ses-OXF3TRI001",
+   "scanner": "OXF3TRI",
+   "n_mask_voxels_native": 536,
+   "n_template_voxels": 6683,
+   "n_by_category": {
+    "1": 5119,
+    "2": 295,
+    "3": 991,
+    "4": 278
+   },
+   "share_by_category": {
+    "1": 0.7659733652551249,
+    "2": 0.0441418524614694,
+    "3": 0.1482866975909023,
+    "4": 0.04159808469250337
+   },
+   "S_share": 0.1924285500523717,
+   "applywarp": "applywarp -i <mask V as 0/1 NIfTI, dti_FA header> -r <copy of FMRIB58_FA_1mm.nii.gz> -w <copy of onharmony/sub-14482_ses-OXF3TRI001/fa2std_warp.nii.gz> -o <scratch> --interp=nn",
+   "out_dtype": "float32",
+   "warp_sha256": "4a5b5b4633748f47e8bf4678163e013ccb337b8e931bc1ac6a1ebfa43e0961c1",
+   "mask_sha256": "b62a8be6c8d12672ed8afa51b01cf3412da5a2e02ebdcc511a2af815131c3cd5",
+   "stderr": ""
+  }
+ ],
+ "per_scanner": {
+  "OXF1PRI": {
+   "cat1": {
+    "median": 0.7504692704128768,
+    "min": 0.0,
+    "max": 0.888760585065435,
+    "n": 20
+   },
+   "cat2": {
+    "median": 0.07241604961044208,
+    "min": 0.0,
+    "max": 0.23531544597534446,
+    "n": 20
+   },
+   "cat3": {
+    "median": 0.062356337598298464,
+    "min": 0.03425266903914591,
+    "max": 0.20874751491053678,
+    "n": 20
+   },
+   "cat4": {
+    "median": 0.07133182495485164,
+    "min": 0.009715025906735751,
+    "max": 0.8961038961038961,
+    "n": 20
+   },
+   "S": {
+    "median": 0.15775422842405123,
+    "min": 0.03425266903914591,
+    "max": 0.4024655547498187,
+    "n": 20
+   }
+  },
+  "OXF2PRI": {
+   "cat1": {
+    "median": 0.6138453620682722,
+    "min": 0.011701170117011701,
+    "max": 0.8907591892820337,
+    "n": 20
+   },
+   "cat2": {
+    "median": 0.060466638978346365,
+    "min": 0.0,
+    "max": 0.3219753086419753,
+    "n": 20
+   },
+   "cat3": {
+    "median": 0.05681788495976322,
+    "min": 0.008289374529012811,
+    "max": 0.19290657439446368,
+    "n": 20
+   },
+   "cat4": {
+    "median": 0.1590378410975426,
+    "min": 0.02306805074971165,
+    "max": 0.9333933393339334,
+    "n": 20
+   },
+   "S": {
+    "median": 0.14980405559352927,
+    "min": 0.024868123587038434,
+    "max": 0.49975308641975313,
+    "n": 20
+   }
+  },
+  "OXF3TRI": {
+   "cat1": {
+    "median": 0.7713904548944155,
+    "min": 0.013024602026049204,
+    "max": 0.8865571776155717,
+    "n": 10
+   },
+   "cat2": {
+    "median": 0.04894987673949877,
+    "min": 0.0,
+    "max": 0.18169398907103826,
+    "n": 10
+   },
+   "cat3": {
+    "median": 0.10176957277437845,
+    "min": 0.06113138686131387,
+    "max": 0.7018813314037626,
+    "n": 10
+   },
+   "cat4": {
+    "median": 0.045244230425421104,
+    "min": 0.0021289537712895377,
+    "max": 0.28509406657018815,
+    "n": 10
+   },
+   "S": {
+    "median": 0.19544438623234495,
+    "min": 0.07212713936430318,
+    "max": 0.7018813314037626,
+    "n": 10
+   }
+  }
+ },
+ "pooled": {
+  "cat1": {
+   "median": 0.7151225867422708,
+   "min": 0.0,
+   "max": 0.8907591892820337,
+   "n": 50
+  },
+  "cat2": {
+   "median": 0.06056182700161489,
+   "min": 0.0,
+   "max": 0.3219753086419753,
+   "n": 50
+  },
+  "cat3": {
+   "median": 0.07043417206201918,
+   "min": 0.008289374529012811,
+   "max": 0.7018813314037626,
+   "n": 50
+  },
+  "cat4": {
+   "median": 0.07894192559369523,
+   "min": 0.0021289537712895377,
+   "max": 0.9333933393339334,
+   "n": 50
+  },
+  "S": {
+   "median": 0.16264473937295632,
+   "min": 0.024868123587038434,
+   "max": 0.7018813314037626,
+   "n": 50
+  }
+ },
+ "V": 0.7151225867422708,
+ "S": 0.16264473937295632,
+ "O": 0.07894192559369523,
+ "case": "ㄴ",
+ "text": {
+  "per_scanner": {
+   "OXF1PRI": {
+    "cat1": {
+     "median": "0.75",
+     "min": "0.00",
+     "max": "0.89"
+    },
+    "cat2": {
+     "median": "0.07",
+     "min": "0.00",
+     "max": "0.24"
+    },
+    "cat3": {
+     "median": "0.06",
+     "min": "0.03",
+     "max": "0.21"
+    },
+    "cat4": {
+     "median": "0.07",
+     "min": "0.01",
+     "max": "0.90"
+    },
+    "S": {
+     "median": "0.16",
+     "min": "0.03",
+     "max": "0.40"
+    }
+   },
+   "OXF2PRI": {
+    "cat1": {
+     "median": "0.61",
+     "min": "0.01",
+     "max": "0.89"
+    },
+    "cat2": {
+     "median": "0.06",
+     "min": "0.00",
+     "max": "0.32"
+    },
+    "cat3": {
+     "median": "0.06",
+     "min": "0.01",
+     "max": "0.19"
+    },
+    "cat4": {
+     "median": "0.16",
+     "min": "0.02",
+     "max": "0.93"
+    },
+    "S": {
+     "median": "0.15",
+     "min": "0.02",
+     "max": "0.50"
+    }
+   },
+   "OXF3TRI": {
+    "cat1": {
+     "median": "0.77",
+     "min": "0.01",
+     "max": "0.89"
+    },
+    "cat2": {
+     "median": "0.05",
+     "min": "0.00",
+     "max": "0.18"
+    },
+    "cat3": {
+     "median": "0.10",
+     "min": "0.06",
+     "max": "0.70"
+    },
+    "cat4": {
+     "median": "0.05",
+     "min": "0.00",
+     "max": "0.29"
+    },
+    "S": {
+     "median": "0.20",
+     "min": "0.07",
+     "max": "0.70"
+    }
+   }
+  },
+  "pooled": {
+   "cat1": {
+    "median": "0.72",
+    "min": "0.00",
+    "max": "0.89"
+   },
+   "cat2": {
+    "median": "0.06",
+    "min": "0.00",
+    "max": "0.32"
+   },
+   "cat3": {
+    "median": "0.07",
+    "min": "0.01",
+    "max": "0.70"
+   },
+   "cat4": {
+    "median": "0.08",
+    "min": "0.00",
+    "max": "0.93"
+   },
+   "S": {
+    "median": "0.16",
+    "min": "0.02",
+    "max": "0.70"
+   }
+  },
+  "V": "0.72",
+  "S": "0.16",
+  "O": "0.08"
+ },
+ "projections": {
+  "file": "c1_projections.npz",
+  "sha256": "50f0563aa779cc6fd64be949f8037a372c7ef034d0efeaf988c8a5775ad33270",
+  "views": {
+   "axial": "projection along world axis z = template voxel axis 2",
+   "coronal": "projection along world axis y = template voxel axis 1",
+   "sagittal": "projection along world axis x = template voxel axis 0"
+  },
+  "keys": [
+   "brain__axial",
+   "brain__coronal",
+   "brain__sagittal",
+   "count__OXF1PRI__axial",
+   "count__OXF1PRI__coronal",
+   "count__OXF1PRI__sagittal",
+   "count__OXF2PRI__axial",
+   "count__OXF2PRI__coronal",
+   "count__OXF2PRI__sagittal",
+   "count__OXF3TRI__axial",
+   "count__OXF3TRI__coronal",
+   "count__OXF3TRI__sagittal",
+   "lv__axial",
+   "lv__coronal",
+   "lv__sagittal",
+   "template_affine",
+   "template_shape",
+   "warped__sub-03286_ses-OXF1PRI001",
+   "warped__sub-03286_ses-OXF2PRI001",
+   "warped__sub-03286_ses-OXF3TRI001",
+   "warped__sub-03997_ses-OXF1PRI001",
+   "warped__sub-03997_ses-OXF2PRI001",
+   "warped__sub-03997_ses-OXF3TRI001",
+   "warped__sub-10975_ses-OXF1PRI001",
+   "warped__sub-10975_ses-OXF2PRI001",
+   "warped__sub-10975_ses-OXF3TRI001",
+   "warped__sub-12813_ses-OXF1PRI001",
+   "warped__sub-12813_ses-OXF2PRI001",
+   "warped__sub-12813_ses-OXF3TRI001",
+   "warped__sub-13192_ses-OXF1PRI001",
+   "warped__sub-13192_ses-OXF2PRI001",
+   "warped__sub-13192_ses-OXF3TRI001",
+   "warped__sub-13305_ses-OXF1PRI001",
+   "warped__sub-13305_ses-OXF2PRI001",
+   "warped__sub-13305_ses-OXF3TRI001",
+   "warped__sub-14221_ses-OXF1PRI001",
+   "warped__sub-14221_ses-OXF2PRI001",
+   "warped__sub-14221_ses-OXF3TRI001",
+   "warped__sub-14229_ses-OXF1PRI001",
+   "warped__sub-14229_ses-OXF2PRI001",
+   "warped__sub-14229_ses-OXF3TRI001",
+   "warped__sub-14230_ses-OXF1PRI001",
+   "warped__sub-14230_ses-OXF2PRI001",
+   "warped__sub-14230_ses-OXF3TRI001",
+   "warped__sub-14482_ses-OXF1PRI001",
+   "warped__sub-14482_ses-OXF2PRI001",
+   "warped__sub-14482_ses-OXF3TRI001",
+   "warped__sub-15320_ses-OXF1PRI001",
+   "warped__sub-15320_ses-OXF2PRI001",
+   "warped__sub-16745_ses-OXF1PRI001",
+   "warped__sub-16745_ses-OXF2PRI001",
+   "warped__sub-16766_ses-OXF1PRI001",
+   "warped__sub-16766_ses-OXF2PRI001",
+   "warped__sub-16793_ses-OXF1PRI001",
+   "warped__sub-16793_ses-OXF2PRI001",
+   "warped__sub-16794_ses-OXF1PRI001",
+   "warped__sub-16794_ses-OXF2PRI001",
+   "warped__sub-16841_ses-OXF1PRI001",
+   "warped__sub-16841_ses-OXF2PRI001",
+   "warped__sub-16842_ses-OXF1PRI001",
+   "warped__sub-16842_ses-OXF2PRI001",
+   "warped__sub-16974_ses-OXF1PRI001",
+   "warped__sub-16974_ses-OXF2PRI001",
+   "warped__sub-16975_ses-OXF1PRI001",
+   "warped__sub-16975_ses-OXF2PRI001",
+   "warped__sub-16981_ses-OXF1PRI001",
+   "warped__sub-16981_ses-OXF2PRI001"
+  ],
+  "pixel": "count of the scanner's sessions with a warped mask voxel on the line (share = count / n_sessions)"
+ },
+ "reads": [
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/headers.json",
+   "sha256": "806180efe1369e0b39d62067e03a388fedc32001c13ebe545cac4bc276679380",
+   "bytes": 527346,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2889,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "단계 1 기록 — 회기 · 원 dwi 격자(모양 · 아핀)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/read_sessions.jsonl",
+   "sha256": "da860cd3d7a45380b262c033547f8dae4701c10a9525a3d884712573aa4a9090",
+   "bytes": 133293,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2890,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "단계 3 회기 기록 — 회기 · n_V · R · sens.same_grid"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/b2k_result_siemens.json",
+   "sha256": "86d848717d22d566e3871fc656a22cf11a69adcabae964a76c74715d0f7d2ea1",
+   "bytes": 8000,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2891,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "판정 뒤 분석 No. 9 스캐너 요약 — 회기 수 · R_med(회기 집합 대조)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "f3c47b4ebb7ecee67114b5cc4cabe1a8bfd652a0b5cbc949ea9eef314ab274d6",
+   "bytes": 869221,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2892,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "52fcea6435ba248d3a858b945c36131599fe0dcabb728ad43d0bc41ae9043a97",
+   "bytes": 754683,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2893,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "01f576a54191ac583a41d1cc16d41ede67b1ffda8077d2ded0a2974b046a2150",
+   "bytes": 809627,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2894,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "95e46027eaf49d3fb7d2099e99a35013478e99ab34f608b2591b21da270a3062",
+   "bytes": 826303,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2895,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "d7a0684f2afd97f1fc05f4d795e69abb197ef2d74b7ac68a37e4e4645422b3e6",
+   "bytes": 708567,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2896,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "7242205a02525d7da58447cfbb19c46e72a75efa9ef9508c43f3211a9c01f95a",
+   "bytes": 894268,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2897,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "dd92442c1ecc993c4f33c3dd764057f49bc67a916abeccf295098c0765c29ed4",
+   "bytes": 771660,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2898,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "17ce7df4fbb5ed6fe868902e6c9cf7f7bdb5306a1eca40e8133756bcc97a7724",
+   "bytes": 877839,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2899,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "4435b3930a29a5ca71c67e7a18680d28f22d1cc6e10edecd89213e40c286cd26",
+   "bytes": 636133,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2900,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "8765bf005ff922a466b0a1a5f02793bf5d1933d53ba3f834b47fc9b677610461",
+   "bytes": 686598,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2901,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-15320_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "998578082273e3d0feb2f82fe760fb859d0c000c87569f80dc97327ddab62553",
+   "bytes": 616308,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2902,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16745_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "180fa0a13e43a91f89cad3c30c6d0f16cdbb72b64ad16d78923081ebcdd6e640",
+   "bytes": 722720,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2903,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16766_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "f4e2c5a9d36f90bd19eb80fcf0ffe92d7a65bd01b547d8e86737be6440508a6e",
+   "bytes": 716167,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2904,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16793_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "c21eff94e13a8fd7a9ebfc1355122d46c50f06a41a21c3b817de4368f0a9a491",
+   "bytes": 607490,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2905,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16794_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "a1962f7fbd3b570d57efbd9e14c793c6f89acbd7476218106e52a0972f653276",
+   "bytes": 626785,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2906,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16841_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "d4efaa21eafb221e5c370d4e8129f860a9364c86da5588fd3693a83843db01cf",
+   "bytes": 797018,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2907,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16842_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "0835370b01d038723237a36ce645bbc3e5750cbbdbbceb96001b01ee83c37137",
+   "bytes": 729433,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2908,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16974_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "e0cf31c38e5597c70aa9da0cfcb8fdb2db1c8837238d46c19f9c2a17e755021d",
+   "bytes": 804861,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2909,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16975_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "3f624549e317b27eca8ad849a77cb185dd4f46a76b2c01d48e76fbd84369b913",
+   "bytes": 734691,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2910,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16981_ses-OXF1PRI001/dti_FA.nii.gz",
+   "sha256": "d4328e120149c506c9db122f97aa00105a39788c047145acc3a9426eea00cbf8",
+   "bytes": 826755,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2911,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "81891c7ddec240625cdb35bede12f05fb475345e99956dec0e0c28c7c7ea0301",
+   "bytes": 868219,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2912,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "1e1fc83d45150ccc95cb1c520a8f4c49f30092e182844b4a6bc26d24a5a2e6cc",
+   "bytes": 750869,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2913,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "9c4a11c73e83066939c21555b238ac8dd3df3be39b95102463f8da27e8027f5a",
+   "bytes": 805427,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2914,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "96031672c0b643b66cfb4c4de09441e91ccc777bd4a0f4e22ea4a6104f1b3f0c",
+   "bytes": 822249,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2915,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "d2f6ecd042f3ec9689cec50f9207407a3fb16f5e4f70e50b1ef60b121c394478",
+   "bytes": 709476,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2916,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "f6700ed480ced564c2afa6ec610182688b0a26eb9b1d87a64c20bdd8fcdae007",
+   "bytes": 896482,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2917,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "6fcead3d1899b4324f43b6a743a01dda71e134b8d907e8f3928d6cbe6cde3bae",
+   "bytes": 769446,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2918,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "f0a468a5e38e9c6f1afc94c8b77812074ee13491a7b61ee435419eee7730fb63",
+   "bytes": 885179,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2919,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "f53cf3b56e5982455a6f1334d4c7957f164a02caf17a267f49ae4c31874df2ba",
+   "bytes": 634893,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2920,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "150bc8b997157d5766e8af71ad47596ebec2fad470de12bf40b5f42829da42d4",
+   "bytes": 685153,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2921,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-15320_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "1cc5049de181aa0bb3daaff5caf9d23c2097c5f57fec04a9d3851d148fcc2e90",
+   "bytes": 617697,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2922,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16745_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "27f174baf410b79596d9bba6d7afe6f7689e8a8472d90d79c7080db9b296196a",
+   "bytes": 728667,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2923,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16766_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "c4026f9ddc5458096d4bfb4c191b7532e2f3320ee4adda0554a55eb407adeff0",
+   "bytes": 717766,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2924,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16793_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "0631c6fb7e463641c48a6b86f79419a39ecac0904dd7d400aa1fc1230fa947e0",
+   "bytes": 608027,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2925,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16794_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "02cba5b5eb9dcb1b6e7bd8a9c41e4bf8382cb0d0429004d6441b58208611f673",
+   "bytes": 628382,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2926,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16841_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "dc45e5b03de756804d0db6a80b8e0d6333fdf4852359fa851f91b87ea360d5e9",
+   "bytes": 797084,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2927,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16842_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "f417d825d2fe0753317b389fba250a3118a84504aed8f33bb5e143e2ef0d9423",
+   "bytes": 726992,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2928,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16974_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "18c218ba146414960130fcf3ca7bd5a51ad1e777500c2739fc796cd4c9c51c75",
+   "bytes": 802767,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2929,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16975_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "c64b4cde77aec7eb754f03a84fcba9da0c9dd7567bfb71872f71c0118ee372b2",
+   "bytes": 733152,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2930,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16981_ses-OXF2PRI001/dti_FA.nii.gz",
+   "sha256": "d066ec3e2ac4a40e4e7d646b529339bb105a3f61d566e710a4c64ce06c8986f3",
+   "bytes": 827414,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2931,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "448e87fd6688e1b39ed7273e09b855138629fa3d306150b669ecb393c5668423",
+   "bytes": 867478,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2932,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "67c3489f24c0dbc1a359369b4f2116462f055f2d9e3d197165af9fd91b54c5f2",
+   "bytes": 752259,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2933,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "5e1d4ab11ad1c09964aeef645ab5eef239d5a4b53442788588bed8f40188e682",
+   "bytes": 804925,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2934,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "f45164df164bd4fc9cddbb9c0506e2172952bcd99c9cd721ffb3ac82dbfc314a",
+   "bytes": 822101,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2935,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "b14c70dd0ec42440fc3cfcc35984e1a54e09294c572901cd0e95830b06ddf8b0",
+   "bytes": 703245,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2936,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "b00b3bde7aea963419ea82452f954e835d7a62dc4df8ad9313cd95d73aab0731",
+   "bytes": 889013,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2937,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "232407921950222645b4cbafccb01306d4df8284f258bacf7082c056883fa892",
+   "bytes": 762798,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2938,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "32dbf794ae0f1a18f0b524405d765a6299bd9dc0fadd1f45b956ce2b344bc0ed",
+   "bytes": 875902,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2939,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "3cf8676d2b3be35106ad63e4c69a945e0daab83b28906900ee53777fa73227df",
+   "bytes": 633681,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2940,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF3TRI001/dti_FA.nii.gz",
+   "sha256": "efecd25764781ea1b9c3c99f0f1abce7ce300927c95f1a1b5b67a48e75af779f",
+   "bytes": 684784,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2941,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "처리 격자 — dti_FA 헤더(모양 · 아핀; 값은 쓰지 않음 · fa2std_warp 의 입력)"
+  },
+  {
+   "kind": "FSL template / atlas (EXTERNAL_READ_LOG, after guard.require())",
+   "file": "../fsl/data/atlases/HarvardOxford-Subcortical.xml",
+   "sha256": "4aa369944d514843a07b5e6febac0c844e76fc1980ab203a0021b083de699650",
+   "bytes": 1968,
+   "log": "drafts/x14/EXTERNAL_READ_LOG.jsonl",
+   "line": 59,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "Harvard-Oxford 피질하 라벨 이름(XML) — 값 3 · 14 = 측뇌실 좌 · 우 대조"
+  },
+  {
+   "kind": "FSL template / atlas (EXTERNAL_READ_LOG, after guard.require())",
+   "file": "../fsl/data/standard/FMRIB58_FA_1mm.nii.gz",
+   "sha256": "1268fd84b658451c9a85799a636688bc1f6947fdf8de2d9cf7f62320de1b3837",
+   "bytes": 2641696,
+   "log": "drafts/x14/EXTERNAL_READ_LOG.jsonl",
+   "line": 60,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "FMRIB58_FA_1mm — applywarp 기준 영상(-r) · 템플릿 격자 대조"
+  },
+  {
+   "kind": "FSL template / atlas (EXTERNAL_READ_LOG, after guard.require())",
+   "file": "../fsl/data/standard/MNI152_T1_1mm_brain_mask.nii.gz",
+   "sha256": "274b41c4cf787ada4ce683524301ee052d1ef64b208569c05ce7e9c00717404e",
+   "bytes": 67270,
+   "log": "drafts/x14/EXTERNAL_READ_LOG.jsonl",
+   "line": 61,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "MNI152_T1_1mm_brain_mask — 범주 2 · 3(뇌 마스크 바깥 · 5 mm 띠) · 회색 실루엣"
+  },
+  {
+   "kind": "FSL template / atlas (EXTERNAL_READ_LOG, after guard.require())",
+   "file": "../fsl/data/atlases/HarvardOxford/HarvardOxford-sub-maxprob-thr25-1mm.nii.gz",
+   "sha256": "5772ccce4a0444c9b29c071390db086b7bb0e2074662d2ccecc8c9820fff0fa7",
+   "bytes": 166519,
+   "log": "drafts/x14/EXTERNAL_READ_LOG.jsonl",
+   "line": 62,
+   "time": "2026-11-07T03:25:33+09:00",
+   "what": "HarvardOxford-sub-maxprob-thr25-1mm — 범주 1(측뇌실 값 3 · 14) · 점선 윤곽"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03286_ses-OXF1PRI001.npz",
+   "sha256": "b7cef85a63e526471f93fc979611c39d4d706ef6be698696e733c502e5b79a97",
+   "bytes": 2452,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2942,
+   "time": "2026-11-07T03:25:34+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "0dfdfb7f29bed128171f9d78b68b48ba600df7b3ff8c24fa9d1151180cfc6a26",
+   "bytes": 777326,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2943,
+   "time": "2026-11-07T03:25:34+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03997_ses-OXF1PRI001.npz",
+   "sha256": "2ca6b999205b6361af34b8dff42aac0369910fde449a96d0d9fb9cab023e034b",
+   "bytes": 1139,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2944,
+   "time": "2026-11-07T03:25:36+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "1f13421f5bc176a26887615d82abbb657918a56801c47a611af066a510453864",
+   "bytes": 782163,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2945,
+   "time": "2026-11-07T03:25:36+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-10975_ses-OXF1PRI001.npz",
+   "sha256": "5e51620a0ab1e68744dcc7cf3bb7fb067561810b125f3537dc7675aa7a5c0691",
+   "bytes": 846,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2946,
+   "time": "2026-11-07T03:25:38+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "33d89b09867afa8f78ce7a237e3c4cd43594f02a76d35b78e1a66ae61e496f87",
+   "bytes": 777608,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2947,
+   "time": "2026-11-07T03:25:38+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-12813_ses-OXF1PRI001.npz",
+   "sha256": "f7f87cc9dd671d973662a0508eb426b2bb84ecbc17d24c2839f73f4df050edaf",
+   "bytes": 840,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2948,
+   "time": "2026-11-07T03:25:40+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "794c2fa321ad2d5c03faf08e540dc38a8a327727d6c5c13f34344c9f59d1ec49",
+   "bytes": 775339,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2949,
+   "time": "2026-11-07T03:25:40+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13192_ses-OXF1PRI001.npz",
+   "sha256": "204f55d3a33ba5d6752d9a154fbcc444d44e8fc4286039571db8a360e47da210",
+   "bytes": 1775,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2950,
+   "time": "2026-11-07T03:25:42+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "4c926a19fa47b62a770a655e60ab8cd1ed1e134c982309f7b899d4f08191e928",
+   "bytes": 778588,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2951,
+   "time": "2026-11-07T03:25:42+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13305_ses-OXF1PRI001.npz",
+   "sha256": "19fca7e67dfb94aea892ba8d82a089ee3514182b5b48bb54cc2983ad2bdc20ba",
+   "bytes": 1024,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2952,
+   "time": "2026-11-07T03:25:44+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "5a729542fa0c0a3b05942f0a3b734e0c291358c1f411a9345b65a07e2ac79666",
+   "bytes": 778322,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2953,
+   "time": "2026-11-07T03:25:44+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14221_ses-OXF1PRI001.npz",
+   "sha256": "5a87d86d2ba944ff07d8c779b6e0531fc1bc3a4652583f399c79b2af56fdf192",
+   "bytes": 1455,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2954,
+   "time": "2026-11-07T03:25:46+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "fe3a0b3f5f50498c84526df7e4b41575414d6512aea85255c5e81817943f5c3d",
+   "bytes": 776354,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2955,
+   "time": "2026-11-07T03:25:46+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14229_ses-OXF1PRI001.npz",
+   "sha256": "ce5a97dd1215f8228770e1936cc61397cc2e2e6f5a6bf17b50952b33639d4c9c",
+   "bytes": 2124,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2956,
+   "time": "2026-11-07T03:25:48+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "79ac5cf25ca802caff0706a3c5e7f4ec383f543305581c259ed02a37256b8335",
+   "bytes": 779656,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2957,
+   "time": "2026-11-07T03:25:48+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14230_ses-OXF1PRI001.npz",
+   "sha256": "f70eb88f94aa3ee75a7005d7fd3b4524724f6aed0c97a425d787dbf6e81ec332",
+   "bytes": 855,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2958,
+   "time": "2026-11-07T03:25:49+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "f3315b31c53812391c1b5519b8434cfbb3148b418572837433fc8e25326ca858",
+   "bytes": 780875,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2959,
+   "time": "2026-11-07T03:25:49+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14482_ses-OXF1PRI001.npz",
+   "sha256": "77f653cebf2a74e5e86dd94c7b761f813fb48bca8f0da51155908590cc71562b",
+   "bytes": 1074,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2960,
+   "time": "2026-11-07T03:25:51+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "875966422332b457545689b64937c3e33a00887db25a8b957e7301f70a4b22fd",
+   "bytes": 778855,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2961,
+   "time": "2026-11-07T03:25:51+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-15320_ses-OXF1PRI001.npz",
+   "sha256": "90dca1196580205f5a5060f10ae4bcf225908f093281db3ed0d49fc70cc37a54",
+   "bytes": 987,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2962,
+   "time": "2026-11-07T03:25:53+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-15320_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "065bb628d743b60d9f447f80b020fd4075d0b822263d22a55fbb94b6105e050e",
+   "bytes": 778397,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2963,
+   "time": "2026-11-07T03:25:53+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16745_ses-OXF1PRI001.npz",
+   "sha256": "7ea2cff3a4821bda0755798bedc2b27abe80a7be340d57253ad16dbf48ed3061",
+   "bytes": 908,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2964,
+   "time": "2026-11-07T03:25:55+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16745_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "b4f4e3a7027feb36bb68997a22981fd102252ff0552bb35f7d1c1a4e1c1ec12f",
+   "bytes": 777462,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2965,
+   "time": "2026-11-07T03:25:55+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16766_ses-OXF1PRI001.npz",
+   "sha256": "e793d7cf58b227812b27e5c372e6ea7f184c80c6c3ff0237183fd10c879d2ca4",
+   "bytes": 1172,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2966,
+   "time": "2026-11-07T03:25:57+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16766_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "1eb08477e7d815abe0a78547d022403ca07b2a25eafd914f879f67602b115eb7",
+   "bytes": 779483,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2967,
+   "time": "2026-11-07T03:25:57+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16793_ses-OXF1PRI001.npz",
+   "sha256": "9def5170061b485fc5de87d9ece1fec96b254b31a7e28324049ab75a6e169a75",
+   "bytes": 760,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2968,
+   "time": "2026-11-07T03:25:59+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16793_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "85c38afa951229995f66f1abf6a80a1b4196005a82c1ac29fd421e7d7b6f3d2b",
+   "bytes": 779644,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2969,
+   "time": "2026-11-07T03:25:59+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16794_ses-OXF1PRI001.npz",
+   "sha256": "c8caf56823c2336823272997bbbe26b5429884da58d7d30f88c0eb0ac44356f2",
+   "bytes": 960,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2970,
+   "time": "2026-11-07T03:26:01+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16794_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "0285781ac13144f95aa0d3dc09aae9f26448fbf9a2b4aaf557abe6c3d5c214bb",
+   "bytes": 772220,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2971,
+   "time": "2026-11-07T03:26:01+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16841_ses-OXF1PRI001.npz",
+   "sha256": "5963b4c596e6f8bd7103b2adf1c6b970574bcf7a31cc1d5f6d9152ec9e6e15bf",
+   "bytes": 915,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2972,
+   "time": "2026-11-07T03:26:03+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16841_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "e188d176ab65817d1fa67bd5dcbde6eea1280f56dddc2b4eecf20be77c13f802",
+   "bytes": 772465,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2973,
+   "time": "2026-11-07T03:26:03+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16842_ses-OXF1PRI001.npz",
+   "sha256": "ea77d76a70594c5df413c28d614bbf8207abc78c7b86f1feca745704d6c3a6af",
+   "bytes": 1001,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2974,
+   "time": "2026-11-07T03:26:05+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16842_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "62a124c5f3f62445fa648cff353cb4e0f60de4ee101ad9fec9a03890eda55ce0",
+   "bytes": 776238,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2975,
+   "time": "2026-11-07T03:26:05+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16974_ses-OXF1PRI001.npz",
+   "sha256": "8b59263abd6257ce82cf697fa697a13904e9c3f1c6350aaa854d7b9f7000f440",
+   "bytes": 1055,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2976,
+   "time": "2026-11-07T03:26:06+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16974_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "8bb9624ede32bfd9dc3cea5df861a517c47958147ae92ec5ac1327dd8c869b91",
+   "bytes": 776272,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2977,
+   "time": "2026-11-07T03:26:06+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16975_ses-OXF1PRI001.npz",
+   "sha256": "a86079680a452cd60c3ee4482113795588206e40869948606357539be3926933",
+   "bytes": 1241,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2978,
+   "time": "2026-11-07T03:26:08+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16975_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "fb15979ec52b37358557bcbcea5f02733d2279f4d6d5f7fcb37a748323f1875a",
+   "bytes": 779908,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2979,
+   "time": "2026-11-07T03:26:08+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16981_ses-OXF1PRI001.npz",
+   "sha256": "323879ffc3beac60e21c780ce80923baca92857733bcbe6a9275c88c45c9f2cd",
+   "bytes": 1014,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2980,
+   "time": "2026-11-07T03:26:10+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16981_ses-OXF1PRI001/fa2std_warp.nii.gz",
+   "sha256": "3c1ab1394f8af31a94a528f9b127a22e9c9775d5891640d3b60a910a1813c67c",
+   "bytes": 773507,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2981,
+   "time": "2026-11-07T03:26:10+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03286_ses-OXF2PRI001.npz",
+   "sha256": "5bac43874c427d2f1e5d5932b2c10cd9cbee98e7ba02a58a5e5649a45dd67187",
+   "bytes": 2338,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2982,
+   "time": "2026-11-07T03:26:12+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "7631773e92bdfd8504316121dc7e4c6e2bd0eb90482d625e864f1b96c455e60c",
+   "bytes": 777431,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2983,
+   "time": "2026-11-07T03:26:12+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03997_ses-OXF2PRI001.npz",
+   "sha256": "c109ee8ad5b1a7faa849870e9e179d4d5ca3ab0763680c1779122b45292d91c7",
+   "bytes": 1131,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2984,
+   "time": "2026-11-07T03:26:14+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "d8d7cca81908d4119a2e442fd70b78b707e17c853f413bda300b7e5841c2e67c",
+   "bytes": 782137,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2985,
+   "time": "2026-11-07T03:26:14+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-10975_ses-OXF2PRI001.npz",
+   "sha256": "c88dc2571b6804d7df21dea56b4ca77682fdcea9dfaa0ed4470ae3d1f89265b4",
+   "bytes": 917,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2986,
+   "time": "2026-11-07T03:26:16+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "3e501e03c31cc5f45e26176165e1e8d720ab728cc11c1a06ac9220f841142d75",
+   "bytes": 778101,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2987,
+   "time": "2026-11-07T03:26:16+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-12813_ses-OXF2PRI001.npz",
+   "sha256": "53eaf4d7b5c4d4ed29e2c38f2dc3643a4921ad5cbc3f4a7b2673ca8a1999c0ed",
+   "bytes": 883,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2988,
+   "time": "2026-11-07T03:26:18+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "9f37b84347e1820fc65d44435e6426201118eee7200efcc2661b9e04b7816427",
+   "bytes": 776426,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2989,
+   "time": "2026-11-07T03:26:18+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13192_ses-OXF2PRI001.npz",
+   "sha256": "a7c968d3f9b2e236184b27325ec0d90dc99c571e6666fd4a2d619060f6f414b6",
+   "bytes": 1841,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2990,
+   "time": "2026-11-07T03:26:20+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "50630681683d97cd92a6242b0215df509a23045ab168c4a5387a661fc1ae0e54",
+   "bytes": 779432,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2991,
+   "time": "2026-11-07T03:26:20+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13305_ses-OXF2PRI001.npz",
+   "sha256": "0dd9c2ac6883e707feb01e7296081263183173a5c2df12117b4c98a3bf2b3335",
+   "bytes": 1171,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2992,
+   "time": "2026-11-07T03:26:21+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "3a34f68be974f87f5ea81a9e9bba6357a2ba55f42736bd1eec7795a85a717775",
+   "bytes": 778285,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2993,
+   "time": "2026-11-07T03:26:21+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14221_ses-OXF2PRI001.npz",
+   "sha256": "f207e5f765928dd445c1d34a7d7087dc16eb2a4a4f9e381169c090b6bec7fd84",
+   "bytes": 1395,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2994,
+   "time": "2026-11-07T03:26:23+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "1f60f2b2b2fc9342df4bffd04cad51f7642c1590b7ea0e75fc470ceb6871c536",
+   "bytes": 776812,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2995,
+   "time": "2026-11-07T03:26:23+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14229_ses-OXF2PRI001.npz",
+   "sha256": "8795bde9e4f2221ebd4b135cd5736755fb2e81cd4077128612c06d397bb622c9",
+   "bytes": 2021,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2996,
+   "time": "2026-11-07T03:26:25+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "d6a8fbb219f9e8d81b8d9c466651cbe4716c68aca8d5257313094c29ad22b1c2",
+   "bytes": 779653,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2997,
+   "time": "2026-11-07T03:26:25+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14230_ses-OXF2PRI001.npz",
+   "sha256": "fe68d1d1bb6e7b5c9e9f78b0eaee16ad08f39451a46291768371e416bf933723",
+   "bytes": 837,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2998,
+   "time": "2026-11-07T03:26:27+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "00e3626e21fc8dff3882705d09ef93666c0d98ca73fcd4a6c0a943594d67554d",
+   "bytes": 780485,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 2999,
+   "time": "2026-11-07T03:26:27+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14482_ses-OXF2PRI001.npz",
+   "sha256": "f7c8d7bb215cbb90ae7e56fe7234c41359fb72d914273850dc56625db4a8a9bc",
+   "bytes": 1053,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3000,
+   "time": "2026-11-07T03:26:29+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "b2d6c3c65e12a6645faa8d194a777c7db0b202ecd1def6fd3cd802a38c039b2e",
+   "bytes": 781582,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3001,
+   "time": "2026-11-07T03:26:29+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-15320_ses-OXF2PRI001.npz",
+   "sha256": "a9e50274b4864c58ae80959fd73b0028e0797d956d4ee3a0743bf153762c8ebf",
+   "bytes": 1002,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3002,
+   "time": "2026-11-07T03:26:31+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-15320_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "d6e7e5da064f07eb998c31ba1ddce10476369a1172d4d5d5cbf672d9a8543d34",
+   "bytes": 778517,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3003,
+   "time": "2026-11-07T03:26:31+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16745_ses-OXF2PRI001.npz",
+   "sha256": "2b7f6a72b3ab1bec547cdc2d6030f105827b802f041b2b53ac9f78ca95533f83",
+   "bytes": 986,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3004,
+   "time": "2026-11-07T03:26:33+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16745_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "52f67807d39de7e77997e52bb567ea15e5b39a6ae308be7a965702ee9d0b33fd",
+   "bytes": 778773,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3005,
+   "time": "2026-11-07T03:26:33+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16766_ses-OXF2PRI001.npz",
+   "sha256": "879cdc7bdc02045c5554c52270c9af4ee61044cb3b76a0e8288adca36e603356",
+   "bytes": 1166,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3006,
+   "time": "2026-11-07T03:26:35+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16766_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "7a08c8338fb89bdc541045e9e84650f7de7a09a3d1cc20b70ad03dcabbce4d53",
+   "bytes": 779376,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3007,
+   "time": "2026-11-07T03:26:35+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16793_ses-OXF2PRI001.npz",
+   "sha256": "c6afb4ebf69a4e7c4f58f934183142772ecadbbeb4fc3f35fa38c120aa204095",
+   "bytes": 785,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3008,
+   "time": "2026-11-07T03:26:36+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16793_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "f65ab957405cd052cef4fd26ae5c02f23f0d21210c6c6e8db62d085c4552dc69",
+   "bytes": 779805,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3009,
+   "time": "2026-11-07T03:26:36+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16794_ses-OXF2PRI001.npz",
+   "sha256": "90fa1744aeb5510290c0654b5c4570c6a973e3875db76713beaf1ee1d511ff8e",
+   "bytes": 1030,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3010,
+   "time": "2026-11-07T03:26:38+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16794_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "fc8eba678ad113eb70023690149cf7e4de35435eb828f0c563c4b0fe9088e0d7",
+   "bytes": 774653,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3011,
+   "time": "2026-11-07T03:26:38+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16841_ses-OXF2PRI001.npz",
+   "sha256": "195c6ce16b9196b11a99b3869682b69af8a424a3b4ae992815f596b63cd38069",
+   "bytes": 881,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3012,
+   "time": "2026-11-07T03:26:40+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16841_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "e1cfb2ec30da09c73b0c6c5cf0059db8edccf0f3a22a42048ba6957ea1ff3d94",
+   "bytes": 770477,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3013,
+   "time": "2026-11-07T03:26:40+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16842_ses-OXF2PRI001.npz",
+   "sha256": "18077bbf06f668ce382041deea0bd9f1de26ac2a640fcf91186b3d0d20d042ee",
+   "bytes": 1059,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3014,
+   "time": "2026-11-07T03:26:42+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16842_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "c8a925b5d655c2a0a92dd47b922ab151799806d02e1f5b84570f392567ee049f",
+   "bytes": 776537,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3015,
+   "time": "2026-11-07T03:26:42+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16974_ses-OXF2PRI001.npz",
+   "sha256": "5b29685e1a256ca8c6c39687873d8f93fcd42bba833f207c082fc4822f68125b",
+   "bytes": 1145,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3016,
+   "time": "2026-11-07T03:26:44+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16974_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "3d94ba8d77294a9ab5e126455142bbf26d6967f201d02f7d71b58183a9bef220",
+   "bytes": 777856,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3017,
+   "time": "2026-11-07T03:26:44+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16975_ses-OXF2PRI001.npz",
+   "sha256": "13e3971f14a592eca54a6d508c549f90197f6b633562967f40a2f34fee878b08",
+   "bytes": 1118,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3018,
+   "time": "2026-11-07T03:26:46+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16975_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "b4386dced10107f8a115b7bae6322cc72f00070bd0a3b34cd1b62a30951ae234",
+   "bytes": 780003,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3019,
+   "time": "2026-11-07T03:26:46+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-16981_ses-OXF2PRI001.npz",
+   "sha256": "f0df7a71dce2e597d7659de8ae41f7042056593374f5be2aeee08158f1878612",
+   "bytes": 1032,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3020,
+   "time": "2026-11-07T03:26:48+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-16981_ses-OXF2PRI001/fa2std_warp.nii.gz",
+   "sha256": "f96547c5a9b8e5c794e8aecbf812b64d815b5317dd0584c78312548861fddbf1",
+   "bytes": 773775,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3021,
+   "time": "2026-11-07T03:26:48+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03286_ses-OXF3TRI001.npz",
+   "sha256": "f53dfc42148d9547b097aed04addfd4e6c9586716cc0b533caaf7add381f8b6a",
+   "bytes": 2634,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3022,
+   "time": "2026-11-07T03:26:50+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03286_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "1143587da22dbe24d4c3915505b19b1cd7fc1e4e0306813c15c050d38d63db17",
+   "bytes": 777471,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3023,
+   "time": "2026-11-07T03:26:50+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-03997_ses-OXF3TRI001.npz",
+   "sha256": "fb32b00b25debaebc64c91d5645bedd91896851c171dc69585f2093ca39616a0",
+   "bytes": 1308,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3024,
+   "time": "2026-11-07T03:26:52+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-03997_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "d608cf8bc74ec0b5032b4b2e64d0ea78ad347c3b211e7a4368aae87952ef2a5c",
+   "bytes": 780272,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3025,
+   "time": "2026-11-07T03:26:52+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-10975_ses-OXF3TRI001.npz",
+   "sha256": "1ea20b1cc957b20a55c3493583d24498a1cc335cef36044840f4f086277a5238",
+   "bytes": 1019,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3026,
+   "time": "2026-11-07T03:26:53+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-10975_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "33d3630551f774cd8b99ae4488a581bd809e61da9430cb377552601ea7e2d039",
+   "bytes": 777295,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3027,
+   "time": "2026-11-07T03:26:53+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-12813_ses-OXF3TRI001.npz",
+   "sha256": "7b64f581aa73a26abfe5a93cc4540a305e5d51386c606dbb3943ea8af03a0507",
+   "bytes": 1093,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3028,
+   "time": "2026-11-07T03:26:55+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-12813_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "3e84b8b11117ba4223b7e3b3c95d4cc2d44548e556585cc0d40201bbab6c7db2",
+   "bytes": 779036,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3029,
+   "time": "2026-11-07T03:26:55+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13192_ses-OXF3TRI001.npz",
+   "sha256": "a6eb57a53121c4f83be0e3d86aabaf50bddab53fa0f0d192e0f8c3401b1dd9f9",
+   "bytes": 2098,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3030,
+   "time": "2026-11-07T03:26:57+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13192_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "d60a56f4f6a18162f8b1f8422871ab3779bcf12c1c2b88c9d37c7c2909ceb812",
+   "bytes": 777636,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3031,
+   "time": "2026-11-07T03:26:57+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-13305_ses-OXF3TRI001.npz",
+   "sha256": "4a58a001edd5bf5dbf2387946bac25b7b9154636af9edddf931dfe187d54c03e",
+   "bytes": 1091,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3032,
+   "time": "2026-11-07T03:26:59+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-13305_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "649f540b0ba1cda46acabf5b36929babab6f920bfe211ccff48c760f789ac37f",
+   "bytes": 779689,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3033,
+   "time": "2026-11-07T03:26:59+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14221_ses-OXF3TRI001.npz",
+   "sha256": "b7517c357e84ffbfb55aabc323b0f08a4cb6a4c7fb6e818c8a0d4cef19f35713",
+   "bytes": 1685,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3034,
+   "time": "2026-11-07T03:27:01+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14221_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "c5e54bf5b123a8b1aaa614e38963eb5175dbfe04bb5f79cc0d92cfde352ae1ea",
+   "bytes": 777770,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3035,
+   "time": "2026-11-07T03:27:01+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14229_ses-OXF3TRI001.npz",
+   "sha256": "406a80d62f38de8d5d75205a343877310612f7f9e799e4a6e0f0f35b7cdab4f0",
+   "bytes": 2642,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3036,
+   "time": "2026-11-07T03:27:03+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14229_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "1aebbb241a250a1f9672893c4b9195182fe11351dfde2b6da1282af874649004",
+   "bytes": 780211,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3037,
+   "time": "2026-11-07T03:27:03+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14230_ses-OXF3TRI001.npz",
+   "sha256": "ee040f7435b06a3b17066984b407a97251a33566d434436a5768f6d69d2d11ea",
+   "bytes": 1051,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3038,
+   "time": "2026-11-07T03:27:05+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14230_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "59a6c80f3ce50897edfb03a8479a547d4d3bce6bae36c145d714aec16477dc2f",
+   "bytes": 779915,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3039,
+   "time": "2026-11-07T03:27:05+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  },
+  {
+   "kind": "derived file (reread_log.py)",
+   "file": "data/remeasure/explore/b2000/masks/sub-14482_ses-OXF3TRI001.npz",
+   "sha256": "b62a8be6c8d12672ed8afa51b01cf3412da5a2e02ebdcc511a2af815131c3cd5",
+   "bytes": 1464,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3040,
+   "time": "2026-11-07T03:27:07+09:00",
+   "what": "저장 소음 바닥 마스크 V(원 dwi 격자 복셀 번호) — 템플릿으로 옮겨 범주 셈 · 투영"
+  },
+  {
+   "kind": "derived NIfTI (reread_log.py entry form; the helper refuses .nii.gz)",
+   "file": "data/remeasure/onharmony/sub-14482_ses-OXF3TRI001/fa2std_warp.nii.gz",
+   "sha256": "4a5b5b4633748f47e8bf4678163e013ccb337b8e931bc1ac6a1ebfa43e0961c1",
+   "bytes": 778788,
+   "log": "drafts/x14/REREAD_LOG.jsonl",
+   "line": 3041,
+   "time": "2026-11-07T03:27:07+09:00",
+   "what": "회기 변환 fa2std_warp(기존 · ROI 추출과 같은 변환) — applywarp -w (로그한 바이트 그대로 scratch 사본으로 넘김)"
+  }
+ ]
+}

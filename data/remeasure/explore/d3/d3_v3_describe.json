@@ -1,0 +1,73 @@
+{
+ "note": "결과를 본 뒤 · 계산 전에 정하지 않은 기술 · 넘어가는 조건과 읽기를 바꾸지 않음",
+ "main": "dpar1.7|t2iso1000",
+ "n_data": 432,
+ "noise_free_VN": {
+  "1.6": {
+   "rhat": 1.5898349771153022,
+   "rss_min": 0.3740569964001714
+  },
+  "2.64": {
+   "rhat": 2.6322836906247664,
+   "rss_min": 0.09778706355719646
+  }
+ },
+ "cells": {
+  "r1.6|snr×1.0": {
+   "coarse_above_min_gt_3_84": "0/120",
+   "coarse_above_min_max": 0.2499636294796801,
+   "n": 20,
+   "main_at_upper": 11,
+   "main_at_lower": 9,
+   "main_interior": 0,
+   "main_interior_median": null,
+   "all_variants_at_bound": "119/120",
+   "hull_reaches_lower": 11,
+   "hull_reaches_upper": 20,
+   "main_rss_min_median": 9488.985895314854,
+   "main_rss_per_datum_median": 21.965245128043644
+  },
+  "r1.6|snr×2.0": {
+   "coarse_above_min_gt_3_84": "38/120",
+   "coarse_above_min_max": 12.48096931813086,
+   "n": 20,
+   "main_at_upper": 0,
+   "main_at_lower": 0,
+   "main_interior": 20,
+   "main_interior_median": 4.47867820767264,
+   "all_variants_at_bound": "0/120",
+   "hull_reaches_lower": 0,
+   "hull_reaches_upper": 0,
+   "main_rss_min_median": 620.6491407188712,
+   "main_rss_per_datum_median": 1.4366878257381277
+  },
+  "r2.64|snr×1.0": {
+   "coarse_above_min_gt_3_84": "4/120",
+   "coarse_above_min_max": 71.33717143202375,
+   "n": 20,
+   "main_at_upper": 19,
+   "main_at_lower": 0,
+   "main_interior": 1,
+   "main_interior_median": 5.9930193855906975,
+   "all_variants_at_bound": "114/120",
+   "hull_reaches_lower": 19,
+   "hull_reaches_upper": 20,
+   "main_rss_min_median": 10292.104136153592,
+   "main_rss_per_datum_median": 23.824315129985166
+  },
+  "r2.64|snr×2.0": {
+   "coarse_above_min_gt_3_84": "1/120",
+   "coarse_above_min_max": 6.259914289686208,
+   "n": 20,
+   "main_at_upper": 19,
+   "main_at_lower": 0,
+   "main_interior": 1,
+   "main_interior_median": 5.828209617286688,
+   "all_variants_at_bound": "119/120",
+   "hull_reaches_lower": 0,
+   "hull_reaches_upper": 20,
+   "main_rss_min_median": 1145.2355739811496,
+   "main_rss_per_datum_median": 2.651008273104513
+  }
+ }
+}

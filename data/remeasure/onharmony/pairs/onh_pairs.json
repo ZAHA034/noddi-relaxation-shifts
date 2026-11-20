@@ -1,0 +1,5315 @@
+{
+ "rule": "실측 고정 문서 §3 · §2-1 · §2-2 · §4(⑩ 판) · 코드 judge_onh.py",
+ "inputs": {
+  "old_s_ref_sha256": "39e987aba407a91e6c7b064f052e80e4c610f5c7bda021b51ed4fb33da977849"
+ },
+ "sessions": {
+  "dropped": {
+   "sub-16793_ses-OXF4GEP001": "다시도 실패"
+  },
+  "main_excluded": [
+   "sub-16794_ses-NOT4GEP001"
+  ],
+  "s_ref_F2_used": [
+   "sub-13192_ses-OXF1PRI001",
+   "sub-13192_ses-OXF1PRI002",
+   "sub-13192_ses-OXF1PRI003",
+   "sub-13192_ses-OXF1PRI004",
+   "sub-13192_ses-OXF1PRI005",
+   "sub-13192_ses-OXF1PRI006",
+   "sub-16974_ses-OXF1PRI001",
+   "sub-16974_ses-OXF1PRI002",
+   "sub-16974_ses-OXF1PRI003",
+   "sub-16974_ses-OXF1PRI004",
+   "sub-16974_ses-OXF1PRI005",
+   "sub-16974_ses-OXF1PRI006"
+  ]
+ },
+ "s_ref_F2": {
+  "by_unit": {
+   "Middle cerebellar peduncle": 0.0028505826390950143,
+   "Pontine crossing tract (a part of MCP)": 0.011481640731270266,
+   "Genu of corpus callosum": 0.00109353273005325,
+   "Body of corpus callosum": 0.0010908846195935207,
+   "Splenium of corpus callosum": 0.0005543555853931408,
+   "Fornix (column and body of fornix)": 0.029073718655491607,
+   "Corticospinal tract": 0.00586761265524949,
+   "Medial lemniscus": 0.004368840613340241,
+   "Inferior cerebellar peduncle": 0.002903882603684571,
+   "Superior cerebellar peduncle": 0.0034008736600129176,
+   "Cerebral peduncle": 0.0019792682259185354,
+   "Anterior limb of internal capsule": 0.001976716426218782,
+   "Posterior limb of internal capsule": 0.0011185733846626965,
+   "Retrolenticular part of internal capsule": 0.001882789978211958,
+   "Anterior corona radiata": 0.0025388072022373815,
+   "Superior corona radiata": 0.001620255971319563,
+   "Posterior corona radiata": 0.0015410305150190288,
+   "Posterior thalamic radiation (include optic radiation)": 0.0017261591412453701,
+   "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus)": 0.002283961019810022,
+   "External capsule": 0.0013816073887214582,
+   "Cingulum (cingulate gyrus)": 0.0022941743106451346,
+   "Cingulum (hippocampus)": 0.0049672833600136425,
+   "Fornix (cres) / Stria terminalis (can not be resolved with current resolution)": 0.002713266297070037,
+   "Superior longitudinal fasciculus": 0.0023737406175822675,
+   "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule)": 0.006258345558292386,
+   "Uncinate fasciculus": 0.0043930818466337155,
+   "Tapetum": 0.00704619012463661
+  },
+  "df": 10,
+  "multipliers": [
+   0.6987170441634245,
+   1.7549335474133558
+  ]
+ },
+ "clipped": {
+  "by_session": {},
+  "by_pair": {}
+ },
+ "main": {
+  "pairs": [
+   {
+    "pair": "NOT1ACH~NOT2ING",
+    "fiso": 0.32786744044385063,
+    "odi": 0.012222226360512636,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT1ACH~NOT4GEP",
+    "fiso": 0.1333783261529644,
+    "odi": -0.004547635566607283,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT1ACH~OXF1PRI",
+    "fiso": 0.0026668875506106193,
+    "odi": -0.006910528993503494,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT1ACH~OXF2PRI",
+    "fiso": 0.06121877583902635,
+    "odi": -0.0054193461043349905,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT1ACH~OXF3TRI",
+    "fiso": 0.013719517285990523,
+    "odi": -0.004703809009483875,
+    "n_subjects_fiso": 10,
+    "n_subjects_odi": 10,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT1ACH~OXF4GEP",
+    "fiso": 0.2736990829618815,
+    "odi": -0.0014660490926098474,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT2ING~NOT4GEP",
+    "fiso": -0.1557188615975249,
+    "odi": -0.01128759351205702,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT2ING~OXF1PRI",
+    "fiso": -0.3544590484135849,
+    "odi": -0.01909818581717613,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT2ING~OXF2PRI",
+    "fiso": -0.295689501208911,
+    "odi": -0.016531826797761717,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT2ING~OXF3TRI",
+    "fiso": -0.4785862552577498,
+    "odi": -0.021480459994015016,
+    "n_subjects_fiso": 10,
+    "n_subjects_odi": 10,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT2ING~OXF4GEP",
+    "fiso": -0.056325835236733734,
+    "odi": -0.008579321209136306,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT4GEP~OXF1PRI",
+    "fiso": -0.11793907776832713,
+    "odi": -0.002342832938209846,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT4GEP~OXF2PRI",
+    "fiso": -0.045605463456286355,
+    "odi": -0.0045569179212479605,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "NOT4GEP~OXF3TRI",
+    "fiso": null,
+    "odi": null,
+    "n_subjects_fiso": 0,
+    "n_subjects_odi": 0,
+    "judgeable_fiso": false,
+    "judgeable_odi": false
+   },
+   {
+    "pair": "NOT4GEP~OXF4GEP",
+    "fiso": 0.05011307607897586,
+    "odi": 0.0027899591054318107,
+    "n_subjects_fiso": 8,
+    "n_subjects_odi": 8,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF1PRI~OXF2PRI",
+    "fiso": 0.0360215994841484,
+    "odi": 0.0016875853499690036,
+    "n_subjects_fiso": 20,
+    "n_subjects_odi": 20,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF1PRI~OXF3TRI",
+    "fiso": -0.01815748983125176,
+    "odi": 0.0016589752954225406,
+    "n_subjects_fiso": 10,
+    "n_subjects_odi": 10,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF1PRI~OXF4GEP",
+    "fiso": 0.2188140262756315,
+    "odi": 0.008412668922225149,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF2PRI~OXF3TRI",
+    "fiso": -0.06297100929869126,
+    "odi": 0.0007043800196198866,
+    "n_subjects_fiso": 10,
+    "n_subjects_odi": 10,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF2PRI~OXF4GEP",
+    "fiso": 0.07066337254850064,
+    "odi": 0.006670850943436987,
+    "n_subjects_fiso": 9,
+    "n_subjects_odi": 9,
+    "judgeable_fiso": true,
+    "judgeable_odi": true
+   },
+   {
+    "pair": "OXF3TRI~OXF4GEP",
+    "fiso": null,
+    "odi": null,
+    "n_subjects_fiso": 0,
+    "n_subjects_odi": 0,
+    "judgeable_fiso": false,
+    "judgeable_odi": false
+   }
+  ],
+  "moved_to_not_judgeable": {
+   "fiso": [],
+   "odi": []
+  },
+  "fiso_sign": {
+   "S": -4.0,
+   "p": 0.8571428571428571,
+   "n_perm": 5040,
+   "n_pairs": 8,
+   "agree": 2,
+   "agree_rate": 0.25
+  },
+  "fiso_tau_L1": {
+   "tau": 0.22237479499833035,
+   "p": 0.2523809523809524,
+   "n_perm": 5040,
+   "n_pairs": 8
+  },
+  "fiso_tau_L4": {
+   "tau": 0.22237479499833035,
+   "p": 0.271031746031746,
+   "n_perm": 5040,
+   "n_pairs": 8
+  },
+  "fiso_null_size": "모의 4,000 · 시드 20261026: S 0.026 – 0.043 · τ 0.044 – 0.053 / 200,000: S 0.026 – 0.042 · τ 0.046 – 0.052(고정 문서 §3)",
+  "odi_a": {
+   "tau": 0.17806114244894067,
+   "ci90": [
+    -0.13557028799203258,
+    0.5223126845168926
+   ],
+   "p_tau0_two_sided": 0.4111111111111111,
+   "n_perm": 5040,
+   "n_pairs": 19,
+   "delta_tau": 0.57,
+   "descriptive_only": true,
+   "equivalent": null
+  },
+  "odi_a_delta_tau_redone": null,
+  "odi_b": {
+   "n_pairs": 19,
+   "n_retest_level": 2,
+   "broken": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "dTE": -25.6,
+     "dTR_ms": 6047.9
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "dTE": 2.6,
+     "dTR_ms": 5315.0
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "dTE": -21.4,
+     "dTR_ms": 6615.0
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "dTE": -21.4,
+     "dTR_ms": 6615.0
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "dTE": -25.8,
+     "dTR_ms": 6615.0
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "dTE": 0.95,
+     "dTR_ms": 2215.0
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "dTE": -30.0,
+     "dTR_ms": 695.5
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "dTE": 4.2,
+     "dTR_ms": 567.1
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "dTE": 4.2,
+     "dTR_ms": 567.1
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "dTE": -2.0,
+     "dTR_ms": 529.7
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "dTE": -28.35,
+     "dTR_ms": 3795.5
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "dTE": -24.0,
+     "dTR_ms": 1300.0
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "dTE": -24.0,
+     "dTR_ms": 1300.0
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "dTE": 1.65,
+     "dTR_ms": 3100.0
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "dTE": 4.4,
+     "dTR_ms": 0.0
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "dTE": -22.35,
+     "dTR_ms": 4400.0
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "dTE": -22.35,
+     "dTR_ms": 4400.0
+    }
+   ],
+   "per_pair": {
+    "NOT1ACH~NOT2ING": {
+     "n_units": 27,
+     "n_retest": 7,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT1ACH~NOT4GEP": {
+     "n_units": 27,
+     "n_retest": 19,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT1ACH~OXF1PRI": {
+     "n_units": 27,
+     "n_retest": 10,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT1ACH~OXF2PRI": {
+     "n_units": 27,
+     "n_retest": 14,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT1ACH~OXF3TRI": {
+     "n_units": 27,
+     "n_retest": 13,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT1ACH~OXF4GEP": {
+     "n_units": 27,
+     "n_retest": 23,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT2ING~NOT4GEP": {
+     "n_units": 27,
+     "n_retest": 10,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT2ING~OXF1PRI": {
+     "n_units": 27,
+     "n_retest": 3,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT2ING~OXF2PRI": {
+     "n_units": 27,
+     "n_retest": 2,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT2ING~OXF3TRI": {
+     "n_units": 27,
+     "n_retest": 3,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT2ING~OXF4GEP": {
+     "n_units": 27,
+     "n_retest": 12,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT4GEP~OXF1PRI": {
+     "n_units": 27,
+     "n_retest": 14,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT4GEP~OXF2PRI": {
+     "n_units": 27,
+     "n_retest": 16,
+     "need": 25,
+     "retest_level": false
+    },
+    "NOT4GEP~OXF4GEP": {
+     "n_units": 27,
+     "n_retest": 20,
+     "need": 25,
+     "retest_level": false
+    },
+    "OXF1PRI~OXF2PRI": {
+     "n_units": 27,
+     "n_retest": 27,
+     "need": 25,
+     "retest_level": true
+    },
+    "OXF1PRI~OXF3TRI": {
+     "n_units": 27,
+     "n_retest": 23,
+     "need": 25,
+     "retest_level": false
+    },
+    "OXF1PRI~OXF4GEP": {
+     "n_units": 27,
+     "n_retest": 11,
+     "need": 25,
+     "retest_level": false
+    },
+    "OXF2PRI~OXF3TRI": {
+     "n_units": 27,
+     "n_retest": 27,
+     "need": 25,
+     "retest_level": true
+    },
+    "OXF2PRI~OXF4GEP": {
+     "n_units": 27,
+     "n_retest": 16,
+     "need": 25,
+     "retest_level": false
+    }
+   }
+  },
+  "odi_b_sensitivity": {
+   "옛_s_ref_5262f43": {
+    "n_pairs": 19,
+    "n_retest_level": 0,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF2PRI",
+      "dTE": 0.0,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 5,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 15,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 6,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 11,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 18,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 4,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 0,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 1,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 1,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 5,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 8,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 24,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 20,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 7,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 22,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   },
+   "s_ref_F2_x1.7549": {
+    "n_pairs": 19,
+    "n_retest_level": 4,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 17,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 22,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 21,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 18,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 25,
+      "need": 25,
+      "retest_level": true
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 18,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 7,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 7,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 21,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 21,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 20,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 21,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   }
+  },
+  "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+ },
+ "sensitivity": {
+  "fiso_raw_scale": {
+   "pairs": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "fiso": 0.027860466044925914,
+     "odi": 0.012222226360512636,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "fiso": 0.0055488150511490905,
+     "odi": -0.004547635566607283,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "fiso": -0.000223598241535318,
+     "odi": -0.006910528993503494,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "fiso": 0.0041426615956709,
+     "odi": -0.0054193461043349905,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "fiso": 0.002103850901003332,
+     "odi": -0.004703809009483875,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "fiso": 0.016518032241364236,
+     "odi": -0.0014660490926098474,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "fiso": -0.014932621012995681,
+     "odi": -0.01128759351205702,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "fiso": -0.025834910458632385,
+     "odi": -0.01909818581717613,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "fiso": -0.026188290913634442,
+     "odi": -0.016531826797761717,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "fiso": -0.03662721835007958,
+     "odi": -0.021480459994015016,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "fiso": -0.004867155383618038,
+     "odi": -0.008579321209136306,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "fiso": -0.007978868515541165,
+     "odi": -0.002342832938209846,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "fiso": -0.002854880356180714,
+     "odi": -0.0045569179212479605,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF3TRI",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "fiso": 0.003792837112162696,
+     "odi": 0.0027899591054318107,
+     "n_subjects_fiso": 8,
+     "n_subjects_odi": 8,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF2PRI",
+     "fiso": 0.0017075656487697058,
+     "odi": 0.0016875853499690036,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "fiso": -0.0012035802606435025,
+     "odi": 0.0016589752954225406,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "fiso": 0.009518155473024398,
+     "odi": 0.008412668922225149,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF3TRI",
+     "fiso": -0.0035679061318353647,
+     "odi": 0.0007043800196198866,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "fiso": 0.004286954184511929,
+     "odi": 0.006670850943436987,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF3TRI~OXF4GEP",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    }
+   ],
+   "moved_to_not_judgeable": {
+    "fiso": [],
+    "odi": []
+   },
+   "fiso_sign": {
+    "S": -2.0,
+    "p": 0.7238095238095238,
+    "n_perm": 5040,
+    "n_pairs": 8,
+    "agree": 3,
+    "agree_rate": 0.375
+   },
+   "fiso_tau_L1": {
+    "tau": 0.14824986333222023,
+    "p": 0.32182539682539685,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_tau_L4": {
+    "tau": 0.14824986333222023,
+    "p": 0.346031746031746,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_null_size": "모의 4,000 · 시드 20261026: S 0.026 – 0.043 · τ 0.044 – 0.053 / 200,000: S 0.026 – 0.042 · τ 0.046 – 0.052(고정 문서 §3)",
+   "odi_a": {
+    "tau": 0.17806114244894067,
+    "ci90": [
+     -0.13557028799203258,
+     0.5223126845168926
+    ],
+    "p_tau0_two_sided": 0.4111111111111111,
+    "n_perm": 5040,
+    "n_pairs": 19,
+    "delta_tau": 0.57,
+    "descriptive_only": true,
+    "equivalent": null
+   },
+   "odi_a_delta_tau_redone": null,
+   "odi_b": {
+    "n_pairs": 19,
+    "n_retest_level": 2,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 7,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 13,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 3,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 2,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 3,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 12,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 20,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 11,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   },
+   "odi_b_sensitivity": {
+    "옛_s_ref_5262f43": {
+     "n_pairs": 19,
+     "n_retest_level": 0,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF4GEP",
+       "dTE": 0.95,
+       "dTR_ms": 2215.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF2PRI",
+       "dTE": 0.0,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 15,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 4,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 0,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 16,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 24,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    },
+    "s_ref_F2_x1.7549": {
+     "n_pairs": 19,
+     "n_retest_level": 4,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 25,
+       "need": 25,
+       "retest_level": true
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 23,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    }
+   },
+   "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+  },
+  "with_16794_NOT4GEP001": {
+   "pairs": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "fiso": 0.32786744044385063,
+     "odi": 0.012222226360512636,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "fiso": 0.17004673656694624,
+     "odi": -0.0043858746994258485,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "fiso": 0.0026668875506106193,
+     "odi": -0.006910528993503494,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "fiso": 0.06121877583902635,
+     "odi": -0.0054193461043349905,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "fiso": 0.013719517285990523,
+     "odi": -0.004703809009483875,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "fiso": 0.2736990829618815,
+     "odi": -0.0014660490926098474,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "fiso": -0.14467974578095966,
+     "odi": -0.01184196268885418,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "fiso": -0.3544590484135849,
+     "odi": -0.01909818581717613,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "fiso": -0.295689501208911,
+     "odi": -0.016531826797761717,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "fiso": -0.4785862552577498,
+     "odi": -0.021480459994015016,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "fiso": -0.056325835236733734,
+     "odi": -0.008579321209136306,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "fiso": -0.14717424461111484,
+     "odi": -0.003096858374795765,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "fiso": -0.07471183989824248,
+     "odi": -0.002339909173060317,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF3TRI",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "fiso": 0.034553814516401715,
+     "odi": 0.0031745584945441496,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF2PRI",
+     "fiso": 0.0360215994841484,
+     "odi": 0.0016875853499690036,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "fiso": -0.01815748983125176,
+     "odi": 0.0016589752954225406,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "fiso": 0.2188140262756315,
+     "odi": 0.008412668922225149,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF3TRI",
+     "fiso": -0.06297100929869126,
+     "odi": 0.0007043800196198866,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "fiso": 0.07066337254850064,
+     "odi": 0.006670850943436987,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF3TRI~OXF4GEP",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    }
+   ],
+   "moved_to_not_judgeable": {
+    "fiso": [],
+    "odi": []
+   },
+   "fiso_sign": {
+    "S": -4.0,
+    "p": 0.8571428571428571,
+    "n_perm": 5040,
+    "n_pairs": 8,
+    "agree": 2,
+    "agree_rate": 0.25
+   },
+   "fiso_tau_L1": {
+    "tau": 0.07412493166611012,
+    "p": 0.3896825396825397,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_tau_L4": {
+    "tau": 0.22237479499833035,
+    "p": 0.25396825396825395,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_null_size": "모의 4,000 · 시드 20261026: S 0.026 – 0.043 · τ 0.044 – 0.053 / 200,000: S 0.026 – 0.042 · τ 0.046 – 0.052(고정 문서 §3)",
+   "odi_a": {
+    "tau": 0.2018026281087994,
+    "ci90": [
+     -0.11182880233217385,
+     0.5460541701767514
+    ],
+    "p_tau0_two_sided": 0.36944444444444446,
+    "n_perm": 5040,
+    "n_pairs": 19,
+    "delta_tau": 0.57,
+    "descriptive_only": true,
+    "equivalent": null
+   },
+   "odi_a_delta_tau_redone": null,
+   "odi_b": {
+    "n_pairs": 19,
+    "n_retest_level": 2,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 7,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 13,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 8,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 3,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 2,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 3,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 12,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 15,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 21,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 11,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   },
+   "odi_b_sensitivity": {
+    "옛_s_ref_5262f43": {
+     "n_pairs": 19,
+     "n_retest_level": 0,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF4GEP",
+       "dTE": 0.95,
+       "dTR_ms": 2215.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF2PRI",
+       "dTE": 0.0,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 13,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 0,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 9,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 24,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    },
+    "s_ref_F2_x1.7549": {
+     "n_pairs": 19,
+     "n_retest_level": 4,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 25,
+       "need": 25,
+       "retest_level": true
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 23,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    }
+   },
+   "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+  },
+  "not2ing_98_only": {
+   "pairs": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "fiso": 0.22755474192263936,
+     "odi": 0.008265801560615599,
+     "n_subjects_fiso": 16,
+     "n_subjects_odi": 16,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "fiso": 0.1333783261529644,
+     "odi": -0.004547635566607283,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "fiso": 0.0026668875506106193,
+     "odi": -0.006910528993503494,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "fiso": 0.06121877583902635,
+     "odi": -0.0054193461043349905,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "fiso": 0.013719517285990523,
+     "odi": -0.004703809009483875,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "fiso": 0.2736990829618815,
+     "odi": -0.0014660490926098474,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "fiso": -0.1557188615975249,
+     "odi": -0.01128759351205702,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "fiso": -0.268091462840945,
+     "odi": -0.01618927348725288,
+     "n_subjects_fiso": 16,
+     "n_subjects_odi": 16,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "fiso": -0.2716333764260006,
+     "odi": -0.01415192505646038,
+     "n_subjects_fiso": 16,
+     "n_subjects_odi": 16,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "fiso": -0.28971737867379566,
+     "odi": -0.015449338378321367,
+     "n_subjects_fiso": 6,
+     "n_subjects_odi": 6,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "fiso": -0.056325835236733734,
+     "odi": -0.008579321209136306,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "fiso": -0.11793907776832713,
+     "odi": -0.002342832938209846,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "fiso": -0.045605463456286355,
+     "odi": -0.0045569179212479605,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF3TRI",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "fiso": 0.05011307607897586,
+     "odi": 0.0027899591054318107,
+     "n_subjects_fiso": 8,
+     "n_subjects_odi": 8,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF2PRI",
+     "fiso": 0.0360215994841484,
+     "odi": 0.0016875853499690036,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "fiso": -0.01815748983125176,
+     "odi": 0.0016589752954225406,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "fiso": 0.2188140262756315,
+     "odi": 0.008412668922225149,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF3TRI",
+     "fiso": -0.06297100929869126,
+     "odi": 0.0007043800196198866,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "fiso": 0.07066337254850064,
+     "odi": 0.006670850943436987,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF3TRI~OXF4GEP",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    }
+   ],
+   "moved_to_not_judgeable": {
+    "fiso": [],
+    "odi": []
+   },
+   "fiso_sign": {
+    "S": -1.0,
+    "p": 0.611904761904762,
+    "n_perm": 5040,
+    "n_pairs": 11,
+    "agree": 5,
+    "agree_rate": 0.45454545454545453
+   },
+   "fiso_tau_L1": {
+    "tau": -0.33658091640304455,
+    "p": 0.9400793650793651,
+    "n_perm": 5040,
+    "n_pairs": 11
+   },
+   "fiso_tau_L4": {
+    "tau": -0.33658091640304455,
+    "p": 0.9424603174603174,
+    "n_perm": 5040,
+    "n_pairs": 11
+   },
+   "fiso_null_size": {
+    "n_sim": 4000,
+    "n_seeds": 1,
+    "seed": 20261026,
+    "alpha": 0.05,
+    "se": 0.0034460121880225555,
+    "fixed_keep": false,
+    "by_null": {
+     "r=0.0": {
+      "S": 0.03625,
+      "tau": 0.045
+     },
+     "r=0.5": {
+      "S": 0.03725,
+      "tau": 0.04325
+     },
+     "r=1.0": {
+      "S": 0.03925,
+      "tau": 0.04575
+     },
+     "r=2.0": {
+      "S": 0.04475,
+      "tau": 0.04625
+     },
+     "r=inf": {
+      "S": 0.0465,
+      "tau": 0.044
+     },
+     "spike=1.0": {
+      "S": 0.03925,
+      "tau": 0.03925
+     },
+     "spike=3.0": {
+      "S": 0.03875,
+      "tau": 0.05225
+     },
+     "spike=10.0": {
+      "S": 0.0415,
+      "tau": 0.04025
+     }
+    },
+    "max_S": 0.0465,
+    "max_tau": 0.05225
+   },
+   "odi_a": {
+    "tau": 0.2136733709387288,
+    "ci90": [
+     -0.10501885099222336,
+     0.5579249130066808
+    ],
+    "p_tau0_two_sided": 0.319047619047619,
+    "n_perm": 5040,
+    "n_pairs": 19,
+    "delta_tau": 0.58,
+    "descriptive_only": true,
+    "equivalent": null
+   },
+   "odi_a_delta_tau_redone": {
+    "x": [
+     0.2622038764878592,
+     0.31517574269955,
+     0.22335252110078013,
+     0.22335252110078013,
+     0.26102766380965736,
+     0.08282315524668486,
+     0.28507320695021166,
+     0.15859232709231916,
+     0.15859232709231916,
+     0.105908777533417,
+     0.2685504212209745,
+     0.22798552675741268,
+     0.22798552675741268,
+     0.26566066946629,
+     0.2323525874528651,
+     0.0,
+     0.05268354955890209,
+     0.2296990658338953,
+     0.05268354955890209,
+     0.2296990658338953,
+     0.2673742085427727
+    ],
+    "keep": [
+     "NOT1ACH~NOT2ING",
+     "NOT1ACH~NOT4GEP",
+     "NOT1ACH~OXF1PRI",
+     "NOT1ACH~OXF2PRI",
+     "NOT1ACH~OXF3TRI",
+     "NOT1ACH~OXF4GEP",
+     "NOT2ING~NOT4GEP",
+     "NOT2ING~OXF1PRI",
+     "NOT2ING~OXF2PRI",
+     "NOT2ING~OXF3TRI",
+     "NOT2ING~OXF4GEP",
+     "NOT4GEP~OXF1PRI",
+     "NOT4GEP~OXF2PRI",
+     "NOT4GEP~OXF4GEP",
+     "OXF1PRI~OXF2PRI",
+     "OXF1PRI~OXF3TRI",
+     "OXF1PRI~OXF4GEP",
+     "OXF2PRI~OXF3TRI",
+     "OXF2PRI~OXF4GEP"
+    ],
+    "n_sim": 1000,
+    "seed": 20261026,
+    "by_r": {
+     "0.0": {
+      "coverage0": 0.897,
+      "delta_tau": 0.51
+     },
+     "0.5": {
+      "coverage0": 0.912,
+      "delta_tau": 0.5
+     },
+     "1.0": {
+      "coverage0": 0.897,
+      "delta_tau": 0.52
+     },
+     "2.0": {
+      "coverage0": 0.89,
+      "delta_tau": 0.56
+     },
+     "inf": {
+      "coverage0": 0.893,
+      "delta_tau": 0.58
+     }
+    },
+    "delta_tau": 0.58,
+    "descriptive_only": true
+   },
+   "odi_b": {
+    "n_pairs": 19,
+    "n_retest_level": 2,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -27.4,
+      "dTR_ms": 6010.5
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 6.0,
+      "dTR_ms": 604.5
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 6.0,
+      "dTR_ms": 604.5
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": 1.6,
+      "dTR_ms": 604.5
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 12,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 13,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 10,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 6,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 6,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 4,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 12,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 20,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 11,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   },
+   "odi_b_sensitivity": {
+    "옛_s_ref_5262f43": {
+     "n_pairs": 19,
+     "n_retest_level": 0,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -27.4,
+       "dTR_ms": 6010.5
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF4GEP",
+       "dTE": 0.95,
+       "dTR_ms": 2215.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 6.0,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 6.0,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": 1.6,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF2PRI",
+       "dTE": 0.0,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 15,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 4,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 2,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 5,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 16,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 24,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    },
+    "s_ref_F2_x1.7549": {
+     "n_pairs": 19,
+     "n_retest_level": 4,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -27.4,
+       "dTR_ms": 6010.5
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 6.0,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 6.0,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": 1.6,
+       "dTR_ms": 604.5
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 25,
+       "need": 25,
+       "retest_level": true
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 9,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 23,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 20,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    }
+   },
+   "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+  },
+  "without_risk_roi": {
+   "pairs": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "fiso": 0.32432076949160504,
+     "odi": 0.010210546883357041,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "fiso": 0.03138980146609427,
+     "odi": -0.0029229027770058813,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "fiso": 0.020243879827437805,
+     "odi": -0.0070035974605099985,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "fiso": 0.08101136800431763,
+     "odi": -0.004384218777268446,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "fiso": 0.013719517285990523,
+     "odi": -0.004703809009483875,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "fiso": 0.2736990829618815,
+     "odi": -0.002426240692502718,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "fiso": -0.13289295104742527,
+     "odi": -0.011263017529223276,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "fiso": -0.3544590484135849,
+     "odi": -0.019053213818690413,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "fiso": -0.29476317401734864,
+     "odi": -0.016531826797761717,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "fiso": -0.4785862552577498,
+     "odi": -0.019920556432289842,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "fiso": 0.011929653798081308,
+     "odi": -0.007841145872540672,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "fiso": -0.11793907776832713,
+     "odi": -0.0053462840662912015,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "fiso": -0.045605463456286355,
+     "odi": -0.006405133675646615,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF3TRI",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "fiso": 0.07552152576794957,
+     "odi": 0.0011517581829370155,
+     "n_subjects_fiso": 8,
+     "n_subjects_odi": 8,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF2PRI",
+     "fiso": 0.0360215994841484,
+     "odi": 0.0016875853499690036,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "fiso": -0.01815748983125176,
+     "odi": 0.0012901454525301864,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "fiso": 0.2188140262756315,
+     "odi": 0.008412668922225149,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF3TRI",
+     "fiso": -0.06361523798274238,
+     "odi": 0.0002669280030344612,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "fiso": 0.07066337254850064,
+     "odi": 0.006670850943436987,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF3TRI~OXF4GEP",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    }
+   ],
+   "moved_to_not_judgeable": {
+    "fiso": [],
+    "odi": []
+   },
+   "fiso_sign": {
+    "S": -4.0,
+    "p": 0.861904761904762,
+    "n_perm": 5040,
+    "n_pairs": 8,
+    "agree": 2,
+    "agree_rate": 0.25
+   },
+   "fiso_tau_L1": {
+    "tau": -0.07412493166611012,
+    "p": 0.5912698412698413,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_tau_L4": {
+    "tau": -0.07412493166611012,
+    "p": 0.6079365079365079,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_null_size": "모의 4,000 · 시드 20261026: S 0.026 – 0.043 · τ 0.044 – 0.053 / 200,000: S 0.026 – 0.042 · τ 0.046 – 0.052(고정 문서 §3)",
+   "odi_a": {
+    "tau": 0.1543196567890819,
+    "ci90": [
+     -0.1543196567890819,
+     0.49162138386710974
+    ],
+    "p_tau0_two_sided": 0.49007936507936506,
+    "n_perm": 5040,
+    "n_pairs": 19,
+    "delta_tau": 0.57,
+    "descriptive_only": true,
+    "equivalent": null
+   },
+   "odi_a_delta_tau_redone": null,
+   "odi_b": {
+    "n_pairs": 19,
+    "n_retest_level": 2,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 23,
+      "n_retest": 5,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 23,
+      "n_retest": 16,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 23,
+      "n_retest": 7,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 23,
+      "n_retest": 11,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 23,
+      "n_retest": 11,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 23,
+      "n_retest": 19,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 23,
+      "n_retest": 8,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 23,
+      "n_retest": 1,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 23,
+      "n_retest": 0,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 23,
+      "n_retest": 1,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 23,
+      "n_retest": 9,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 23,
+      "n_retest": 11,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 23,
+      "n_retest": 13,
+      "need": 21,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 23,
+      "n_retest": 16,
+      "need": 21,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 23,
+      "n_retest": 23,
+      "need": 21,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 23,
+      "n_retest": 20,
+      "need": 21,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 23,
+      "n_retest": 8,
+      "need": 21,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 23,
+      "n_retest": 23,
+      "need": 21,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 23,
+      "n_retest": 13,
+      "need": 21,
+      "retest_level": false
+     }
+    }
+   },
+   "odi_b_sensitivity": {
+    "옛_s_ref_5262f43": {
+     "n_pairs": 19,
+     "n_retest_level": 1,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF4GEP",
+       "dTE": 0.95,
+       "dTR_ms": 2215.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 23,
+       "n_retest": 3,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 23,
+       "n_retest": 13,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 4,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 10,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 8,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 14,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 23,
+       "n_retest": 4,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 0,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 0,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 0,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 5,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 8,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 6,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 15,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 22,
+       "need": 21,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 18,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 5,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 20,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 9,
+       "need": 21,
+       "retest_level": false
+      }
+     }
+    },
+    "s_ref_F2_x1.7549": {
+     "n_pairs": 19,
+     "n_retest_level": 4,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 23,
+       "n_retest": 15,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 23,
+       "n_retest": 19,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 16,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 18,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 16,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 21,
+       "need": 21,
+       "retest_level": true
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 23,
+       "n_retest": 16,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 5,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 7,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 5,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 18,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 23,
+       "n_retest": 16,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 18,
+       "need": 21,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 19,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 23,
+       "n_retest": 23,
+       "need": 21,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 23,
+       "need": 21,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 17,
+       "need": 21,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 23,
+       "n_retest": 23,
+       "need": 21,
+       "retest_level": true
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 23,
+       "n_retest": 18,
+       "need": 21,
+       "retest_level": false
+      }
+     }
+    }
+   },
+   "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+  },
+  "old_nonzero_table": {
+   "pairs": [
+    {
+     "pair": "NOT1ACH~NOT2ING",
+     "fiso": 0.3048232044831667,
+     "odi": 0.010143808006667795,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~NOT4GEP",
+     "fiso": 0.0701681817208959,
+     "odi": -0.007040056996692572,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF1PRI",
+     "fiso": 0.0027969749824674484,
+     "odi": -0.007857965924202986,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF2PRI",
+     "fiso": 0.06443695623448531,
+     "odi": -0.00718267968904597,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF3TRI",
+     "fiso": 0.03875895003704688,
+     "odi": -0.005473988538359641,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT1ACH~OXF4GEP",
+     "fiso": 0.26574403633301147,
+     "odi": -0.002452110338264632,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~NOT4GEP",
+     "fiso": -0.08134415864631206,
+     "odi": -0.013414615749318626,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF1PRI",
+     "fiso": -0.32656616672802685,
+     "odi": -0.01903600927052672,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF2PRI",
+     "fiso": -0.2944071662787118,
+     "odi": -0.017257132342789194,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF3TRI",
+     "fiso": -0.45437594111088164,
+     "odi": -0.02204249359373596,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT2ING~OXF4GEP",
+     "fiso": -0.05732861378583909,
+     "odi": -0.007614615286837476,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF1PRI",
+     "fiso": -0.1745531880320783,
+     "odi": -0.0029136615953658657,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF2PRI",
+     "fiso": -0.12289094230661801,
+     "odi": -0.0024965663371986635,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "NOT4GEP~OXF3TRI",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    },
+    {
+     "pair": "NOT4GEP~OXF4GEP",
+     "fiso": 0.03778308903619099,
+     "odi": 0.004878012678634969,
+     "n_subjects_fiso": 8,
+     "n_subjects_odi": 8,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF2PRI",
+     "fiso": 0.028577473367130013,
+     "odi": 0.0015388672372327397,
+     "n_subjects_fiso": 20,
+     "n_subjects_odi": 20,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF3TRI",
+     "fiso": 0.025251591358366854,
+     "odi": 0.001276825711638216,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF1PRI~OXF4GEP",
+     "fiso": 0.2404475970177251,
+     "odi": 0.004875758938296393,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF3TRI",
+     "fiso": 0.02072656974085707,
+     "odi": 0.0008716526848623896,
+     "n_subjects_fiso": 10,
+     "n_subjects_odi": 10,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF2PRI~OXF4GEP",
+     "fiso": 0.1871242553679875,
+     "odi": 0.003910912331395497,
+     "n_subjects_fiso": 9,
+     "n_subjects_odi": 9,
+     "judgeable_fiso": true,
+     "judgeable_odi": true
+    },
+    {
+     "pair": "OXF3TRI~OXF4GEP",
+     "fiso": null,
+     "odi": null,
+     "n_subjects_fiso": 0,
+     "n_subjects_odi": 0,
+     "judgeable_fiso": false,
+     "judgeable_odi": false
+    }
+   ],
+   "moved_to_not_judgeable": {
+    "fiso": [],
+    "odi": []
+   },
+   "fiso_sign": {
+    "S": -4.0,
+    "p": 0.8357142857142857,
+    "n_perm": 5040,
+    "n_pairs": 8,
+    "agree": 2,
+    "agree_rate": 0.25
+   },
+   "fiso_tau_L1": {
+    "tau": -0.07412493166611012,
+    "p": 0.5757936507936507,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_tau_L4": {
+    "tau": 0.07412493166611012,
+    "p": 0.4091269841269841,
+    "n_perm": 5040,
+    "n_pairs": 8
+   },
+   "fiso_null_size": "모의 4,000 · 시드 20261026: S 0.026 – 0.043 · τ 0.044 – 0.053 / 200,000: S 0.026 – 0.042 · τ 0.046 – 0.052(고정 문서 §3)",
+   "odi_a": {
+    "tau": 0.2730270850883757,
+    "ci90": [
+     -0.04748297131971746,
+     0.6172786271563276
+    ],
+    "p_tau0_two_sided": 0.20873015873015874,
+    "n_perm": 5040,
+    "n_pairs": 19,
+    "delta_tau": 0.57,
+    "descriptive_only": true,
+    "equivalent": null
+   },
+   "odi_a_delta_tau_redone": null,
+   "odi_b": {
+    "n_pairs": 19,
+    "n_retest_level": 2,
+    "broken": [
+     {
+      "pair": "NOT1ACH~NOT2ING",
+      "dTE": -25.6,
+      "dTR_ms": 6047.9
+     },
+     {
+      "pair": "NOT1ACH~NOT4GEP",
+      "dTE": 2.6,
+      "dTR_ms": 5315.0
+     },
+     {
+      "pair": "NOT1ACH~OXF1PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF2PRI",
+      "dTE": -21.4,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF3TRI",
+      "dTE": -25.8,
+      "dTR_ms": 6615.0
+     },
+     {
+      "pair": "NOT1ACH~OXF4GEP",
+      "dTE": 0.95,
+      "dTR_ms": 2215.0
+     },
+     {
+      "pair": "NOT2ING~NOT4GEP",
+      "dTE": -30.0,
+      "dTR_ms": 695.5
+     },
+     {
+      "pair": "NOT2ING~OXF1PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF2PRI",
+      "dTE": 4.2,
+      "dTR_ms": 567.1
+     },
+     {
+      "pair": "NOT2ING~OXF3TRI",
+      "dTE": -2.0,
+      "dTR_ms": 529.7
+     },
+     {
+      "pair": "NOT2ING~OXF4GEP",
+      "dTE": -28.35,
+      "dTR_ms": 3795.5
+     },
+     {
+      "pair": "NOT4GEP~OXF1PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF2PRI",
+      "dTE": -24.0,
+      "dTR_ms": 1300.0
+     },
+     {
+      "pair": "NOT4GEP~OXF4GEP",
+      "dTE": 1.65,
+      "dTR_ms": 3100.0
+     },
+     {
+      "pair": "OXF1PRI~OXF3TRI",
+      "dTE": 4.4,
+      "dTR_ms": 0.0
+     },
+     {
+      "pair": "OXF1PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     },
+     {
+      "pair": "OXF2PRI~OXF4GEP",
+      "dTE": -22.35,
+      "dTR_ms": 4400.0
+     }
+    ],
+    "per_pair": {
+     "NOT1ACH~NOT2ING": {
+      "n_units": 27,
+      "n_retest": 9,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 15,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 8,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 13,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT1ACH~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 22,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~NOT4GEP": {
+      "n_units": 27,
+      "n_retest": 5,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 2,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 4,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 2,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT2ING~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 9,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF1PRI": {
+      "n_units": 27,
+      "n_retest": 13,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 15,
+      "need": 25,
+      "retest_level": false
+     },
+     "NOT4GEP~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 19,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF2PRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF1PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 23,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF1PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 14,
+      "need": 25,
+      "retest_level": false
+     },
+     "OXF2PRI~OXF3TRI": {
+      "n_units": 27,
+      "n_retest": 27,
+      "need": 25,
+      "retest_level": true
+     },
+     "OXF2PRI~OXF4GEP": {
+      "n_units": 27,
+      "n_retest": 16,
+      "need": 25,
+      "retest_level": false
+     }
+    }
+   },
+   "odi_b_sensitivity": {
+    "옛_s_ref_5262f43": {
+     "n_pairs": 19,
+     "n_retest_level": 0,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF4GEP",
+       "dTE": 0.95,
+       "dTR_ms": 2215.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF2PRI",
+       "dTE": 0.0,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF3TRI",
+       "dTE": 4.4,
+       "dTR_ms": 0.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 7,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 9,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 4,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 2,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 0,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 1,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 10,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 16,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 24,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 18,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 23,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 11,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    },
+    "s_ref_F2_x1.7549": {
+     "n_pairs": 19,
+     "n_retest_level": 4,
+     "broken": [
+      {
+       "pair": "NOT1ACH~NOT2ING",
+       "dTE": -25.6,
+       "dTR_ms": 6047.9
+      },
+      {
+       "pair": "NOT1ACH~NOT4GEP",
+       "dTE": 2.6,
+       "dTR_ms": 5315.0
+      },
+      {
+       "pair": "NOT1ACH~OXF1PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF2PRI",
+       "dTE": -21.4,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT1ACH~OXF3TRI",
+       "dTE": -25.8,
+       "dTR_ms": 6615.0
+      },
+      {
+       "pair": "NOT2ING~NOT4GEP",
+       "dTE": -30.0,
+       "dTR_ms": 695.5
+      },
+      {
+       "pair": "NOT2ING~OXF1PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF2PRI",
+       "dTE": 4.2,
+       "dTR_ms": 567.1
+      },
+      {
+       "pair": "NOT2ING~OXF3TRI",
+       "dTE": -2.0,
+       "dTR_ms": 529.7
+      },
+      {
+       "pair": "NOT2ING~OXF4GEP",
+       "dTE": -28.35,
+       "dTR_ms": 3795.5
+      },
+      {
+       "pair": "NOT4GEP~OXF1PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF2PRI",
+       "dTE": -24.0,
+       "dTR_ms": 1300.0
+      },
+      {
+       "pair": "NOT4GEP~OXF4GEP",
+       "dTE": 1.65,
+       "dTR_ms": 3100.0
+      },
+      {
+       "pair": "OXF1PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      },
+      {
+       "pair": "OXF2PRI~OXF4GEP",
+       "dTE": -22.35,
+       "dTR_ms": 4400.0
+      }
+     ],
+     "per_pair": {
+      "NOT1ACH~NOT2ING": {
+       "n_units": 27,
+       "n_retest": 16,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 19,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 16,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT1ACH~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 25,
+       "need": 25,
+       "retest_level": true
+      },
+      "NOT2ING~NOT4GEP": {
+       "n_units": 27,
+       "n_retest": 14,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 8,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 6,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT2ING~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 17,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF1PRI": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 23,
+       "need": 25,
+       "retest_level": false
+      },
+      "NOT4GEP~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 21,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF1PRI~OXF2PRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF1PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 22,
+       "need": 25,
+       "retest_level": false
+      },
+      "OXF2PRI~OXF3TRI": {
+       "n_units": 27,
+       "n_retest": 27,
+       "need": 25,
+       "retest_level": true
+      },
+      "OXF2PRI~OXF4GEP": {
+       "n_units": 27,
+       "n_retest": 24,
+       "need": 25,
+       "retest_level": false
+      }
+     }
+    }
+   },
+   "role": "FISO 부호 · τ = 비맹검 점검 · ODI (a) · (b) = 기술(§3 역할 표) · 보정 없음(R9)"
+  }
+ }
+}
